@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -9,10 +9,10 @@ ms.reviewer: bholtorf
 
 La tabella seguente descrive alcuni report finanziari chiave.
 
-| Report | Descrizione | ID | 
+| Report | Descrizione | ID |
 |--|--|--|
 | [Bilancio di verifica](https://businesscentral.dynamics.com?report=6) | Mostra il piano dei conti con saldi periodi e conti. È possibile visualizzare un bilancio di verifica per determinate dimensioni o usare il report alla chiusura di un periodo contabile o di un anno fiscale. | 6 |
-| [Bilancio di verifica per periodo](https://businesscentral.dynamics.com?report=38) | Mostra il bilancio di apertura per conto di contabilità generale, i movimenti nel periodo selezionato del mese, del trimestre o dell'anno e il bilancio di chiusura risultante. <br>Suggerimento: può essere utilizzato per visualizzare profitti e perdite con un totale per ogni mese.| 38 |
+| [Bilancio di verifica per periodo](https://businesscentral.dynamics.com?report=38) | Mostra il bilancio di apertura per conto di contabilità generale, i movimenti nel periodo selezionato del mese, del trimestre o dell'anno e il bilancio di chiusura risultante. <br>Suggerimento: il report può visualizzare profitti e perdite con un totale per ogni mese.| 38 |
 | [Bilancio di verifica/budget](https://businesscentral.dynamics.com?report=9) | Mostra un bilancio di verifica confrontato a un budget. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. Utilizza il report alla chiusura di un periodo contabile o di un anno fiscale. | 9 |
 | [Dettagli bilancio di verifica](https://businesscentral.dynamics.com?report=4) | Mostra un dettaglio del bilancio di verifica per i conti di contabilità generale selezionati. È possibile definire i conti da includere nel report impostando dei filtri. Utilizza il report alla chiusura di un periodo contabile o di un anno fiscale. | 4 |
 | [Bilancio di verifica/Anno precedente](https://businesscentral.dynamics.com?report=7) | Mostra un bilancio di verifica confrontato alle cifre dell'anno precedente. È possibile scegliere di visualizzare un bilancio di verifica per determinate dimensioni. Utilizza il report alla chiusura di un periodo contabile o di un anno fiscale. Per *anno precedente* s'intende il medesimo periodo dell'anno appena trascorso. | 7 | 

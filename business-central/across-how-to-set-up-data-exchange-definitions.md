@@ -2,14 +2,16 @@
 title: Definire la modalità di scambio elettronico dei dati
 description: 'Definisci come Business Central scambia i dati con file esterni come documenti elettronici, dati bancari, cataloghi di articoli e altro ancora.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
-ms.date: 11/03/2022
-ms.author: bholtorf
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-data-exchange-definitions"></a>Impostare le definizioni di scambio dati
+# Impostare le definizioni di scambio dati
 
 Puoi impostare [!INCLUDE[prod_short](includes/prod_short.md)] per scambiare i dati di tabelle specifiche con i dati di file esterni. Ad esempio per inviare e ricevere documenti elettronici, importare ed esportare dati bancari o altri dati, come buste paga e cataloghi di articoli. Per ulteriori informazioni, vedi [Scambio di dati in modalità elettronica](across-data-exchange.md).  
 
@@ -26,14 +28,14 @@ In questo articolo sono incluse le seguenti procedure:
 * Esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti.
 * Importare un file XML per una definizione di scambio di dati esistente.
 
-## <a name="create-a-data-exchange-definition"></a>Creare la definizione di scambio di dati
+## Creare la definizione di scambio di dati
 
 La creazione di una definizione di scambio di dati include due task:  
 
 1. Nella pagina **Definizione di scambio dati** descrivere la formattazione delle righe e delle colonne del file. Ulteriori informazioni nella sezione [Per descrivere la formattazione di righe e colonne nel file](#formatlinescolumns).  
 2. Nella pagina **Mapping scambio dati** eseguire il mapping delle colonne nel file di dati ai campi in [!INCLUDE[prod_short](includes/prod_short.md)]. Ulteriori informazioni nella sezione [Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Per descrivere la formattazione di righe e colonne nel file
+### <a name=formatlinescolumns></a>Per descrivere la formattazione di righe e colonne nel file
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti le **definizioni di scambio dati**, e scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**.  
@@ -47,8 +49,8 @@ La creazione di una definizione di scambio di dati include due task:
     |**Tipo**|Specificare il tipo di attività commerciale per cui viene utilizzata la definizione di scambio di dati, ad esempio **Esportazione pagamento**.|  
     |**Codeunit per la gestione dati**|Specificare la codeunit che trasferisce i dati dentro e fuori dalle tabelle in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Codeunit per convalida**|Specificare la codeunit che viene utilizzata per convalidare i dati rispetto alle regole commerciali predefinite.|  
-    |**Codeunit per lettura/scrittura**|Specificare la codeunit che elabora i dati importati prima di eseguire il mapping e i dati esportati dopo avere eseguito il mapping.|  
-    |**Lettura/Scrittura XMLport**|Specifica l'oggetto XMLport attraverso cui un servizio o un file di dati importato entra nel sistema prima della mappatura e tramite il quale i dati esportati escono dal sistema quando vengono scritti in un servizio o un file di dati dopo la mappatura.|  
+    |**Codeunit per lettura/scrittura**|Specificare la codeunit che elabora i dati importati prima di eseguire il mapping e i dati esportati in seguito.|  
+    |**Lettura/Scrittura XMLport**|Specifica l'oggetto XMLport attraverso cui un servizio o un file di dati importato entra nel sistema prima della mappatura e tramite il quale i dati esportati vengono scritti in un servizio o in un file di dati in seguito.|  
     |**Codeunit per la gestione dati est.**|Specificare la codeunit che trasferisce i dati esterni dentro e fuori dal framework di scambio dati.|  
     |**Codeunit per feedback utente**|Specificare la codeunit che esegue varie pulizie dopo il mapping, ad esempio contrassegna le righe come esportate ed elimina i record temporanei.|  
     |**Codifica file**|Specificare la codifica del file. **Nota:** il campo è valido solo per l'importazione.|  
@@ -74,12 +76,12 @@ La creazione di una definizione di scambio di dati include due task:
     |**Nome**|Immettere un nome che descrive la riga nel file.|  
     |**Conteggio colonne**|Specifica di quante colonne è composta la riga nel file di dati. **Nota:** il campo è valido solo per l'importazione.|  
     |**Tag riga dati**|Specificare la posizione nello Schema XML correlato dell'elemento che rappresenta il movimento principale del file di dati. **Nota:** il campo è valido solo per l'importazione.|  
-    |**Spazio dei nomi**|Specificare lo spazio dei nomi che è previsto nel file, per consentire la convalida dello spazio dei nomi. È possibile lasciare questo campo vuoto se non si desidera abilitare la convalida dello spazio dei nomi.|  
+    |**Spazio dei nomi**|Specifica lo spazio dei nomi previsto nel file, per abilitare della convalida dello spazio dei nomi. Puoi lasciare questo campo vuoto se non vuoi abilitare la convalida dello spazio dei nomi.|  
     |**Codice padre**|Specifica l'elemento padre della riga indicato nel campo **Codice**, nei casi in cui il setup dello scambio dati riguardi file con elementi padre e figlio, come la testata e le righe di un documento.
 
 5. Ripetere il passaggio 4 per creare una riga per ogni tipo di dati del file che si desidera esportare.  
 
-     Continuare a descrivere la formattazione delle colonne nel file di dati compilando i campi nella Scheda dettaglio **Definizioni colonne** come indicato nella tabella seguente. È possibile utilizzare il file della struttura, ad esempio un file .xsd, affinché, tramite il file, la Scheda dettaglio venga precompilata con gli articoli corrispondenti. Per ulteriori informazioni, vedi [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+     Continua a descrivere la formattazione delle colonne nel file di dati compilando i campi nella Scheda dettaglio **Definizioni colonne** come indicato nella tabella nel passaggio 8. Puoi utilizzare un file di struttura, ad esempio un file .xsd, affinché la Scheda dettaglio venga precompilata con gli articoli corrispondenti tramite il file. Per ulteriori informazioni, vedi [Utilizzare gli schemi XML per preparare le definizioni di scambio dati](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
 6. Nella Scheda dettaglio **Definizioni colonne** scegli l'azione **Ottieni struttura file**.  
 7. Nella pagina **Ottieni struttura file** seleziona il file della struttura correlato, quindi scegli **OK**. Le righe nella Scheda dettaglio **Definizioni colonne** vengono compilate in base alla struttura del file di dati.  
@@ -91,11 +93,11 @@ La creazione di una definizione di scambio di dati include due task:
     |**Nome**|Specificare il nome della colonna.<br /><br /> Per i file XML, specificare il markup che contrassegna i dati da scambiare.|  
     |**Tipo di dati**|Specificare se i dati da scambiare sono di tipo **Testo**, **Data** o **Decimale**.|  
     |**Formato dati**|Specificare il formato dei dati, se disponibile. Ad esempio, **gg-MM-aaaa** se il tipo di dati è **Data**. **Nota:** per l'esportazione specifica il formato dati in base a [!INCLUDE[prod_short](includes/prod_short.md)]. Per l'importazione specificare il formato dati in base a .NET Framework. Per altre informazioni, vedi [Stringhe di formato standard della data e dell'ora](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
-    |**Impostazioni cultura formattazione dati**|Specifica il formato dei dati regionale, se disponibile. Ad esempio, **en-US** se il tipo di dati è **Decimale** per garantire che la virgola viene utilizzata come il separatore .000, in base al formato degli Stati Uniti. Per altre informazioni, vedi [Stringhe di formato standard della data e dell'ora](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Nota:** il campo è valido solo per l'importazione.|  
+    |**Impostazioni cultura formattazione dati**|Specifica il formato dei dati regionale, se disponibile. Ad esempio, **en-US** se il tipo di dati è **Decimale** per garantire che la virgola viene utilizzata come il separatore 0.000, in base al formato degli Stati Uniti. Per altre informazioni, vedi [Stringhe di formato standard della data e dell'ora](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Nota:** il campo è valido solo per l'importazione.|  
     |**Lunghezza**|Specificare la lunghezza della riga a larghezza fissa che include la colonna se il file di dati è di tipo **Fixed Text**.|  
     |**descrizione**|Specifica una descrizione della colonna a scopo informativo.|  
     |**Percorso**|Specificare la posizione dell'elemento nello Schema XML correlato.|  
-    |**Identificatore segno negativo**|Immettere il valore utilizzato nel file di dati per identificare gli importi negativi nei file di dati che non possono contenere segni negativi. Questo identificatore viene utilizzato per stornare gli importi identificati in segni negativi durante l'importazione. **Nota:** il campo è valido solo per l'importazione.|  
+    |**Identificatore segno negativo**|Immetti il valore utilizzato nel file di dati per identificare gli importi negativi nei file di dati che non possono contenere segni negativi. Questo identificatore viene utilizzato per stornare gli importi identificati in segni negativi durante l'importazione. **Nota:** il campo è valido solo per l'importazione.|  
     |**Costante**|Specificare tutti i dati che si desidera esportare in questa colonna, ad esempio le informazioni aggiuntive sul tipo di pagamento. **Nota:** il campo è valido solo per l'esportazione.|  
     |**Riempimento testo richiesto**|Specifica che i dati devono includere la spaziatura del testo.|  
     |**Carattere riempimento**|Specifica il carattere di riempimento del testo.|  
@@ -108,7 +110,7 @@ Il passaggio successivo nella creazione di una definizione di scambio dati consi
 > [!NOTE]  
 > Il mapping specifico dipende dallo scopo aziendale del file di dati da sostituire e dalle variazioni locali. Anche lo standard bancario SEPA include variazioni locali. [!INCLUDE[prod_short](includes/prod_short.md)] supporta l'importazione dei file di rendiconto bancario SEPA CAMT come funzionalità predefinita. Questa è rappresentata dal codice del record della definizione di scambio dati **SEPA CAMT** nella pagina **Definizioni scambio di dati**. Per informazioni sul mapping dei file specifico del supporto SEPA CAMT, vedere [Mapping dei campi durante l'importazione dei file SEPA CAMT](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name=mapfields></a>Per eseguire il mapping delle colonne del file di dati nei campi in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > A volte i valori nei campi che si desidera mappare sono diversi. Ad esempio, in un'app aziendale il codice della lingua per gli Stati Uniti è "U.S.", ma in un'altra è "US". Ciò significa che è necessario trasformare il valore quando si scambiano i dati. Ciò accade attraverso le regole di trasformazione definite per i campi. Per ulteriori informazioni, vedi [Regole di trasformazione](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -121,12 +123,12 @@ Puoi anche raggruppare in base a qualsiasi campo, utilizzare l'indice chiave per
     |Campo|Descrizione|  
     |---------------------------------|---------------------------------------|  
     |**ID tabella**|Specificare la tabella che utilizza i campi verso i quali o dai quali vengono scambiati i dati in base al mapping.|  
-    |**Utilizza come tabella intermedia**|Specifica se la tabella che si seleziona nel campo **ID tabella** è una tabella intermedia nella quale vengono memorizzati i dati importati prima che ne venga eseguita la mappatura alla tabella di destinazione.<br /><br /> Generalmente, si utilizza una tabella intermedia quando la definizione di scambio di dati viene utilizzata per importare e convertire documenti elettronici, ad esempio fatture del fornitore in fatture di acquisto in [!INCLUDE[prod_short](includes/prod_short.md)]. Per ulteriori informazioni, vedi [Scambio di dati in modalità elettronica](across-data-exchange.md).|  
+    |**Utilizza come tabella intermedia**|Specifica se la tabella che si seleziona nel campo **ID tabella** è una tabella intermedia nella quale vengono memorizzati i dati importati prima che ne venga eseguita la mappatura alla tabella di destinazione.<br/><br/> Generalmente utilizzi una tabella intermedia quando la definizione di scambio di dati importa e converte documenti elettronici in [!INCLUDE[prod_short](includes/prod_short.md)]. Ad esempio, documenti come fatture fornitore in fatture di acquisto. Per ulteriori informazioni, vedi [Scambio di dati in modalità elettronica](across-data-exchange.md).|  
     |**Nome**|Immettere un nome per l'impostazione del mapping.|  
-    |**Indice chiave**|Specificare l'indice della chiave per ordinare i record di origine prima dell'esportazione.|
+    |**Indice chiave**|Specifica l'indice della chiave per ordinare i record di origine prima dell'esportazione.|
     |**Codeunit pre-mappatura**|Specificare la codeunit che prepara il mapping tra i campi in [!INCLUDE[prod_short](includes/prod_short.md)] e i dati esterni.|  
     |**Codeunit mapping**|Specificare la codeunit che viene utilizzata per eseguire il mapping tra le colonne o gli elementi dati XML specificati e i campi in [!INCLUDE[prod_short](includes/prod_short.md)].|  
-    |**Codeunit post-mappatura**|Specificare la codeunit che completa il mapping tra i campi in [!INCLUDE[prod_short](includes/prod_short.md)] e i dati esterni. **Nota:** se si utilizza la funzionalità dell'estensione AMC Banking 365 Fundamentals, la codeunit converte i dati esportati da [!INCLUDE[prod_short](includes/prod_short.md)] in formato generico pronto per l'esportazione. Per l'importazione, la codeunit converte i dati esterni in un formato pronto per l'importazione in [!INCLUDE[prod_short](includes/prod_short.md)].|
+    |**Codeunit post-mappatura**|Specificare la codeunit che completa il mapping tra i campi in [!INCLUDE[prod_short](includes/prod_short.md)] e i dati esterni. **Nota:** quando utilizzi la funzionalità dell'estensione AMC Banking 365 Fundamentals, la codeunit converte i dati esportati da [!INCLUDE[prod_short](includes/prod_short.md)] in formato generico pronto per l'esportazione. Per l'importazione, la codeunit converte i dati esterni in un formato pronto per l'importazione in [!INCLUDE[prod_short](includes/prod_short.md)].|
 3. Nella scheda dettaglio **Mapping campi** specifica quali colonne vengono mappate a quali campi in [!INCLUDE[prod_short](includes/prod_short.md)] compilando i campi come descritto nelle tabelle seguenti, a seconda se il campo **Utilizza come tabella intermedia** sia stato abilitato o meno.  
    * Con l'interruttore **Utilizza come tabella intermedia** disattivato:
 
@@ -136,10 +138,10 @@ Puoi anche raggruppare in base a qualsiasi campo, utilizzare l'indice chiave per
      |**Didascalia colonna**|Specifica la didascalia della colonna nel file esterno della quale viene eseguita la mappatura al campo nel campo **ID tabella di destinazione** quando utilizzi una tabella intermedia per l'importazione dei dati.|
      |**ID campo**|Specificare il campo al quale viene mappata la colonna nel campo **Nr. colonna** .<br /><br /> È possibile effettuare le selezioni solo da campi che sono presenti nella tabella specificata nel campo **ID tabella** della Scheda dettaglio **Generale**.|
      |**Didascalia campo**|Specifica la didascalia del campo nel file esterno di cui viene eseguita la mappatura al campo nel campo **ID tabella di destinazione** quando utilizzi una tabella intermedia per l'importazione dei dati.|
-     |**Opzionale**|Specificare se la mappa deve essere ignorata se il campo è vuoto. Se non selezioni questa opzione, si verificherà un errore di esportazione se il campo è vuoto.|  
-     |**Regola di trasformazione**|Specifica la regola che trasforma il testo importato in un valore supportato prima di poterne eseguire il mapping a un campo specificato. Quando scegli un valore in questo campo, lo stesso valore viene inserito nel campo **Regola di trasformazione** nella tabella **Buf. mapping campo scambio dati** e viceversa. Vedi la sezione successiva per ulteriori informazioni sulle regole di trasformazione disponibili che possono essere applicate.|
-     |**Sovrascrivi valore**|Specifica che il valore corrente verrà sovrascritto da un nuovo valore.|
-     |**Priorità**|Specifica l'ordine in cui devono essere elaborate le mappature dei campi. La mappatura del campo con il numero di priorità più alto verrà elaborata per prima.|
+     |**Opzionale**|Specificare se la mappa deve essere ignorata se il campo è vuoto. Se non selezioni questa opzione, si verifica un errore di esportazione se il campo è vuoto.|  
+     |**Regola di trasformazione**|Specifica la regola che trasforma il testo importato in un valore supportato prima di poterne eseguire il mapping a un campo specificato. Quando scegli un valore in questo campo, lo stesso valore viene inserito nel campo **Regola di trasformazione** nella tabella **Buf. mapping campo scambio dati** e viceversa. Per ulteriori informazioni su come applicare le regole di trasformazione, vedi [Regole di trasformazione](#transformation-rules).|
+     |**Sovrascrivi valore**|Specifica che il nuovo valore può sovrascrivere il valore corrente.|
+     |**Priorità**|Specifica l'ordine in cui devono essere elaborate le mappature dei campi. La mappatura del campo con il numero di priorità più alto viene elaborata per prima.|
      |**Moltiplicatore**|Specifica un moltiplicatore da applicare ai dati numerici, inclusi i valori negativi.|
 
    * Con l'interruttore **Utilizza come tabella intermedia** abilitato:
@@ -148,22 +150,22 @@ Puoi anche raggruppare in base a qualsiasi campo, utilizzare l'indice chiave per
      |---------------------------------|---------------------------------------|  
      |**Nr. colonna**|Specifica la colonna nel file di dati per la quale vuoi definire una mappa.<br /><br /> È possibile selezionare solo le colonne rappresentate da righe nella Scheda dettaglio **Definizioni colonne** nella pagina **Definizione scambio di dati**.|
      |**Didascalia colonna**|Specifica la didascalia della colonna nel file esterno della quale viene eseguita la mappatura al campo nel campo **ID tabella di destinazione** quando utilizzi una tabella intermedia per l'importazione dei dati.|
-     |**ID tabella di destinazione**|Specifica la tabella alla quale viene eseguita la mappatura del valore del campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|
+     |**ID tabella di destinazione**|Specifica la tabella alla quale viene eseguita la mappatura del valore nel campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|
      |**Didascalia tabella**|Specifica il nome della tabella nel campo **ID tabella di destinazione**, che è la tabella alla quale viene eseguita la mappatura del valore nel campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|
      |**ID campo di destinazione**|Specifica il campo nella tabella di destinazione al quale viene eseguita la mappatura del valore nel campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|
      |**Didascalia campo**|Specifica il nome del campo nella tabella di destinazione al quale viene eseguita la mappatura del valore nel campo **Didascalia colonna**, quando si utilizza una tabella intermedia per l'importazione dei dati.|
      |**Solo convalida**|Specifica che la mappa elemento-campo non viene utilizzata per convertire i dati, ma solo per convalidare i dati.|
-     |**Regola di trasformazione**|Specifica la regola che trasforma il testo importato in un valore supportato prima di poterne eseguire il mapping a un campo specificato. Quando scegli un valore in questo campo, lo stesso valore viene inserito nel campo **Regola di trasformazione** nella tabella **Buf. mapping campo scambio dati** e viceversa. Vedi la sezione successiva per ulteriori informazioni sulle regole di trasformazione disponibili che possono essere applicate.|
-     |**Priorità**|Specifica l'ordine in cui devono essere elaborate le mappature dei campi. La mappatura del campo con il numero di priorità più alto verrà elaborata per prima.|
+     |**Regola di trasformazione**|Specifica la regola che trasforma il testo importato in un valore supportato prima di poterne eseguire il mapping a un campo specificato. Quando scegli un valore in questo campo, lo stesso valore viene inserito nel campo **Regola di trasformazione** nella tabella **Buf. mapping campo scambio dati** e viceversa. Per ulteriori informazioni sulle regole di trasformazione, vedi [Regole di trasformazione](#transformation-rules).|
+     |**Priorità**|Specifica l'ordine in cui devono essere elaborate le mappature dei campi. La mappatura del campo con il numero di priorità più alto viene elaborata per prima.|
 
 4. Nella Scheda dettaglio **Raggruppamento campi**, specifica le regole che desideri utilizzare per raggruppare i tuoi campi quando crei il file compilando i campi come descritto nella tabella seguente.  
 
      |Campo|Descrizione|  
      |--------------------------------- |---------------------------------------|  
-     |**ID campo**|Specifica il numero del campo nel file esterno che viene utilizzato per il raggruppamento e questo campo deve essere specificato dall'utente.|
+     |**ID campo**|Specifica il numero del campo nel file esterno che viene utilizzato per il raggruppamento e che l'utente deve impostato questo campo.|
      |**Didascalia campo**|Specifica la didascalia del campo nel file esterno che viene utilizzato per il raggruppamento.|
 
-## <a name="transformation-rules"></a>Regole di trasformazione
+## Regole di trasformazione
 
 Se i valori nei campi che si stanno mappando differiscono tra loro, è necessario utilizzare le regole di trasformazione per le definizioni di scambio dei dati per renderle uguali. Si definiscono le regole di trasformazione per le definizioni di scambio dei dati aprendo una definizione esistente o creando una nuova definizione e quindi nella scheda dettaglio **Definizioni righe** scegliendo **Gestisci** e poi **Mapping dei campi**. Vengono fornite le regole predefinite, ma è possibile anche crearne di proprie. La tabella seguente descrive i tipi di trasformazione che è possibile eseguire.
 
@@ -180,15 +182,15 @@ Se i valori nei campi che si stanno mappando differiscono tra loro, è necessari
 |**Formattazione della data**|Specificare come visualizzare le date. Ad esempio, è possibile trasformare GG-MM-AAAA in AAAA-MM-GG.|
 |**Formattazione decimale**|Definire le regole per il posizionamento decimale e la precisione di arrotondamento.|
 |**Espressione regolare - Corrispondenza**|Utilizzare un'espressione regolare per trovare uno o più valori. Questa regola è simile alle opzioni **Sottostringa** e **Espressione regolare - Sostituisci**.|
-|**Personalizzato**|Questa regola di trasformazione è un'opzione avanzata che richiede l'assistenza di uno sviluppatore. Abilita un evento di integrazione a cui è possibile iscriversi se vuoi utilizzare il tuo codice di trasformazione. Se sei uno sviluppatore e desideri utilizzare questa opzione, consulta la sezione seguente.|
-|**Formattazione di data e ora**|Definisci come visualizzare la data corrente e l'ora del giorno.|
+|**Personalizzato**|Questa regola di trasformazione è un'opzione avanzata che richiede l'assistenza di uno sviluppatore. Abilita un evento di integrazione a cui è possibile iscriversi se vuoi utilizzare il tuo codice di trasformazione. Se sei uno sviluppatore e desideri utilizzare questa opzione, vedi [Suggerimento per gli sviluppatori: esempio dell'opzione personalizzat](#tip-for-developers-example-of-the-custom-option).|
+|**Formattazione data e ora**|Definisci come visualizzare la data corrente e l'ora del giorno.|
 |**Ricerca campo**|Usa campi di tabelle diverse. Per utilizzarlo, è necessario seguire alcune regole. Per prima cosa, usa **ID tabella** per specificare l'ID della tabella che contiene il record per la ricerca del campo. Nel campo **ID campo di origine**, specifica l'ID del campo che contiene il record per la ricerca del campo. Infine, nel campo **ID campo di destinazione**, specifica l'ID del campo per trovare il record per la ricerca del campo. Facoltativamente, utilizza il campo **Regola ricerca campo** per specificare il tipo di ricerca del campo. Per il campo **Destinazione**, viene utilizzato il valore **ID campo di destinazione**, anche se è vuoto. Per il campo **Originale se la destinazione è vuota**, il valore originale viene utilizzato se la destinazione è vuota.|
 |**Arrotonda**|Arrotonda il valore in questo campo utilizzando alcune regole aggiuntive. Innanzitutto, nel campo **Precisione**, specifica una precisione di arrotondamento. Successivamente, nel campo **Direzione**, specifica la direzione di arrotondamento.|
 
 > [!NOTE]  
 > Per ulteriori informazioni sulla formattazione di data e ora, vedi [Stringhe di formato di data e ora standard](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Suggerimento per gli sviluppatori: esempio dell'opzione Personalizzato
+### Suggerimento per gli sviluppatori: esempio dell'opzione Personalizzato
 
 L'esempio seguente mostra come implementare il proprio codice di trasformazione.
 
@@ -206,7 +208,7 @@ codeunit 60100 "Hello World"
 
 Dopo aver definito le regole, è possibile verificarle. Nella scheda dettaglio **Test**, immetti un valore di esempio da trasformare, quindi controlla i risultati scegliendo **Aggiorna**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti
+## Esportare una definizione di scambio di dati come file XML per l'utilizzo da parte di altri utenti
 
 Dopo aver creato la definizione di scambio di dati per un file di dati specifico, è possibile esportarla come file XML che può essere importato. Questa attività è descritta nella procedura seguente.  
 
@@ -217,14 +219,14 @@ Dopo aver creato la definizione di scambio di dati per un file di dati specifico
 
     Se è già stata creata una definizione di scambio di dati, occorre solo importare il file XML nel framework di scambio di dati. Questa attività è descritta nella procedura seguente.  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Importare una definizione di scambio di dati esistente
+## Importare una definizione di scambio di dati esistente
 
 1. Salvare il file XML che rappresenta la definizione di scambio di dati in un'ubicazione appropriata.  
 2. Scegli la ![lampadina che apre la funzione Dimmi 1.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti le **definizioni di scambio dati**, e scegli il collegamento correlato.  
 3. Scegliere l'azione **Importa definizione scambio dati**.  
 4. Scegliere il file salvato nel passaggio 1.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare lo scambio di dati](across-set-up-data-exchange.md)  
 [Impostare l'invio e la ricezione di documenti elettronici](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

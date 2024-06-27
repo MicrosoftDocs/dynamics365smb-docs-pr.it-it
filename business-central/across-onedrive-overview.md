@@ -4,23 +4,23 @@ description: 'Puoi usare OneDrive for Business per archiviare, gestire e condivi
 author: jswymer
 ms.topic: overview
 ms.search.keywords: null
-ms.date: 02/28/2022
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="business-central-and-onedrive-integration"></a>Business Central e OneDrive per l'integrazione del business
+# Integrazione di Business Central e OneDrive
 
-OneDrive for Business è un servizio di Storage cloud che è incluso in Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] rende facile l'archiviazione, la gestione e la condivisione di file con altre persone attraverso OneDrive. Quando un file è nel tuo OneDrive puoi approfittare delle ricche esperienze collaborative delle versioni online dei prodotti Microsoft, come Word, Excel e PowerPoint. Per esempio, puoi condividere un documento Word, e poi tu e i tuoi colleghi potete modificarlo insieme in tempo reale. OneDrive permette anche di aprire altri tipi di file, come i PDF. 
+OneDrive per l'azienda o la scuola (precedentemente noto come OneDrive for Business) è un servizio di archiviazione cloud incluso in Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] rende facile l'archiviazione, la gestione e la condivisione di file con altre persone attraverso OneDrive. Quando un file è nel tuo OneDrive puoi approfittare delle ricche esperienze collaborative delle versioni online dei prodotti Microsoft, come Word, Excel e PowerPoint. Per esempio, puoi condividere un documento Word, e poi tu e i tuoi colleghi potete modificarlo insieme in tempo reale. OneDrive permette anche di aprire altri tipi di file, come i PDF. 
 
-## <a name="get-started-with-onedrive-features"></a>Introduzione alle funzionalità di OneDrive
+## Introduzione alle funzionalità di OneDrive
 
 Se usi [!INCLUDE[prod_short](includes/prod_short.md)] online, abbiamo già creato la connessione tra [!INCLUDE[prod_short](includes/prod_short.md)] online e OneDrive, quindi è facile iniziare. L'unico requisito è che gli utenti abbiano aperto OneDrive almeno una volta. Con [!INCLUDE[prod_short](includes/prod_short.md)] in locale, un amministratore deve configurare la connessione prima di poter iniziare. Per ulteriori informazioni, vedi [Gestione dell'integrazione di OneDrive con Business Central](admin-onedrive-integration.md).
 
 <!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
 
-### <a name="open-and-share-in-onedrive"></a>Aprire e condividere in OneDrive
+### Aprire e condividere in OneDrive
 
 Nella maggior parte delle pagine in cui i file sono disponibili, come Report elaborati o i file allegati ai record, troverai le azioni **Apri in OneDrive** e **Condividi**.
 
@@ -34,12 +34,12 @@ Nella maggior parte delle pagine in cui i file sono disponibili, come Report ela
 |Apri in OneDrive|Copiare il file in una cartella di Business Central nel tuo OneDrive e aprire il file.|[Apri in OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Quota|Copiare il file sul tuo OneDrive e condividerlo con altre persone.|[Condividi in OneDrive](across-share-onedrive.md#share) |
 
-### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Salvare le cartelle di lavoro di Excel e i file di report in OneDrive
+### Salvare le cartelle di lavoro di Excel e i file di report in OneDrive
 
 Con l'impostazione dell'integrazione di OneDrive, un paio di altre funzionalità familiari utilizzeranno automaticamente OneDrive per salvare i file invece di salvare i file sul tuo dispositivo:
 
 - Le azioni **Apri in Excel** e **Modifica in Excel** nelle pagine elenco copieranno automaticamente il file Excel in OneDrive, quindi aprilo in Excel Online. Per ulteriori informazioni, vedi [Visualizzazione e modifica in Excel](across-work-with-excel.md).
-- L'invio di un report a un file Excel o Word copierà automaticamente il file in OneDrive, quindi aprilo in Excel o Word online. Per ulteriori informazioni, vedi [Salvataggio di un report in un file](ui-work-report.md#saving-a-report-to-a-file).
+- L'invio di un report a un file Excel o Word copierà automaticamente il file in OneDrive, quindi aprilo in Excel o Word online. Per ulteriori informazioni, vedi [Salvataggio di un report in un file](ui-work-report.md#save-a-report-to-a-file).
 
 Queste funzionalità non sono attivate per impostazione predefinita. Ma come amministratore, puoi facilmente attivarle usando la guida al setup assistito **Setup OneDrive**.
 
@@ -56,7 +56,7 @@ The folder and its content are private until you decide to share them with other
 > [!NOTE]
 > Potete anche collegare il vostro [!INCLUDE[prod_short](includes/prod_short.md)] on-premises a OneDrive. Tuttavia, ci sono alcune cose da fare per farlo funzionare. Per ulteriori informazioni, vedi [Configurazione di Business Central On-Premises](admin-onedrive-integration-onpremises.md).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione dell'integrazione di OneDrive con Business Central](admin-onedrive-integration.md)  
 [Apertura dei file di Business Central in OneDrive](across-share-onedrive.md)  

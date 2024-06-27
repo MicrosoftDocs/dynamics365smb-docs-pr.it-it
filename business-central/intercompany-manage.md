@@ -3,15 +3,15 @@ title: Gestione delle transazioni Intercompany
 description: 'Utilizzando la funzionalità intercompany, è possibile semplificare i processi aziendali e le transazioni tra società all''interno della stessa organizzazione.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bhielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/06/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Gestione delle transazioni Intercompany
+# Gestione delle transazioni Intercompany
 
 Le aziende con più di una persona giuridica con funzioni contabili separate possono trarre vantaggio dalle transazioni intercompany. Ad esempio, è utile per le aziende che hanno filiali in più mercati o regioni internazionali. Oppure, un'organizzazione potrebbe essere costituita da più società, ma non disporre di un numero corrispondente di team contabili e amministrativi. Tramite le transazioni intercompany è possibile semplificare le transazioni e i processi aziendali tra le società nella partnership intercompany.
 
@@ -21,10 +21,10 @@ La funzionalità intercompany offre quattro vantaggi principali:
 
 * Maggiore produttività grazie alla possibilità di risparmiare tempo e a transazioni più semplici.  
 * Riduzione al minimo degli errori grazie alla necessità di immettere le informazioni una sola volta e agli aggiornamenti automatici a livello di sistema  
-* Audit trail e visibilità completi per quanto riguarda le attività aziendali e lo storico delle transazioni.  
-* Transazioni efficaci e convenienti con le consociate e le filiali.  
+* Audit trail trasparente e visibilità completi per quanto riguarda le attività aziendali e lo storico delle transazioni  
+* Transazioni efficaci con le consociate e le filiali  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Semplificazione del flusso delle attività aziendali
+## Semplificazione del flusso delle attività aziendali  
 
 Le transazioni intercompany consentono di distribuire documenti di vendita e di acquisto e movimenti registrazioni COGE a tutti gli uffici satellite, gli uffici vendite o le filiali. La distribuzione delle transazioni consente di risparmiare tempo e aumenta l'efficienza in tutta l'organizzazione riducendo l'immissione dei dati. Riduce la necessità di inviare, ricevere, stampare e archiviare documenti di vendita e acquisto.  
 
@@ -34,7 +34,7 @@ Quando inserisci una transazione, non è necessario specificare i conti da utili
 
 Intercompany si concentra sui documenti di vendita e acquisto e sulle righe di registrazioni COGE e consente transazioni tra più database [!INCLUDE [prod_short](includes/prod_short.md)]. Ad esempio:
 
-* In diversi paesi/aree geografiche
+* Paesi/aree geografiche differenti
 * Più valute
 * Diversi piani dei conti
 * Diverse dimensioni
@@ -69,7 +69,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 |Organizzare ed elaborare le transazioni in entrata e in uscita che si scambiano con i partner IC.|[Gestire la casella in entrata e in uscita intercompany](intercompany-how-manage-intercompany-inbox.md)|
 |Utilizzare le transazioni IC per distribuire i costi tra società partner.|[Allocare costi a partner IC](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Finanze](finance.md)  
 [Impostazione di dati finanziari](finance-setup-finance.md)  

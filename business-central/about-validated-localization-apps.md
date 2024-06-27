@@ -2,18 +2,17 @@
 title: Sviluppo di app di localizzazione convalidate
 description: Rispettare i requisiti normativi in Dynamics 365 Business Central come app di localizzazione convalidata.
 author: altotovi
-ms.date: 04/24/2024
-ms.reviewer: solsen
+ms.date: 06/04/2024
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.author: altotovi
 ---
 
-
-# <a name="development-of-validated-localization-apps"></a>Sviluppo di app di localizzazione convalidate
+# Sviluppo di app di localizzazione convalidate
 
 Questo articolo descrive i requisiti e le linee guida per lo sviluppo di un'app di localizzazione convalidata per [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-is-a-validated-localization-app"></a>Che cos'è un'app di localizzazione convalidata?
+## Che cos'è un'app di localizzazione convalidata?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] è disponibile [a livello globale in oltre 170 mercati](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). In una serie di mercati, Microsoft collabora con i partner ISV per la localizzazione [!INCLUDE[prod_short](includes/prod_short.md)] tramite app di localizzazione disponibili su [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Per tali regioni, le localizzazioni possono essere disponibili tramite il programma dell'app di localizzazione preferito. Il programma delle app di localizzazione preferite riconosce le app create secondo le linee guida sulla qualità specifiche di Microsoft. I partner ISV che rispettano i requisiti e le linee guida del programma possono trarre vantaggi tecnici e commerciali per servire i propri rivenditori e clienti.  
 
@@ -27,7 +26,6 @@ Le app che fanno parte del programma pilota di localizzazione convalidato conten
 - **Requisiti normativi**: funzionalità locale che aiuta le aziende a soddisfare i propri requisiti legali, come reporting fiscale, formati di fatturazione elettronica locali, GAAP locali e altri requisiti normativi.
 - **Requisito degli standard nazionali**: funzionalità locale che soddisfa gli standard locali, come formati di indirizzi, formati bancari nazionali o interpretazioni locali di standard globali.
 - **Lingua locale**: lingua locale nell'app di localizzazione, ma anche per un'app di base se questa lingua non è attualmente nell'elenco delle [lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
-- **Lingua locale**: lingua locale nell'app di localizzazione, ma anche per un'app di base se questa lingua non è attualmente nell'elenco delle [lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 > [!NOTE]
 > Le esigenze del mercato locale o i requisiti del settore non dovrebbero essere inclusi nelle app di localizzazione preferite. Se le app contengono queste funzionalità, non possono essere approvate come app di localizzazione convalidata.
@@ -35,22 +33,18 @@ Le app che fanno parte del programma pilota di localizzazione convalidato conten
 > [!NOTE]
 > Le funzionalità locali sono vantaggiose per la produttività dei processi aziendali in un paese e quindi aggiungono valore al business, ma non sono richieste da un punto di vista normativo, come formati bancari e di pagamento specifici, note spese, funzionalità HR, buste paga e simili più o meno grandi, e le funzionalità utili dovrebbero essere isolate in altre app. Se le app contengono queste funzionalità, non possono essere approvate come app di localizzazione convalidate.   
 
-## <a name="validated-localization-app-business-requirements"></a>Requisiti aziendali dell'app di localizzazione convalidata
+## Requisiti aziendali dell'app di localizzazione convalidata  
 
 - Il provider dell'app di localizzazione convalidata soddisfa tutti i requisiti per essere un provider CSP indiretto.  
-- Il fornitore dell'app di localizzazione convalidata porta sul mercato un minimo di offerte in cinque paesi/regioni, che raggruppano Dynamics 365 Business Central con un'app di localizzazione convalidata. 
+- Il fornitore dell'app di localizzazione convalidata porta sul mercato un minimo di offerte in cinque paesi/aree, che raggruppano Dynamics 365 Business Central con un'app di localizzazione convalidata. 
 - Il fornitore dell'app di localizzazione convalidata ha un minimo di 10 clienti online [!INCLUDE[prod_short](includes/prod_short.md)] con ambienti di produzione, che utilizzano attivamente l'app di localizzazione convalidata. 
 - Il fornitore dell'app di localizzazione convalidata presenta un piano aziendale su base annuale al v-team del programma. Ciò include attività di marketing e preparazione pianificate per promuovere l'offerta in bundle con i rivenditori indiretti CSP nei paesi o nelle aree geografiche applicabili. Il piano può essere presentato all'inizio di ogni trimestre al [Team di localizzazione Microsoft](mailto:d365bcloc@microsoft.com).  
-- Le app di localizzazione convalidate vengono messe a disposizione di tutti i clienti e partner che desiderano trarne vantaggio.  
-- Il fornitore dell'app di localizzazione convalidata porta sul mercato un minimo di offerte in cinque paesi o aree geografiche, che raggruppano Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] con un'app di localizzazione convalidata. 
-- Il fornitore dell'app di localizzazione convalidata ha un minimo di 10 clienti online [!INCLUDE[prod_short](includes/prod_short.md)] con ambienti di produzione, che utilizzano attivamente l'app di localizzazione convalidata. 
-- Il fornitore dell'app di localizzazione convalidata presenta un piano aziendale su base annuale al v-team del programma. Ciò include attività di marketing e preparazione pianificate per promuovere l'offerta in bundle con i rivenditori indiretti CSP nei paesi o nelle aree geografiche applicabili. Il piano può essere presentato all'inizio di ogni trimestre al [Team di localizzazione Microsoft](mailto:d365bcloc@microsoft.com).  
-- Le app di localizzazione convalidate vengono messe a disposizione di tutti i clienti e partner che desiderano trarne vantaggio.  
+- Le app di localizzazione convalidate vengono messe a disposizione di tutti i clienti e partner che desiderano trarne vantaggio.     
 - Il fornitore dell'app di localizzazione convalidata si impegna in flussi di lavoro ricorrenti con Microsoft.
 
-## <a name="validated-localization-app-functional-and-technical-requirements"></a>Requisiti tecnici e funzionali dell'app di localizzazione convalidata
+## Requisiti tecnici e funzionali dell'app di localizzazione convalidata  
 
-### <a name="functionality-requirements"></a>Requisiti di funzionalità
+### Requisiti di funzionalità   
 
 Oltre a soddisfare i requisiti tecnici per l'app di localizzazione preferita, l'ambito minimo del prodotto praticabile per l'app di localizzazione preferita è:  
 
@@ -74,12 +68,9 @@ Oltre a soddisfare i requisiti tecnici per l'app di localizzazione preferita, l'
 - Tutte le funzionalità devono essere progettate per mantenere un'interfaccia utente semplificata; tieni presente che sono destinate principalmente al mercato delle PMI.  
 - Evitare di creare nuove funzionalità se le stesse funzionalità o simili esistono già nell'app di base, come fatturazione elettronica, esportazioni di controllo, funzionalità IVA, scambio di dati e altre in cui la maggior parte delle funzionalità è comune a tutti i paesi o aree geografiche ma esistono alcune regole locali o formati aziendali che sono estensioni di strutture o formati globali. Invece di creare nuove funzionalità, estendi quelle esistenti.  
 - Prepara guide di configurazione (procedure guidate) per aree complesse da configurare per aiutare gli utenti ad abilitare, scoprire e avere una buona prima esperienza con l'app di localizzazione.  
-- Tutte le funzionalità devono essere progettate per mantenere un'interfaccia utente semplificata tenendo presente che sono destinate principalmente al mercato delle PMI.  
-- Evita di creare nuove funzionalità se le stesse funzionalità o simili esistono già nell'app di base, come fatturazione elettronica, esportazioni di controllo, funzionalità IVA, scambio di dati e altre in cui la maggior parte delle funzionalità è comune a tutti i paesi o aree geografiche ma esistono alcune regole locali o formati aziendali che sono estensioni di strutture o formati globali. Invece di creare nuove funzionalità, estendi quelle esistenti.    
-- Prepara guide di configurazione (procedure guidate) per aree complesse da configurare per aiutare gli utenti ad abilitare, scoprire e avere una buona prima esperienza con l'app di localizzazione.  
 - I partner devono fornire la documentazione funzionale per tutti gli aspetti della loro localizzazione.  
 
-### <a name="technical-requirements"></a>Requisiti tecnici
+### Requisiti tecnici  
 
 Di seguito è riportato un elenco di controllo di tutti i requisiti che è necessario soddisfare prima di inviare l'app per la localizzazione convalidata come estensione per la convalida. Questo elenco non modifica l' [elenco di convalida tecnica](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) e si limita ad estendere i requisiti da lì.  
 
@@ -92,13 +83,11 @@ Di seguito è riportato un elenco di controllo di tutti i requisiti che è neces
 - I fornitori di app di localizzazione convalidata dovrebbero aggiungere nuovi eventi se richiesto dal mercato (altri partner di implementazione o clienti) se ciò ha un ragionevole senso commerciale, seguendo i criteri e le pratiche di Microsoft. In caso contrario, i fornitori di app di localizzazione convalidate devono fornire una risposta a tali richieste con un'adeguata giustificazione del motivo per cui non ha ragionevole senso commerciale aggiungerle. 
 - I fornitori di app di localizzazione convalidata devono fornire scenari di test scritti in inglese e consentire a Microsoft di eseguire test manuali se richiesto da Microsoft.  
 - Se un'app di localizzazione convalidata estende il modello dati di [!INCLUDE[prod_short](includes/prod_short.md)] con nuove tabelle e/o campi, il fornitore dell'app di localizzazione convalidata deve impostare la proprietà **DataClassification** correttamente.
-- I fornitori dell'app di localizzazione convalidata devono creare l'app di localizzazione convalidata in base all'app di base W1.  
-- I fornitori di app di localizzazione convalidata devono seguire il ciclo di vita e i criteri di supporto di Microsoft.   
 
 > [!NOTE]  
 > Puoi anche creare un'integrazione se ritieni vantaggioso avere alcune funzionalità posizionate all'esterno dell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)] e connetterti invece a [!INCLUDE[prod_short](includes/prod_short.md)] utilizzando ad esempio API o servizi Web.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Convalida tecnica](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Sviluppo di una soluzione di localizzazione standard](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

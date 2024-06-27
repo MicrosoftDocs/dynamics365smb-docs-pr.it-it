@@ -2,26 +2,25 @@
 title: Personalizzazione di Business Central Online con le app
 description: Scopri tutte le informazioni sull'aggiunta di funzionalità e la personalizzazione di Business Central tramite l'installazione delle app in questo articolo.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '2500, 2502, 20350, 20353'
-ms.date: 09/27/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="customizing-business-central-online-using-apps"></a>Personalizzazione di Business Central Online con le app
+# Personalizzazione di Business Central Online con le app
 
 È possibile modificare [!INCLUDE[prod_short](includes/prod_short.md)] online installando app in grado ad esempio di aggiungere funzionalità, modificare il comportamento o consentire l'accesso a nuovi servizi online. Queste app sono anche chiamate *estensioni* perché *estendono* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a>Gestire le app
-
-[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+## Gestire le app
 
 La prima volta che si avvia [!INCLUDE[prod_short](includes/prod_short.md)], alcune app risultano già installate. Con il tempo verranno rese disponibili altre app e sarà possibile scegliere se installarle o meno.
 
-Ad esempio, Microsoft fornisce un'app che consente l'integrazione con PayPal Payments Standard. Questa estensione è installata per impostazione di default. Se tuttavia diventa disponibile un'altra estensione che offre l'integrazione con un altro servizio di pagamento, è possibile installare la nuova estensione e scegliere quale dei due servizi utilizzare.  
+Ad esempio, Microsoft fornisce un'app che consente l'integrazione con PayPal Payments Standard. Questa estensione è installata per impostazione di default. Tuttavia, potrebbe essere fornita un'estensione che offre l'integrazione con un altro servizio di pagamento. In tal caso, puoi installare la nuova estensione e quindi scegliere quale utilizzare.  
 
-Per utilizzare la funzionalità fornita da un'app, come l'apertura di pagine, l'esecuzione di report, la selezione di azioni e così via, è necessario assegnare i set di autorizzazioni installati come parte dell'app.
+Per utilizzare un'app, devi disporre dei set di autorizzazioni installato con essa.
 
 Per installare o disinstallare le app da AppSource o aggiungere estensioni per tenant, devi avere le autorizzazioni appropriate. È necessario essere membri del gruppo utenti **Gestione estesa D365** oppure disporre del set di autorizzazioni **GESTIONE ESTESA - AMMINISTRATORE**. Se si è un amministratore, è possibile assegnare gruppi di utenti e autorizzazioni ad altri utenti della tua azienda. Per ulteriori informazioni, vedere [Creare utenti in base alle licenze](ui-how-users-permissions.md).  
 
@@ -36,21 +35,20 @@ Le app vengono gestite nella pagina **Gestione estensioni**. È possibile accede
 > [!NOTE]  
 > Accedere a [AppSource.microsoft.com](https://appsource.microsoft.com/) tramite l'account di posta elettronica utilizzato per [!INCLUDE[prod_short](includes/prod_short.md)] online. Utilizzare lo stesso account e-mail per altri prodotti e servizi per un'esperienza fluida.  
 
-È inoltre possibile accedere al marketplace da [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Gestione estensioni** puoi vedere le app attualmente installate e aprire la pagina **Marketplace delle estensioni** che mostra le app per [!INCLUDE[prod_short](includes/prod_short.md)] al momento disponibili in AppSource. Se si sceglie il collegamento *Altre app*, si passa a [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
+È inoltre possibile accedere al marketplace da [!INCLUDE[prod_short](includes/prod_short.md)]. Nella pagina **Gestione estensioni** puoi vedere le app attualmente installate e aprire la pagina **Marketplace delle estensioni** che mostra le app per [!INCLUDE[prod_short](includes/prod_short.md)] al momento disponibili in AppSource. Se scegli il collegamento *Altre app*, passi ad [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
-Se scegli un'app, è possibile leggerne una descrizione e accedere alla Guida dell'app per ottenere ulteriori informazioni. Quando scegli di ottenere un'app, è necessario accettare le condizioni per l'utilizzo. Se ottieni l'app dal sito Web AppSource, verrà eseguito l'accesso a [!INCLUDE[prod_short](includes/prod_short.md)] per completare l'installazione.  
+Se scegli un'app, è possibile leggerne una descrizione e accedere alla Guida dell'app per ottenere ulteriori informazioni. Quando scegli di ottenere un'app, è necessario accettare le condizioni per l'utilizzo. Se ottieni l'app dal sito Web AppSource, accedi a [!INCLUDE[prod_short](includes/prod_short.md)] per completare l'installazione.  
 
-Quando installi un'app, potrebbe essere necessario configurarla. Se ad esempio vuoi utilizzare l'estensione **PayPal Payments Standard per [!INCLUDE[prod_short](includes/prod_short.md)]** sarà necessario specificare un conto.
-Altre app aggiungono semplicemente dei campi a una pagina esistente oppure aggiungono una nuova pagina.   
+Quando installi un'app, potrebbe essere necessario configurarla. Se ad esempio vuoi utilizzare l'estensione **PayPal Payments Standard per [!INCLUDE[prod_short](includes/prod_short.md)]** sarà necessario specificare un conto. Ad esempio, altre app aggiungono dei campi a una pagina esistente oppure aggiungono una nuova pagina.
 
-Se disinstalli un'app e successivamente cambi idea, è possibile installarla di nuovo. Quando disinstalli un'app che usi, i dati vengono mantenuti in modo da essere disponibili qualora la si reinstallasse. Alcune app sono obbligatorie. Non è possibile disinstallarle dalla pagina **Gestione estensioni**. Se si tenta di disinstallarle, viene visualizzato un messaggio di errore.  
+Se disinstalli un'app e successivamente cambi idea, è possibile installarla di nuovo. Quando disinstalli un'app, i tuoi dati vengono conservati. I dati sono disponibili se installi nuovamente l'app. Alcune app sono obbligatorie e non puoi disinstallarle dalla pagina **Gestione estensioni**.
 
-Alcune app sono fornite da Microsoft, altre sono fornite da [altre società](ui-extensions-other.md). Tutte le app sono state sottoposte a testing prima di essere rese disponibili. Tuttavia si consiglia di accedere ai collegamenti forniti con ciascuna estensione per ottenere maggiori informazioni sull'app prima di scegliere di installarla.  
+Alcune app sono fornite da Microsoft, altre sono fornite da [altre società](ui-extensions-other.md). Tutte le app sono state testate prima di essere rese disponibili. Tuttavia si consiglia di accedere ai collegamenti forniti con ciascuna estensione per ottenere maggiori informazioni sull'app prima di scegliere di installarla.  
 
 > [!NOTE]  
 > È possibile controllare la disponibilità di nuove app di Microsoft e altri fornitori su [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>App e trasferimento dati
+## App e trasferimento dati
 
 Poiché le seguenti app comunicano con altri servizi, potrebbero trasferire dati al di fuori della geografia dell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)] :
 
@@ -61,7 +59,7 @@ Poiché le seguenti app comunicano con altri servizi, potrebbero trasferire dati
 * Previsione vendite e magazzino
 * WorldPay Payments Standard
 
-Questo vale anche per alcune funzionalità nell'applicazione di base, come le seguenti capacità:
+Lo stesso vale per l'applicazione di base, come le seguenti funzionalità:
 
 * Previsione flusso di cassa
 * Servizio di scambio documenti
@@ -70,7 +68,7 @@ Questo vale anche per alcune funzionalità nell'applicazione di base, come le se
 * Mappa online
 * Reg. IVA UE No. Assistenza
 
-## <a name="connect-your-business"></a>Collega l'azienda
+## Collega l'azienda
 
 A partire dal secondo ciclo di rilascio del 2022, gli ambienti online [!INCLUDE [prod_short](includes/prod_short.md)] possono elencare una o più app nelle pagine **App di connettività** e **App bancarie**. Queste app possono collegare l'azienda a servizi esterni per aumentare la produttività automatizzando i processi. Ad esempio, puoi connetterti alle tue banche e importare automaticamente le transazioni bancarie. Le app sono facili da installare e configurare direttamente da questa pagina. Scegli un'app per saperne di più su funzionalità e prezzi.  
 
@@ -79,16 +77,16 @@ Visualizza l'elenco delle app suggerite scegliendo l'azione **App di connettivit
 > [!NOTE]
 > La prima persona che apre la pagina **App di connettività** deve consentire all'estensione di connettersi a un servizio esterno. Consenti la connessione una volta o sempre. Se scegli di bloccare la connessione, devi trovare le app pertinenti su AppSource.
 
-Questo servizio esterno genererà un elenco di app pertinenti in base al tuo paese o area geografica
+Questo servizio esterno genera un elenco di app pertinenti in base al tuo paese o area
 
-## <a name="recommended-apps"></a>App raccomandate
+## App raccomandate
 
-I partner e i rivenditori Microsoft possono creare un'app che possono utilizzare per compilare elenchi di applicazioni che spesso raccomandano ai loro clienti. Se lo fanno, e hanno distribuito l'app al tuo tenant, le app saranno disponibili nella pagina **App consigliate** . Lì puoi leggere di ogni app e decidere se installarla.
+I partner e i rivenditori Microsoft possono creare un'app che possono utilizzare per compilare elenchi di applicazioni che spesso raccomandano ai loro clienti. Se lo fanno, e hanno distribuito l'app al tuo tenant, le app sono disponibili nella pagina **App consigliate**. Lì puoi leggere di ogni app e decidere se installarla.
 
 > [!NOTE]
 > Se sei un partner o un rivenditore Microsoft e sei interessato a fornire un elenco di applicazioni raccomandate, vedi [Raccomandare le applicazioni da AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) nel contenuto di amministrazione.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Installare e disinstallare app](ui-extensions-install-uninstall.md)  
 [Personalizzare Business Central](ui-customizing-overview.md)  

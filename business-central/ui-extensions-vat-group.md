@@ -7,30 +7,31 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'VAT, value added tax, report'
 ms.search.form: '4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,'
-ms.date: 12/12/2023
+ms.date: 06/03/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>Estensione Gestione gruppo IVA per il Regno Unito
+# Estensione Gestione gruppo IVA per il Regno Unito
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 È possibile connettere una o più aziende nel Regno Unito per combinare la dichiarazione IVA (imposta sul valore aggiunto) con un unico numero di registrazione. Questo tipo di modalità è noto come *gruppo IVA*. È possibile interagire con il gruppo come membro o rappresentante del gruppo.
 
-## <a name="forming-a-vat-group"></a>Formazione di un gruppo IVA
+## Formazione di un gruppo IVA
 
 I membri del gruppo IVA e il rappresentante del gruppo possono utilizzare la guida al setup assistito **Setup gestione gruppo IVA** per definire il coinvolgimento con il gruppo e creare una connessione tra i tenant [!INCLUDE[prod_short](includes/prod_short.md)]. I membri del gruppo utilizzeranno questa connessione per presentare le loro dichiarazioni IVA al rappresentante del gruppo. Il rappresentante del gruppo usa quindi una singola dichiarazione IVA del gruppo per le autorità fiscali.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] supporta le dichiarazioni IVA intragruppo per le aziende che utilizzano [!INCLUDE[prod_short](includes/prod_short.md)] in locale oppure online, in qualsiasi combinazione, che influenza l'impostazione della comunicazione tra le aziende. Questo articolo descrive varie configurazioni dei gruppi.
 
-### <a name="license-requirements"></a>Requisiti di licenza
+### Requisiti di licenza
 
 I partecipanti al gruppo devono avere la licenza per l'uso di [!INCLUDE[prod_short](includes/prod_short.md)]. Non puoi utilizzare account guest nei gruppi IVA.
 
 * Per calcolare e inviare le dichiarazioni IVA, un utente deve essere un utente completo di [!INCLUDE[prod_short](includes/prod_short.md)].
 * Per accedere ed eseguire attività di base, come creare account, devi avere la licenza di membro del team [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="set-up-a-vat-group"></a>Impostare un gruppo IVA
+## Impostare un gruppo IVA
 
 Di seguito l'ordine consigliato dei passaggi utilizzati da un amministratore per configurare un gruppo IVA:
 
@@ -45,7 +46,7 @@ Di seguito l'ordine consigliato dei passaggi utilizzati da un amministratore per
 > [!NOTE]
 > Per connettersi al rappresentante del gruppo IVA, i membri del gruppo devono avere un account utente con accesso al [!INCLUDE[prod_short](includes/prod_short.md)] del rappresentante del gruppo IVA. Il rappresentante del gruppo IVA deve creare almeno un utente per questo. Tuttavia, per motivi di sicurezza, si consiglia di creare un utente per ogni membro del gruppo IVA, che può essere un account utente di sistema non correlato a una persona reale. Assicurarsi di distribuire le credenziali utente dei membri del gruppo IVA in modo sicuro.
 
-### <a name="microsoft-entra-id-setup-for-group-members"></a>Configurazione di Microsoft Entra ID per i membri del gruppo
+### Configurazione di Microsoft Entra ID per i membri del gruppo
 
 Quando il rappresentante del gruppo IVA utilizza [!INCLUDE[prod_short](includes/prod_short.md)] online o locale, i membri del gruppo IVA devono utilizzare Microsoft Entra ID per autenticare gli utenti quando presentano le dichiarazioni IVA al rappresentante del gruppo IVA. Per [!INCLUDE[prod_short](includes/prod_short.md)] locale, i membri devono configurare il Single Sign-On. Per ulteriori informazioni, vedi [Configurare l'autenticazione Microsoft Entra con WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
@@ -61,7 +62,7 @@ Quando l'amministratore dei membri del gruppo IVA crea la registrazione dell'app
 * Nella sezione **Autorizzazioni API** aggiungere le autorizzazioni in [!INCLUDE[prod_short](includes/prod_short.md)]. Abilitare l'accesso delegato a **Financials.ReadWrite.All** e **user_impersonation**.
 * Nella sezione **Sintesi** notare l'**ID applicazione (client)**. I membri del gruppo IVA hanno bisogno di questo ID quando impostano la connessione al rappresentante del gruppo.
 
-### <a name="group-api-setup"></a>Configurazione del gruppo API
+### Configurazione del gruppo API
 
 Il rappresentante del gruppo IVA crea e fornisce un'API ai membri del gruppo. I membri utilizzano questa API per connettersi al tenant [!INCLUDE[prod_short](includes/prod_short.md)] del rappresentante e presentare le dichiarazioni IVA. I membri del gruppo IVA usano spesso [!INCLUDE[prod_short](includes/prod_short.md)] in tenant Microsoft Entra separati. Pertanto, sono necessarie ulteriori impostazioni per connettere il membro del gruppo IVA e il [!INCLUDE[prod_short](includes/prod_short.md)] del rappresentante.
 
@@ -73,7 +74,7 @@ Il rappresentante del gruppo IVA crea e fornisce un'API ai membri del gruppo. I 
 1. Nella sezione **Dettagli** copia l'**URL**.
 1. Apri Blocco note e incolla l'URL. Sostituisci `https://businesscentral.dynamics.com` con `https://api.businesscentral.dynamics.com/v2.0`.
 
-## <a name="set-up-vat-group-members"></a>Impostare i membri del gruppo IVA
+## Impostare i membri del gruppo IVA
 
 I membri del gruppo IVA si connettono al rappresentante chiamando un servizio Web sul tenant del rappresentante del gruppo IVA. Il chiamante deve essere autenticato utilizzando OAuth2. Quando l'estensione Gestione gruppo IVA è impostata, ai membri viene richiesto di autenticarsi presso il rappresentante del gruppo IVA per ottenere e salvare un token di accesso. Questo token di accesso viene utilizzato quando si inviano dichiarazioni IVA al rappresentante del gruppo IVA.
 
@@ -97,14 +98,14 @@ Prima che i membri del gruppo IVA avviino la configurazione (elencata di seguito
 
    Quindi, segui i passaggi nella sezione [Il rappresentante del gruppo IVA usa Business Central Online](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online) o [Il rappresentante del gruppo IVA utilizza Business Central locale](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises) riportata di seguito.
 
-### <a name="vat-group-representative-uses-business-central-online"></a>Il rappresentante del gruppo IVA usa Business Central Online
+### Il rappresentante del gruppo IVA usa Business Central Online
 
 1. Immetti le credenziali utente fornite dal rappresentante del gruppo IVA e aggiungi le autorizzazioni richieste per generare il token di accesso.
 2. Scegli la configurazione della dichiarazione IVA attualmente utilizzata per inviare dichiarazioni IVA alle autorità fiscali del Regno Unito. 
 
 Dopo aver completato il setup, [!INCLUDE[prod_short](includes/prod_short.md)] creerà una nuova configurazione in base a questa scelta e ti consentirà di presentare le dichiarazioni IVA al rappresentante del gruppo IVA.
 
-### <a name="vat-group-representative-uses-business-central-on-premises"></a>Il rappresentante del gruppo IVA usa Business Central locale
+### Il rappresentante del gruppo IVA usa Business Central locale
 
 1. Inserisci le credenziali utente fornite dal rappresentante del gruppo IVA e scegli **Avanti**.
 2. Nel campo **ID client**, inserisci l'ID client dalla registrazione dell'app in [Configurazione di Microsoft Entra ID per i membri del gruppo](#microsoft-entra-id-setup-for-group-members).
@@ -115,7 +116,7 @@ Dopo aver completato il setup, [!INCLUDE[prod_short](includes/prod_short.md)] cr
 7. Dopo aver specificato i vari campi, scegli **Avanti** e quindi conferma la connessione di autenticazione per generare il token di accesso.
 8. Scegli la configurazione della dichiarazione IVA attualmente utilizzata per inviare dichiarazioni IVA alle autorità fiscali del Regno Unito.
 
-## <a name="set-up-the-vat-group-representative"></a>Impostare il rappresentante del gruppo IVA
+## Impostare il rappresentante del gruppo IVA
 
 > [!NOTE]
 > Per i sistemi locali, [!INCLUDE[prod_short](includes/prod_short.md)] supporta solo una singola istanza del tenant del rappresentante del gruppo.
@@ -136,7 +137,7 @@ Dopo aver completato il setup, [!INCLUDE[prod_short](includes/prod_short.md)] cr
     3. Nel campo **Società**, specifica la società da cui il membro del gruppo invia le dichiarazioni IVA in [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio, **CRONUS UK Ltd**.
     4. Specifica i dettagli relativi ai contatti della società.
 
-## <a name="use-the-vat-group-management-features"></a>Utilizzare le funzionalità di Gestione gruppo IVA
+## Utilizzare le funzionalità di Gestione gruppo IVA
 
 I membri del gruppo IVA utilizzano le procedure standard per preparare le dichiarazioni IVA. L'unica differenza sta nel fatto che i membri devono scegliere la versione del report **VATGROUP** nella pagina **Dichiarazione IVA** per inoltrare la dichiarazione al rappresentante del gruppo IVA anziché alle autorità. Ulteriori informazioni in [Informazioni sul report Dichiarazione IVA](finance-how-report-vat.md#vatreturn).
 
@@ -145,23 +146,23 @@ I membri del gruppo IVA utilizzano le procedure standard per preparare le dichia
 
 Le sezioni seguenti descrivono i task che i rappresentanti di un gruppo IVA devono svolgere per compilare la dichiarazione IVA del gruppo.
 
-### <a name="review-vat-member-submissions"></a>Revisione degli invii dei membri del gruppo IVA
+### Revisione degli invii dei membri del gruppo IVA
 
 La pagina **Invii gruppo IVA** elenca le dichiarazioni IVA presentate dai membri. La pagina funge da posizione di bozza per le presentazioni fino a quando il rappresentante del gruppo IVA non le include in una dichiarazione IVA per il gruppo. Il rappresentante può aprire gli invii per rivedere le singole caselle contenenti gli importi segnalate da ciascun membro del gruppo IVA.
 
 > [!TIP]
 > Nella pagina **Periodi di dichiarazione IVA**, il campo **Invii membri del gruppo** mostra quante dichiarazioni i membri hanno inviato. Per assicurarti che questo numero sia aggiornato, scegli l'azione **Ottieni dichiarazioni IVA**.
 
-### <a name="create-a-group-vat-return"></a>Creare una dichiarazione IVA di gruppo
+### Creare una dichiarazione IVA di gruppo
 
 Per dichiarare l'IVA per il gruppo, nella pagina **Dichiarazioni IVA** crea una dichiarazione IVA solo per l'azienda. Successivamente, includere gli invii IVA più recenti dai membri del gruppo IVA scegliendo l'azione **Includi IVA di gruppo**.  
 
-Quando il rappresentante del gruppo ha presentato la dichiarazione IVA del gruppo alle autorità, normalmente il rappresentante esegue l'azione **Calcola e registra liquidazione IVA**. Questa azione chiude i movimenti IVA aperti e trasferisce importi nel conto di liquidazione dell'IVA. Attualmente, questa azione non tiene conto degli invii di gruppo. Verranno registrati solo i movimenti IVA della società rappresentante del gruppo IVA. Gli importi di presentazione dei membri del gruppo IVA devono essere registrati manualmente nell'importo di liquidazione IVA, in modo che il conto di liquidazione IVA del rappresentante del gruppo IVA rifletta la passività di quanto segnalato alle autorità. Questo comportamento cambierà in un prossimo aggiornamento di [!INCLUDE[prod_short](includes/prod_short.md)], in questo modo verrà liquidata l'intera IVA del gruppo (l'importo totale nelle righe del report nella dichiarazione IVA).
+Quando il rappresentante del gruppo ha presentato la dichiarazione IVA del gruppo alle autorità, normalmente il rappresentante esegue l'azione **Calcola e registra liquidazione IVA**. Questa azione chiude i movimenti IVA aperti e trasferisce importi nel conto di liquidazione dell'IVA. Attualmente, questa azione non tiene conto degli invii di gruppo. Verranno registrati solo i movimenti IVA della società rappresentante del gruppo IVA. Gli importi degli invii dei membri del gruppo IVA devono essere registrati usando l'azione **Registra liquidazione gruppo IVA**.
 
 > [!IMPORTANT]
 > La funzionalità del gruppo IVA è supportata solo nei mercati in cui [!INCLUDE[prod_short](includes/prod_short.md)] utilizza un quadro IVA che consiste in dichiarazioni IVA e periodi di dichiarazione IVA. Non è possibile utilizzare gruppi IVA in mercati che hanno altre implementazioni della dichiarazione IVA locale, come Austria, Germania, Italia, Spagna e Svizzera.
 
-## <a name="issue-with-enabling-multifactor-authentication-mfa"></a>Problema con l'abilitazione dell'autenticazione a più fattori (MFA)
+## Problema con l'abilitazione dell'autenticazione a più fattori (MFA)
 
 Se viene visualizzato un messaggio di errore relativo all'autorizzazione durante il rinnovo del **Token OAuth2** nella pagina **Setup report IVA** dopo aver abilitato l'MFA, completa i seguenti passaggi.  
 
@@ -173,7 +174,7 @@ Se viene visualizzato un messaggio di errore relativo all'autorizzazione durante
 
 Ciò dovrebbe essere un setup una tantum dopo aver abilitato l'autenticazione a più fattori per l'utente selezionato in **Setup report IVA**.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Funzionalità locale del Regno Unito nella versione britannica](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Digitalizzazione delle imposte nel Regno Unito](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

@@ -1,26 +1,26 @@
 ---
-title: Utilizzare i documenti in entrata
+title: Utilizzare documenti in entrata
 description: 'È possibile gestire i documenti aziendali esterni in entrata, ad esempio le ricevute di pagamento o i PDF, gestire attività OCR e convertire i file in record e documenti in formato elettronico.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="incoming-documents"></a>Documenti in entrata
+# Documenti in entrata
 
 I documenti commerciali esterni possono arrivare nella società come allegato a un messaggio e-mail o copia cartacea che è possibile scansionare e trasformare in file. Questo scenario è tipico degli acquisti, dove questi file di documenti in entrata rappresentano le ricevute di pagamento per le spese o i piccoli acquisti.
 
 Nella pagina **Documenti in entrata** è possibile utilizzare diverse funzioni per esaminare le ricevute relative alle spese, gestire le attività OCR e convertire i file dei documenti in entrata, manualmente o automaticamente, nei relativi documenti o in righe di registrazione. I file esterni possono essere allegati in qualsiasi fase dell'elaborazione, ad esempio ai documenti registrati, nonché ai fornitori, clienti e movimenti di contabilità generale risultanti.
 
-## <a name="usage-scenario"></a>Scenario di utilizzo
+## Scenario di utilizzo
 
 Puoi registrare file o copie cartacee ricevute dai tuoi partner commerciali in [!INCLUDE[prod_short](includes/prod_short.md)] e creare un record del documento. Ad esempio, una fattura di acquisto o di vendita, una nota di credito o una riga del giornale di registrazione.
 
-Carica i file ricevuti o usa la fotocamera del dispositivo per scattare una foto e crea voci per rappresentare i documenti esterni. Facoltativamente, con i PDF o i file di immagine puoi impostare un servizio esterno OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) in modo che generi documenti elettronici che possono essere convertiti in record di documenti in [!INCLUDE[prod_short](includes/prod_short.md)].
+Carica i file ricevuti o usa la fotocamera del dispositivo per scattare una foto e crea voci per rappresentare i documenti esterni. Facoltativamente, con i PDF o i file di immagine puoi impostare un servizio OCR (Optical Character Recognition, riconoscimento ottico dei caratteri) esterno in modo che generi documenti elettronici che possono essere convertiti in record di documenti in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > La funzione OCR è fornita da fornitori esterni. Scegliere un pacchetto di servizi appropriato per l'organizzazione e/o paese/area geografica. Trova i servizi compatibili con [!INCLUDE[prod_short](includes/prod_short.md)] e i dettagli sulle funzionalità disponibili su [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
@@ -30,11 +30,11 @@ Ad esempio, quando si riceve una fattura nel formato PDF dal fornitore, è possi
 > [!TIP]
 > Crea record di documenti in entrata in [!INCLUDE[prod_short](includes/prod_short.md)] direttamente dalle e-mail inviate dai fornitori utilizzando il componente aggiuntivo di Outlook. Per ulteriori informazioni, vedi [Utilizzare Business Central come Posta in arrivo aziendale in Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Funzionalità del documento in entrata
+## Funzionalità del documento in entrata
 
 L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni principali:
 
-* Registrare i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)] creando le righe nella pagina **Documenti in entrata** attenendosi a uno dei modi seguenti:
+* Registrare i documenti esterni in [!INCLUDE[prod_short](includes/prod_short.md)] creando le righe nella pagina **Documenti in entrata** nei modi seguenti:
   * Manualmente da un PC o un dispositivo mobile, in uno dei seguenti modi:
     * Utilizza il pulsante **Crea da file**, carica un file e compila i campi pertinenti nella pagina **Documento in entrata**.
     * Utilizza il pulsante **Nuovo** e compila i campi pertinenti nella pagina **Documento in entrata** e allega manualmente il relativo file.
@@ -57,7 +57,7 @@ L'elaborazione di documenti in entrata è costituita dalle seguenti operazioni p
 | Nelle pagine **Piano dei conti** e **Movimenti C/G** utilizza una funzione di ricerca per trovare movimenti di contabilità generale per documenti registrati che non hanno record di documenti in entrata e successivamente collegali centralmente a record esistenti o creane di nuovi con file di documento allegati. |[Trovare documenti registrati senza record di documenti in entrata](across-how-find-posted-documents-without-income-document-records.md) |
 | Per ottenere una panoramica migliore è possibile impostare i record del documento in entrata su *Elaborato* e rimuoverli dalla visualizzazione predefinita. |[Gestire più record di documenti in entrata](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Acquisti](purchasing-manage-purchasing.md)  
 [Modifica di documenti registrati](across-edit-posted-document.md)  

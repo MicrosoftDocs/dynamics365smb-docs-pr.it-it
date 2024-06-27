@@ -2,14 +2,15 @@
 title: Impostare le valute
 description: Devi impostare ogni valuta se acquisti o vendi in valute diverse dalla valuta locale (VL) o si registrano transazioni C/G in valute diverse.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
 ms.search.form: '5, 118'
-ms.date: 03/15/2022
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-currencies"></a>Impostare le valute
+# Impostare le valute
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -17,7 +18,7 @@ Puoi utilizzare un servizio esterno per ottenere i tassi di cambio valuta più a
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="currencies"></a><a name="curr"></a>Valute
+## <a name="curr"></a>Valute
 
 La tabella seguente descrive i campi dell'elenco **Valute**.
 
@@ -29,15 +30,15 @@ La tabella seguente descrive i campi dell'elenco **Valute**.
 |**Codice numerico ISO**|Il riferimento internazionale numerico della valuta definita in ISO 4217.|
 |**Data tasso di cambio**|L'ultima data del tasso di cambio effettivo.|
 |**Valuta UE**|Specifica se la valuta è una valuta UE, ad esempio EUR.|
-|**Conto utili realizzati**|Il conto in cui verrà registrato il guadagno effettivo quando si ricevono i pagamenti per i crediti o si registra il tasso di cambio effettivo sui pagamenti ai debiti. Per un esempio di transazione in valuta clienti, vedere l'esempio sotto questa tabella. |
-|**Conto perdite realizzate**|Il conto in cui verrà registrata la perdita effettiva quando si ricevono i pagamenti per i crediti o si registra il tasso di cambio effettivo sui pagamenti ai debiti. Per un esempio di transazione in valuta clienti, vedere l'esempio sotto questa tabella. |
-|**Conto utili non realizzati**|Il conto in cui verrà registrato il guadagno teorico quando si esegue un aggiustamento valutario.|
-|**Conto perdite non realizzate**|Il conto in cui verrà registrata la perdita teorica quando si esegue un aggiustamento valutario.|
-|**Precisione arroto. importo**|Alcune valute hanno altri formati per gli importi delle fatture rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modifica la precisione arrot. importo per una valuta, tutti gli importi fattura in quella valuta verranno arrotondati con la precisione aggiornata.|
-|**Posizioni decimali importo**|Alcune valute hanno altri formati per gli importi delle fatture rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modificano le posizioni decimali importo per una valuta, tutti gli importi fattura nella valuta verranno arrotondati con i decimali aggiornati|
+|**Conto utili realizzati**|Il conto in cui viene registrato il guadagno effettivo quando si ricevono i pagamenti per i crediti o si registra il tasso di cambio effettivo sui pagamenti ai debiti. Per un esempio di transazione in valuta clienti, vedere l'esempio sotto questa tabella. |
+|**Conto perdite realizzate**|Il conto in cui viene registrata la perdita effettiva quando si ricevono i pagamenti per i crediti o si registra il tasso di cambio effettivo sui pagamenti ai debiti. Per un esempio di transazione in valuta clienti, vedere l'esempio sotto questa tabella. |
+|**Conto utili non realizzati**|Il conto in cui viene registrato il guadagno teorico quando si esegue un aggiustamento valutario.|
+|**Conto perdite non realizzate**|Il conto in cui viene registrata la perdita teorica quando si esegue un aggiustamento valutario.|
+|**Precisione arrotondamento importo**|Alcune valute hanno altri formati per gli importi delle fatture rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modifica la precisione arrot. importo per una valuta, tutti gli importi fattura in quella valuta vengono arrotondati con la precisione aggiornata.|
+|**Posizioni decimali importo**|Alcune valute hanno altri formati per gli importi delle fatture rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modificano le posizioni decimali importo per una valuta, tutti gli importi fattura nella valuta vengono arrotondati con i decimali aggiornati|
 |**Tipo di arrotondamento fattura**|Specifica il metodo da utilizzare se gli importi devono essere arrotondati. Le opzioni sono **Più vicino**, **Su**, e **Giù**.|
-|**Precisione arrot. importo unitario**|Alcune valute hanno altri formati per gli importi delle unità rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modifica la precisione arrot. importo per un'unità, tutti gli importi unitari nella valuta verranno arrotondati con la precisione aggiornata.|
-|**Posizione decimale importo unitario**|Alcune valute hanno altri formati per gli importi delle unità rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modificano le posizioni decimali importo per un'unità, tutti gli importi unitari nella valuta verranno arrotondati con i decimali aggiornati.|
+|**Precisione arrot. importo unitario**|Alcune valute hanno altri formati per gli importi delle unità rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modifica la precisione arrot. importo per un'unità, tutti gli importi unitari nella valuta vengono arrotondati con la precisione aggiornata.|
+|**Posizione decimale importo unitario**|Alcune valute hanno altri formati per gli importi delle unità rispetto a quelli definiti nella pagina **Impostazione della contabilità generale**. Se si modificano le posizioni decimali importo per un'unità, tutti gli importi unitari nella valuta vengono arrotondati con i decimali aggiornati.|
 |**Precisione arrot. importo**|Specifica le dimensioni dell'intervallo consentito come differenza di arrotondamento quando si collegano tra loro movimenti in valute diverse.|
 |**Conversione Arrotondamento Conv. LCY. Conto di debito**|Specifica le informazioni sulla conversione che devono contenere anche un conto a debito se si desidera inserire delle righe di correzione per le differenze di arrotondamento nelle registrazioni COGE utilizzando la funzione **Inserisci righe arrot. conv.VL**.|
 |**Conversione Arrotondamento Conv. LCY. Conto di credito**|Specifica le informazioni sulla conversione che devono contenere anche un conto a credito se si desidera inserire delle righe di correzione per le differenze di arrotondamento nelle registrazioni COGE utilizzando la funzione **Inserisci righe arrot. conv.VL**.|
@@ -53,26 +54,26 @@ La tabella seguente descrive i campi dell'elenco **Valute**.
 |**Max. differenza IVA permessa**|L'importo massimo consentito per le differenze IVA in questa valuta. Per ulteriori informazioni, vedi [Correzione manuale degli importi IVA nei documenti di vendita e di acquisto](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
 |**Tipo arrotondamento IVA**|Specifica il metodo di arrotondamento per la correzione manuale degli importi IVA nei documenti di vendita e di acquisto. Questo campo potrebbe non essere visibile per impostazione predefinita. Può essere recuperato personalizzando la pagina.|
 
-### <a name="available-currency-functions"></a>Funzioni valuta disponibili
+### Funzioni valuta disponibili
 
 La tabella seguente illustra le azioni chiave sulla pagina **Valute**.  
 
 |Menu|Azione|Descrizione|
 |-------------|--------------|------------------------------|
-|**Processo**|**Suggerisci conti**|Usa conti di altre valute. Verranno inseriti gli account utilizzati più di frequente.|
+|**Processo**|**Suggerisci conti**|Usa conti di altre valute. Vengono inseriti gli account utilizzati più di frequente.|
 ||**Modifica tolleranza pagamento**|Modificare la tolleranza di pagamento massima e/o la percentuale di tolleranza di pagamento e applicare un filtro in base alla valuta. Per ulteriori informazioni, vedere [Tolleranza pagamento e Tolleranza sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ||**Tassi di cambio**|Visualizzare i tassi di cambio aggiornati per le valute utilizzate.|
-||**Rettifica tassi di cambio**|Rettificare i movimenti nei conti C/G, cliente, fornitore e bancari, al fine di presentare un saldo aggiornato nel caso in cui il tasso di cambio sia stato modificato dopo la data di registrazione.|
+||**Rettifica tassi di cambio**|Aggiorna i saldi dei movimenti di contabilità generale, clienti, fornitori e conti correnti bancari. L'aggiornamento è utile se il tasso di cambio è cambiato dopo la registrazione dei movimenti.|
 ||**Registro rettifica tassi di cambio**|Visualizza i risultati dell'esecuzione del processo batch **Regola i tassi di cambio**. Per ogni combinazione di categoria di registrazione e valuta inclusa nella rettifica viene creata una riga.|
 |**Servizio tasso di cambio**|**Servizi tasso di cambio**|Visualizza o modifica il setup dei servizi impostati per recuperare i tassi di cambio valuta aggiornati quando si sceglie l'azione **Aggiorna tassi di cambio**.|
 ||**Aggiorna tassi di cambio**|Ottenere i tassi di cambio valuta più recenti da un provider di servizi.|
 |**Report**|**Saldo valuta estera**|Visualizza i saldi di tutti i clienti e i fornitori, sia in valuta estera che in valuta locale (VL). Il report fornisce due tipi di saldo in valuta locale. Uno è il saldo in valuta estera convertito in valuta locale utilizzando il tasso di cambio al momento della transazione. L'altro è il saldo in valuta estera convertito in valuta locale utilizzando il tasso di cambio della data di lavoro.|
 
-## <a name="lcy-and-other-currencies"></a>VL e altre valute
+## VL e altre valute
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="rounding-currencies"></a>Arrotondamento delle valute
+## Arrotondamento delle valute
 
 Per gestire le valute che non utilizzano decimali e per evitare decimali non necessari in valuta estera, è possibile utilizzare due diverse funzionalità di arrotondamento:
 
@@ -82,37 +83,37 @@ Per gestire le valute che non utilizzano decimali e per evitare decimali non nec
 
 Queste funzionalità possono essere utilizzate separatamente o insieme. Possono inoltre essere utilizzate insieme all'arrotondamento fattura.
 
-Contrariamente alle funzionalità di arrotondamento fattura, le funzionalità di arrotondamento importo e arrotondamento importo unitario hanno impatto unicamente sugli importi in valuta estera-non sugli importi corrispondenti in valuta locale. Queste due funzionalità non generano alcuna registrazione nella contabilità generale. Di conseguenza, non è necessario specificare alcun conto di contabilità generale nelle categorie di registrazione o altrove.
+Contrariamente alle funzionalità di arrotondamento fattura, le funzionalità di arrotondamento importo e arrotondamento importo unitario hanno impatto unicamente sugli importi in valuta estera-non sugli importi corrispondenti in valuta locale. Queste due funzionalità non generano alcuna registrazione nei conti CoGe. Di conseguenza, non è necessario specificare alcun conto CoGe nelle categorie di registrazione o altrove.
 
-### <a name="unit-amount-rounding"></a>Arrotondamento importo unitario
+### Arrotondamento importo unitario
 
 La funzionalità di arrotondamento importo unitario controlla il modo in cui i prezzi di vendita per gli articoli e le risorse in valuta estera vengono arrotondati nelle righe di acquisto e vendita. È necessario specificare separatamente le regole per ogni valuta nel campo **Precisione arrot. importo unit** nell'elenco **Valute**.
 
 La funzionalità di arrotondamento importo unitario viene utilizzata automaticamente ogni volta che viene immesso un numero di articolo o risorsa in una riga di vendita. Se la fattura viene emessa per un cliente con un codice valuta, il prezzo dell'articolo o della risorsa viene convertito nella valuta del cliente. Il prezzo viene arrotondato in base alla precisione di arrotondamento importo unitario per la valuta.
 
-### <a name="amount-rounding"></a>Arrotondamento importo
+### Arrotondamento importo
 
 La funzionalità di arrotondamento importo controlla il modo in cui gli importi in valuta estera vengono arrotondati nelle righe registrazioni COGE, nelle righe di vendita e di acquisto. È necessario specificare separatamente le regole per ogni valuta nel campo **Precisione arrot. importo** nell'elenco **Valute**.
 
 Gli importi in valuta estera vengono arrotondati quando si compilano e si registrano le righe registrazioni COGE, le righe di vendita e di acquisto.
 
-## <a name="exchange-rates"></a>Tassi di cambio
+## Tassi di cambio
 
 È possibile registrare i tassi di cambio per ogni valuta estera e specificare da quali date risultano validi i tassi di cambio. Ad esempio, è possibile immettere tassi di cambio giornalieri, mensili o trimestrali per ogni valuta estera.
 
 È possibile mantenere tassi di cambio storici nella pagina **Tassi di cambio valuta** a scopo di riferimento. Quando è necessario aggiornare i tassi di cambio, è possibile utilizzare il pulsante **Aggiorna tassi di cambio** per acquisire i tassi di cambio più aggiornati da un provider di servizi esterno.
 
-## <a name="general-ledger-accounts"></a>Conti di contabilità generale
+## Conti di contabilità generale
 
 Non è possibile collegare codici valuta a conti di contabilità generale perché gli importi in questi conti sono espressi in valuta locale. Se si è stipulato un mutuo bancario in USD e si effettuano depositi in un conto bancario in SEK, è possibile tenere traccia di questi conti impostando conti bancari in USD e SEK. Mediante le categorie di registrazione, è possibile collegare i conti ai conti di contabilità generale rilevanti. Nella contabilità generale il valore degli importo è espresso in valuta locale.
 
-È possibile immettere un codice valuta in una riga registrazioni COGE e registrare la riga in un conto di contabilità generale. Il tasso di cambio rilevante viene utilizzato per convertire l'importo in valuta locale prima che venga registrato nel conto di contabilità generale.  
+È possibile immettere un codice valuta in una riga registrazioni COGE e registrare la riga in un conto CoGe. Il tasso di cambio rilevante viene utilizzato per convertire l'importo in valuta locale prima che sia registrato nel conto CoGe.  
 
-## <a name="example-of-a-receivable-currency-transaction"></a>Esempio di una transazione in valuta esigibile
+## Esempio di una transazione in valuta esigibile
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Impostare una valuta contabile addizionale](finance-how-setup-additional-currencies.md)  

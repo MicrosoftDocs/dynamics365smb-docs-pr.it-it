@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -24,7 +24,7 @@ Se sviluppi estensioni [!INCLUDE [prod_short](../includes/prod_short.md)], devi 
 
 ## Processi e controlli contabili per agevolare la conformità
 
-Le società affrontano ogni anno sfide contabili sempre più complesse. A seconda del settore, dei mercati, della posizione geografica e delle esigenze di finanziamento, un'organizzazione può essere soggetta a principi GAAP locali e a uno o più dei seguenti testi:
+Le società affrontano ogni anno sfide contabili sempre più complesse. A seconda del settore, dei mercati, della posizione geografica e delle esigenze di finanziamento, un'organizzazione potrebbe essere soggetta a principi GAAP locali<!--note from editor: I assume that "local" means that you're not talking about the standard adopted by the SEC in the US. If this is true, you don't want to use the abbreviation because GAAP is an actual standard, which will need to be spelled out with title caps at first mention.--> e uno o più dei seguenti testi:
 
 - La Sarbanes-Oxley Act (SOX), una legge degli Stati Uniti emanata nel 2002 per proteggere gli investitori migliorando l'accuratezza e l'affidabilità delle informazioni aziendali.
 - La sezione IFRS dei principi contabili internazionali dell'Unione Europea (IAS/IFRS), introdotta nel 2005 allo scopo di applicare standard contabili internazionali per riconoscimento, controllo, consolidamento e reporting.
@@ -41,7 +41,7 @@ La conformità non dipende solo da informazioni accurate e processi contabili ap
 - Tenere traccia dei dati finanziari usando report finanziari personalizzati per flusso di cassa, ricavi, conti economici, cespiti, struttura del capitale, indicatori delle prestazioni chiave, ecc.
 - Salvaguardare l'accuratezza dei dati con una protezione basata sui ruoli e controlli dell'applicazione configurabili che impediscono l'immissione di dati non validi o duplicati.
 - Generare rapidamente e facilmente report finanziari conformemente agli standard normativi applicabili.
-- Gestire audit trail completi con funzionalità di drill-down e drill-around e log modifiche.
+- Gestire audit trail completi con funzionalità di drill-down e drill-through e log modifiche.
 
 ## Controllare processi, report e informazioni critiche
 
@@ -62,16 +62,16 @@ Le informazioni integrate, i processi allineati e gli strumenti di facile utiliz
 
 - Configurare i campi di dati per accettare soltanto informazioni nel formato appropriato, come il numero corretto di decimali o modelli alfanumerici.
 - Garantire la completezza delle informazioni con controlli dell'applicazione, ad esempio richiedere l'immissione di un numero di fattura fornitore prima di registrare un ordine di acquisto.
-- Riduci il rischio di informazioni inesatte o di alterazione delle stesse e agevola la protezione delle informazioni sensibili con l'accesso in base al ruolo.
-- Proibire l'accesso, fornire accesso di sola lettura o consentire agli utenti con accesso completo di aggiungere, modificare o eliminare informazioni.
-- Identifica e risolvi facilmente le discordanze con una funzione di riconciliazione che recupera informazioni su conti correnti bancari e transazioni e le compara alle registrazioni nella contabilità generale.
+- Ridurre il rischio di informazioni inesatte o di alterazione delle stesse e agevolare la protezione delle informazioni sensibili limitando l'accesso in base al ruolo.
+- Proibire l'accesso, fornire accesso di sola lettura o consentire agli utenti l'accesso completo per aggiungere, modificare o eliminare informazioni.
+- Identifica e risolvi facilmente le discordanze con una funzionalità di riconciliazione che recupera informazioni su conti correnti bancari e transazioni e le compara alle registrazioni nella contabilità generale.
 - Pianifica backup manuali o automatici per proteggere le informazioni da problemi informatici.
 
 ### Conformarsi rapidamente alle richieste di individuazione e di report
 
 - Risparmia tempo quando crei i report standard che utilizzano criteri e parametri aziendali comuni per soddisfare esigenze di report tipiche, da riepiloghi di ordini alla contabilità clienti con aging.
 - Eseguire verifiche complesse con funzionalità di analisi di base o avanzate.
-- Crea report personalizzati sia con gli strumenti integrati che con l'integrazione di Microsoft Power BI.
+- Crea report personalizzati con strumenti integrati e con l'integrazione di Microsoft Power BI.
 
 ### Garantire audit trail chiari
 
@@ -82,19 +82,19 @@ Le informazioni integrate, i processi allineati e gli strumenti di facile utiliz
 
 ## Conformità e funzionalità locale
 
-Microsoft crea versioni localizzate di Business Central per un numero limitato di mercati. Queste localizzazioni riguardano innanzi tutto le funzioni relative alle normative nelle aree fiscali e finanziarie ma possono anche interessare altre parti della soluzione. Se vuoi vedere cosa è integrato nelle versioni localizzate di Microsoft di Business Central, vedi **Funzionalità locale** nel menu su questo sito Web e scegli un paese/aree geografiche. Per ulteriori informazioni, vedi [Funzionalità locale](../about-localization.md).  
+Microsoft crea versioni localizzate di Business Central per un numero limitato di mercati. Queste localizzazioni riguardano innanzi tutto le funzioni relative alle normative nelle aree fiscali e finanziarie ma possono anche interessare altre parti della soluzione. Se vuoi vedere cosa è integrato nelle versioni localizzate di Microsoft di Business Central, vedi **Funzionalità locale** nel menu su questo sito Web e scegli un paese/aree geografiche. Per ulteriori informazioni, vedi [Funzionalità locale](../about-localization.md). 
 
-> [!NOTE]  
-> **Sarbanes-Oxley: convalida di dati e processi**  
-> La Sarbanes-Oxley Act stabilisce standard per i consigli di amministrazione di tutte le società pubbliche degli Stati Uniti e per tutte le aziende di gestione e contabili pubbliche, tra cui la valutazione e la divulgazione dell'adeguatezza dei controlli interni di una società sui report finanziari. La documentazione e la verifica di controlli manuali e automatizzati critici rappresenta un impegno enorme in termini di tempo e risorse per le società. Business Central è particolarmente adatto per le filiali delle grandi organizzazioni e può consentire alle PMI di conformarsi alla Sarbanes-Oxley Act.
+#### Sarbanes-Oxley: convalida di dati e processi
+ 
+La Sarbanes-Oxley Act stabilisce standard per i consigli di amministrazione di tutte le società pubbliche degli Stati Uniti e per tutte le aziende di gestione e contabili pubbliche, tra cui la valutazione e la divulgazione dell'adeguatezza dei controlli interni di una società sui report finanziari. La documentazione e la verifica di controlli manuali e automatizzati critici rappresenta un impegno enorme in termini di tempo e risorse per le società. Business Central è particolarmente adatto per le filiali delle grandi organizzazioni e può consentire alle PMI di conformarsi alla Sarbanes-Oxley Act.
 
-> [!NOTE]  
-> **IAS/IFRS: standard di riconoscimento e controllo**  
-> A seconda dei principi GAAP locali attualmente in uso, una delle principali modifiche negli standard di riconoscimento e controllo per IAS/IFRS è l'utilizzo esteso dei principi del valore di mercato anziché del costo storico. [!INCLUDE [prod_short](../includes/prod_short.md)] può consentire alle società di calcolare i concetti di valore di mercato e di valore attuale netto (VAN), che sono incentrati sui flussi di cassa correnti e previsti anziché sul prezzo di acquisto storico. Può inoltre fornire reporting di settore per business unit e ubicazione geografica.
+#### IAS/IFRS: standard di riconoscimento e controllo
+  
+A seconda dei principi GAAP locali attualmente in uso, una delle principali modifiche negli standard di riconoscimento e controllo per IAS/IFRS è l'utilizzo esteso dei principi del valore di mercato anziché del costo storico. [!INCLUDE [prod_short](../includes/prod_short.md)] può consentire alle società di calcolare i concetti di valore di mercato e di valore attuale netto (VAN), che sono incentrati sui flussi di cassa correnti e previsti anziché sul prezzo di acquisto storico. Può inoltre fornire reporting di settore per business unit e ubicazione geografica.
 
-> [!NOTE]  
-> **Basilea II: implicazioni per reporting e analisi**  
-> L'accordo Basilea II, stipulato dalla Banca dei Regolamenti Internazionali (BRI), garantisce protezione e sicurezza in tre aree chiave del sistema finanziario: requisiti patrimoniali minimi, controllo delle autorità di vigilanza e disciplina di mercato. Sebbene l'accordo venga applicato alle istituzioni finanziarie e non alle PMI, può comunque avere alcune implicazioni per tali organizzazioni a livello di reporting e analisi.
+#### Basilea II: implicazioni per reporting e analisi
+
+L'accordo Basilea II, stipulato dalla Banca dei Regolamenti Internazionali (BRI), garantisce protezione e sicurezza in tre aree chiave del sistema finanziario: requisiti patrimoniali minimi, controllo delle autorità di vigilanza e disciplina di mercato. Sebbene l'accordo venga applicato alle istituzioni finanziarie e non alle PMI, potrebbe comunque avere alcune implicazioni per tali organizzazioni a livello di reporting e analisi.
 
 ## Vedere anche
 
@@ -102,6 +102,6 @@ Microsoft crea versioni localizzate di Business Central per un numero limitato d
 [Conformità dell'assistenza](compliance-service-compliance.md)  
 [Certificazioni](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-banner](../includes/footer-banner.md)]

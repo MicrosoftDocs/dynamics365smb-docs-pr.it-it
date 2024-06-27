@@ -1,19 +1,19 @@
 ---
-title: Impostare le condizioni pagamento
-description: Usare i termini di pagamento per gestire delle date di scadenza e degli sconti pagamento.
+title: Impostare le condizioni di pagamento
+description: Usare le condizioni di pagamento per gestire delle date di scadenza e degli sconti pagamento.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: '4,'
-ms.date: 09/05/2023
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="set-up-payment-terms"></a>Impostare le condizioni pagamento
+# Impostare le condizioni di pagamento
 
-I termini di pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. È possibile impostare un numero indefinito di codici di condizioni pagamento e utilizzare le formule data per definire le condizioni pagamento. Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](includes/prod_short.md)], la società demo fornisce alcuni metodi di pagamento che le aziende utilizzano spesso. Puoi tuttavia aggiungere tutti quelli desiderati.  
+Le condizioni di pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. È possibile utilizzare formule di data per definire le condizioni di pagamento. Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](includes/prod_short.md)], la società demo fornisce alcuni metodi di pagamento che le aziende utilizzano spesso. Puoi tuttavia aggiungere tutti quelli desiderati.  
 
-Se assegni condizioni di pagamento a clienti e fornitori, le stesse condizioni siano sempre utilizzate per i documenti vendita e acquisto create per gli stessi. Per calcolare le date di scadenza dei pagamenti vengono utilizzate le date dei documenti di vendita e di acquisto, non le relative date di registrazione. Se necessario, puoi modificare le condizioni sul documento vendita o acquisto, ad esempio se desideri che un determinato cliente ti paghi entro 7 giorni anziché i 14 giorni predefiniti. La modifica dei termini sul documento non modifica la condizione di pagamento predefinito assegnato al cliente. Le stesse condizioni pagamento sono disponibili per documenti vendita e acquisto.
+Se assegni condizioni di pagamento a clienti e fornitori, le stesse condizioni siano sempre utilizzate per i documenti vendita e acquisto create per gli stessi. Per calcolare le date di scadenza dei pagamenti vengono utilizzate le date dei documenti di vendita e di acquisto, non le relative date di registrazione. Se necessario, è possibile modificare i termini nel documento di vendita o di acquisto. Ad esempio, se desideri che un determinato cliente ti paghi entro sette giorni anziché i 14 giorni predefiniti. La modifica dei termini sul documento non modifica la condizione di pagamento predefinito assegnato al cliente. Le stesse condizioni di pagamento sono disponibili per documenti vendita e acquisto.
 
 Quando registri una fattura, [!INCLUDE [prod_short](includes/prod_short.md)] calcola gli sconti pagamento in base alle condizioni di pagamento. La data di sconto sul pagamento è la data più recente in cui il cliente riceve uno sconto. La data viene calcolata anche quando si registra una fattura.  
 
@@ -21,19 +21,19 @@ Analogamente, quando registri una nota credito, [!INCLUDE [prod_short](includes/
 
 Se si desidera inviare ai clienti solleciti per pagamenti in ritardo, è necessario impostare i livelli e i termini di sollecito. Per ulteriori informazioni sui solleciti, vai a [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Impostare le condizioni pagamento
+## Impostare le condizioni di pagamento
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condizioni pagamento**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Dopo avere impostato le condizioni pagamento, è possibile assegnarle ai clienti e ai fornitori. Facoltativamente, assegna condizioni pagamento ai metodi di pagamento.  
+Dopo avere impostato le condizioni di pagamento, è possibile assegnarle ai clienti e ai fornitori. Facoltativamente, assegna condizioni di pagamento ai metodi di pagamento.  
 
 > [!TIP]
-> Nella versione base di [!INCLUDE [prod_short](includes/prod_short.md)], le condizioni pagamento con pagamenti parziali non sono supportate. È invece necessario utilizzare la funzionalità di pagamento anticipato. Per ulteriori informazioni sui pagamenti anticipati, vai a [Impostare i pagamenti anticipati](finance-set-up-prepayments.md).
+> Nella versione base di [!INCLUDE [prod_short](includes/prod_short.md)], le condizioni di pagamento con pagamenti parziali non sono supportate. È invece necessario utilizzare la funzionalità di pagamento anticipato. Per ulteriori informazioni sui pagamenti anticipati, vai a [Impostare i pagamenti anticipati](finance-set-up-prepayments.md).
 >
 > In alcuni paesi/aree geografiche, *puoi* impostare le condizioni di pagamento con pagamenti parziali. Per sapere se questa funzionalità è supportata nel tuo paese/area geografica, vai alla sezione **Funzionalità locale** nel sommario sul lato sinistro di un articolo [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche
 
 [Impostare i metodi di pagamento](finance-payment-methods.md)  
 [Impostare i pagamenti anticipati](finance-set-up-prepayments.md)  

@@ -1,60 +1,63 @@
 ---
-title: Creare schede articolo per beni o servizi (video)
-description: Crei schede articolo per i servizi che vendi a ore e per prodotti fisici. Gli esempi includono articoli di assemblaggio e prodotti finiti che vendi dal tuo inventario.
+title: Creare schede articolo per beni o servizi
+description: Crei schede articolo per i servizi che vendi a ore e per prodotti fisici. Gli esempi includono articoli di assemblaggio e prodotti finiti che vendi dal tuo magazzino.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrare nuovi articoli
 
-Gli articoli, tra gli altri prodotti, sono alla base dell'azienda, sono i beni o i servizi trattati. Ogni articolo deve essere registrato come scheda articolo.
+Gli articoli sono i beni o i servizi che acquisti, immagazzini, vendi e consegni. Usa la pagina **Scheda articolo** per registrare informazioni sui seguenti tipi di articoli:
 
-Le schede articolo contengono le informazioni richieste per l'acquisto, l'archiviazione, la consegna e la contabilità degli articoli.
+* **Magazzino** specifica che l'articolo è un'unità fisica gestita e monitorata nel magazzino.
+* **Non magazzino** sono unità fisiche che non gestisci o non monitori nel magazzino.
+* Gli articoli **In assistenza** sono un'unità di tempo di manodopera, generalmente utilizzata nella gestione dei servizi.
 
-La scheda articolo può essere di tipo **Inventario**, **Assistenza** o **Non in inventario** per specificare se la scheda articolo rappresenta un'unità fisica di inventario, un'unità di misura del tempo della manodopera o un'unità fisica non registrata in magazzino Per ulteriori informazioni, vedere [Informazioni sui tipi di articolo](inventory-about-item-types.md).
+Per ulteriori informazioni su questi tipi di articoli, vai a [Informazioni sui tipi di articoli](inventory-about-item-types.md).
 
-È possibile che un articolo sia strutturato come articolo padre con elementi figlio sottostanti in una distinta base (BOM). Ulteriori informazioni sulle distinte base di assemblaggio e di produzione in [Utilizzare le distinte base](inventory-how-work-BOMs.md).
+> [!TIP]
+> Esistono anche articoli di catalogo, che sono simili agli articoli non di magazzino in quanto sono articoli che offri ai clienti ma che non gestisci finché non li vendi. Per ulteriori informazioni, vedi [Usare gli articoli di catalogo](inventory-how-work-nonstock-items.md).  
 
-Se si acquista lo stesso articolo da più di un fornitore, è possibile collegare i fornitori alla scheda articolo. La pagina **Catalogo art. fornitori** visualizza i fornitori in modo da poter selezionare facilmente un fornitore alternativo.
+## Fornitori primari e alternativi
 
-Gli *Articoli di catalogo* sono articoli offerti ai clienti che non devono essere gestiti nel sistema fino a quando non si inizia a venderli. Gli articoli di catalogo non sono articoli normali di tipo **Non in inventario**. Per ulteriori informazioni, vedi [Utilizzare gli articoli di catalogo](inventory-how-work-nonstock-items.md).  
+Se acquisti lo stesso articolo da più di un fornitore, puoi collegare questi fornitori all'articolo. Usa l'azione **Fornitori** nella pagina **Scheda articolo** per aprire la pagina **Catalogo art. fornitori**. Nella pagina vengono visualizzati i fornitori da cui acquisti l'articolo, in modo da poter creare o selezionare facilmente un fornitore alternativo quando crei un ordine di acquisto.
 
-> [!NOTE]  
-> Se esistono i modelli articolo per diversi tipi di articolo, allora verrà visualizzata una pagina quando si crea una nuova scheda articolo da cui è possibile selezionare un modello appropriato. Se esiste solo un modello articolo, allora le nuove schede articolo utilizzeranno sempre tale modello.
+## Utilizzare modelli di articolo
 
-La seguente procedura illustra come creare manualmente una scheda articolo da zero. È anche possibile creare nuove schede articolo copiando quelle esistenti. Per ulteriori informazioni, vedere [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).  
+Per riutilizzare le impostazioni per diversi tipi di articoli quando crei nuovi articoli, puoi salvare gli articoli come modelli di articolo. I modelli di articolo aiutano ad accelerare il processo di aggiunta di nuovi articoli e ad aumentare la coerenza dei dati degli articoli. Quando registri un nuovo articolo, viene visualizzata una pagina che ti consente di scegliere un modello. Dopo aver scelto un modello, le relative impostazioni verranno compilate automaticamente per l'articolo che stai creando. Se disponi di un solo modello di articolo, i nuovi articoli utilizzano sempre tale modello. Per sapere come impostare un modello di articolo, vai a [Salvare una scheda articolo come modello di articolo](#save-an-item-card-as-an-item-template).
 
-<br />
+## Includere articoli nelle distinte materiali
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Puoi strutturare gerarchie composte da un articolo principale con articoli componente sottostanti nelle distinte base di assemblaggio e produzione. Per ulteriori informazioni sulle distinte base, vedi [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
 ## Per creare una nuova scheda articolo
+
+Il video seguente indica come impostare un articolo nella pagina Scheda articolo. Tuttavia, puoi anche impostare nuovi articoli copiando quelli esistenti. Per ulteriori informazioni, vedi [Copiare articoli esistenti per creare nuovi articoli](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> Nel campo **Metodo di costing** si imposta la modalità in cui viene calcolato il costo unitario dell'articolo tramite presupposizioni sul flusso degli articoli nell'azienda. Cinque metodi di costing sono disponibili, a seconda del tipo di articolo. Per ulteriori informazioni, vedere [Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md).
+> Nel campo **Metodo di costing** si imposta la modalità in cui viene calcolato il costo unitario dell'articolo tramite presupposizioni sul flusso degli articoli nell'azienda. Cinque metodi di costing sono disponibili, a seconda del tipo di articolo. Per saperne di più sui costi, vedi [Dettagli di progettazione: metodi di determinazione dei costi](design-details-costing-methods.md) .
 >
-> Se si seleziona **Media**, il costo unitario di un articolo viene calcolato come il costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, è possibile selezionare il campo **Costo unitario** nella pagina **Sintesi calc. costo medio** per visualizzare lo storico delle transazioni da cui viene calcolato il costo medio.
+> Se selezioni **Media**, il costo unitario di un articolo viene calcolato come costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, puoi scegliere il campo **Costo unitario** nella pagina **Sintesi calc. costo medio** per visualizzare le transazioni utilizzate per calcolare il costo medio.
 
-È possibile visualizzare o modificare gli sconti o i prezzi speciali che si concedono o concessi dai fornitori per l'articolo se vengono soddisfatti determinati criteri come un cliente, la quantità minima di ordine o la data di scadenza. È possibile farlo scegliendo le azioni **Imposta prezzi speciali** o **Imposta sconti speciali**. Ogni riga, ad esempio, nella pagina **Prezzi vendita** rappresenta un prezzo speciale. Ogni colonna rappresenta un criterio che deve essere applicato per garantire a un cliente il prezzo speciale immesso nel campo **Prezzo unitario** della pagina **Prezzi di vendita**. Per ulteriori informazioni, vedere [Registrare prezzi di vendita, sconti e accordi di pagamento](sales-how-record-sales-price-discount-payment-agreements.md) o [Registra i prezzi e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Puoi utilizzare prezzi speciali o sconti che tu o il tuo fornitore avete concesso per l'articolo in base a determinati criteri. Ad esempio, i criteri includono il cliente, la quantità minima dell'ordine o la data di fine. Puoi impostare prezzi speciali scegliendo le azioni **Imposta prezzi speciali** o **Imposta sconti speciali**. Ogni riga, ad esempio, nella pagina **Prezzi vendita** rappresenta un prezzo speciale. Ogni colonna rappresenta un criterio che deve essere applicato per garantire a un cliente il prezzo speciale immesso nel campo **Prezzo unitario** della pagina **Prezzi di vendita**. Per ulteriori informazioni sui prezzi, vedi [Registrare prezzi di vendita, sconti e accordi di pagamento](sales-how-record-sales-price-discount-payment-agreements.md) o [Registra i prezzi e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-L'articolo è ora registrato e la scheda articolo è pronta per essere utilizzata nei documenti di acquisto e vendita.
+### Salvare una scheda articolo come modello di articolo
 
-Se si desidera utilizzare questa scheda articolo come modello quando si creano nuove schede articolo, è possibile salvarla come modello. Per ulteriori informazioni, vedere la seguente sezione:  
+1. Nella pagina **Scheda articolo** scegliere l'azione **Salva come modello**. Nella pagina **Modello articolo** viene visualizzata la scheda articolo come modello.
+2. Compila i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Per salvare la scheda articolo come modello
-
-1. Nella pagina **Scheda articolo** scegliere l'azione **Salva come modello**. Nella pagina **Modello articolo** verrà visualizzata la scheda articolo come modello.
-2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Nella pagina **Modelli dimensioni** verranno visualizzati tutti i codici di dimensione impostati per l'articolo.
-4. Modifica o immetti i codici di dimensione da applicare alle nuove schede articolo create utilizzando la definizione.
-5. Una volta completato il nuovo modello articolo, scegli **OK**.
+> [!TIP]
+> Puoi anche riutilizzare le dimensioni per gli articoli. Per riutilizzare le dimensioni nei modelli, selezionare l'azione **Dimensioni**. Nella pagina **Modelli dimensioni** vengono visualizzate tutte le dimensioni impostate per l'articolo. Modifica o aggiungi dimensioni applicabili a nuovi elementi creati dal modello.
 
 Il modello articolo viene aggiunto all'elenco dei modelli articolo, in modo che sia possibile utilizzarlo per creare nuove schede articolo.
 
@@ -116,7 +119,7 @@ Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pian
 
 ## Vedere anche
 
-[Inventario](inventory-manage-inventory.md)  
+[Magazzino](inventory-manage-inventory.md)  
 [Impostare unità di misura](inventory-how-setup-units-of-measure.md)  
 [Gestire le varianti di prodotto](inventory-item-variants.md)  
 [Impostare il reporting Intrastat](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  

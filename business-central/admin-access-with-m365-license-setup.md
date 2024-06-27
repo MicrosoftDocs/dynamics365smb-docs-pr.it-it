@@ -3,7 +3,7 @@ title: Configura l'accesso con licenze Microsoft 365
 description: Una guida su come gli amministratori possono configurare l'accesso a Business Central con licenze Microsoft 365.
 author: mikebc
 ms.author: mikebc
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 09/28/2023
@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ms.search.form: '9061,'
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Configurazione degli accessi a Business Central in Teams con licenze Microsoft 365
+# Configurazione degli accessi a Business Central in Teams con licenze Microsoft 365
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Gli amministratori devono completare più attività prima che gli utenti possano accedere a [!INCLUDE [prod_short](includes/prod_short.md)] con la propria licenza Microsoft 365. I passaggi seguenti rappresentano la configurazione minima richiesta per iniziare. Per ulteriori informazioni sull'accesso con licenze Microsoft 365, vai ad [Accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license.md).
 
-## <a name="guidelines"></a>Linee guida
+## Linee guida
 
 La configurazione dell'accesso con licenze Microsoft 365 comporta le seguenti attività:
 
@@ -38,7 +38,7 @@ La configurazione dell'accesso con licenze Microsoft 365 comporta le seguenti at
 > 2. Nella pagina **Configurazione assistita**, vai alla sezione **Altre attività con Business Central** e seleziona **Accesso con licenze Microsoft 365**.
 > 3. Segui le istruzioni.  
 
-## <a name="configure-permissions"></a>Configura autorizzazioni
+## Configura autorizzazioni
 
 [!INCLUDE [prod_short](includes/prod_short.md)] è sicuro fin dalla progettazione e riduce al minimo i rischi non concedendo autorizzazioni agli utenti Microsoft 365 per impostazione predefinita. Gli amministratori devono configurare le autorizzazioni per gli oggetti che determinano a quali tabelle, pagine e report è possibile accedere in Teams solo con una licenza Microsoft 365. Queste autorizzazioni sono le autorizzazioni iniziali assegnate quando un utente accede per la prima volta con la propria licenza Microsoft 365. 
 
@@ -61,7 +61,7 @@ Quando si lavora con più ambienti, la configurazione delle licenze deve essere 
 
 Ulteriori informazioni in [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md) e [Composizione di set di autorizzazioni](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="enable-access-with-microsoft-365-licenses"></a>Abilitare l'accesso con le licenze Microsoft 365
+## Abilitare l'accesso con le licenze Microsoft 365
 
 L'accesso licenze Microsoft 365 è disabilitato per impostazione predefinita. L'accesso deve essere abilitato per ogni ambiente in modo indipendente, offrendo agli amministratori il controllo e consentendo un'implementazione graduale in tutta l'organizzazione. Puoi abilitare l'accesso utilizzando l'interfaccia di amministrazione di [!INCLUDE [prod_short](includes/prod_short.md)]: 
 
@@ -71,13 +71,13 @@ L'accesso licenze Microsoft 365 è disabilitato per impostazione predefinita. L'
 4. Nel riquadro **Licenze Microsoft 365**, abilita l'interruttore. 
 5. Seleziona **Salva** al termine e accetta la conferma. La modifica entra in vigore immediatamente.
 
-## <a name="choose-who-gets-access-by-using-security-group"></a>Scegli chi può accedere utilizzando il gruppo di sicurezza
+## Scegli chi può accedere utilizzando il gruppo di sicurezza
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Nell'interfaccia di amministrazione di Business Center, un ambiente può essere assegnato a uno o più gruppi di sicurezza per controllare l'accesso. Puoi assegnare un gruppo Microsoft Entra all'ambiente. Assegnando un gruppo Microsoft Entra a un ambiente, solo i membri diretti e indiretti del gruppo hanno accesso all'ambiente. I membri indiretti sono utenti in un altro gruppo, che a sua volta è un membro del gruppo assegnato all'ambiente. Sebbene tutti gli utenti con licenza in Microsoft Entra ID verranno aggiunti all'ambiente quando è sincronizzato con Microsoft 365, solo i membri del gruppo possono eseguire l'accesso. Per ulteriori informazioni, vai a [Gestire l'accesso utilizzando gruppi Microsoft Entra](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) nella guida per sviluppatori e professionisti IT.
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Distribuisci l'app Business Central per Teams
+## Distribuisci l'app Business Central per Teams
 
 Affinché i titolari di licenza [!INCLUDE [prod_short](includes/prod_short.md)] possano condividere i dati in Teams e affinché i titolari di licenza Microsoft 365 possano accedere a tali dati, ciascuno deve avere l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Teams installata. Sebbene gli utenti possano installare l'app da soli, si consiglia agli amministratori di usare la distribuzione centralizzata. La distribuzione centralizzata ti consente di distribuire l'app a un pubblico più ampio in tutta l'organizzazione e ridurre al minimo lo sforzo dei singoli utenti. 
 
@@ -89,7 +89,7 @@ Per informazioni su come distribuire centralmente l'app [!INCLUDE [prod_short](i
 > [!TIP]
 > Cerchi un modo più rapido per iniziare quando provi questa funzione? Gli utenti di prova possono installare l'app all'indirizzo [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="test-your-setup"></a>Esegui un test della tua configurazione
+## Esegui un test della tua configurazione
 
 Per verificare che la tua configurazione sia pronta per la produzione, i passaggi seguenti ti aiuteranno a creare la certezza che tutto funzioni come dovrebbe.
 
@@ -111,9 +111,9 @@ Per verificare che la tua configurazione sia pronta per la produzione, i passagg
    2. Nel messaggio inviato dall'utente di test A, seleziona il pulsante Dettagli sulla scheda. Se il client [!INCLUDE [prod_short](includes/prod_short.md)] viene visualizzato ed è di sola lettura, la configurazione è riuscita.
 
 > [!TIP]
-> Si è verificato un errore. Consulta [Risoluzione dei problemi di accesso con licenze Microsoft 365](admin-access-with-m365-license-troubleshooting.md).
+> Si è verificato un errore. Vedi [Risoluzione dei problemi di Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Panoramica dell'accesso a Business Central con licenze Microsoft 365](admin-access-with-m365-license.md#minimum-requirements)  
 [Risoluzione dei problemi di accesso con licenze Microsoft 365](admin-access-with-m365-license-troubleshooting.md)  

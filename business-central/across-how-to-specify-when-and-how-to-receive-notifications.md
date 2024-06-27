@@ -1,34 +1,35 @@
 ---
-title: Specificare come e quando ricevere le notifiche del flusso di lavoro
+title: Specificare come e quando ricevere le notifiche del workflow
 description: 'Quando imposti gli utenti nei flussi di lavoro di approvazione, puoi specificare come e quando ogni utente di approvazione riceve le notifiche.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '663, 1500, 1512, 1513,'
-ms.date: 09/09/2022
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Specificare come e quando ricevere le notifiche del flusso di lavoro
+# Specificare come e quando ricevere le notifiche del workflow
 
-Quando imposti gli utenti di approvazione nei flussi di lavoro in cui vuoi che qualcuno approvi le modifiche, ad esempio quando vengono creati nuovi record o quando qualcuno richiede un'approvazione, devi specificare come e quando l'utente di approvazione riceverà una notifica. Ad esempio, puoi specificare che un utente di approvazione riceverà immediatamente un messaggio e-mail quando qualcuno crea un nuovo cliente. In alternativa, puoi programmare le notifiche da consegnare insieme, insieme, ad esempio su base settimanale o mensile.
+Nei flussi di lavoro che richiedono che qualcuno approvi le modifiche, è necessario impostare gli utenti di approvazione che approvano o rifiutano le modifiche. Ad esempio, potresti volere che qualcuno approvi nuovi record. Una parte importante della configurazione dell'utente di approvazione consiste nello specificare come e quando l'utente viene informato della modifica. Ad esempio, puoi specificare che un utente di approvazione riceva immediatamente un messaggio e-mail quando qualcuno crea un nuovo cliente. Puoi anche programmare le notifiche da consegnare, ad esempio, su base settimanale o mensile.
 
 Le persone possono inoltre modificare la propria impostazione delle notifiche scegliendo **Modifica impostazioni di notifica** per qualsiasi notifica.  
 
 > [!NOTE]
-> Le notifiche vengono inviate in base alle impostazioni di notifica per il destinatario, non per il mittente. Questa è una distinzione importante poiché significa che quando qualcuno richiede un'approvazione nel contesto di un flusso di lavoro, la sua richiesta non viene necessariamente inviata immediatamente. Verrà invece consegnato in base alla pianificazione delle notifiche specificata nelle impostazioni di notifica del responsabile dell'approvazione.
+> Le notifiche vengono inviate in base alle impostazioni di notifica per il destinatario, non per il mittente. Questa è una distinzione importante poiché significa che quando qualcuno richiede un'approvazione nel contesto di un flusso di lavoro, la sua richiesta non viene necessariamente inviata immediatamente. Viene invece consegnato in base alla pianificazione delle notifiche specificata nelle impostazioni di notifica del responsabile dell'approvazione.
 
 Prima di impostare le preferenze di notifica di un utente di approvazione, è necessario impostarlo come utente di approvazione. Ulteriori informazioni in [Impostare utenti per l'approvazione](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]
-> Se si desidera utilizzare la posta elettronica come metodo di notifica, è necessario impostarla sia per il mittente che per il destinatario in [!INCLUDE [prod_short](includes/prod_short.md)]. Ulteriori informazioni sulla [Configurazione e-mail](admin-how-setup-email.md).
+> Per utilizzare la posta elettronica come metodo di notifica, devi impostarla sia per il mittente che per il destinatario in [!INCLUDE [prod_short](includes/prod_short.md)]. Ulteriori informazioni sulla [Configurazione e-mail](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows"></a>Passaggi nei flussi di lavoro
+## Passaggi nei flussi di lavoro
 
-Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti, di un evento che si è verificato e la relativa necessità di intervento. Ad esempio, in una fase del workflow, l'evento potrebbe essere che l'Utente 1 richiede l'approvazione di un nuovo record. La risposta correlata prevede l'invio di una notifica all'Utente 2, cioè il responsabile dell'approvazione. Nella fase successiva del workflow, l'evento potrebbe essere che l'Utente 2 approva il record. La risposta correlata prevede l'invio di una notifica all'Utente 3 per iniziare un processo con il record approvato. Per le fasi del workflow che includono l'approvazione, ogni notifica è collegata a un movimento di approvazione. Ulteriori informazioni in [Workflow](across-workflow.md).  
+Molte fasi del workflow di approvazione riguardano la notifica agli utenti di un evento per il quale devono intraprendere un'azione. Ad esempio, in una fase del workflow, l'evento potrebbe essere che l'Utente 1 richiede l'approvazione di un nuovo record. La risposta correlata prevede l'invio di una notifica all'Utente 2, cioè il responsabile dell'approvazione. Nella fase successiva del workflow, l'evento potrebbe essere che l'Utente 2 approva il record. La risposta correlata prevede l'invio di una notifica all'Utente 3 per iniziare un processo con il record approvato. Per le fasi del workflow che includono l'approvazione, ogni notifica è collegata a un movimento di approvazione. Ulteriori informazioni in [Workflow](across-workflow.md).  
 
-## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Specificare come e quando gli utenti per l'approvazione ricevono le notifiche
+## Specificare come e quando gli utenti per l'approvazione ricevono le notifiche  
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup utente approvazione**, quindi scegli il collegamento correlato.  
 2. Selezionare la riga per l'utente per il quale si desidera impostare le preferenze di notifica, quindi scegliere l'azione **Setup notifiche**.  
@@ -44,7 +45,7 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
 
    È possibile definire il layout delle notifiche e-mail personalizzando Report 1320, E-mail di notifica. Ulteriori informazioni in [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
-   A questo punto hai specificato il modo in cui l'utente riceve le notifiche. Continuare specificando quando l'utente le deve ricevere.  
+   Hai specificato il modo in cui l'utente riceve le notifiche. Ora specifica quando l'utente le deve ricevere.  
 4. Scegliere l'azione **Programmazione notifica**.  
 5. Compilare i campi nella pagina **Programmazione notifica** come descritto nella tabella riportata di seguito.  
 
@@ -57,15 +58,15 @@ Molte fasi del workflow di approvazione riguardano la comunicazione, agli utenti
    |**Data del mese**|Specificare se l'utente riceve le notifiche il primo giorno o l'ultimo giorno del mese o in una data specifica del mese.|
    |**Data notifica mensile**|Specificare la data del mese in cui l'utente riceve le notifiche quando il valore nel campo **Data del mese** è **Personalizzato**.|
 
-## <a name="change-when-and-how-you-receive-notifications"></a>Modificare come e quando si ricevono le notifiche
+## Modificare come e quando si ricevono le notifiche
 
-1. In una delle notifiche ricevute, come e-mail o nota, fai clic sul pulsante **Modifica impostazioni di notifica**.  
+1. In una delle notifiche ricevute, come e-mail o nota, scegli **Modifica impostazioni di notifica**.  
 2. Nella pagina **Setup notifiche workflow** modifica le preferenze relative alla notifica come descritto nei passaggi da 3 a 5 sopra descritti.
    1. Conferma che la notifica corretta è stata scelta nel campo **Tipo di notifica**.
    2. Scegli se ricevere un'e-mail o una notifica di nota nel campo **Metodo di notifica**.
    3. Seleziona **Programmazione notifica** per modificare la frequenza e la ricorrenza di invio delle notifiche.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostare gli utenti per l'approvazione](across-how-to-set-up-approval-users.md)  
 [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md)  

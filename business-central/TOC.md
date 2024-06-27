@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Gesti tocco e della penna](touch-gestures.md)
 ### [Risoluzione dei problemi: accesso alla fotocamera e alla posizione](ui-troubleshooting-camera-location.md)
 ### [Informazioni intelligenti (solo online)](about-intelligent-cloud.md)
-## Domande frequenti
+## Risoluzione dei problemi e domande frequenti
 ### [Domande frequenti](across-faq.yml)
 ### [Domande frequenti sulle chat con Copilot (anteprima)](chat-with-copilot-faq.md)
 ### [Domande frequenti relative alla finestra delle informazioni](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Domande frequenti su Teams](teams-faq.md)
 ### [Domande frequenti sulle fatture elettroniche](faq-electronic-invoicing.yml)
 ### [Requisiti minimi](product-requirements.md)
+### [Risoluzione dei problemi in Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Guida e supporto
 ### [Risorse per guida e supporto](product-help-and-support.md)
@@ -459,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Setup sostenibilità](finance-sustainability-setup.md)
 #### [Grafico dei conti di sostenibilità e contabilità](finance-sustainability-accounts-ledger.md)
 #### [Come registrare le emissioni di gas a effetto serra (GHG)](finance-sustainability-journal.md)
+#### Analisi della sostenibilità
+##### [Analisi ad hoc dei dati relativi alla sostenibilità](ad-hoc-analysis-sustainability.md)
+##### [Report per la sostenibilità predefiniti](sustainability-reports.md)
+#### API per la sostenibilità
+##### [API per la sostenibilità](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Organizzazioni multisito e internazionali](finance-multi-site-organizations.md)
 #### Consolidare dati finanziari di più società
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Panoramica dell'analisi dei cespiti](fa-analytics-overview.md)
 #### [Analisi ad hoc dei dati dei cespiti](ad-hoc-analysis-fa.md)
 #### Strumenti integrati di analisi dei cespiti
-##### [Monitorare i costi di manutenzione](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Monitorare i costi di manutenzione](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Monitorare la copertura assicurativa](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Visualizzare i valori del registro beni ammortizzabili modificati](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Visualizzare i movimenti contabili di cessione](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Report finanziari chiave](finance-reports.md)
 #### [Report contabilità clienti](receivables-reports.md)
 #### [Report contabilità fornitori](payables-reports.md)
+#### [Report per la sostenibilità](sustainability-reports.md)
 
 ### [Report vendite](sales-reports.md)
 ### [Report di acquisto](purchase-reports.md)

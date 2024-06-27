@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Con Copilot, ricevi rapidamente un suggerimento di testo che viene generato auto
 
 Copilot è progettato per farti risparmiare tempo e aiutarti a scrivere testi creativi e accattivanti che riflettano il tuo marchio e siano coerenti in tutta la tua linea di prodotti. Inizia generando un suggerimento, quindi modifica il testo suggerito secondo le tue necessità.
 
+### Lingue disponibili
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Prerequisiti
 
-- La funzionalità dei suggerimenti di testo di marketing è attivata nel tuo ambiente. Questa attività viene in genere eseguita da un amministratore. Per ulteriori informazioni, vai a [Configurare le funzionalità di Copilot e IA](enable-ai.md).
-- Stai utilizzando una delle lingue attualmente supportate dai suggerimenti di testo di marketing.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Per cambiare la lingua, nell'angolo in alto a destra seleziona l'icona **Impostazioni** ![Impostazioni.](media/ui-experience/settings_icon_small.png "Icona Impostazioni per Gestione ruolo utente") > **Impostazioni personali** > **Lingua**. Per ulteriori informazioni, vai a [Modificare le impostazioni di base](ui-change-basic-settings.md#language).
-- Consulta [Domande frequenti su suggerimenti di testo di marketing](faqs-marketing-text.md) per scoprire come viene applicata l'intelligenza artificiale.
+La funzionalità dei suggerimenti di testo di marketing è attivata nel tuo ambiente. Questa attività viene in genere eseguita da un amministratore. Per ulteriori informazioni, vai a [Configurare le funzionalità di Copilot e IA](enable-ai.md).
 
 ### Creare la prima bozza con Copilot
 

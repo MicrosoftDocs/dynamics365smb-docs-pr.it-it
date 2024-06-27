@@ -2,24 +2,25 @@
 title: Panoramica del flusso di cassa
 description: Una panoramica dei flussi di cassa in entrata e in uscita per aiutare a prevedere il denaro da ricevere e pagare.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
 ms.search.form: '841, 849, 1818'
-ms.date: 12/20/2021
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="cash-flow-overview"></a>Panoramica del flusso di cassa
+# Panoramica del flusso di cassa
 
 La familiarità con le entrate e le uscite di cassa è l'aspetto chiave di un'attività di successo. Il flusso di cassa consente di creare facilmente una previsione a breve termine per stimare modalità e tempi di ricezione e pagamento di somme da parte della propria azienda. È importante sapere che si potrà disporre di contante sufficiente per pagare creditori e spese alla scadenza.
 
-## <a name="definition-of-cash-flow"></a>Definizione del flusso di cassa
+## Definizione del flusso di cassa
 
 Il termine *flusso di cassa* viene utilizzato per definire gli incassi meno i pagamenti in contanti in un periodo selezionato. Si tratta di una stima della somma di denaro che si prevede in entrata e in uscita per la propria azienda e in cui sono incluse tutte le entrate e le spese previste.
 
-## <a name="work-with-cash-flow"></a>Utilizzare il flusso di cassa
+## Utilizzare il flusso di cassa
 
 Nell'illustrazione seguente viene mostrata una panoramica della modalità di utilizzo del flusso di cassa.
 
@@ -36,9 +37,9 @@ Nell'illustrazione seguente viene mostrata una panoramica della modalità di uti
   - Cespiti: informazioni sulla cessione pianificata e sugli acquisti previsti dei cespiti.  
   - Spese generiche e ricavi generici: gestione delle spese generiche e dei ricavi generici e relativa inclusione nella previsione del flusso di cassa.  
 - Utilizzare un processo batch per trasferire le informazioni dalle aree di contabilità generale, acquisti, vendite, assistenza e cespiti al foglio di lavoro. Registrare le righe del foglio di lavoro per creare una previsione flusso di cassa.  
-- Vengono utilizzati diversi grafici, report e finestre per analizzare e stampare una previsione del flusso di cassa relativa a sintesi di disponibilità e di sequenza temporale.  
+- Vengono utilizzati diversi report, pagine e grafici per analizzare e stampare una previsione del flusso di cassa relativa a sintesi di disponibilità e di sequenza temporale.  
 
-## <a name="making-a-cash-flow-forecast"></a>Esecuzione delle previsioni flusso di cassa
+## Effettuare una previsione del flusso di cassa
 
 In base alle righe del prospetto registrate, è possibile creare periodicamente una previsione del flusso di cassa. Di seguito viene riportato un layout utilizzato di frequente per le previsioni dei flussi di cassa. Il layout presenta tre sezioni:
 
@@ -64,9 +65,9 @@ Il flusso di cassa netto, o contante, viene calcolato come ricavi totali meno le
 
 *flusso di cassa netto* = *incassi totali* – *uscite di cassa totali* + *fondi liquidi*
 
-La previsione può essere utilizzata come strumento decisionale per la gestione interna che consente di pianificare in anticipo e prendere decisioni strategiche importanti circa le attività dell'azienda.
+Puoi usare la previsione come strumento decisionale per la gestione interna che consente di pianificare in anticipo e prendere decisioni strategiche importanti circa le attività dell'azienda.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione di un'analisi di un flusso di cassa](finance-setup-cash-flow-analyses.md)  
 [Analizzare il flusso di cassa](finance-analyze-cash-flow.md)  

@@ -12,19 +12,19 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Domande frequenti sui suggerimenti per le righe di vendita con Copilot (anteprima)
+# Domande frequenti sui suggerimenti per le righe di vendita con Copilot (anteprima)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Queste domande frequenti descrivono l'impatto sull''intelligenza artificiale della funzionalità dei suggerimenti per le righe di vendita in [!INCLUDE [prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-sales-line-suggestions-with-copilot"></a>Che cos'è la funzionalità dei suggerimenti per le righe di vendita con Copilot?
+## Che cos'è la funzionalità dei suggerimenti per le righe di vendita con Copilot?
 
 I suggerimenti per righe di vendita con Copilot possono aiutare a creare righe in documenti di vendita come offerte di vendita, ordini e fatture basate su input strutturati o linguaggio naturale. La funzionalità non è una chat generica, ma un'esperienza altamente specifica e integrata che puoi utilizzare nei documenti di vendita. La funzionalità offre due capacità distinte che ti aiutano a trovare dati su singoli prodotti o interi documenti.
 
-## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>Quali sono le funzionalità dei suggerimenti per le righe di vendita con Copilot?
+## Quali sono le funzionalità dei suggerimenti per le righe di vendita con Copilot?
 
 * Trovare prodotti
 
@@ -34,7 +34,7 @@ I suggerimenti per righe di vendita con Copilot possono aiutare a creare righe i
 
   Gli utenti spesso ripetono un ordine precedente o almeno lo usano come punto di partenza. Ma potrebbe essere complicato trovare l'ordine appropriato in una pila di ordini. Potresti ricordare parte dell'ID dell'ordine, che può essere un numero assegnato dalla società o un numero di riferimento ricevuto da un cliente. La possibilità di utilizzare prompt come *Ho bisogno dell'ultima fattura di aprile* dovrebbe aiutarti a trovare un ordine più velocemente.
 
-## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>Qual è l'uso previsto dei suggerimenti per le righe di vendita con Copilot?
+## Qual è l'uso previsto dei suggerimenti per le righe di vendita con Copilot?
 
 * Trovare prodotti
 
@@ -59,13 +59,13 @@ I suggerimenti per righe di vendita con Copilot possono aiutare a creare righe i
   * *Ottieni prodotti dall'ordine 103031*
   * *Ho bisogno dei prodotti dell'ultima fattura di agosto*
 
-## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Come sono stati valutati i suggerimenti per le righe di vendita con Copilot? Quali metriche vengono utilizzate per misurare le prestazioni?
+## Come sono stati valutati i suggerimenti per le righe di vendita con Copilot? Quali metriche vengono utilizzate per misurare le prestazioni?
 
 La funzionalità è stata sottoposta a test approfonditi con numerosi prompt in inglese americano che rappresentano sia l'uso tipico che l'uso da parte di soggetti malintenzionati. I test erano basati sui dati dimostrativi di [!INCLUDE [prod_short](includes/prod_short.md)] e su un ampio catalogo di prodotti etichettati disponibile come open source.
 
 Questa funzionalità è stata creata in conformità con lo standard di intelligenza artificiale responsabile di Microsoft. [Scopri di più sull'intelligenza artificiale responsabile di Microsoft](https://aka.ms/RAI).
 
-## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>Quali sono le limitazioni suggerimenti per le righe di vendita con Copilot? In che modo gli utenti possono ridurre al minimo l'impatto delle limitazioni relative ai suggerimenti per le righe di vendita con Copilot durante l'utilizzo del sistema?
+## Quali sono le limitazioni suggerimenti per le righe di vendita con Copilot? In che modo gli utenti possono ridurre al minimo l'impatto delle limitazioni relative ai suggerimenti per le righe di vendita con Copilot durante l'utilizzo del sistema?
 
 * Trovare prodotti
   
@@ -113,33 +113,39 @@ Per i prodotti, la tabella seguente elenca le tabelle e i campi che Copilot cerc
 
   Copilot non restituisce tutte le righe di tipo Articolo. Vengono trasferiti solo i numeri degli articoli, i codici variante e le quantità. Le quantità del documento di origine vengono convertite nell'**Unità di misura vendita**.
 
-## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>In quali aree geografiche e lingue sono disponibili i suggerimenti per le righe di vendita?
+## In quali aree geografiche e lingue sono disponibili i suggerimenti per le righe di vendita?
 
-Ad eccezione del Canada, questa funzionalità è disponibile per la localizzazione di tutti i paesi/aree geografiche dell'ambiente e in tutte le lingue supportate. A causa del supporto linguistico limitato, la funzionalità non sarà inizialmente disponibile per i clienti canadesi a causa della conformità linguistica normativa. Affinché questa funzionalità sia disponibile per gli ambienti dei clienti situati in paesi/aree geografiche in cui il servizio OpenAI di Azure non è distribuito, gli amministratori devono prima consentire lo spostamento dei dati oltre i confini per permettere la connessione di [!INCLUDE [prod_short](includes/prod_short.md)] al servizio OpenAI di Azure.  
+- Aree disponibili
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Quali fattori operativi e impostazioni consentono un uso efficace e responsabile della funzionalità?
+   Questa funzionalità di Copilot è disponibile in tutte le [aree geografiche/paesi di Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations) supportati. Tuttavia per gli ambienti dei clienti situati in paesi/aree geografiche in cui il servizio OpenAI di Azure non è distribuito, gli amministratori devono prima consentire lo spostamento dei dati oltre i confini per permettere la connessione di [!INCLUDE [prod_short](includes/prod_short.md)] al servizio OpenAI di Azure. Ulteriori informazioni sullo [spostamento di dati di Copilot tra aree geografiche](ai-copilot-data-movement.md).
+
+- Lingue disponibili
+
+   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+
+## Quali fattori operativi e impostazioni consentono un uso efficace e responsabile della funzionalità?
 
 È possibile che a volte i suggerimenti basati sull'intelligenza artificiale siano errati o incompleti. Devi sempre verificare l'accuratezza dei suggerimenti di Copilot prima di scegliere se mantenerli. I suggerimenti di Copilot non vengono salvati nel database di [!INCLUDE [prod_short](includes/prod_short.md)] fino a che non scegli il pulsante **Mantieni** ed esci dalla finestra Copilot. Puoi modificare e correggere eventuali suggerimenti prima di scegliere di mantenerli o dopo averli inseriti in un documento di vendita.
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>Cosa ci si aspetta dagli amministratori e dagli utenti finali quando si utilizzano i suggerimenti per le righe di vendita?
+### Cosa ci si aspetta dagli amministratori e dagli utenti finali quando si utilizzano i suggerimenti per le righe di vendita?
 
 Ogni singolo utente sceglie se utilizzare o meno **Suggerimenti per le righe di vendita**. Anche quando la funzionalità è abilitata dagli amministratori e disponibile, puoi scegliere di utilizzarla sempre, a volte o mai.  
 
-Gli amministratori decidono se utilizzare le funzionalità di Copilot in [!INCLUDE [prod_short](includes/prod_short.md)]. Se gli amministratori abilitano Copilot, devono assicurarsi di concedere l'accesso agli utenti appropriati.   
+Gli amministratori decidono se utilizzare le funzionalità di Copilot in [!INCLUDE [prod_short](includes/prod_short.md)]. Se gli amministratori abilitano Copilot, devono assicurarsi di concedere l'accesso agli utenti appropriati.
 
-> [NOTE!]
+> [!NOTE]
 > - Non supportiamo questa funzionalità in [!INCLUDE [prod_short](includes/prod_short.md)] locale o in un cloud privato.
 > - I partner non possono estendere questa funzionalità. Ciò significa che gli sviluppatori partner non possono modificarla, sostituirla o estenderla.
 
-## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Copilot è l'unico mezzo per creare righe di vendita?
+## Copilot è l'unico mezzo per creare righe di vendita?  
 
 No. L'uso di Copilot è facoltativo. [!INCLUDE [prod_short](includes/prod_short.md)] offre modalità non basate sull'intelligenza artificiale per inserire righe di vendita o copiare documenti. Le organizzazioni possono utilizzare entrambi gli approcci contemporaneamente.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Come posso fornire feedback sui contenuti generati dall'intelligenza artificiale?
+## Come posso fornire feedback sui contenuti generati dall'intelligenza artificiale?  
 
 Ogni volta che Copilot fornisce suggerimenti, puoi fornire feedback a Microsoft direttamente dalla finestra di Copilot, utilizzando i pulsanti Mi piace e Non mi piace. Il tuo feedback rimane anonimo e usiamo questi dati per migliorare la qualità del servizio.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Suggerire righe in ordini vendita con Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Configurare le funzionalità di Copilot e IA](enable-ai.md)  

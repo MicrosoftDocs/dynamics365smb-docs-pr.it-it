@@ -4,9 +4,11 @@ description: 'Informazioni sulle funzionalità e sugli scenari di lavoro in Busi
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Benvenuto in [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -38,7 +40,7 @@ Le sezioni seguenti rimandano a articoli chiave contenenti informazioni che cons
 
 - [Prepararsi a fare affari](ui-get-ready-business.md)
 - [Impostazione di [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
-- [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Amministrazione](admin-setup-and-administration.md)
 - [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)
 - [Dettagli di progettazione dell'applicazione](design-details-application-design.md)
@@ -69,25 +71,41 @@ Le sezioni seguenti rimandano a articoli chiave contenenti informazioni che cons
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regole e indicazioni per il codice AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
+## Contenuto di Copilot e IA
+
+- [Panoramica](copilot-overview.md)
+- Funzionalità
+  - [Analizzare i dati negli elenchi con Copilot](analysis-assist.md)
+  - [Riconciliare i conti correnti bancari con Copilot](bank-reconciliation-with-copilot.md)
+  - [Chat con Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Panoramica dei suggerimenti di testo di marketing](ai-overview.md)
+  - [Suggerire righe in ordini vendita con Copilot](sales-suggest-sales-lines-with-copilot.md)
+  - [Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot](map-edocuments-with-copilot.md)
+- Amministrazione
+  - [Configurare le funzionalità di Copilot e IA](enable-ai.md)
+  - [Domande frequenti sull'intelligenza artificiale responsabile](responsible-ai-overview.md)
+- Sviluppo
+  - [Estensione di Copilot in Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
+
 ## Training di Microsoft Learn
 
 I contenuti di e-learning gratuiti per [!INCLUDE[prod_short](includes/prod_short.md)] sono disponibili in [Training di Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
-Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostra libreria video. Per ulteriori informazioni, vedere [Visitare la videoteca](across-videos.md).  
+Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostra libreria video. Per saperne di più, vedi [Visitare la videoteca](across-videos.md).  
 
 ## Risorse della community
 
 - [Forum della community di Microsoft Dynamics 365 Business Central](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
-- [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Business Central nel blog di Dynamics 365](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
 - [Piani di rilascio di Microsoft Dynamics 365](/dynamics365/release-plans/)  
-- [Roadmap di Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)  
-- [Microsoft Partner Network \(è richiesto un account Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Pianificazione rilasci di Microsoft Dynamics 365 Business Central](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
+- [Microsoft Partner Network \(è richiesto un account Microsoft Partner Network\)](https://mspartner.microsoft.com)  
 
 ## Ricevere una notifica sulle modifiche tramite un feed RSS
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## Vedi anche
+## Vedere anche
 
 [Training di Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Avvio rapido di Business Central](quick-start-business-central.md)  
@@ -104,8 +122,8 @@ Puoi anche visualizzare video di funzionalità nuove e di uso comune nella nostr
 [Novità e modifiche](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Aggiornamenti principali e aggiornamenti secondari di Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Documentazione di Dynamics 365](/dynamics365/)  
-[Dynamics 365 Business Central in microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Informazioni sulle funzionalità di Dynamics 365 Business Central](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central in microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[Informazioni sulle funzionalità di Dynamics 365 Business Central](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

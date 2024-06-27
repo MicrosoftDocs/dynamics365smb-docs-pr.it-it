@@ -5,37 +5,32 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
 # Analizzare i dati negli elenchi con Copilot (anteprima)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Questo articolo spiega come utilizzare l'*assistenza all'analisi* per analizzare i dati nelle pagine di elenco.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Informazioni sull'assistenza all'analisi
 
 L'assistenza all'analisi è un copilota per la [modalità di analisi](analysis-mode.md) nelle pagine di elenco in Business Central. La modalità di analisi fornisce un modo interattivo e versatile per calcolare, riassumere ed esaminare i dati. Per analizzare i dati nella modalità di analisi, crei una scheda *analisi* in cui trasformi i dati per visualizzare le aggregazioni e i riepiloghi desiderati. Ad esempio, puoi organizzare i campi in righe e colonne, specificare filtri, ordinare colonne ed eseguire il pivot nei campi. Con l'assistenza all'analisi, invece di svolgere questa attività manualmente, ottieni più o meno lo stesso, o almeno inizialmente, utilizzando parole. Esprimendo la struttura desiderata in linguaggio naturale, ad esempio "ordina in base alla quantità dal più piccolo al più grande" o "mostra il costo medio per categoria", l'assistenza all'analisi utilizza l'intelligenza artificiale per generare un layout suggerito in una scheda di analisi.
 
+## Lingue disponibili
 
-<!-- 
+[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Prerequisiti
 
 - La funzionalità di assistenza all'analisi è attivata e ti vengono concesse le autorizzazioni per utilizzarla. Questa attività viene in genere eseguita da un amministratore. [Vedi qui per ulteriori informazioni sulla configurazione delle funzionalità di Copilot e IA](enable-ai.md).
-- La lingua di visualizzazione in Business Central è impostata su una delle seguenti impostazioni locali inglesi: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Scorpi di più sulla modifica della lingua](ui-change-basic-settings.md#language).
-- L'ambiente Business Central si trova in qualsiasi paese/area geografica ad eccezione del Canada (questa funzionalità non è ancora disponibile in Canada).
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
+<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
+<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Introduzione
 
@@ -48,7 +43,7 @@ L'assistenza all'analisi è un copilota per la [modalità di analisi](analysis-m
     - Nella barra delle azioni nella parte superiore della pagina, seleziona ![Mostra l'icona del copilota](media/copilot-icon.png) **Copilot** > **Analizza lista**.
     - Nella barra delle azioni nella parte superiore della pagina, seleziona ![Mostra l'icona di accesso alla modalità di analisi](media/analysis-mode-icon.png) **Entra in modalità analisi**, quindi seleziona ![Mostra l'icona del copilota](media/copilot-icon.png) **Copilot** > **Crea nuova analisi**.
 
-1. Nella finestra **Analisi** con Copilot, immetti una descrizione del layout che desideri. Questa descrizione è nota come *prompt*.
+1. Nella finestra **Analizza articoli** con Copilot, immetti una descrizione del layout che desideri. Questa descrizione è nota come *prompt*.
 
     ![Mostra l'assistenza all'analisi Copilot](media/analysis-assist.png)
 
@@ -61,7 +56,7 @@ L'assistenza all'analisi è un copilota per la [modalità di analisi](analysis-m
    > [!NOTE]
    > Se esci dalla nuova scheda di analisi (ad esempio passi a un'altra scheda o pagina di analisi) o se apporti modifiche al layout nella scheda (ad esempio l'ordinamento delle colonne o la modifica delle impostazioni nelle schede **Colonne** e **Filtri analisi**), la nuova scheda di analisi viene salvata automaticamente e Copilot si chiude.
 
-1. Se desideri modificare l'analisi generata, puoi eseguire uno dei passaggi:
+1. Se desideri modificare l'analisi generata, puoi eseguire uno di questi passaggi:
 
    - Per basarti sulle istruzioni precedenti, inserisci le informazioni nella casella **Aggiungi ulteriori dettagli sull'analisi**, quindi seleziona la freccia ![Mostra la freccia di regolazione](media/analysis-assist-adjust-button.png) **Regola**. Copilot ricorda le istruzioni precedenti e le utilizza per effettuare modifiche.
 
@@ -87,7 +82,7 @@ I seguenti esempi di prompt utilizzano l'assistenza all'analisi nell'elenco **Ar
 
 Prompt: `Show items by brand and unit of measure`
 
-Questo prompt tenta di mostrare i totali per tutti i campi sommabili, raggruppati per marca e campo **Unità di misura base**. Ma in questo caso, "marca" non corrisponde ad alcun nome di campo, quindi Copilot probabilmente non riesce a trovare un campo corrispondente e chiede di riformulare il prompt e riprovare.
+Questo prompt tenta di mostrare i totali per tutti i campi sommabili, raggruppati per marca e campo **Unità di misura base**. Ma in questo caso, "marca" non corrisponde ad alcun nome di campo, quindi Copilot probabilmente non riesce a trovare un campo corrispondente. Quindi chiede di riformulare il prompt e riprovare.
 
 Prompt: `Show items by type and uom`
 
