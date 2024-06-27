@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Gestione della contabilità clienti
+# <a name="managing-receivables"></a>Gestione della contabilità clienti
 
 Un passaggio regolare in qualsiasi scenario finanziario è riconciliare i conti bancari. Per chiudere le fatture di vendita e le note di credito di acquisto come pagate, colleghi pagamenti in entrata ai movimenti contabili clienti o fornitori.
 
@@ -41,7 +41,7 @@ Nella tabella seguente viene descritta una sequenza di attività, con collegamen
 |Impostare una tolleranza da cui il sistema chiude una fattura anche se il pagamento, incluso un eventuale sconto, non copre interamente l'importo della fattura.|[Usare le tolleranze pagamento e le tolleranze sconto pagamento](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Prevedere quando i pagamenti verranno ritardati per i documenti di vendita. | [Estensione Previsione pagamento ritardato](ui-extensions-late-payment-prediction.md) |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Gestione della contabilità fornitori](payables-manage-payables.md)  

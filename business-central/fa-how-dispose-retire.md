@@ -11,7 +11,7 @@ ms.search.form: '5628, 5610, 5611, 5629, 5633'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Smaltire o ritirare cespiti
+# <a name="dispose-of-or-retire-fixed-assets"></a>Smaltire o ritirare cespiti
 
 In caso di vendita o cessione di un cespite, devi registrare il valore di cessione per calcolare e registrare il guadagno o la perdita. L'ultimo movimento registrato per un cespite deve essere un movimento di cessione. In caso di cessione parziale di un cespite è possibile registrare più di un movimento di cessione. Il totale di tutti gli importi di cessione registrati deve essere un importo in Avere.  
 
@@ -20,7 +20,7 @@ In caso di vendita o cessione di un cespite, devi registrare il valore di cessio
 
 I seguenti passaggi presuppongono che le categorie di registrazione siano impostate nella pagina **Categorie registrazione cespiti**. Per ulteriori informazioni, vedere [Per impostare le categorie di registrazione dei cespiti](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 
-## Per registrare una cessione tramite Registrazioni Cespiti in C/G
+## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Per registrare una cessione tramite Registrazioni Cespiti in C/G
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni cespiti in C/G**, quindi scegli il collegamento correlato.  
 2. Creare una riga di registrazione iniziale e compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ I seguenti passaggi presuppongono che le categorie di registrazione siano impost
 
 In caso di vendita o di cessione parziale di un cespite occorre suddividere il cespite prima di registrare la transazione di cessione. Per ulteriori informazioni, vedere [Trasferimento, divisione o raggruppamento dei cespiti](fa-how-trans-split-combine.md).  
 
-## Per visualizzare i movimenti contabili di cessione
+## <a name="to-view-disposal-ledger-entries"></a>Per visualizzare i movimenti contabili di cessione
 
 In caso di vendita o di cessione di un cespite, il valore di cessione viene registrato nella contabilità generale dove è possibile visualizzare il risultato.  
 
@@ -45,7 +45,7 @@ In caso di vendita o di cessione di un cespite, il valore di cessione viene regi
 
 Viene visualizzata la pagina **Movimenti C/G** in cui è possibile visualizzare i movimenti che hanno comportato la registrazione di cessione.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Cespiti](fa-manage.md)  
 [Impostazione di cespiti](fa-setup.md)  

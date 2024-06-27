@@ -9,7 +9,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Creare i cicli
+# <a name="create-routings"></a>Creare i cicli
 
 Le aziende manifatturiere utilizzano i cicli per visualizzare e gestire il processo di produzione.
 
@@ -22,7 +22,7 @@ Prima di poter configurare un ciclo, è necessario aver eseguito i seguenti setu
 - Schede articolo create per articoli padre inclusi nella produzione. Per ulteriori informazioni, vedi [Registrare nuovi articoli](inventory-how-register-new-items.md).
 - Sono state impostate le risorse di produzione. Per ulteriori informazioni, vedi [Impostare aree di produzione e centri di lavoro](production-how-to-set-up-work-and-machine-centers.md).
 
-## Per creare un ciclo
+## <a name="to-create-a-routing"></a>Per creare un ciclo
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Cicli**, quindi scegli il collegamento correlato.  
 2. Scegli l'azione **Nuovo**.  
@@ -51,7 +51,7 @@ Prima di poter configurare un ciclo, è necessario aver eseguito i seguenti setu
 > [!NOTE]  
 > Ricorda di ricalcolare il costo standard dell'articolo nella scheda **Articolo**. Scegli l'azione **Produzione**, l'azione **Calc. Costo standard** e quindi l'azione **Tutti i livelli**.  
 
-## Per creare collegamenti tra ciclo e distinta base
+## <a name="to-create-routing-links"></a>Per creare collegamenti tra ciclo e distinta base
 
 Puoi creare collegamenti tra ciclo e distinta base per connettere componenti a operazioni specifiche per conservarne le relazioni anche in caso di modifica della distinta base di produzione o del ciclo. I collegamenti tra ciclo e distinta base facilitano inoltre la consuntivazione dei componenti in tempo reale, che avviene infatti all'avvio dell'operazione specifica collegata, anziché al rilascio dell'ordine di produzione completo. Per ulteriori informazioni vedi [Eseguire la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ Un altro vantaggio importante consiste nel fatto che le operazioni e i component
 
 I componenti selezionati sono ora collegati alle operazioni selezionate quando si crea o si aggiorna un ordine di produzione mediante la distinta base di produzione e il ciclo. Questo collegamento è visibile nella pagina **Componenti ordine produzione** sotto l'ordine di produzione. Puoi rimuovere e aggiungere i codici di collegamento tra ciclo e distinta base in qualsiasi momento.
 
-## Per assegnare personale, strumenti e controlli di qualità alle operazioni di ciclo
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Per assegnare personale, strumenti e controlli di qualità alle operazioni di ciclo
 
 Se occorre personale con speciali qualifiche, particolari conoscenze o una speciale autorizzazione per un'operazione, è possibile assegnarlo all'operazione. Inoltre, è possibile assegnare strumenti e requisiti di qualità all'operazione. Questa procedura descrive come assegnare personale. I passaggi sono simili per altri tipi di informazioni sull'operazione.
 
@@ -95,7 +95,7 @@ Se occorre personale con speciali qualifiche, particolari conoscenze o una speci
 4. Compilare i campi della pagina **Personale ciclo**.  
 5. Scegliere il pulsante **OK** per chiudere la pagina. I valori immessi vengono copiati e assegnati all'operazione.  
 
-## Per creare una nuova versione di un ciclo
+## <a name="to-create-a-new-version-of-a-routing"></a>Per creare una nuova versione di un ciclo
 
 La funzionalità di versione consente di gestire più versioni dei cicli. La struttura della versione del ciclo corrisponde a quella del ciclo ed è costituita da una testata e da righe. La differenza di base è definita dalla data iniziale.  
 
@@ -112,7 +112,7 @@ La funzionalità di versione consente di gestire più versioni dei cicli. La str
 
 7. Quando la versione del ciclo è stata configurata, scegli **Certificata** nel campo **Stato**.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creare le distinte base di produzione](production-how-to-create-production-boms.md)  
 [Impostazione della produzione](production-configure-production-processes.md)  

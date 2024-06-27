@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Messaggio di errore: "La data di invio non rientra nel tuo range di date di invio consentite..."
 
 Quando si usa il processo batch **Rettifica costo movimenti articoli** si potrebbe incorrere nel seguente messaggio di errore:
 
@@ -18,7 +18,7 @@ Quando si usa il processo batch **Rettifica costo movimenti articoli** si potreb
 
 Questo messaggio indica che non sei autorizzato a pubblicare movimenti per la data inserita. Puoi aggirare questo problema modificando la configurazione dell'utente.
 
-## Cambiare l'impostazione dell'utente  
+## <a name="change-the-user-setup"></a>Cambiare l'impostazione dell'utente
 
 |ID utente  |Consenti registrazione da  | Consenti registrazione in  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Questo messaggio indica che non sei autorizzato a pubblicare movimenti per la da
 
 In questo caso, puoi registrare nell'intervallo di date compreso tra l'11 settembre e il 30 settembre. Tuttavia, non è consentito registrare il movimento del valore di rettifica con data di registrazione il 10 settembre.  
 
-### Panoramica della configurazione della data di registrazione
+### <a name="overview-of-the-posting-date-setup"></a>Panoramica della configurazione della data di registrazione
 
-#### Periodi magazzino
+#### <a name="inventory-periods"></a>Periodi magazzino
 
 |Data di fine  |Nome  |Chiuso  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ In questo caso, puoi registrare nell'intervallo di date compreso tra l'11 settem
 |2020-11-30     |Novembre 2020   |         |
 |2020-12-31     |Dicembre 2020   |         |  
 
-#### Setup contabilità generale
+#### <a name="general-ledger-setup"></a>Setup contabilità generale
 
 |Campo|Valore|
 |---------|---------|
@@ -54,7 +54,7 @@ In questo caso, puoi registrare nell'intervallo di date compreso tra l'11 settem
 |Registra tempi:       |         |
 |Formato indirizzo locale:|   CAP      |  
 
-#### Impostazione dell'utente
+#### <a name="user-setup"></a>Impostazione dell'utente
 
 |ID utente  |Consenti registraz. da  | Consenti registrazione in  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ In questo caso, puoi registrare nell'intervallo di date compreso tra l'11 settem
 
 Assegnando un intervallo di date più ampio dove consenti la registrazione nelle pagine **Periodo magazzino** o **Setup contabilità generale**, puoi evitare il conflitto che causa il messaggio di errore. Ad esempio, l'intervallo più ampio ti consente di registrare il movimento del valore di rettifica con data di registrazione il 10 settembre.
   
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 
 [Dettagli di progettazione: data di registrazione del movimento di valorizzazione della rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)  

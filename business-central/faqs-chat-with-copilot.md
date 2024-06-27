@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: 'copilot, AI, chat'
 ---
-# Domande frequenti sull'intelligenza artificiale responsabile per Chat con Copilot (anteprima)
+# <a name="responsible-ai-faq-for-chat-with-copilot-preview"></a>Domande frequenti sull'intelligenza artificiale responsabile per Chat con Copilot (anteprima)
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 Queste domande frequenti descrivono l'impatto della funzionalità Chat con Copilot sull'intelligenza artificiale in [!INCLUDE[prod_short](includes/prod_short.md)]. Se sei interessato a domande generali sull'utilizzo della funzionalità, vedi [ Domande frequenti su Chat con Copilot](chat-with-copilot-faq.md).
 
-## Che cosè Chat con Copilot?
+## <a name="what-is-chat-with-copilot"></a>Che cosè Chat con Copilot?
 
 Microsoft Copilot è un assistente basato sull'intelligenza artificiale che ti aiuta a essere più creativo, produttivo ed efficiente. Puoi chattare con Copilot in Business Central per ottenere risposte e informazioni dettagliate su [!INCLUDE[prod_short](includes/prod_short.md)] e dati aziendali digitando ciò che vuoi sapere in linguaggio naturale.
 
@@ -24,11 +24,11 @@ Chat con Copilot, denominata anche chat, è una funzionalità interattiva che ri
 
 Puoi porre domande in linguaggio naturale, ad esempio "Come posso consegnare le merci ai miei clienti direttamente dai miei fornitori?" oppure "Abbiamo sedie da ufficio in stock per meno di 600 $?" In risposta, Copilot fornisce risposte in linguaggio naturale. A seconda delle domande, le risposte possono includere testo semplice, collegamenti a record o pagine in [!INCLUDE[prod_short](includes/prod_short.md)] e collegamenti ad articoli della guida di [!INCLUDE[prod_short](includes/prod_short.md)] in Microsoft Learn.
 
-## Quali sono le funzionalità di Chat con Copilot?
+## <a name="what-are-capabilities-of-chat-with-copilot"></a>Quali sono le funzionalità di Chat con Copilot?
 
 Puoi chattare con Copilot per ottenere risposte alle seguenti categorie di domande:
 
-### Spiegazione e guida
+### <a name="explain-and-guide"></a>Spiegazione e guida
 
 Puoi chiedere a Copilot di spiegare un concetto specifico correlato a [!INCLUDE[prod_short](includes/prod_short.md)], ad esempio cosa sono le dimensioni o fornire indicazioni su come completare un'attività, ad esempio come registrare un ordine cliente. Copilot esegue una ricerca nella documentazione ufficiale di [!INCLUDE[prod_short](includes/prod_short.md)] pubblicata da Microsoft e fornisce una risposta in base alla documentazione.
 
@@ -36,7 +36,7 @@ Puoi chiedere a Copilot di spiegare un concetto specifico correlato a [!INCLUDE[
 
 - Copilot non intraprende azioni, non crea nuovi dati né modifica alcuna configurazione. Riassume semplicemente tutti i paragrafi che trova in Microsoft Learn che corrispondono alla domanda o al prompt nella chat.
 
-### Ricerca di dati aziendali e pagine correlate
+### <a name="find-business-data-and-related-pages"></a>Ricerca di dati aziendali e pagine correlate
 
 Puoi chiedere a Copilot di trovare le pagine per nome oppure record in base ai relativi campi e vincoli. Se Copilot trova una corrispondenza, risponde con un collegamento al record o alla pagina pertinente, che puoi quindi selezionare.
 
@@ -46,17 +46,17 @@ Puoi chiedere a Copilot di trovare le pagine per nome oppure record in base ai r
 
 - Copilot non intraprende azioni, non crea nuovi dati né modifica alcuna configurazione. Riepiloga solo i record ricevuti dalla ricerca di dati nativa di [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-## Qual è l'uso previsto di Chat con Copilot?
+## <a name="what-is-the-intended-use-of-chat-with-copilot"></a>Qual è l'uso previsto di Chat con Copilot?
 
 Chat è progettato per l'uso aziendale e per rispondere a domande relative a [!INCLUDE[prod_short](includes/prod_short.md)] e ai dati aziendali in esso contenuti. La funzionalità ti aiuta a risolvere attività comuni come trovare documenti o ottenere indicazioni. Puoi esprimerti con parole tue, rendendo il tuo lavoro più semplice e più accessibile quando utilizzi [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Come è stata valutata la funzionalità Chat con Copilot? Quali metriche vengono utilizzate per misurare le prestazioni?
+## <a name="how-was-chat-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Come è stata valutata la funzionalità Chat con Copilot? Quali metriche vengono utilizzate per misurare le prestazioni?
 
 - La funzionalità è stata sottoposta a test approfonditi durante i quali a Copilot sono stati forniti numerosi testi in lingua inglese che coprivano un'ampia gamma di argomenti e stili di intenti di espressione. I risultati sono stati valutati rispetto a accuratezza, pertinenza e sicurezza.
   
 - La funzionalità è stata creata in conformità con lo standard di intelligenza artificiale responsabile di Microsoft. [Scopri di più sull'intelligenza artificiale responsabile di Microsoft](https://aka.ms/RAI).
 
-## In che modo Microsoft monitora la qualità del contenuto generato?
+## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>In che modo Microsoft monitora la qualità del contenuto generato?
 
 Microsoft dispone di vari sistemi per garantire che i contenuti generati da Copilot siano della massima qualità, per rilevare abusi e garantire la sicurezza dei nostri clienti e dei loro dati.
 
@@ -70,7 +70,7 @@ Puoi fornire feedback a ogni risposta di Copilot e segnalare contenuti imprecisi
   
 - Microsoft potrebbe disattivare le funzionalità basate su Copilot per clienti selezionati se viene rilevato un abuso della funzionalità.
 
-## Quali sono le limitazioni di Chat con Copilot? In che modo gli utenti possono ridurre al minimo l'impatto delle limitazioni di Chat con Copilot durante l'utilizzo del sistema?
+## <a name="what-are-the-limitations-of-chat-with-copilot-how-can-users-minimize-the-impact-of-the-chat-with-copilot-limitations-when-using-the-system"></a>Quali sono le limitazioni di Chat con Copilot? In che modo gli utenti possono ridurre al minimo l'impatto delle limitazioni di Chat con Copilot durante l'utilizzo del sistema?
 
 - Limitazioni generali dell'IA
 
@@ -92,17 +92,17 @@ Puoi fornire feedback a ogni risposta di Copilot e segnalare contenuti imprecisi
 
 <!--## What operational factors and settings allow for effective and responsible use of the feature?-->
 
-## Dati che vengono raccolti da Chat con Copilot e come vengono utilizzati
+## <a name="what-data-does-chat-with-copilot-collect-and-how-is-it-used"></a>Dati che vengono raccolti da Chat con Copilot e come vengono utilizzati
 
 Microsoft non utilizza i dati della tua società, incluso il testo che invii a Copilot, per addestrare i modelli di intelligenza artificiale fondamentali a vantaggio di altri. Gli amministratori aziendali hanno il pieno controllo sulla gestione di questi dati che fanno parte della loro sottoscrizione di Azure. Poiché gli amministratori o altre persone nella tua società potrebbero avere accesso a questi dati come stabilito dal tuo datore di lavoro, ti consigliamo di non inserire dati sensibili come password o altri segreti.
 
-## Cosa offre Chat with Copilot a livello di sicurezza
+## <a name="what-does-chat-with-copilot-offer-for-security"></a>Cosa offre Chat with Copilot a livello di sicurezza
 
 La chat è progettata per essere sicura e viene eseguita sotto l'identità dell'utente, ereditando tutte le autorizzazioni di sicurezza e altre restrizioni e non operando mai al di fuori della sicurezza della piattaforma di [!INCLUDE[prod_short](includes/prod_short.md)]. Ciò significa che Copilot può accedere solo ai dati a cui hai accesso.
 
 Per gli utenti con autorizzazione SUPER, la chat può individuare più facilmente i dati non protetti che in genere sono più difficili da ottenere per gli altri utenti. Le organizzazioni che non applicano il modello di sicurezza di [!INCLUDE[prod_short](includes/prod_short.md)] per limitare le tabelle e gli oggetti a cui ciascun utente o ruolo utente ha accesso, potrebbero correre un rischio elevato quando utilizzano la chat. Pertanto, consigliamo alla tua organizzazione di implementare il modello di sicurezza di [!INCLUDE[prod_short](includes/prod_short.md)] o di disattivare la chat.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 - [Chat con Copilot (anteprima)](chat-with-copilot.md)
 

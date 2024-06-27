@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Creare report Power BI per visualizzare dati [!INCLUDE [prod_long](includes/prod_long.md)]
+# <a name="building-power-bi-reports-to-display--data"></a>Creare report Power BI per visualizzare dati [!INCLUDE [prod_long](includes/prod_long.md)]
 
 È possibile rendere disponibili i dati di [!INCLUDE[prod_long](includes/prod_long.md)] come origine di dati in Power BI Desktop e sviluppare report efficaci sullo stato dell'attività.
 
 Questo articolo descrive come iniziare a utilizzare Power BI Desktop per creare report che visualizzano i dati di [!INCLUDE[prod_long](includes/prod_long.md)]. Dopo aver creato i report, è possibile pubblicarli nel servizio Power BI o condividerli con tutti gli utenti dell'organizzazione. Quando i report sono nel servizio Power BI, gli utenti configurati per il suo utilizzo possono visualizzare i report in [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## Preparazione
+## <a name="get-ready"></a>Preparazione
 
 - Iscriversi al servizio Power BI.
 
@@ -44,7 +44,7 @@ Questo articolo descrive come iniziare a utilizzare Power BI Desktop per creare 
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="getdata"></a>Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Aggiungi [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop
 
 La prima attività della creazione di report è aggiungere [!INCLUDE[prod_short](includes/prod_short.md)] come origine dati in Power BI Desktop. Una volta connesso, è possibile iniziare a creare il report.
 
@@ -99,39 +99,39 @@ Dopo che i dati sono stati caricati puoi vederli nel riquadro di spostamento des
 > [!TIP]
 > Per ulteriori informazioni sull'uso di Power BI Desktop, vedere [Introduzione a Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Creazione di report accessibili
+## <a name="creating-accessible-reports"></a>Creazione di report accessibili
 
 È importante rendere i tuoi report utilizzabili per il maggior numero di persone possibile. Prova a progettare report in modo che non richiedano adattamenti speciali per soddisfare esigenze specifiche di utenti diversi. Assicurati che il design consenta agli utenti di sfruttare le tecnologie per l'accessibilità standard, come le utilità per la lettura dello schermo. Power BI include varie funzioni di accessibilità, strumenti e linee guida per aiutarti a raggiungere questo obiettivo. Per maggiori informazioni, [Progettare report Power BI per l'accessibilità](/power-bi/create-reports/desktop-accessibility-creating-reports) nella documentazione di Power BI.
 
-## Creazione di report per visualizzare i dati associati a un elenco
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Creazione di report per visualizzare i dati associati a un elenco
 
 È possibile creare report che vengono visualizzati in un riquadro Dettaglio informazioni di una pagina elenco [!INCLUDE [prod_short](includes/prod_short.md)]. I report possono contenere dati sul record selezionato nell'elenco. La creazione di questi report è simile ad altri report, tranne che per alcune cose che è necessario eseguire per assicurarsi che i report vengano visualizzati come previsto. Per ulteriori informazioni, vedere [Creazione di report Power BI per la visualizzazione dei dati di elenco in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="theme"></a>Uso del tema del report [!INCLUDE [prod_short](includes/prod_short.md)] (opzionale)
+## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Uso del tema del report [!INCLUDE [prod_short](includes/prod_short.md)] (opzionale)
 
 Prima di creare il report, è consigliabile scaricare e importare il file del tema [!INCLUDE [prod_short](includes/prod_short.md)]. Il file del tema crea una tavolozza dei colori in modo da creare report con lo stesso stile cromatico delle app [!INCLUDE [prod_short](includes/prod_short.md)] senza dover definire i colori personalizzati per ogni elemento grafico.
 
 > [!NOTE]
 > Questa attività è facoltativa. È sempre possibile creare i report e quindi scaricare e applicare il modello di stile in un secondo momento.
 
-### Scaricare il tema
+### <a name="download-the-theme"></a>Scaricare il tema
 
 Il file del tema è disponibile come file json nella raccolta dei temi di Microsoft Power BI Community. Per scaricare il file del tema, procedere nel seguente modo:
 
 1. Andare alla [raccolta dei temi di Microsoft Power BI Community per Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Selezionare l'allegato **Microsoft Dynamics Business Central.json** del download.
 
-### Importare il tema in un report
+### <a name="import-the-theme-on-a-report"></a>Importare il tema in un report
 
 Dopo aver scaricato il tema del report [!INCLUDE [prod_short](includes/prod_short.md)] è possibile importarlo nei report. Per importare il tema, selezionare **Visualizza** > **Temi** > **Cerca temi**. Per ulteriori informazioni, vedere [Power BI Desktop - Importare temi di report personalizzati](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## Pubblicare i report
+## <a name="publish-reports"></a>Pubblicare i report
 
 Dopo aver creato o modificato un report puoi pubblicarlo nel servizio Power BI e condividerlo anche con altre persone nell'organizzazione. Dopo aver pubblicato un report, è disponibile in Power BI. Il report diventa anche disponibile per la selezione in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Per pubblicare un report, selezionare **Pubblica** nella scheda **Home** della barra multifunzione o dal menu **File**. Se è stato effettuato l'accesso al servizio Power BI il report viene pubblicato in questo servizio. In caso contrario, verrà richiesto di accedere. 
 
-## Distribuire o condividere un report
+## <a name="distribute-or-share-a-report"></a>Distribuire o condividere un report
 
 Ci sono un paio di modi per inviare report ai colleghi e ad altre persone:
 
@@ -146,7 +146,7 @@ Ci sono un paio di modi per inviare report ai colleghi e ad altre persone:
 
     Se si dispone di una licenza Power BI Pro, è possibile condividere il report con altre persone direttamente dal servizio Power BI. Per ulteriori informazioni, vedere [Power BI - Condividere una dashboard o un report](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## Come sviluppare report Power BI interaziendali o interambientali
+## <a name="how-to-develop-cross-company-or-cross-environment-power-bi-reports"></a>Come sviluppare report Power BI interaziendali o interambientali
 
 Gli endpoint API [!INCLUDE[prod_short](includes/prod_short.md)] hanno tutti il prefisso `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` seguito da `/companies({company_id})/accounts({id})` (qui usiamo l'API `accounts` come illustrazione). Puoi utilizzare questa struttura per creare query PowerQuery che caricano dati per più società o più ambienti se l'utente che sta leggendo i dati può accedervi.
 
@@ -155,9 +155,9 @@ Per impostare una query per caricare dati per più società, attieniti alla segu
 1. Prendi la query PowerQuery che carica i dati per una singola società. Convertila in una funzione Power Query personalizzata che accetta come parametri l'ID società (o forse il nome dell'ambiente). Per saperne di più, vai a [Utilizzo delle funzioni Power Query personalizzate](/power-query/custom-function).
 1. Ora utilizza la nuova funzione personalizzata in una query PowerQuery, in cui mappi la funzione su un elenco di società e quindi unisci i set di dati utilizzando la funzione [Table.Combine](/powerquery-m/table-combine) di Power Query.
 
-## Risolvere i problemi
+## <a name="fixing-problems"></a>Risolvere i problemi
 
-### "Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." errore durante la connessione alla pagina API personalizzata
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Impossibile inserire un record. L'intento di connessione corrente è di sola lettura." errore durante la connessione alla pagina API personalizzata
 
 > **APPLICABILE A:** Business Central Online
 
@@ -188,7 +188,7 @@ A partire da febbraio 2022, i nuovi report che utilizzano i dati di [!INCLUDE [p
 9. Seleziona **Fatto**.
 10. Seleziona **Chiudi e applica** dalla barra multifunzione per salvare le modifiche e chiudere l'editor di Power Query.
 
-## Vedi anche
+## <a name="see-also"></a>Vedi anche
 
 [Abilitare i dati aziendali per Power BI](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  

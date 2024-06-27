@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Impostare una valuta contabile addizionale
+# <a name="set-up-an-additional-reporting-currency"></a>Impostare una valuta contabile addizionale
 
 Con l'espandersi delle attività delle società in un numero sempre maggiore di paesi, diventa importante poter esaminare e riportare dati finanziari in più di una valuta.
 
@@ -25,7 +25,7 @@ La contabilità generale è impostata per utilizzare la valuta locale (VL) ma è
 >
 > Ad esempio, hai una grande quantità di crediti in sterline britanniche (GBP) e hai impostato la VA in GBP. In questo scenario, gli importi nei crediti che utilizzano GBP non vengono rettificati per gli utili/perdite di cambio nella VA, ma solo gli importi nei crediti che sono in altre valute. Ciò significa che se utilizzi VA per dichiarare i tuoi rendiconti finanziari, potrebbe risultare in saldi insoluti sottostimati o sopravvalutati dei crediti.
 
-## Visualizzazione di report e importi in VA
+## <a name="displaying-reports-and-amounts-in-acy"></a>Visualizzazione di report e importi in VA
 
 L'utilizzo di una VA può essere utile per il processo di creazione di report di una società nei seguenti casi:
 
@@ -34,11 +34,11 @@ L'utilizzo di una VA può essere utile per il processo di creazione di report di
 
 Vari report finanziari sono basati sui movimenti C/G. Per visualizzare i dati del report nella VA, seleziona la casella di controllo **Mostra importi in valuta contabile addizionale** nella Scheda dettaglio **Opzioni** per il relativo report C/G.
 
-## Rettifica dei tassi di cambio
+## <a name="adjusting-exchange-rates"></a>Rettifica dei tassi di cambio
 
 Poiché i tassi di cambio oscillano costantemente, gli equivalenti in VA nel sistema devono essere rettificati periodicamente. Se queste rettifiche non vengono apportate, gli importi che sono stati convertiti da valute estere (o addizionali) e registrati nella contabilità generale in valuta locale possono essere fuorvianti. Inoltre, i movimenti quotidiani registrati prima dell'immissione di un tasso di cambio quotidiano nell'applicazione devono essere aggiornati dopo l'immissione delle informazioni su tale tasso di cambio. Il processo batch **Rettifica tassi di cambio** viene utilizzato per rettificare i tassi di cambio dei movimenti cliente, fornitore e conti C/C bancari registrati. Consente inoltre di aggiornare gli importi in VA nei movimenti C/G. Per ulteriori informazioni, vedere [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md).
 
-## Impostazione di una VA
+## <a name="setting-up-an-acy"></a>Impostazione di una VA
 
 Per impostare una VA, esegui la procedura seguente:
 
@@ -47,7 +47,7 @@ Per impostare una VA, esegui la procedura seguente:
 - Specificare il metodo di rettifica del tasso di cambio per i movimenti IVA.  
 - Attiva la VA.  
 
-### Per specificare i conti C/G per la registrazione delle rettifiche tasso di cambio.  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Per specificare i conti C/G per la registrazione delle rettifiche tasso di cambio.
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Valute**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Valute** riempire i seguenti campi per la VA.  
@@ -64,7 +64,7 @@ Per impostare una VA, esegui la procedura seguente:
 
 Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il conto vengono rettificati in caso di fluttuazioni del tasso di cambio tra VL e VA.  
 
-### Per specificare il metodo della rettifica tasso di cambio per tutti i conti C/G
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Per specificare il metodo della rettifica tasso di cambio per tutti i conti C/G
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti**, selezionare il conto pertinente quindi scegliere l'azione **Modifica**.  
@@ -82,7 +82,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
 
 4.  Chiudere la pagina **Scheda conto C/G**.  
 
-### Per specificare il metodo di rettifica del tasso di cambio per i movimenti IVA
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Per specificare il metodo di rettifica del tasso di cambio per i movimenti IVA
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale** selezionare il metodo pertinente nel campo **Rettif. tasso di cambio IVA**.  
@@ -98,7 +98,7 @@ Per ogni conto C/G, è necessario specificare in che modo gli importi C/G per il
     |**Rettifica importo**|L'importo VL viene rettificato per tutti gli utili e le perdite di conversione. Tali utili o perdite verranno registrati nel conto C/G nel campo **Importo** e nel campo **Conto utili C/G realizzati** o **Conto perdite C/G realizzate** della pagina **Valute** dei conti specificati per gli utili o le perdite.|  
     |**Rettifica importo valuta addizionale**|La VA viene rettificata per tutti gli utili e le perdite di conversione. Tali utili o perdite verranno registrati nel conto C/G nel campo **Importo in valuta addiz.** e nel campo **Conto utili C/G realizzati** o **Conto perdite C/G realizzate** della pagina **Valute** dei conti specificati per gli utili o le perdite.|  
 
-### Per attivare la VA  
+### <a name="to-activate-the-acy"></a>Per attivare la VA
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Setup contabilità generale**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Setup contabilità generale** nel campo **Valuta contabile addizionale** scegliere la VA da utilizzare.  
@@ -125,7 +125,7 @@ Per tutti i movimenti futuri dello stesso tipo gli importi vengono inoltre regis
 > [!NOTE]  
 > Il campo **Valuta contabile addizionale** verrà attivata solo dopo aver fatto clic sul pulsante **OK** nel processo batch **Rett. valuta cont. addizionale**.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Aggiornare i tassi di cambio valuta](finance-how-update-currencies.md)  
 [Chiusura di anni e periodi](year-close-years-periods.md)  

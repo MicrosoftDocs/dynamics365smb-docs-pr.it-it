@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Impostare le procedure consigliate: metodi di riordino
+# <a name="setup-best-practices-reordering-policies"></a>Impostare le procedure consigliate: metodi di riordino
 
 Il campo **Metodo di riordino** delle schede articolo includono metodi di pianificazione che determinano la modalità di interazione dei singoli parametri di pianificazione.  
 
@@ -35,7 +35,7 @@ Nella seguente tabella vengono fornite le procedure consigliate per la selezione
 |**Qtà Riordino Fissa**|Utilizzare per gli articoli C.<br /><br /> Combinare con i parametri del punto di riordino.<br /><br /> Nella produzione utilizzare per i componenti di ultimo livello.<br /><br /> Non utilizzare se l'articolo è spesso prenotato.|Gli articoli C, ad esempio, tazze di tè, sono articoli di basso valore con velocità di ordine elevata e costante. Il migliore metodo di riordino per gli articoli C pertanto è un metodo che garantisce la disponibilità costante, rimanendo sempre al di sopra di un punto di riordino.<br /><br /> Se l'utente impegna una quantità per una domanda remota, la struttura di pianificazione viene disturbata. Anche se il livello di magazzino previsto è accettabile relativamente al punto di riordino, le quantità potrebbero non essere disponibili a causa dell'impegno.|  
 |**Qtà Massima **|Utilizzare per gli articoli C con costi di mantenimento o limitazioni di archiviazione elevati.<br /><br /> Combinare con uno più modificatori ordine (Quantità minima ordine/Quantità massima ordine o Molteplicità ordine).|Gli articoli C, ad esempio, tazze di tè, sono articoli di basso valore con velocità di ordine elevata e costante. Il migliore metodo di riordino per gli articoli C pertanto è un metodo che garantisce la disponibilità costante, rimanendo sempre al di sopra di un punto di riordino, ma al di sotto di una quantità di giacenza massima.<br /><br /> Per modificare l'ordine suggerito, si potrebbe diminuire la quantità dell'ordine alla quantità massima ordine specificata, aumentarla a una quantità minima ordine specificata o arrotondarla per eccesso per soddisfare una molteplicità ordine. **Nota:** Se utilizzato con un punto di riordino, il magazzino è tra il punto di riordino e la quantità massima.|  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
  [Impostare le procedure consigliate: pianificazione forniture](setup-best-practices-supply-planning.md)  
  [Dettagli di progettazione: gestione dei metodi di riordino](design-details-handling-reordering-policies.md)  

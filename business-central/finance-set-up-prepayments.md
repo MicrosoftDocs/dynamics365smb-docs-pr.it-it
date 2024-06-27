@@ -10,7 +10,7 @@ ms.search.form: '314, 459, 460, 664'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Impostare i pagamenti anticipati
+# <a name="set-up-prepayments"></a>Impostare i pagamenti anticipati
 
 Utilizzi i pagamenti anticipati quando:
 
@@ -35,7 +35,7 @@ L'importo pagato anticipatamente appartiene all'acquirente fino al ricevimento d
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## Per aggiungere conti pagamento anticipato al setup registrazioni COGE  
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Per aggiungere conti pagamento anticipato al setup registrazioni COGE
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup registrazioni COGE**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup registrazioni COGE** compilare i campi seguenti per le righe pertinenti:  
@@ -45,7 +45,7 @@ L'importo pagato anticipatamente appartiene all'acquirente fino al ricevimento d
 
 Se non si dispone già di conti CoGe per i pagamenti anticipati, è possibile aprire la pagina **Lista conti C/G** dal campo del conto pertinente.  
 
-## Per impostare la numerazione per i documenti pagamento anticipato  
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>Per impostare la numerazione per i documenti pagamento anticipato
 
 1. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Setup contabilità clienti**, quindi scegli il collegamento correlato.
 2. Nella pagina **Setup contabilità clienti**, nella Scheda dettaglio **Numerazioni** compilare i campi seguenti:  
@@ -62,7 +62,7 @@ Se non si dispone già di conti CoGe per i pagamenti anticipati, è possibile ap
 > [!NOTE]  
 > È possibile utilizzare la stessa numerazione per le fatture pagamento anticipato e per quelle normali oppure utilizzare numerazioni diverse. In quest'ultimo caso, le numerazioni non devono sovrapporsi perché non ci devono essere numeri presenti in entrambe.  
 
-## Per impostare le percentuali pagamento anticipato per articoli, clienti e fornitori
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Per impostare le percentuali pagamento anticipato per articoli, clienti e fornitori
 
 Per un articolo è possibile impostare una percentuale pagamento anticipato predefinito per tutti i clienti, per un cliente specifico o per un gruppo prezzi cliente. Se non desideri applicare la stessa percentuale di pagamento anticipato a tutti i clienti, devi specificare a quali clienti o a quali gruppi di prezzi di clienti si applica la percentuale di pagamento anticipato.
 
@@ -80,7 +80,7 @@ Per un cliente o un fornitore, è possibile impostare una percentuale pagamento 
 > [!TIP]
 > Si può anche accedere alla pagina **Percentuali pagamenti anticipati vendite** dalla scheda cliente o fornitore.
 
-### Per determinare l'ordine di priorità delle percentuali pagamento anticipato  
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Per determinare l'ordine di priorità delle percentuali pagamento anticipato
 
 Per un ordine si potrebbe avere una percentuale pagamento anticipato nella testata di vendita e una percentuale diversa per gli articoli nelle righe. Per determinare quale percentuale pagamento anticipato si applica a ogni riga di vendita, [!INCLUDE [prod_short](includes/prod_short.md)] cerca e applica la prima percentuale predefinita nel seguente ordine:  
 
@@ -91,7 +91,7 @@ Per un ordine si potrebbe avere una percentuale pagamento anticipato nella testa
 
 In altri termini, la percentuale pagamento anticipato nella scheda cliente si applica solo se per l'articolo non sono state impostate percentuali pagamento anticipato. Tuttavia, se si modifica il valore del campo **% pagamento anticipato** nella testata di vendita o di acquisto dopo aver creato le righe, viene aggiornata la percentuale pagamento anticipato di tutte le righe. L'aggiornamento rende possibile creare in modo semplice un ordine con una percentuale pagamento anticipato fissa, indipendentemente dalla percentuale impostata per gli articoli.
 
-## Per rilasciare automaticamente gli ordini di vendita quando vengono applicati i pagamenti anticipati
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Per rilasciare automaticamente gli ordini di vendita quando vengono applicati i pagamenti anticipati
 
 È possibile risparmiare tempo impostando un movimento coda processi che rilascerà automaticamente gli ordini di vendita che richiedono il pagamento anticipato dopo l'applicazione dei pagamenti. L'automazione del processo consente di risparmiare la fase di rilascio dell'ordine di vendita.
 
@@ -104,7 +104,7 @@ In altri termini, la percentuale pagamento anticipato nella scheda cliente si ap
 3. Scegli la ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Movimenti coda processi**, quindi scegli il collegamento correlato.
 4. Imposta il movimento coda processi **Aggiornamento pagamento anticipato vendita in sospeso**, ad esempio utilizzando le impostazioni nella scheda dettaglio **Ricorrenza** per pianificare la frequenza con cui vuoi che venga eseguito. Per ulteriori informazioni, vedi [Utilizzare le code processi per pianificare i task](admin-job-queues-schedule-tasks.md).
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 
 [Fatturazione dei pagamenti anticipati](finance-invoice-prepayments.md)  
 [Procedura dettagliata: impostazione e fatturazione dei pagamenti anticipati vendite](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

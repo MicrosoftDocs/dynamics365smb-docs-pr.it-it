@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Procedura dettagliata: gestione dei progetti
+# <a name="walkthrough-managing-projects"></a>Procedura dettagliata: gestione dei progetti
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -23,11 +23,11 @@ Questa procedura dettagliata copre la configurazione di un nuovo progetto e le a
 - Registrare fatture da progetti
 - Copiare progetti
 
-## Informazioni sulla procedura dettagliata
+## <a name="about-this-walkthrough"></a>Informazioni sulla procedura dettagliata
 
  In questa procedura dettagliata sono illustrati le seguenti attività:  
 
-### Impostazione di un progetto
+### <a name="setting-up-a-project"></a>Impostazione di un progetto
 
 Con l'impostazione della struttura del budget per i progetti, creare un progetto è semplice. Questa procedura dettagliata copre le procedure riportate di seguito:  
 
@@ -35,14 +35,14 @@ Con l'impostazione della struttura del budget per i progetti, creare un progetto
 - Creazione di prezzi specifici del progetto per articoli, risorse e conti di contabilità generale.  
 - Fatturare ai clienti per un progetto  
 
-### Gestione dei prezzi fissi
+### <a name="handling-fixed-prices"></a>Gestione dei prezzi fissi
 
  È possibile gestire i prezzi fissi e i prezzi per servizi o beni concordati in anticipo con i clienti. In questa procedura dettagliata, vengono fornite informazioni per:  
 
 - Determinare i valori di contratto e fattura.  
 - Includere lavoro extra non fatturato nella pianificazione.  
 
-### Copia di un progetto
+### <a name="copying-a-project"></a>Copia di un progetto
 
  Questa parte della procedura dettagliata si incentra sulla copia, parziale o totale, di un progetto al fine di ridurre l'immissione manuale di dati e garantire maggior accuratezza.
 
@@ -50,7 +50,7 @@ Con l'impostazione della struttura del budget per i progetti, creare un progetto
 - Copiare prezzi specifici di un progetto.  
 - Copiare righe di pianificazione.  
 
-### Pagamenti rateali
+### <a name="making-payment-by-installment"></a>Pagamenti rateali
 
  Nel caso di progetti di grande respiro, costosi e che si protraggono per lunghi periodi, il cliente spesso concorda con il fornitore un pagamento rateale. Questo scenario tratta dell'impostazione di questi pagamenti:  
 
@@ -58,31 +58,31 @@ Con l'impostazione della struttura del budget per i progetti, creare un progetto
 - Fatturare pagamenti ai clienti.  
 - Contabilizzare l'utilizzo nell'impostazione di un progetto per pagamenti rateali.  
 
-## Ruoli
+## <a name="roles"></a>Ruoli
 
  Questa procedura dettagliata include attività per i seguenti ruoli:  
 
 - Project manager  
 - Membro del team di progetto  
 
-## Prerequisiti
+## <a name="prerequisites"></a>Prerequisiti
 
  Prima di svolgere le attività di questa procedura dettagliata, è necessario:  
 
 - Installare il database dimostrativo CRONUS.
 - Creare dati di esempio seguendo la procedura descritta nella sezione seguente.  
 
-## Scenario
+## <a name="story"></a>Scenario
 
 Per questa procedura dettagliata viene utilizzata una società di progettazione e consulenza immaginaria denominata CRONUS che progetta e installa nuove infrastrutture. Ad esempio, sale conferenza e uffici arredati, accessori e unità di immagazzinaggio. La maggior parte del lavoro è svolta in base a progetti. Ezio Alboni è un project manager in CRONUS e utilizza il progetto per avere una panoramica di ciascuna attività in corso avviata e completata da CRONUS. Solitamente è la persona che definisce gli affari con i clienti e inserisce i dettagli di base del progetto, cioè righe di attività e di pianificazione e prezzi, in [!INCLUDE[prod_short](includes/prod_short.md)]. Alboni trova che creare, gestire e analizzare i dati sia semplice. Alboni inoltre apprezza il modo in cui [!INCLUDE[prod_short](includes/prod_short.md)] consente la copia di progetti e pagamenti rateali.
 
  Cinzia Di Marco fa parte del team alle dirette dipendenze di Alboni ed è responsabile del monitoraggio quotidiano del progetto. Cinzia registra il lavoro svolto dai tecnici in ogni attività nonché i materiali utilizzati e i costi incorsi.  
 
-## Preparazione dei dati di esempio
+## <a name="preparing-sample-data"></a>Preparazione dei dati di esempio
 
 Per preparare questa procedura dettagliata, è necessario aggiungere Cinzia come risorsa.  
 
-### Per preparare i dati di esempio  
+### <a name="to-prepare-the-sample-data"></a>Per preparare i dati di esempio
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Risorse**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** per creare una nuova scheda risorsa.  
@@ -105,7 +105,7 @@ Per preparare questa procedura dettagliata, è necessario aggiungere Cinzia come
 
 Nella procedura descritta di seguito si crea un batch registrazioni progetti affinché Cinzia possa registrare il relativo utilizzo.  
 
-### Per creare un batch registrazioni progetti  
+### <a name="to-create-a-project-journal-batch"></a>Per creare un batch registrazioni progetti
 
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Registrazione progetti** scegliere il campo **Nome batch**. Viene visualizzata la pagina **Batch registrazioni progetti**.  
@@ -117,11 +117,11 @@ Nella procedura descritta di seguito si crea un batch registrazioni progetti aff
 
 4. Scegliere il pulsante **OK** per salvare le modifiche.
 
-## Impostazione di un progetto
+## <a name="setting-up-a-project-1"></a>Impostazione di un progetto
 
 In questo scenario, CRONUS si è aggiudicata un appalto dal cliente Progressive Home Furnishings per la progettazione di una sala conferenze e di rappresentanza. Il cliente ha sede negli Stati Uniti e il progetto richiede software particolare. Il project manager raggiunge un accordo con il cliente e crea un progetto per il contratto.  
 
-### Per impostare un progetto  
+### <a name="to-set-up-a-project"></a>Per impostare un progetto
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Progetti**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** per creare una nuova scheda.  
@@ -141,7 +141,7 @@ In questo scenario, CRONUS si è aggiudicata un appalto dal cliente Progressive 
 
  È possibile personalizzare il prezzo per i clienti per progetto, in base ai contratti. Nella procedura successiva, il project manager specifica un costo per il tempo di Cinzia, imposta il prezzo per il software necessario e aggiunge i costi di viaggio che il cliente ha accettato di pagare.  
 
-### Per personalizzare il prezzo  
+### <a name="to-customize-pricing"></a>Per personalizzare il prezzo
 
 1. Nella **Scheda progetto**, scegliere l'azione **Risorsa**.  
 2. Nella pagina **Prezzi risorse progetto**, immettere le seguenti informazioni:  
@@ -167,7 +167,7 @@ In questo scenario, CRONUS si è aggiudicata un appalto dal cliente Progressive 
 
  I passaggi finali dell'impostazione del progetto sono l'aggiunta delle attività di progetto e delle righe di pianificazione progetto che fanno parte di ogni attività. Le righe di pianificazione determinano ciò che viene fatturato al cliente.  
 
-### Per aggiungere attività di progetto  
+### <a name="to-add-project-tasks"></a>Per aggiungere attività di progetto
 
 1. Nella scheda **Progetto** per il nuovo progetto, scegliere l'azione **Righe attività di progetto**.  
 2. Nella seguente tabella vengono illustrate le informazioni che è necessario immettere nei campi.  
@@ -189,7 +189,7 @@ Una riga di pianificazione può essere di uno dei seguenti tipi:
 
 In questa procedura dettagliata, il project manager utilizza **Budget e fatturabile**. Crea tre righe di pianificazione per il task 1010 e due righe di pianificazione per l'attività 1020.  
 
-### Per creare righe di pianificazione  
+### <a name="to-create-planning-lines"></a>Per creare righe di pianificazione
 
 1. Selezionare la riga 1010, quindi scegliere l'azione **Righe di pianificazione progetto**.  
 2. Creare righe di pianificazione con i seguenti dati:  
@@ -210,11 +210,11 @@ In questa procedura dettagliata, il project manager utilizza **Budget e fatturab
 
 4. Chiudere la pagina. I totali vengono aggiornati nella pagina **Righe attività di progetto**.  
 
-## Calcolo dell'utilizzo residuo
+## <a name="calculating-remaining-usage"></a>Calcolo dell'utilizzo residuo
 
 Cinzia, il membro del team, lavora al progetto da qualche tempo e desidera registrare le sue ore e l'utilizzo nella commessa. Non ha lavorato più ore di quanto concordato in origine con il cliente. Cinzia utilizza il processo batch **Calc. utilizzo residuo** per calcolare l'utilizzo residuo in una registrazione progetti. Per ciascuna attività il processo batch calcola la differenza tra l'utilizzo programmato di articoli, risorse e spese di contabilità generale e l'utilizzo effettivo registrato nei movimenti contabili progetto. L'utilizzo residuo viene quindi visualizzato nella registrazione progetti e Cinzia può eseguirne la registrazione.  
 
-### Per calcolare l'utilizzo residuo  
+### <a name="to-calculate-remaining-usage"></a>Per calcolare l'utilizzo residuo
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Registrazione progetti**, nel campo **Nome batch**, aprire l'elenco **Batch registrazioni progetti**. Selezionare il batch registrazioni progetti **Cinzia**.  
@@ -228,11 +228,11 @@ Cinzia, il membro del team, lavora al progetto da qualche tempo e desidera regis
 
 Le righe sono così registrate.  
 
-## Creazione e registrazione di una fattura di vendita per un progetto
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Creazione e registrazione di una fattura di vendita per un progetto
 
 Cinzia può ora creare una nuova fattura per l'intero progetto o per parte di un progetto. Può anche allegare la fattura a un'altra fattura per lo stesso cliente e per lo stesso progetto. In questo caso, Cinzia fattura l'intero progetto poiché è completato.  
 
-### Per creare una fattura di vendita per un progetto  
+### <a name="to-create-a-project-sales-invoice"></a>Per creare una fattura di vendita per un progetto
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetti**, quindi scegli il collegamento correlato.  
 2. Selezionare il progetto creato in precedenza, quindi scegliere l'azione **Crea fattura vendita per progetto**.  
@@ -242,13 +242,13 @@ Cinzia può ora creare una nuova fattura per l'intero progetto o per parte di un
 
 Dopo che Tricia ha creato la fattura, è disponibile nella Gestione ruolo utente **Gestione ordini vendite**.
 
-### Per registrare una nuova fattura di vendita  
+### <a name="to-post-a-new-sales-invoice"></a>Per registrare una nuova fattura di vendita
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Fatture vendite**, quindi seleziona il collegamento correlato.  
 2. Aprire la fattura per il cliente numero 01445544. Sono visibili le informazioni inserite dalle righe di pianificazione.  
 3. Scegliere l'azione **Registra**. Selezionare **Sì** per confermare la registrazione.  
 
-### Per visualizzare la fattura registrata  
+### <a name="to-view-the-posted-invoice"></a>Per visualizzare la fattura registrata
 
 1. Aprire il progetto, quindi scegliere l'azione **Righe pianificazione progetto**.  
 2. Selezionare una qualsiasi delle righe di pianificazione fatturate, quindi scegliere l'azione **Ottieni nota credito/fattura vendita**.
@@ -256,17 +256,17 @@ Dopo che Tricia ha creato la fattura, è disponibile nella Gestione ruolo utente
 
 Cinzia ha una domanda su prezzi, costi o margini pertinenti a questo specifico progetto, quindi accede alle informazioni nella pagina **Statistiche**.  
 
-### Per aprire la pagina Statistiche  
+### <a name="to-open-the-statistics-page"></a>Per aprire la pagina Statistiche
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetti**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Statistiche**. È possibile esaminare informazioni dettagliate su prezzi, costi e margini dei progetti sia in valuta locale che estera.  
 3. Scegliere il pulsante **Chiudi** per chiudere la pagina **Statistiche progetto**.  
 
-## Gestione dei prezzi fissi
+## <a name="handling-fixed-prices-1"></a>Gestione dei prezzi fissi
 
 CRONUS ha ottenuto un contratto per l'allestimento di alcune sale per conferenze. Come project manager, Alboni vuole una panoramica precisa dei task necessari per il progetto con i costi previsti e sostenuti associati per ciascuna attività. Inoltre, Alboni desidera conoscere il prezzo totale a contratto del progetto e l'importo fatturato finora. Ha concluso un contratto con il cliente in cui sono stati concordati prezzi fissi per il progetto.  
 
-### Per gestire i prezzi fissi nei progetti  
+### <a name="to-manage-fixed-pricing-in-projects"></a>Per gestire i prezzi fissi nei progetti
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetti**, quindi scegli il collegamento correlato.  
 2. Selezionare il numero di progetto **Società mercantile internaz.**, quindi scegliere l'azione **Righe attività di progetto**.  
@@ -286,7 +286,7 @@ CRONUS ha ottenuto un contratto per l'allestimento di alcune sale per conferenze
 
 Dopo che Cinzia è stata aggiunta alla pianificazione per questa riga di attività, lavora per 25 ore al progetto e immette queste ore nella registrazione progetto.  
 
-### Per inserire ore in una registrazione progetti  
+### <a name="to-enter-hours-in-a-project-journal"></a>Per inserire ore in una registrazione progetti
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni progetti**, quindi scegli il collegamento correlato.  
 2. In una nuova riga inserire i seguenti dati:  
@@ -341,7 +341,7 @@ Dopo che Cinzia è stata aggiunta alla pianificazione per questa riga di attivit
 
 Nel prezzo totale del contratto sono incluse solo le 30 ore pattuite in origine con il cliente.  
 
-## Copia di progetti
+## <a name="copying-projects"></a>Copia di progetti
 
 Alboni ha concluso un contratto con un cliente, Selagorian Ltd, per l'allestimento di dieci sale per conferenze. Il contratto è simile a un progetto precedente. Di conseguenza, si risparmierà tempo copiando tale progetto precedente.  
 
@@ -352,7 +352,7 @@ Nella pagina **Copia progetto** è possibile selezionare il progetto e le righe 
 
 Si può quindi scegliere quale tipo di riga di pianificazione o di movimento contabile includere, selezionando solo quello applicabile al nuovo progetto. Infine, si può decidere se copiare anche prezzi e quantità dal progetto selezionato.  
 
-### Per copiare un progetto  
+### <a name="to-copy-a-project"></a>Per copiare un progetto
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Progetti**, quindi scegli il collegamento correlato.  
 2. Scegliere l'azione **Nuovo** per creare un nuovo progetto. Inserire i seguenti dati:  
@@ -374,11 +374,11 @@ Si può quindi scegliere quale tipo di riga di pianificazione o di movimento con
 
 Confrontando prezzi, righe di attività di progetto e righe di pianificazione progetto per i due progetti, è possibile verificare che le informazioni sono state copiate correttamente.  
 
-## Effettuare pagamenti rateali
+## <a name="making-payments-by-installments"></a>Effettuare pagamenti rateali
 
 CRONUS si è appena aggiudicata un grande progetto il cui completamento richiederà un anno. Poiché impegna molte risorse, il project manager imposta il contratto per il pagamento anticipato da parte del cliente di parte del prezzo a metà del progetto e il saldo al completamento del progetto.  
 
-### Per impostare un nuovo conto  
+### <a name="to-set-up-a-new-account"></a>Per impostare un nuovo conto
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Piano dei conti**, quindi scegli il collegamento correlato.  
 2. Nella pagina **Piano dei conti** scegliere l'azione **Nuovo** per creare una nuova scheda.  
@@ -392,7 +392,7 @@ CRONUS si è appena aggiudicata un grande progetto il cui completamento richiede
 
 Le procedure riportate di seguito mostrano come creare uno nuovo progetto, impostare il prezzo e il pagamento rateale. Nelle righe di attività di progetto è possibile creare righe specifiche dedicate al pagamento rateale. Tutto il lavoro completato per il progetto che viene aggiunto alla pianificazione sarà inserito nelle righe di utilizzo. Per ogni riga di attività pagamento nelle righe di pianificazione, il tipo di riga è **Fatturabile**, che significa che sarà emessa fattura al cliente. Immettere una nuova riga per il primo acconto. Nella riga di attività utilizzo, inserire i dati relativi agli articoli e alle risorse che sono stati utilizzati nel progetto; ciò incrementa la pianificazione in termini di ore dei dipendenti e di articoli impiegati nel progetto.  
 
-### Per effettuare un pagamento rateale  
+### <a name="to-make-a-payment-by-installment"></a>Per effettuare un pagamento rateale
 
 1. Creare un nuovo progetto.  
 2. Nella nuova scheda **Progetto** inserire i seguenti dati:  
@@ -453,17 +453,17 @@ Le procedure riportate di seguito mostrano come creare uno nuovo progetto, impos
 
  Ora che le righe di attività e di pianificazione sono state registrate, Alboni crea una fattura per il primo pagamento. Alboni procede dalle righe di attività di progetto per assicurarsi che la fattura contenga solo le righe del primo pagamento. Aprire l'ordine di vendita dalle righe di pianificazione o dalle righe di attività.  
 
-### Per creare una fattura  
+### <a name="to-create-an-invoice"></a>Per creare una fattura
 
 1. Nella pagina **Righe attività di progetto**, selezionare la riga 1000, quindi scegliere l'azione **Crea fattura di vendita**.  
 2. Nella pagina **Crea fattura di vendita**, impostare la data odierna come data di registrazione, specificare **Per attività** e fare clic sul pulsante **OK** per creare una fattura con i dati di default. Fare clic sul pulsante **OK** per chiudere la pagina di conferma.  
 3. Scegliere l'azione **Ottieni nota credito/fattura vendita**. Nella fattura di vendita è possibile visualizzare che nella fattura è incluso solo il primo acconto. È ora possibile inviarla al cliente come concordato.  
 
-## Riepilogo
+## <a name="summary"></a>Riepilogo
 
 In questa procedura dettagliata sono state riprodotte alcune delle operazioni di base relative alla gestione dei progetti in [!INCLUDE[prod_short](includes/prod_short.md)]. Si è appreso come creare uno nuovo progetto, come copiare un progetto e come gestire i pagamenti. Inoltre, è stato illustrato come tenere traccia delle ore e creare le fatture.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
  [Procedure dettagliate per i processi aziendali](walkthrough-business-process-walkthroughs.md)  
  [Impostazione della Gestione progetti](projects-setup-projects.md)  

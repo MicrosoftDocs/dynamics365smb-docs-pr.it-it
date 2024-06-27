@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-## Lingue supportate per Copilot
+## <a name="supported-languages-for-copilot"></a>Lingue supportate per Copilot
 
 Copilot funziona con tutte le lingue di visualizzazione in Business Central, ma al momento sono completamente supportate solo le lingue seguenti. Puoi comunque utilizzare altre lingue, ma i risultati potrebbero essere meno accurati e affidabili.
 

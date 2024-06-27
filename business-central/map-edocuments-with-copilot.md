@@ -12,7 +12,7 @@ ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
-# Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot (anteprima)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot (anteprima)
 
 Man mano che i processi di approvvigionamento diventano più digitali, la funzionalità dei documenti elettronici in Business Central svolge un ruolo chiave nell'automazione della ricezione e dell'elaborazione delle fatture fornitore. Copilot può assistere in questo processo migliorando il mapping e la corrispondenza delle fatture fornitore a ordini di acquisto. Questa assistenza riduce il tempo speso per attività dispendiose in termini di tempo che normalmente includerebbero ricerche approfondite e immissione di dati. Un altro vantaggio si ha quando le fatture fornitore non si riferiscono esattamente agli ordini di acquisto. In tal caso, Copilot è ben posizionato per identificare gli ordini di acquisto corrispondenti. Le funzionalità di corrispondenza migliorate avvantaggiano in particolare le organizzazioni di piccole e medie dimensioni che necessitano di un tracciamento efficiente dei documenti per le righe di ordini di acquisto. Copilot è l'assistente per il lavoro basato sull'intelligenza artificiale che stimola la creatività e migliora la produttività per gli utenti di Business Central.
 
@@ -25,11 +25,11 @@ Nella versione iniziale dell'app **Documento elettronico**, abbiamo introdotto s
 
 Ora puoi aggiornare un ordine di acquisto esistente in Business Central con le informazioni ricevute nella fattura elettronica.
 
-## Lingue disponibili
+## <a name="available-languages"></a>Lingue disponibili
 
 [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
 
-## Attivare Copilot  
+## <a name="activate-copilot"></a>Attivare Copilot
 
 Nel caso in cui non hai attivato il copilota **Assistenza per la corrispondenza dei documenti elettronici**, devi farlo manualmente. Per abilitare il copilota **Assistenza per la corrispondenza dei documenti elettronici**, segui questi passaggi: 
 
@@ -38,7 +38,7 @@ Nel caso in cui non hai attivato il copilota **Assistenza per la corrispondenza 
 
 Puoi iniziare a utilizzare Copilot non appena viene attivato. 
 
-## Identificare ordini di acquisto
+## <a name="identify-purchase-orders"></a>Identificare ordini di acquisto
 
 Innanzitutto, puoi identificare gli ordini di acquisto per i quali puoi trovare automaticamente una corrispondenza. Se il tuo **Fornitore** ha configurato il campo **Ricevi documento elettronico su** per l'utilizzo con **Ordini di acquisto**, quando viene creato il documento elettronico in [!INCLUDE[prod_short](includes/prod_short.md)] (manualmente o da un punto finale esterno), [!INCLUDE[prod_short](includes/prod_short.md)] effettua quanto segue:
 
@@ -46,7 +46,7 @@ Innanzitutto, puoi identificare gli ordini di acquisto per i quali puoi trovare 
 Questo collegamento è visibile nel campo **Documento** in questo specifico **Documento elettronico**. Se devi modificare l'**Ordine di acquisto** collegato automaticamente, puoi farlo utilizzando l'azione **Aggiorna collegamento ordine di acquisto** e quindi scegliendo manualmente uno degli ordini di acquisto esistenti per questo fornitore. Puoi farlo solo prima di abbinare le righe tra il **Documento elettronico** e l'**Ordine di acquisto**.  
 2. Se l'**Ordine di acquisto** per questo particolare fornitore *esiste ma non è presente un numero di ordine di acquisto* nel file di ricezione di **Documenti elettronici**, [!INCLUDE[prod_short](includes/prod_short.md)] offre la possibilità di scegliere uno degli ordini di acquisto esistenti quando e se hai caricato manualmente questo documento, aprendo l'elenco **Ordini di acquisto** con solo ordini per il fornitore con il **Documento elettronico**, dove devi selezionare l'**Ordine di acquisto** che desideri e selezionare **OK**. Se non selezioni l'**Ordine di acquisto** corretto o hai ricevuto il **Documento elettronico** automaticamente da un endpoint esterno utilizzando la **Coda processi**, il nuovo **Documento elettronico** non è collegato ad un documento di acquisto e lo **Stato del documento** è **Errore** e lo **Stato del documento elettronico** nella pagina secondaria **Stato servizio** sarà **Errore di elaborazione documenti importati**. Per completare il collegamento con l'**Ordine di acquisto**, scegli l'azione **Aggiorna collegamento ordine di acquisto** e scegli uno degli ordini di acquisto esistenti per questo fornitore.  
 
-## Mappare le righe
+## <a name="map-lines"></a>Mappare le righe
 
 Copilot ti aiuta a trovare automaticamente una corrispondenza tra le righe della fattura elettronica e le righe di ordine di acquisto e offre informazioni aggiuntive sulla corrispondenza per migliorare le corrispondenze.
 
@@ -100,7 +100,7 @@ Quando si desidera eseguire la corrispondenza dall'ordine d'acquisto, scegli l'a
 > [!NOTE]
 > L'analisi dei prezzi/costi e il controllo della quantità disponibile fanno parte dell'attività di pre-elaborazione. 
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica dei documenti elettronici](finance-edocuments-overview.md)    
 [Usare documenti elettronici nelle vendite](finance-how-use-edocuments.md)    

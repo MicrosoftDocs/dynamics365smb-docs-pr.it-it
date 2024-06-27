@@ -10,7 +10,7 @@ ms.date: 05/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Effettuare spedizioni dirette
+# <a name="make-drop-shipments"></a>Effettuare spedizioni dirette
 
 Una spedizione diretta è costituita dalla spedizione di articoli direttamente da un fornitore a un cliente.
 
@@ -19,7 +19,7 @@ Quando un ordine cliente è contrassegnato per la spedizione di consegna e si cr
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## Per creare un ordine di vendita per una spedizione diretta
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>Per creare un ordine di vendita per una spedizione diretta
 
 Per preparare una spedizione diretta, si crea un ordine di vendita per un articolo e indicare sulla riga di vendita che la vendita richiede la spedizione diretta.
 
@@ -29,7 +29,7 @@ Per preparare una spedizione diretta, si crea un ordine di vendita per un artico
 > [!TIP]
 > Per impostazione predefinita, la casella di controllo Spedizione diretta e il campo Codice acquisto non sono disponibili nelle righe. In tal caso, puoi aggiungerli personalizzando la sezione di pagina che contiene le righe. Per ulteriori informazioni, vedi [Personalizzare l'area di lavoro](ui-personalization-user.md).
 
-## Per creare l'ordine di acquisto per la spedizione diretta
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Per creare l'ordine di acquisto per la spedizione diretta
 
 Per preparare una spedizione diretta, indicare nell'ordine di acquisto che l'articolo deve essere spedito al cliente, non a se stessi.
 
@@ -46,7 +46,7 @@ Ora puoi dire al tuo venditore di spedire gli articoli direttamente al cliente. 
 
 Se il fornitore fornisce informazioni supplementari, come un numero di tracciabilità, è possibile aggiungere tali informazioni come commento in una riga ordine d'acquisto. Per aggiungere un commento in una riga, nel campo **Tipo** scegli **Commento**, quindi inserisci le informazioni nel campo **Descrizione**.  
 
-## Per creare più ordini di acquisto per spedizioni dirette
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Per creare più ordini di acquisto per spedizioni dirette
 
 È inoltre possibile utilizzare la richiesta di approvvigionamento per creare ordini di acquisto. Il vantaggio di utilizzare la richiesta di approvvigionamento è che è possibile creare ordini di acquisto per tutte le spedizioni dirette in sospeso, quindi non è necessario crearle singolarmente. Ciò significa che non dovrai creare ogni ordine individualmente.
 
@@ -56,11 +56,11 @@ Se il fornitore fornisce informazioni supplementari, come un numero di tracciabi
 4. Esamina le righe dell'ordine di acquisto e nel campo **Nr. fornitore**, seleziona il fornitore che fornisce le merci.
 5. Scegliere l'azione **Esegui messaggi di azione** per convertire le righe in un ordine di acquisto.
 
-## Per visualizzare l'ordine di acquisto collegato dall'ordine di vendita
+## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Per visualizzare l'ordine di acquisto collegato dall'ordine di vendita
 
 Selezionare la riga dell'ordine di vendita con spedizione diretta, scegliere l'azione **Ordine**, scegliere l'azione **Spedizione diretta** e quindi scegliere l'azione **Ordine acquisto**.
 
-## Per registrare una spedizione diretta
+## <a name="to-post-a-drop-shipment"></a>Per registrare una spedizione diretta
 
 Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine di vendita come spedito. È possibile registrare anche l'ordine di acquisto, ma solo con l'opzione **Ricevi** finché l'ordine di vendita non viene fatturato.
 
@@ -73,7 +73,7 @@ Dopo che il fornitore ha spedito gli articoli, è possibile registrare l'ordine 
 > [!TIP]
 > Non dimenticare che devi registrare la fattura dell'ordine di acquisto.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Creare ordini speciali](sales-how-to-create-special-orders.md)  
 [Acquistare articoli per una vendita](purchasing-how-purchase-products-sale.md)  

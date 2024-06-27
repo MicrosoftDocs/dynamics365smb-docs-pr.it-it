@@ -9,7 +9,7 @@ ms.search.form: '4,'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Impostare le condizioni di pagamento
+# <a name="set-up-payment-terms"></a>Impostare le condizioni di pagamento
 
 Le condizioni di pagamento determinano la modalità di gestione delle date di scadenza e degli sconti pagamento. È possibile utilizzare formule di data per definire le condizioni di pagamento. Quando ti iscrivi per la prima volta a [!INCLUDE [prod_short](includes/prod_short.md)], la società demo fornisce alcuni metodi di pagamento che le aziende utilizzano spesso. Puoi tuttavia aggiungere tutti quelli desiderati.  
 
@@ -21,7 +21,7 @@ Analogamente, quando registri una nota credito, [!INCLUDE [prod_short](includes/
 
 Se si desidera inviare ai clienti solleciti per pagamenti in ritardo, è necessario impostare i livelli e i termini di sollecito. Per ulteriori informazioni sui solleciti, vai a [Impostare i termini e i livelli di sollecito](finance-setup-reminders.md).  
 
-## Impostare le condizioni di pagamento
+## <a name="to-set-up-payment-terms"></a>Impostare le condizioni di pagamento
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Condizioni pagamento**, quindi scegli il collegamento correlato.  
 2. Compilare i campi come necessario. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Dopo avere impostato le condizioni di pagamento, è possibile assegnarle ai clie
 >
 > In alcuni paesi/aree geografiche, *puoi* impostare le condizioni di pagamento con pagamenti parziali. Per sapere se questa funzionalità è supportata nel tuo paese/area geografica, vai alla sezione **Funzionalità locale** nel sommario sul lato sinistro di un articolo [Microsoft Learn](about-localization.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostare i metodi di pagamento](finance-payment-methods.md)  
 [Impostare i pagamenti anticipati](finance-set-up-prepayments.md)  

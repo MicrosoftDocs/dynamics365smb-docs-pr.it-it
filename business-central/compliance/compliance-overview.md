@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Panoramica sulla conformità
+# <a name="compliance-overview"></a>Panoramica sulla conformità
 
 Questo argomento contiene informazioni sulla conformità in relazione a [!INCLUDE[prod_long](../includes/prod_long.md)].
 

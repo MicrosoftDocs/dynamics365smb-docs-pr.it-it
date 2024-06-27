@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Caratteri disponibili
+# <a name="available-fonts"></a>Caratteri disponibili
 
 La versione online di [!INCLUDE[prod_short](includes/prod_short.md)] contiene caratteri preinstallati sui server che possono essere utilizzati durante la generazione dei report. Le sezioni seguenti descrivono i caratteri disponibili.
 
 > [!NOTE]
 > Per motivi legali e di sicurezza, non è possibile caricare i caratteri personalizzati nell'ambiente [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Caratteri documento
+## <a name="document-fonts"></a>Caratteri documento
 
 I seguenti caratteri sono installati e disponibili per l'uso nei layout di report Excel, Word e RDL:
  
@@ -158,7 +158,7 @@ I seguenti caratteri sono installati e disponibili per l'uso nei layout di repor
 * `Yu Gothic UI Semibold`
 * `Yu Gothic UI Semilight`
 
-## Caratteri per controlli
+## <a name="fonts-for-checks"></a>Caratteri per controlli
 
 I caratteri Magnetic Ink Character Recognition (MICR) sono installati e disponibili per l'uso. Sono supportati gli standard E-13B e CMC-7.  
 
@@ -166,7 +166,7 @@ Oltre ai caratteri MICR, sono disponibili caratteri di sicurezza speciali per ge
 
 Per ulteriori informazioni, vedere [Selezionare un layout degli assegni](finance-how-define-check-layouts.md).  
 
-## Caratteri per i codici a barre
+## <a name="fonts-for-barcodes"></a>Caratteri per i codici a barre
 I caratteri per generare codici a barre sono installati e disponibili per l'uso in entrambi i layout di report di Word e RDLC.
 
 Sono supportate le seguenti simbologie di codici a barre unidimensionali:
@@ -186,7 +186,7 @@ Sono supportate le seguenti simbologie di codici a barre bidimensionali:
 
 Per ulteriori informazioni, vedere [Font per codici a barre con Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione dei layout di report](ui-manage-report-layouts.md)  
 [Selezionare un layout degli assegni](finance-how-define-check-layouts.md)  

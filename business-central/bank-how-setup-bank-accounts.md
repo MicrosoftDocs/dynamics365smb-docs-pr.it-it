@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Impostare i conti correnti bancari
+# <a name="set-up-bank-accounts"></a>Impostare i conti correnti bancari
 
 Utilizza i conti correnti bancari in [!INCLUDE[prod_short](includes/prod_short.md)] per tenere traccia delle transazioni bancarie. I conti possono essere denominati in valuta locale o estera. Dopo aver impostato i conti correnti bancari puoi anche stampare assegni. I conti correnti bancari offrono anche funzionalità extra per la [riconciliazione dei pagamenti](receivables-apply-payments-auto-reconcile-bank-accounts.md), la [riconciliazione bancaria](bank-how-reconcile-bank-accounts-separately.md) e l'importazione e l'esportazione di file bancari.
 
@@ -79,7 +79,7 @@ Il video seguente mostra i passaggi di base per impostare un conto corrente banc
 > [!WARNING]
 > Alcuni campi possono contenere dati sensibili, come i campi **Nr. filiale banca**, **Nr. conto bancario**, **Codice SWIFT**, e **Codice IBAN**. Per ulteriori informazioni, vedi [Monitoraggio dei campi riservati](across-log-changes.md#monitor-sensitive-fields).
 
-## Per impostare i conti correnti bancari
+## <a name="to-set-up-bank-accounts"></a>Per impostare i conti correnti bancari
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi 1.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **C/C bancari**, quindi scegli il collegamento correlato.
 2. Nella pagina **C/C bancari** scegliere l'azione **Nuovo**.
@@ -149,7 +149,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## Per immettere un saldo di apertura
+## <a name="to-enter-an-opening-balance"></a>Per immettere un saldo di apertura
 
 Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare un movimento contabile del conto corrente bancario con la quantità in questione. Il movimento viene registrato tramite una riconciliazione del conto corrente bancario. Per ulteriori informazioni vedi [Riconciliare i conti bancari](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -158,7 +158,7 @@ Per compilare il campo **Saldo** con un saldo iniziale, è necessario registrare
 > [!IMPORTANT]
 > Non registrare il saldo di apertura direttamente nella contabilità generale. I movimenti nel conto C/G che sono stati registrati direttamente in genere impediscono la riconciliazione del conto corrente bancario. Con i conti correnti bancari in valuta estera, la registrazione diretta comporta l'accumulo di differenze man mano che si registrano più riconciliazioni bancarie. Di solito registri il saldo bancario di apertura direttamente sul conto corrente bancario e l'importo finisce quindi nel conto C/G. In alternativa, lo annulli in un secondo momento rispetto a un conto C/G che usi per bilanciare il saldo della contabilità generale di apertura. In entrambi i casi, è necessario bilanciare qualsiasi registrazione diretta sul conto C/G prima di iniziare la prima riconciliazione bancaria, soprattutto se il conto bancario è in una valuta estera.
 
-## Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Per impostare il conto corrente bancario per l'importazione o l'esportazione di file dei conti correnti bancari
 
 I campi relativi all'importazione e all'esportazione di feed e file bancari sono nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda conto corrente bancario**. Per ulteriori informazioni, vedi [Utilizzo dell'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) e [Impostare il servizio Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -211,13 +211,13 @@ L'illustrazione seguente mostra il percorso dei pagamenti in uscita. I numeri ne
   :::column-end:::
 :::row-end:::
 
-## Per impostare i conti correnti fornitore per l'esportazione di file dei conti correnti bancari
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Per impostare i conti correnti fornitore per l'esportazione di file dei conti correnti bancari
 
 I campi nella nella Scheda dettaglio **Trasferimento** della pagina **Scheda C/C bancari fornitori** sono correlati all'esportazione dei feed e dei file dei conti correnti bancari. Per ulteriori informazioni, vedi [Utilizzare l'estensione AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) ed [Esportare pagamenti in un file della banca](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## Cambiare il conto bancario
+## <a name="changing-your-bank-account"></a>Cambiare il conto bancario
 
 Per utilizzare un conto bancario diverso per la tua attività, devi creare il nuovo conto bancario in [!INCLUDE[prod_short](includes/prod_short.md)]. Ti consigliamo di non sostituire semplicemente le informazioni sul conto che stai attualmente utilizzando perché ciò può causare dati errati. Ad esempio, il bilancio di apertura potrebbe essere errato o il feed della banca potrebbe smettere di funzionare correttamente. È importante mantenere separati i conti attuali e nuovi.
 
@@ -228,7 +228,7 @@ Dopo aver creato il nuovo conto bancario, è necessario creare anche una nuova c
 
 Per ottenere una visione più concisa dei tuoi conti di cassa nei report finanziari, usa i conti **Inizio-Totale** e **Totale finale** nel piano dei conti, le righe **Totale** nei report finanziari o nelle categorie di conti C/G. Per ulteriori informazioni, vedi la sezione [Business Intelligence e Financial Reporting](bi.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Impostazione delle categorie di registrazione](finance-posting-groups.md)  
