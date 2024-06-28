@@ -2124,11 +2124,12 @@ ms.service: dynamics-365-business-central
 ### [Domande frequenti sui suggerimenti per le righe di vendita con Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 ## Mappare documenti elettronici (anteprima)
 ### [Mappare documenti elettronici per acquistare righe di ordini di acquisto con Copilot](map-edocuments-with-copilot.md)
-### [Domande frequenti per il mapping di documenti elettronici con ordini di acquisto utilizzando Copilot](faqs-map-edocuments.md)
-# IA responsabile
+### [Domande frequenti sul mapping di documenti elettronici a ordini di acquisto utilizzando Copilot](faqs-map-edocuments.md)
+# Intelligenza artificiale responsabile
 ## [Panoramica](responsible-ai-overview.md)
+## [Domande frequenti sulla sicurezza e la privacy dei dati di Copilot](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Domande frequenti sull'assistenza all'analisi (anteprima)](faqs-analysis-assist.md)
-## [Domande frequenti sull'assistenza per la riconciliazione dei conti correnti bancari (anteprima)](faqs-bank-reconciliation.md)
+## [Domande frequenti sull'assistenza per la riconciliazione bancaria (anteprima)](faqs-bank-reconciliation.md)
 ## [Domande frequenti su Chat con Copilot (anteprima)](faqs-chat-with-copilot.md)
 ## [Domande frequenti sui suggerimenti di testo di marketing](faqs-marketing-text.md)
 ## [Domande frequenti sui suggerimenti per le righe di vendita con Copilot (anteprima)](faq-sales-suggest-sales-lines-with-copilot.md)
