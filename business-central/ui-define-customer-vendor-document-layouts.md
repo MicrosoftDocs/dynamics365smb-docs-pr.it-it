@@ -37,7 +37,7 @@ Se non hai già creato un layout di report personalizzato per il tipo di documen
 3. Nella pagina **Layout documento**, nella riga di un layout di report per il quale si desidera utilizzare un layout personalizzato, scegliere il campo **Descrizione layout personalizzato**.
 4. Nella pagina **Layout report personalizzati**, selezionare il layout di documento che si desidera utilizzare per il tipo di documento di vendita. Per ulteriori informazioni, vedere [Creare e modificare layout di report personalizzati](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Per specificare quale contatto riceverà quale layout di documento per un cliente
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Per specificare quale contatto riceverà quale layout di documento per un cliente
 
 Per risparmiare tempo quando invii documenti ai contatti di clienti e fornitori tramite e-mail, specifica i loro indirizzi e-mail sui layout dei documenti. Ad esempio, puoi sempre inviare gli estratti conto dei clienti ai contatti del commercialista e gli ordini di vendita agli acquirenti dei clienti o gli ordini di acquisto ai venditori dei fornitori.
 

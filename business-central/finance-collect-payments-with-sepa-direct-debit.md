@@ -25,7 +25,7 @@ Quando i pagamenti vengono elaborati correttamente, come comunicato dalla banca,
 > [!NOTE]  
 > Per raccogliere i pagamenti tramite l'Addebito diretto SEPA, la valuta nella fattura di vendita deve essere EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Impostare gli addebiti diretti SEPA
+## <a name="how-to-set-up-sepa-direct-debit"></a>Impostare gli addebiti diretti SEPA
 
 Nella pagina **Riscossioni addebiti diretti** è possibile esportare le istruzioni nella banca elettronica per eseguire una riscossione di addebiti diretti dal conto corrente del cliente al conto corrente della banca usando il formato di addebito diretto SEPA.
 
