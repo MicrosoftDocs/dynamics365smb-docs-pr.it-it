@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [Report di controllo IVA](LocalFunctionality/Czech/vat-control-report.md)
 ##### [Report IVA](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Rettifica dell'IVA in valuta locale](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [IVA non detraibile](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat per la Repubblica Ceca (estensione)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Cespiti
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Funzionalità locale nella versione americana](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Imposte
 ##### [Setup IVA di base](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Dichiarazione IVA negli Stati Uniti](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Imposta sulle vendite negli Stati Uniti](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduzione ai moduli IRS 1099 e relative funzionalità](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Impostare e usare il modulo IRS 1099 per la versione 24 (primo ciclo di rilascio del 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Usare i moduli IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-use.md)
