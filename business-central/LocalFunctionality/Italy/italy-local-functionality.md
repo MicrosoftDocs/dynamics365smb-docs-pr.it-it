@@ -5,16 +5,16 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/11/2024
+ms.date: 07/09/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
+# Funzionalità locale per l'Italia
 
 Negli articoli indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilità della funzionalità
+## Disponibilità della funzionalità
 
 * IVA e ritenute
     * [IVA italiana](italian-vat.md)
@@ -58,17 +58,17 @@ Negli articoli indicati di seguito viene descritta la funzionalità locale univo
     * [Conto lavoro italiano](italian-subcontracting.md) **Disponibile ora**
     * [Impostazione di definizioni e batch di registrazioni](how-to-set-up-journal-templates-and-batches.md) **Disponibile ora**
     * [Fatturazione elettronica italiana](electronic-invoicing.md) **Disponibile ora**
+    * [Fornitori da paesi o regioni fiscalmente esclusi](fiscal-deny-list.md) **disponibili ora**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Futuri requisiti legislativi in fase di esame
+## Futuri requisiti legislativi in fase di esame
 
-* Restrizioni fiscali per venditori **Previsto per il 24.4**
 * Consenti la registrazione del calcolo e della registrazione della liquidazione IVA per codice attività **Previsto per il 24.4**
 * IVA non detraibile riprogettata e aggiornata **Previsto per il primo ciclo di rilascio del 2025**  
 * Fatturazione elettronica aggiornata con il nuovo framework dei documenti elettronici (SDI) **Previsto con il primo ciclo di rilascio del 2025**  
 
 Se sei a conoscenza di eventuali caratteristiche normative imminenti, invia un [Avviso sulle funzionalità normative](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

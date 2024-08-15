@@ -1,5 +1,5 @@
 ---
-title: Sugg. pagamenti fornitore
+title: Suggerisci pagamenti ai fornitori
 description: Utilizza il processo batch Sugg. pagamenti fornitore per creare righe di pagamento per i fornitori in base alle date di scadenza e agli sconti sui pagamenti.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,11 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256,'
-ms.date: 12/04/2023
+ms.date: 07/17/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="suggest-vendor-payments"></a>Sugg. pagamenti fornitore
+
+# Suggerisci pagamenti ai fornitori
 
 Nella pagina **Registraz. pagamenti** è possibile utilizzare il processo batch **Sugg. pagamenti fornitore** per suggerire le righe di pagamento. In base alle tue impostazioni, [!INCLUDE [prod_short](includes/prod_short.md)] suggerisce le righe per:
 
@@ -30,19 +31,19 @@ Per trarre completamente vantaggio dai pagamenti suggeriti, è necessario assegn
 > * Movimenti fornitori scaduti senza priorità.  
 > * Movimenti fornitori che vengono qualificati per gli sconti sui pagamenti. Le voci sono organizzate per numero del fornitore.  
 
-## <a name="use-the-suggest-vendor-payments-action"></a>Utilizzare l'azione Sugg. pagamenti fornitore
+## Utilizzare l'azione Sugg. pagamenti fornitore
 
 1. Seleziona l'icona ![lampadina che apre la funzionalità Dimmi](media/ui-search/search_small.png "Dimmi cosa vuoi fare"), immetti **Registrazioni pagamenti**, quindi seleziona il collegamento correlato.  
 2. Aprire le registrazioni e seleziona l'azione **Sugg. pagamenti fornitore**.  
 3. Compila i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Seleziona il pulsante **OK**.  
 
-## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Inserire la data di scadenza come data di registrazione nelle righe di registrazione pagamenti
+## Inserire la data di scadenza come data di registrazione nelle righe di registrazione pagamenti
 
-Quando si esegue il processo batch **Sugg. pagamenti fornitore** per creare righe di pagamento per i fornitori, è possibile compilare due campi speciali per assicurarsi che le righe generate utilizzino la data di scadenza per calcolare la data di registrazione. Questi campi sono **Calcola data di registrazione da Collega a - Scadenza doc.** e **Offset Collega a - Scadenza doc.**  
+Quando si esegue il processo batch **Sugg. pagamenti fornitore** per creare righe di pagamento per i fornitori, è possibile compilare due campi speciali per assicurarsi che le righe generate utilizzino la data di scadenza per calcolare la data di registrazione. Questi campi sono **Calcola la data di registrazione dalla data di scadenza Applica-al-Doc.** e **Offset della data di scadenza Applica-al-Doc**.  
 
 > [!IMPORTANT]  
-> Non è possibile utilizzare il campo **Calcola data di registrazione da Collega a - Scadenza doc** insieme al campo **Trova sconti pagamenti** o al campo **Raggruppa per fornitore**. Se la data di registrazione è basata sulla data di scadenza, gli sconti sui pagamenti potrebbero non essere calcolati correttamente, in quanto la data di registrazione potrebbe essere successiva alla data dello sconto sul pagamento.  
+> Non è possibile utilizzare il campo  **Calcola data di registrazione da Applica-a-Doc. Data di scadenza** insieme al campo  **Trova sconti sui pagamenti** o al campo  **Riepiloga per fornitore** . Se la data di registrazione è basata sulla data di scadenza, gli sconti sui pagamenti potrebbero non essere calcolati correttamente, in quanto la data di registrazione potrebbe essere successiva alla data dello sconto sul pagamento.  
 
 Inoltre, se la data di registrazione calcolata è già trascorsa, la data di registrazione viene spostata alla data di lavoro e viene visualizzato un avviso.  
 
@@ -51,7 +52,7 @@ Inoltre, se la data di registrazione calcolata è già trascorsa, la data di reg
 > [!NOTE]  
 > Se la fattura di acquisto è scaduta, la data di registrazione viene impostata sulla data di lavoro e il carattere nella riga diventa di colore rosso.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 - [Gestione della contabilità fornitori](payables-manage-payables.md)  
 - [Effettuare i pagamenti](payables-make-payments.md)  

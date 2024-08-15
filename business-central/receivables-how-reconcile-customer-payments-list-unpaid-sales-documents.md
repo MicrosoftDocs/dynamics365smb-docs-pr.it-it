@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, cash receipts, customer payment'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati
+
+# Riconciliare i pagamenti dei clienti dall'elenco dei documenti di vendita non pagati
 
 Dopo che i clienti hanno effettuato pagamenti elettronici sul tuo conto bancario, devi intraprendere le seguenti azioni:
 
@@ -27,7 +28,7 @@ Utilizza la pagina **Registra pagamenti clienti** per bilanciare i conti interni
 
 I pagamenti per differenti clienti, con date di pagamento diverse, devono essere registrati come pagamenti singoli. I pagamenti per lo stesso cliente, con uguale data di pagamento, possono essere registrati come pagamento forfettario. I pagamenti forfettari sono utili, ad esempio, quando un cliente ha effettuato un pagamento singolo che copre più fatture di vendita.
 
-## <a name="to-set-up-the-payment-registration-journal"></a>Per impostare le registrazioni pagamenti
+## Per impostare le registrazioni pagamenti
 
 Poiché è possibile registrare tipi diversi di pagamento in conti di contropartita diversi, è necessario selezionare un conto di contropartita nella pagina **Setup registrazione pagamenti** prima di iniziare l'elaborazione dei pagamenti clienti. Se si esegue la registrazione sempre alla stessa contropartita, è possibile impostare tale conto come predefinito ed evitare ogni volta di aprire la pagina **Registra pagamenti clienti**.  
 
@@ -37,7 +38,7 @@ Poiché è possibile registrare tipi diversi di pagamento in conti di contropart
 > [!TIP]
 > Per semplificare l'identificazione successiva dei movimenti che sono stati registrati tramite il giornale di registrazione, è possibile assegnare una numerazione specifica alla registrazione pagamenti. La serie numerica è utile se si utilizzano registrazioni riconciliazione pagamenti per registrare e collegare i pagamenti.
 
-## <a name="to-register-customer-payments-individually"></a>Per registrare i pagamenti del cliente singolarmente
+## Per registrare i pagamenti del cliente singolarmente
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.  
 
@@ -54,7 +55,7 @@ Poiché è possibile registrare tipi diversi di pagamento in conti di contropart
 
 Le informazioni sui pagamenti vengono registrate per i documenti nelle righe in cui è selezionata la casella di controllo **Pagamento effettuato**. I movimenti dei pagamenti vengono registrati nei conti di contabilità generale, nei conti bancari e nei conti clienti.
 
-## <a name="to-reconcile-lump-sum-payments"></a>Per riconciliare i pagamenti forfettari
+## Per riconciliare i pagamenti forfettari
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.
 2. Selezionare la casella di controllo **Pagamento effettuato** nelle righe per i documenti registrati per lo stesso cliente o fornitore per cui è stato eseguito un pagamento forfettario.  
@@ -80,7 +81,7 @@ Se un pagamento della banca non è rappresentato da una riga nella pagina **Regi
 
 Se un pagamento della banca non è rappresentato da alcun documento, puoi aprire una registrazione COGE precompilata nella pagina **Registra pagamenti cliente** per registrare il pagamento direttamente nel conto di contropartita senza collegarlo a un documento. In alternativa, potresti registrare il pagamento nella registrazione fino a quando non viene chiarita l'origine del pagamento. Per ulteriori informazioni, vedere [Per registrare un pagamento senza un documento correlato](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
-## <a name="to-process-customer-payments-with-discounts-manually"></a>Per elaborare manualmente i pagamenti clienti con sconti
+## Per elaborare manualmente i pagamenti clienti con sconti
 
 Se è stato pattuito uno sconto nei pagamenti con il cliente, gli importi del pagamento possono essere inferiori rispetto agli importi della fattura se il pagamento viene eseguito prima della data dello sconto stabilita.  
 
@@ -91,7 +92,7 @@ Nella seguenti procedure vengono illustrati i modi in cui registrare i pagamenti
 * L'importo di pagamento è inferiore all'importo scontato residuo. Il pagamento viene registrato come parziale. Il documento rimane aperto per raccogliere/pagare l'importo residuo.  
 * L'importo di pagamento è superiore all'importo scontato residuo. I pagamenti vengono registrati così come sono. Solo l'importo residuo viene registrato. L'importo extra viene accreditato al cliente.  
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Per elaborare un importo di pagamento uguale all'importo scontato e dove si trova la data di pagamento prima della data di sconto
+### Per elaborare un importo di pagamento uguale all'importo scontato e dove si trova la data di pagamento prima della data di sconto
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.  
 2. Immettere l'importo del pagamento nel campo **Importo ricevuto**. L'importo è uguale a quello riportato nel campo **Importo residuo incluso sconto**.
@@ -101,7 +102,7 @@ Nella seguenti procedure vengono illustrati i modi in cui registrare i pagamenti
 4. Verificare che il campo **Importo residuo** contenga zero (0).  
 5. Scegliere l'azione **Registra pagamenti** per registrare il pagamento completo nei conti di contabilità generale, bancario e cliente.
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Per elaborare un importo di pagamento uguale all'importo scontato ma dove si trova la data di pagamento dopo la data di sconto
+### Per elaborare un importo di pagamento uguale all'importo scontato ma dove si trova la data di pagamento dopo la data di sconto
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.  
 2. Immettere l'importo del pagamento nel campo **Importo ricevuto**. L'importo è uguale a quello riportato nel campo **Importo residuo incluso sconto**.
@@ -111,7 +112,7 @@ Nella seguenti procedure vengono illustrati i modi in cui registrare i pagamenti
 
    Il carattere dei campi dati diventano rossi e un messaggio di errore viene visualizzato nella parte inferiore della pagina. I prossimi due passaggi risolvono il problema.
 4. Scegliere l'azione **Dettagli**.  
-5. Nella pagina **Dettagli registrazione pagamenti**, nel campo **Data sconto pagamento** della Scheda dettaglio **Sconto pagamento**, immettere una data che sia posteriore alla data indicata nel campo **Data ricezione** della pagina **Registrazione pagamenti**.  
+5. Nella pagina **Dettagli registrazione pagamento**, nel campo **Data sconto pagamento** della scheda rapida **Sconto pagamento**, immettere una data successiva alla data nel campo **Data di ricezione** nella pagina **Impostazione registrazione pagamento** .  
 
     Il messaggio di errore e il carattere rosso scompaiono ed è possibile continuare a elaborare il pagamento scontato.
 6. Verificare che il campo **Importo residuo** contenga l'importo residuo per pagare l'importo fattura completo.  
@@ -119,7 +120,7 @@ Nella seguenti procedure vengono illustrati i modi in cui registrare i pagamenti
 
 Il documento correlato rimane aperto.
 
-### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Per elaborare un pagamento inferiore all'importo scontato residuo
+### Per elaborare un pagamento inferiore all'importo scontato residuo
 
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.  
 2. Immettere l'importo del pagamento nel campo **Importo ricevuto**. L'importo è inferiore a quello riportato nel campo **Importo residuo incluso sconto**.
@@ -131,7 +132,7 @@ Il documento correlato rimane aperto.
 
 Il documento correlato rimane aperto.
 
-### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Per elaborare un pagamento superiore all'importo scontato residuo
+### Per elaborare un pagamento superiore all'importo scontato residuo
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra pagamenti clienti**, quindi scegli il collegamento correlato.  
 2. Immettere l'importo del pagamento nel campo **Importo ricevuto**. L'importo è superiore a quello riportato nel campo **Importo residuo incluso sconto**.  
@@ -143,7 +144,7 @@ Il documento correlato rimane aperto.
 
 Il documento correlato è chiuso e al cliente viene accreditato l'importo di pagamento in eccesso.  
 
-## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Per trovare un documento di vendita specifico non completamente fatturato
+## Per trovare un documento di vendita specifico non completamente fatturato
 
 La pagina **Registra pagamenti cliente** fornisce supporto in attività necessarie per le contropartite interne con le cifre effettive di cassa per garantire la raccolta dai clienti. Mostra i pagamenti in entrata inevasi come righe che rappresentano i documenti di vendita in cui è dovuto il pagamento di un importo.  
 
@@ -172,7 +173,7 @@ Se uno o più documenti corrispondono ai criteri di ricerca, viene aperta la pag
 
 Se un pagamento della banca non è rappresentato da alcun documento, puoi aprire una registrazione COGE precompilata nella pagina **Registra pagamenti cliente** per registrare il pagamento direttamente nel conto di contropartita senza collegarlo a un documento. In alternativa, potresti registrare il pagamento nella registrazione fino a quando non viene chiarita l'origine del pagamento.  
 
-## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Per registrare un pagamento senza un documento correlato
+## Per registrare un pagamento senza un documento correlato
 
 Se un pagamento in banca non è rappresentato da un documento, è possibile utilizzare l'azione **Registrazione COGE** per aprire una riga di registrazione COGE precompilata dalla pagina **Registra pagamenti cliente**. Utilizza la registrazione per registrare il pagamento direttamente nel conto di contropartita senza collegare il pagamento a un documento. In alternativa, potresti registrare il pagamento nella registrazione fino a quando non viene chiarita l'origine del pagamento.  
 
@@ -186,7 +187,7 @@ Puoi registrare la riga di registrazione per aggiornare il totale nel conto di c
 
 Se non si registra la riga di registrazione, il relativo valore viene aggiunto al valore nel campo **Importo residuo incluso sconto** nella pagina **Registrazione pagamenti**.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  

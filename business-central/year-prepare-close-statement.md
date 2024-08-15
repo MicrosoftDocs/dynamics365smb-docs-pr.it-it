@@ -1,35 +1,35 @@
 ---
-title: Panoramica di report a supporto della preparazione degli estratti conto di chiusura | Documenti Microsoft
+title: Panoramica dei report per aiutare a preparare i rendiconti di chiusura
 description: Fornisce una panoramica dei report che è possibile utilizzare per raccogliere le informazioni e preparare gli estratti conto di chiusura della società alla chiusura dell'anno fiscale.
 author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
-ms.date: 04/01/2021
+ms.date: 07/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Preparazione degli estratti conto di chiusura
-Sono disponibili alcuni report standard che è possibile utilizzare per raccogliere le informazioni necessarie per preparare i rendiconto di chiusura della società.
+# Preparazione delle dichiarazioni di chiusura
 
-Nella tabella che segue sono descritti alcuni report che possono risultare utili in questo processo.  
+[!INCLUDE [prod_short](includes/prod_short.md)] offre report standard che possono aiutarti a raccogliere le informazioni necessarie per preparare i rendiconti di chiusura della tua azienda. La tabella seguente descrive i report.  
 
 | A | Vedere questo report. |
 | --- | --- |
 | Stampare un report di bilancio di verifica con saldi periodi e conti per i conti di contabilità generale. |**Bilancio di verifica** |
-| Ottenere una sintesi dei crediti v/clienti, con il dettaglio di aging degli importi calcolati dalla data di scadenza, di registrazione o del documento. |**Scadenziario clienti** |
-| Ottenere una sintesi dei debiti v/fornitori, con il dettaglio di aging degli importi calcolati dalla data di scadenza, di registrazione o del documento. |**Scadenziario fornitori** |
+| Ottieni una panoramica dei crediti. L'anzianità degli importi viene calcolata a partire dalla data di scadenza, dalla data di registrazione o dalla data del documento. |**Scadenziario clienti** |
+| Ottieni una panoramica dei conti da pagare. L'anzianità degli importi viene calcolata a partire dalla data di scadenza, dalla data di registrazione o dalla data del documento. |**Scadenziario fornitori** |
 | Confrontare il bilancio di verifica con un budget. |**Bilancio di verifica/budget** |
 | Stampare un report di bilancio di verifica con saldi periodi e conti per i conti di contabilità generale calcolati per una serie di periodi. |**Bilancio di verifica per periodo** |
-| Stampare una situazione contabile per analizzare le cifre nei conti di contabilità generale o confrontare i movimenti effettivi di contabilità generale con i movimenti budget di contabilità generale. |**Situazione contabile** |
+| Stampa un report finanziario per analizzare le cifre nei conti contabilità generale o confrontare le voci effettive contabilità generale con le voci di budget contabilità generale. |**Relazione finanziaria** |
 | Verificare se i movimenti contabili dei clienti e quelli dei fornitori corrispondono con i relativi movimenti di contabilità generale. |**Riconc. conti clienti e forn.** |
 
-Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
+Per trovare un report, seleziona la ![Lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
+
 [Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
 
 
