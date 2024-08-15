@@ -28,7 +28,7 @@ Nelle sezioni successive viene descritto come effettuare le seguenti operazioni:
 3. Nel campo **Data fine** immettere l'ultima data del periodo di magazzino che si desidera definire. Quando il periodo è chiuso, non sarà possibile registrare modifiche al magazzino prima di tale data.  
 4. Nel campo **Nome** immettere un nome descrittivo. Scegliere il pulsante **OK**.  
 
-## <a name="closing-inventory-periods"></a>Chiusura di periodi di magazzino
+## <a name="to-close-inventory-periods"></a>Chiusura di periodi di magazzino
 
 Il campo **Chiuso** indica se il periodo di magazzino è chiuso, ovvero se non è più possibile apportare modifiche al relativo valore. Non è possibile modificare questo campo.  
 

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Riconciliare i pagamenti utilizzando l'applicazione automatica
+# <a name="reconcile-payments-using-automatic-application"></a>Riconciliare i pagamenti utilizzando l'applicazione automatica
 
 La pagina **Giornale di riconciliazione pagamenti** specifica i pagamenti, in entrata o in uscita, che sono stati registrati come transazioni sul tuo conto bancario online o su un servizio di pagamento. È possibile applicare i pagamenti ai movimenti contabili aperti relativi a clienti, fornitori e conti bancari. Compila il giornale importando un estratto conto bancario come feed o file bancario oppure inserendo manualmente le transazioni effettuate tramite il tuo servizio di pagamento.
 
@@ -43,7 +43,7 @@ Per ogni riga di registrazione nella pagina **Registrazione riconciliazione paga
 > [!NOTE]  
 > È possibile avviare l'importazione delle transazioni bancarie contemporaneamente all'apertura della pagina **Registrazione riconciliazione pagamenti** per la registrazione esistente. Nella procedura riportata di seguito viene descritto come importare le transazioni bancarie nella pagina **Registrazione riconciliazione pagamenti** dopo avere creato nuove registrazioni.
 
-## Per riconciliare i pagamenti utilizzando il collegamento automatico
+## <a name="to-reconcile-payments-using-automatic-application"></a>Per riconciliare i pagamenti utilizzando il collegamento automatico
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riconciliazione pagamenti**, quindi scegli il collegamento correlato.
 2. Per utilizzare nuove registrazioni riconciliazione pagamenti, scegliere l'azione **Nuove registrazioni**.
 3. Nella pagina **Lista C/C bancari pagamenti** selezionare il conto bancario per il quale si desidera riconciliare i pagamenti, quindi scegliere **OK**.
@@ -88,7 +88,7 @@ Quando si registra il giornale di registrazione di riconciliazione pagamenti, i 
 > [!NOTE]  
 >   Se non si desidera riconciliare il conto bancario dalla pagina  **Giornale di riconciliazione dei pagamenti**, è necessario utilizzare la pagina  **Riconciliazione del conto bancario** . Per ulteriori informazioni, vedere [Riconciliare i conti bancari](bank-how-reconcile-bank-accounts-separately.md).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  

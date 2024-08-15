@@ -8,13 +8,13 @@ ms.date: 07/05/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Imposta gruppi di sconti per i clienti
+# <a name="set-up-customer-discount-groups"></a>Imposta gruppi di sconti per i clienti
 
 È possibile definire gli sconti riga di vendita per un gruppo di clienti invece di applicarli singolarmente.
 
 **I gruppi di sconto cliente** sono simili ai [gruppi di prezzi cliente](sales-how-to-set-up-customer-price-groups.md), ma possono essere combinati con i gruppi di sconto articolo per impostare rapidamente sconti di linea su molti articoli per clienti selezionati.
 
-## Creare righe sconto di vendita per un gruppo di clienti
+## <a name="create-sales-line-discounts-for-a-customer-group"></a>Creare righe sconto di vendita per un gruppo di clienti
 
 1. Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , immetti **Gruppi sconto cliente** e poi scegliere il link relativo.
 2. Sulla pagina **Gruppi sconto cliente** seleziona **Nuovo** per creare un nuovo gruppo di sconti e assegnagli un nome sotto la colonna **Codice** e aggiungi una descrizione.
@@ -27,7 +27,7 @@ ms.reviewer: bholtorf
 
 Ripetere i passaggi da 4 a 8 per ciascun articolo o gruppo di sconti articolo per cui vuoi creare uno sconto riga vendita.
 
-## Assegnare un cliente a un gruppo di sconti
+## <a name="assign-a-customer-to-a-discount-group"></a>Assegnare un cliente a un gruppo di sconti
 
 Dopo aver impostato i gruppi di sconto cliente, puoi inserire i codici dei gruppi di sconto cliente nel campo Schede.
 
@@ -35,7 +35,7 @@ Dopo aver impostato i gruppi di sconto cliente, puoi inserire i codici dei grupp
 2. Aprite la **scheda cliente** per un cliente che deve far parte di un gruppo di sconti cliente.
 3. Nella scheda dettaglio **Fatturazione**, nel campo **Gruppo sconti cliente**, seleziona il codice gruppo.
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Vendite](sales-manage-sales.md)  
 [Setup Vendite](sales-setup-sales.md)  

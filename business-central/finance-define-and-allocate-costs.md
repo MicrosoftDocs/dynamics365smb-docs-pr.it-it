@@ -28,7 +28,7 @@ Per ogni destinazione di allocazione, è possibile definire una base di allocazi
 
 Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Impostare origini e destinazioni dell'allocazione
+## <a name="set-up-allocation-source-and-targets"></a>Impostare origini e destinazioni dell'allocazione
 
 Ogni allocazione è costituita da un'origine di allocazione e da una o più destinazioni di allocazione. L'origine di allocazione definisce i costi che verranno allocati. Le destinazioni di allocazione determinano dove i costi verranno allocati.  
 
@@ -50,11 +50,11 @@ Ogni allocazione è costituita da un'origine di allocazione e da una o più dest
 > [!NOTE]  
 > Selezionare la casella di controllo **Bloccato** per disattivare l'impostazione dell'allocazione.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Impostazione di filtri per le basi di allocazione dinamica
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Impostazione di filtri per le basi di allocazione dinamica
 
 Il metodo di allocazione dinamica si basa su valori variabili. Ad esempio, il numero di dipendenti in un centro di costo o gli articoli venduti di un oggetto di costo in un determinato intervallo di tempo specifico. Esistono nove basi di allocazione predefinite e dodici intervalli di date dinamici. Si impostano filtri diversi a seconda della base di allocazione.  
 
-### <a name="setting-filters"></a>Impostazione filtri
+### <a name="set-filters"></a>Impostazione filtri
 
 Nella tabella seguente vengono indicati i filtri possibili per le diverse basi di allocazione e i valori validi nei campi **Filtro nr.** e **Filtro gruppo**. Seleziona <kbd>F1</kbd> nel campo **Codice filtro data** per leggere le descrizioni dettagliate.  
 

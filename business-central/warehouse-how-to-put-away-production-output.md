@@ -33,7 +33,7 @@ La prima fase del processo di stoccaggio dell'output prevede la creazione della 
 > [!NOTE]  
 > È inoltre possibile creare la richiesta warehouse in entrata scegliendo il campo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni vedi [Ripianificare o aggiornare gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output con uno stoccaggio di magazzino
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output con uno stoccaggio di magazzino
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggio in magazzino**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo stoccaggio di magazzino. Per ulteriori informazioni vedi [Eseguire lo stoccaggio con stoccaggi magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ Quando registri uno stoccaggio magazzino, si presume che tutte le operazioni sia
 
 Se è necessario registrare il tempo di setup o di esecuzione sull'ultima operazione, imposta la quantità di output dell'ultima operazione su 0. Puoi scegliere di non registrare affatto l'ultima riga semplicemente eliminandola.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Per stoccare l'output di produzione o assemblaggio in configurazioni di warehouse avanzate
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Per stoccare l'output di produzione o assemblaggio in configurazioni di warehouse avanzate
 
 Quando registri l'output dell'ordine di produzione o di assemblaggio nella warehouse che utilizza lo stoccaggio e il prelievo diretti, l'output viene posizionato nella collocazione definita nell'ordine di produzione o di assemblaggio. Scopri di più sui diversi modi per spostare gli articoli nella warehouse con le configurazioni avanzate, vai a [Spostare gli articoli nelle configurazioni warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni warehouse avanzate
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni warehouse avanzate
 
 La modalità di stoccaggio dei componenti di prelievo per le commesse, gli ordini di produzione o di assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 
 8. Scegli il pulsante **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Per prelevare articoli per un ordine di produzione, un ordine di assemblaggio, una commessa
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Per prelevare articoli per un ordine di produzione, un ordine di assemblaggio, una commessa
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 

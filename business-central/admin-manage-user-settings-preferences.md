@@ -65,7 +65,7 @@ In qualità di amministratore, puoi ottenere una panoramica delle singole modifi
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Per rivedere o eliminare le personalizzazioni degli utenti
+## <a name="review-or-delete-user-personalizations"></a>Per rivedere o eliminare le personalizzazioni degli utenti
 
 1. Scegli l'icona ![Cerca pagina o report](media/ui-search/search_small.png "Icona Cerca pagina o report") immetti **Pagine personalizzate**, quindi scegli il collegamento correlato.
 2. Viene visualizzato l'elenco degli utenti e le loro pagine personalizzate. Per cancellare la personalizzazione di un utente, fai clic sulla riga pertinente o scegli **Gestisci**, quindi scegli **Elimina**.

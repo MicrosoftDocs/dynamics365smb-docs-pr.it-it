@@ -24,7 +24,7 @@ Un altro esempio consiste nell'impostare una dimensione denominata *Reparto* e n
 * Chi lo ha venduto.
 * Quale cliente l'ha acquistato.
 
-## <a name="analyzing-by-dimensions"></a>Analisi per dimensioni
+## <a name="analyze-by-dimensions"></a>Analisi per dimensioni
 
 Dimensioni svolge un ruolo importante in business intelligence, ad esempio quando si definiscono le visualizzazioni analisi. Per ulteriori informazioni, vedi [Analizzare i dati per dimensioni](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ Un set di dimensioni è una combinazione univoca di valori dimensioni. Viene arc
 
 Quando si crea una riga di registrazione, una testata del documento o una riga documento, è possibile specificare una combinazione di valori dimensioni. Anziché archiviare esplicitamente ogni valore dimensioni nel database, viene assegnato un ID set di dimensioni alla riga di registrazione, alla testata del documento o alla riga del documento per specificare il set di dimensioni.  
 
-## <a name="setting-up-dimensions"></a>Impostazione delle dimensioni
+## <a name="set-up-dimensions"></a>Impostazione delle dimensioni
 
 È possibile definire le dimensioni e i valori dimensioni da utilizzare per classificare le registrazioni e i documenti, ad esempio ordini di vendita e di acquisto. Impostare le dimensioni nella pagina **Dimensioni** in cui si crea una riga per ogni dimensione, ad esempio *Progetto*, *Reparto*, *Area* e *Agente*.
 

@@ -11,7 +11,7 @@ ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Effettuare i pagamenti
+# <a name="make-payments"></a>Effettuare i pagamenti
 
 I pagamenti a fornitori o clienti o i rimborsi ai dipendenti vengono effettuati registrando le relative righe di pagamento nella pagina **Registrazioni pagamenti**. La registrazione pagamenti è una registrazione generale ottimizzata per eseguire pagamenti e offrire molte azioni utili. Ad esempio, l'azione **Sugg. pagamenti fornitore** che trova i pagamenti del fornitore dovuti e il report **Fornitori - Scadenziario riepilogativo** che mostra una panoramica dei pagamenti dovuti ai fornitori.  
 
@@ -35,7 +35,7 @@ Nella tabella seguente viene descritta una sequenza di attività, con collegamen
 | Pagare un fornitore in contanti o con assegno e registrare il pagamento mentre si registra la fattura. |[Saldare immediatamente le fatture di acquisto](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assicurarsi che la banca compensi solo gli assegni e gli importi convalidati inviandole un file che contenga informazioni sul fornitore, l'assegno e il pagamento. |[Esportare un file Positive Pay](finance-how-positive-pay.md) |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Gestione della contabilità fornitori](payables-manage-payables.md)  
 [Acquisti](purchasing-manage-purchasing.md)  

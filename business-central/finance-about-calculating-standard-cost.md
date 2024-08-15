@@ -22,7 +22,7 @@ I costi standard possono essere gestiti per articoli il cui rifornimento viene e
 |**Assemblaggio**|Costo diretto del materiale, costo di manodopera diretto o fisso e costo generale.|  
 |**Ordine Produzione**|Costo diretto del materiale, costo di manodopera, costo di terzisti e costo generale.|  
 
-## <a name="setting-up-standard-costs"></a>Impostazione dei costi standard
+## <a name="set-up-standard-costs"></a>Impostazione dei costi standard
 
 Poiché il costo standard di un articolo lavorato o assemblato è costituito da più elementi di costo, ovvero costi relativi a materiale, capacità e terzisti (diretti e generali), i costi standard devono essere stabiliti per ognuno di questi elementi.  
 
@@ -88,7 +88,7 @@ I costi dei terzisti sono quelli associati ai servizi forniti da terzisti o forn
 
 Poiché il conto lavoro rappresenta essenzialmente una capacità esterna, il costo, diretto e indiretto, dei servizi in conto lavoro viene impostato nella scheda area di produzione che rappresenta l'operazione di affidamento in conto lavoro.  
 
-## <a name="updating-standard-costs"></a>Aggiornamento dei costi standard
+## <a name="update-standard-costs"></a>Aggiornamento dei costi standard
 
 Per aggiornare o calcolare il costo standard degli articoli di assemblaggio, utilizzare la funzione dalla scheda articolo.  
 

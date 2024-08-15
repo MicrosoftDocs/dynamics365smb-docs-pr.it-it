@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Funzionalità locale per l'Italia
+# <a name="italy-local-functionality"></a>Funzionalità locale per l'Italia
 
 Negli articoli indicati di seguito viene descritta la funzionalità locale univoca per la versione italiana di [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Disponibilità della funzionalità
+## <a name="feature-availability"></a>Disponibilità della funzionalità
 
 * IVA e ritenute
     * [IVA italiana](italian-vat.md)
@@ -60,7 +60,7 @@ Negli articoli indicati di seguito viene descritta la funzionalità locale univo
     * [Fatturazione elettronica italiana](electronic-invoicing.md) **Disponibile ora**
     * [Fornitori da paesi o regioni fiscalmente esclusi](fiscal-deny-list.md) **disponibili ora**
 
-## Futuri requisiti legislativi in fase di esame
+## <a name="future-legislation-requirements-being-investigated"></a>Futuri requisiti legislativi in fase di esame
 
 * Consenti la registrazione del calcolo e della registrazione della liquidazione IVA per codice attività **Previsto per il 24.4**
 * IVA non detraibile riprogettata e aggiornata **Previsto per il primo ciclo di rilascio del 2025**  
@@ -68,7 +68,7 @@ Negli articoli indicati di seguito viene descritta la funzionalità locale univo
 
 Se sei a conoscenza di eventuali caratteristiche normative imminenti, invia un [Avviso sulle funzionalità normative](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Utilizzare [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilità nazionale/regionale e lingue supportate](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

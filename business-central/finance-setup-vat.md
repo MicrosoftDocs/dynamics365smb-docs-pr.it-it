@@ -62,7 +62,7 @@ Per impostare un valore predefinito per una data IVA, attieniti alla seguente pr
 > [!NOTE]
 > Per impostazione predefinita, la **Data IVA predefinita** è la **Data di registrazione**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Abilitazione o disabilitazione della funzione Data IVA
+### <a name="enable-or-disable-the-vat-date-feature"></a>Abilitazione o disabilitazione della funzione Data IVA
 
 Alcuni paesi/aree geografiche richiedono che le aziende utilizzino una data IVA specifica, mentre altri paesi/aree geografiche no. Alcuni paesi/aree richiedono inoltre alle aziende di modificare la data IVA in situazioni specifiche dopo aver registrato i documenti, mentre altri paesi/aree non consentono modifiche alle date IVA. Per consentire contesti diversi, puoi scegliere se utilizzare questa funzionalità e, in tal caso, in quale misura.
 

@@ -11,18 +11,18 @@ ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Gestire le varianti di prodotto
+# <a name="manage-product-variants"></a>Gestire le varianti di prodotto
 
 Le varianti degli articoli sono un ottimo modo per tenere sotto controllo il tuo elenco di prodotti. Ad esempio, hai un gran numero di articoli che sono quasi identici e variano solo nel colore. Puoi definire ogni variante come un articolo separato. Ma puoi anche scegliere di impostare un articolo e specificare i vari colori come varianti dell'articolo.  
 
 > [!TIP]
 > Per un'introduzione pratica all'utilizzo delle varianti nella produzione, vedi [Procedura dettagliata: varianti](contoso-coffee/manufacturing/variants.md) per i dati demo di Contoso Coffee.  
 
-## Aggiungere varianti a un articolo
+## <a name="add-variants-to-an-item"></a>Aggiungere varianti a un articolo
 
 È abbastanza semplice definire varianti per un articolo.  
 
-### Per aggiungere varianti
+### <a name="to-add-variants"></a>Per aggiungere varianti
 
 1. Apri [la pagina **Elenco articoli**](https://businesscentral.dynamics.com/?page=31), apri l'articolo rilevante.  
 2. Nell' **Elemento** scheda, seleziona l'azione **Correlato**, quindi seleziona **Elemento** e infine seleziona l'azione **Varianti** .  
@@ -30,11 +30,11 @@ Le varianti degli articoli sono un ottimo modo per tenere sotto controllo il tuo
 
 Quindi, quando crei un documento di vendita e aggiungi l'articolo, puoi specificare la variante dell'articolo nel campo Variante **Codice** . Lo stesso vale per l'acquisto di documenti.  
 
-## Disponibilità articolo per variante
+## <a name="item-availability-by-variant"></a>Disponibilità articolo per variante
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## Richiede l'uso di varianti
+## <a name="require-use-of-variants"></a>Richiede l'uso di varianti
 
 A partire dal secondo ciclo di rilascio del 2022, gli amministratori possono richiedere agli utenti di specificare la variante nei documenti e nei giornali di registrazione per gli articoli con varianti. Per attivare la funzionalità, nella pagina **Setup inventario** seleziona il campo **Variante obbligatoria se esistente**. È possibile sostituire questa impostazione globale per articoli specifici.  
 
@@ -51,11 +51,11 @@ Nelle schede articolo, il campo **Variante obbligatoria se esistente** ha le seg
 
 Se la funzionalità è attivata, non puoi registrare un movimento se la variante non è specificata.
 
-## Categorie, attributi e varianti
+## <a name="categories-attributes-and-variants"></a>Categorie, attributi e varianti
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Registra nuovi articoli](inventory-how-register-new-items.md)    
 [Imposta le informazioni generali dell'inventario](inventory-how-setup-general.md)    

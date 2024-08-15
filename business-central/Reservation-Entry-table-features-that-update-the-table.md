@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Tavolo di ingresso per le prenotazioni - Introduzione
+# <a name="reservation-entry-table---introduction"></a>Tavolo di ingresso per le prenotazioni - Introduzione
 
 Questo whitepaper tecnico fornisce indicazioni utili per comprendere e risolvere i problemi di incoerenza dei dati nella tabella  *Inserimento prenotazione* (Tabella 337) Microsoft Dynamics NAV. La prima parte è un'introduzione alle funzionalità che generano o modificano i dati in questa tabella. Copre anche diversi campi nella tabella  *Inserimento prenotazione* che vale la pena sottolineare in relazione a queste funzionalità. La seconda parte illustra attraverso esempi come le voci nella tabella  *Voci di prenotazione* vengono generate, eliminate o modificate quando vengono elaborati gli ordini di trasferimento o eseguite le funzionalità di pianificazione.
 
@@ -28,9 +28,9 @@ In termini generali, i dati generati nella tabella  *Inserimento prenotazione* d
 - Parametri di pianificazione sull'articolo o sull'unità di stoccaggio scheda
 - Codice tracciabilità articolo
 
-## Funzionalità che aggiornano la tabella di inserimento delle prenotazioni
+## <a name="features-that-update-the-reservation-entry-table"></a>Funzionalità che aggiornano la tabella di inserimento delle prenotazioni
 
-### Politica di monitoraggio degli ordini
+### <a name="order-tracking-policy"></a>Politica di monitoraggio degli ordini
 
 Se il campo  **Criterio di tracciamento degli ordini** di un articolo è impostato su Nessuno, Microsoft Dynamics NAV non creerà mai voci di prenotazione nella tabella  *Voce di prenotazione*, a meno che non venga eseguito il Piano di modifica netta o il Piano rigenerativo, la Prenotazione o il Tracciamento articolo. Inoltre, se non è abilitato il monitoraggio degli ordini, è possibile avere voci di prenotazione quando si utilizzano le policy Produzione su ordinazione o Assemblaggio su ordinazione.
 
@@ -51,7 +51,7 @@ Impostando il campo  **Criterio di tracciamento dell'ordine** sull'articolo su S
 > [!NOTE]  
 > La funzionalità di monitoraggio non sostituisce la funzionalità di pianificazione, che considera tutti gli articoli, le richieste e le forniture insieme per fornire proposte di pianificazione ottimali per ottimizzare i livelli di servizio clienti e bilanciare i livelli di inventario.
 
-### Politica di prenotazione
+### <a name="reservation-policy"></a>Politica di prenotazione
 
 Una prenotazione è composta da una coppia di record nella tabella  *Voce di prenotazione* con uno  **Stato di prenotazione** di Prenotazione, che condivide lo stesso numero di voce. Un record ha il campo Positivo abilitato e punta alla fornitura. L'altro record ha il campo  **Positivo** non abilitato e punta alla domanda. I campi **Tipo di origine**, **N. rif. origine** e **ID origine** evidenziano la prenotazione collegare tra domanda e offerta.
 
@@ -122,7 +122,7 @@ Microsoft Dynamics NAV verrà visualizzato il seguente messaggio di avviso:
 
 Si conclude così la dimostrazione dell'interazione tra l'utilizzo delle prenotazioni automatiche e il monitoraggio degli ordini. Gli esempi mostrano anche cosa succede quando si modificano le date di scadenza e il messaggio di errore che viene visualizzato quando si verifica un conflitto di prenotazione.
 
-### Pianificazione calcolata
+### <a name="planning-calculated"></a>Pianificazione calcolata
 
 La pianificazione Fatto mediante la pianificazione degli ordini, il foglio di lavoro delle richieste o il foglio di lavoro di pianificazione genererà voci nella tabella  *Voce di prenotazione* con il campo  **Stato della prenotazione** impostato su Tracciamento, Prenotazione o Surplus. Dovrebbe sempre esserci una coppia corrispondente con lo stesso numero di voce di valore positivo e negativo nel campo  **Quantità (base)** quando lo stato è Tracciamento o Prenotazione. Il campo  **Tipo di origine**  sarà il tipo di domanda, ovvero la tabella 37 per la quantità negativa e una tabella di pianificazione, ad esempio la tabella 246, per la quantità positiva. Il campo  **ID sorgente** sarà PIANIFICAZIONE.
 
@@ -145,7 +145,7 @@ Questi movimenti vengono generati durante l'esecuzione della pianificazione e in
 
 Nella tabella *Inserimento prenotazione*, come negli ordini di acquisto, trasferimento e produzione, è presente un campo **Flessibilità di pianificazione** . Questo campo opzione definisce se la fornitura rappresentata da questi ordini di fornitura viene presa in considerazione dal sistema di pianificazione durante il calcolo dei messaggi di azione. Se il campo contiene l'opzione Illimitato, il sistema di pianificazione include la riga nel calcolo dei messaggi di azione. Se il campo contiene l'opzione Nessuno, la riga è fissa e immodificabile e il sistema di pianificazione non include la riga nel calcolo dei messaggi di azione. La funzionalità è gestita nella tabella *Inserimento prenotazione* dal campo con lo stesso nome.
 
-### Politica di riordino e produzione
+### <a name="reordering-and-manufacturing-policy"></a>Politica di riordino e produzione
 
 Se viene eseguita una funzionalità di pianificazione per un set di articoli con la Politica di riordino impostata su Ordine, Microsoft Dynamics NAV verranno create voci nella tabella *Voce di prenotazione* con lo stato di prenotazione di tipo Prenotazione anziché Tracciamento.
 
@@ -153,7 +153,7 @@ I campi  **Tipo di origine** e  **ID origine** avranno lo stesso trattamento di 
 
 Il campo  **Legatura** viene compilato per controllare gli ordini di fornitura vincolati a una domanda specifica, ad esempio gli ordini di produzione creati direttamente da un ordine di vendita. Il campo visualizza Ordine su ordine quando la voce è specificamente collegata a una domanda o a un'offerta (prenotazione automatica). La domanda può essere correlata alle vendite o alla necessità di componenti.
 
-### Tracciamento degli articoli e inserimento delle prenotazioni dei potenziali clienti
+### <a name="item-tracking-and-prospect-reservation-entry"></a>Tracciamento degli articoli e inserimento delle prenotazioni dei potenziali clienti
 
 Lo stato di prenotazione del potenziale cliente può essere creato nella tabella  Microsoft Dynamics NAV Inserimento prenotazione *quando non si utilizza alcuna entità di rete degli ordini, ovvero Monitoraggio ordini.*  Ad esempio, in una riga del registro dei consumi si assegna la tracciabilità dell'articolo al componente. Tuttavia, se l'articolo è già tracciato, Microsoft Dynamics NAV potrebbero essere create più voci di prenotazione Prospect. Ciò è dimostrato nell'ESEMPIO 2 relativo agli ordini di trasferimento nella seconda parte di questo documento.
 
@@ -167,15 +167,15 @@ Poiché le registrazioni contabili degli articoli contengono le informazioni di 
 
 Per ulteriori informazioni, consultare i whitepaper tecnici elencati nelle risorse aggiuntive alla fine del presente documento. Microsoft Dynamics NAV 
 
-### Campi Sottotipo sorgente, Messaggio azione soppresso, Adeguamento messaggio azione e Annullamento non consentito
+### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Campi Sottotipo sorgente, Messaggio azione soppresso, Adeguamento messaggio azione e Annullamento non consentito
 
 In questa sezione vengono descritti i campi  **Sottotipo sorgente**,  **Messaggio azione soppresso**,  **Regolazione messaggio azione** e  **Non consentire annullamento** nella tabella  *Inserimento prenotazione* . Vengono forniti scenari per dimostrare l'utilizzo dei campi  **Messaggio di azione soppresso**,  **Regolazione messaggio di azione** e  **Non consentire annullamento** . Il campo  **Regolazione messaggio azione** viene utilizzato per la funzionalità della politica di monitoraggio degli ordini Messaggio di monitoraggio e azione. Il campo  **Non consentire annullamento** viene utilizzato per la funzionalità Assemblaggio su ordinazione nel Microsoft Dynamics NAV 2013.
 
-#### Sottotipo origine
+#### <a name="source-subtype"></a>Sottotipo origine
 
 Il campo  **Sottotipo di origine** indica a quale sottotipo di origine è correlata la voce di prenotazione. Se la voce è correlata a una riga di acquisto o di vendita, il campo viene copiato dal campo  **Tipo di documento** sulla riga. Se è correlato a una riga di giornale, il campo viene copiato dal campo  **Tipo di voce** sulla riga di giornale.
 
-#### Mess. azione eliminato
+#### <a name="suppressed-action-msg"></a>Mess. azione eliminato
 
 Il campo  **Messaggio azione soppressa**  registra quando una fornitura esistente è già stata parzialmente elaborata, ad esempio quando un ordine di acquisto è già stato parzialmente ricevuto o un ordine di produzione ha consumi registrati.
 
@@ -208,7 +208,7 @@ La voce n. 28 nella tabella 337 ha lo stato di prenotazione Tracciamento per abb
 
 La voce n. 30 è l'ordine di acquisto esistente che è stato ricevuto parzialmente con quantità 2. Di conseguenza, il campo  **Stato della prenotazione**  è Surplus e Microsoft Dynamics NAV imposta il campo  **Quantità (base)** su *8* (saldo rimanente) e il campo  **Messaggio di azione soppresso** è abilitato.
 
-#### Rettif. messaggio di azione
+#### <a name="action-message-adjustment"></a>Rettif. messaggio di azione
 
 Il campo  **Regolazione messaggio azione** mostra la modifica nel lato fornitura del monitoraggio dell'ordine che si verifica quando si accettano i messaggi azione correlati. Un valore viene visualizzato qui solo quando sono attive le funzionalità per il monitoraggio degli ordini e i messaggi di azione (criterio di monitoraggio degli ordini impostato su Monitoraggio e messaggio di azione). Il valore viene calcolato in base ai dati nella tabella  *Voce messaggio azione* (Tabella 99000849). Il seguente esempio serve come illustrazione:
 1. Aprire la voce 80002. Imposta il seguente campo:
@@ -224,7 +224,7 @@ Le informazioni sullo stato nella tabella 337 sono mostrate nella seguente illus
 6. Nella voce n. 34 il campo  **Adeguamento messaggio azione** nella tabella 337 è abilitato per 5 unità con stato di prenotazione Surplus. Poiché l'ordine di vendita è aumentato di passaggio 5, è stata creata questa prenotazione perché è richiesta una maggiore fornitura. Microsoft Dynamics NAV 
 7. Aprire la pagina **Fogli di lavoro di pianificazione** e nella scheda **Home**, nel gruppo **Processo**, scegliere **Ottieni messaggi di azione**. Microsoft Dynamics NAV suggerirà di aumentare la quantità dell'ordine di acquisto da 100 a 105.
 
-#### Non consentire annullamento
+#### <a name="disallow-cancellation"></a>Non consentire annullamento
 
 Il campo  **Non consentire annullamento** indica che la voce di prenotazione rappresenta l'collegare tra una riga di ordine di vendita e un ordine di assemblaggio. Non è possibile eliminare questa prenotazione perché è necessaria per mantenere la sincronizzazione che si verifica quando un articolo viene assemblato su ordinazione. Il seguente esempio serve come illustrazione:
 
@@ -253,7 +253,7 @@ La voce n. 82 ha un surplus di stato di prenotazione pari a 9 unità di Assemble
 
 La voce n. 86 presenta un ordine vincolante con stato di prenotazione. Inoltre, il campo  **Non consentire annullamento** è abilitato poiché il criterio di assemblaggio è impostato su Assemblaggio su ordine per l'articolo Assemblaggio FG. Infine, il campo  **Flessibilità di pianificazione** è impostato su Nessuno, poiché Microsoft Dynamics NAV non consente alla logica di pianificazione di eliminare la prenotazione.
 
-#### Quantità disponibile per il ritiro e prenotazioni
+#### <a name="quantity-available-to-pick-and-reservations"></a>Quantità disponibile per il ritiro e prenotazioni
 
 Il campo  **Prelievo riservato e quantità di spedizione** nella tabella 337, presente nelle versioni precedenti al  Microsoft Dynamics NAV 2013, controlla la disponibilità degli articoli all'interno di un magazzino gestito. In qualsiasi installazione di gestione del magazzino, le quantità degli articoli esistono sia come voci di magazzino che come voci del registro degli articoli. Microsoft Dynamics NAV  Questi due tipi di voce contengono informazioni diverse su dove si trovano gli articoli e se sono disponibili. I movimenti warehouse definiscono la disponibilità di un articolo per collocazione e per tipo di collocazione, che è denominato anche contenuto collocazione. I movimenti contabili articoli definiscono la disponibilità di un articolo in base al relativo impegno verso i documenti in uscita. Nell'algoritmo di prelievo è presente una funzionalità speciale per calcolare la quantità disponibile per il prelievo quando il contenuto del contenitore è abbinato alle prenotazioni. L'algoritmo di prelievo sottrae le quantità riservate per altri documenti in uscita, le quantità presenti sui documenti di prelievo esistenti e le quantità prelevate ma non ancora spedite o consumate. Il risultato viene visualizzato nel campo  **Quantità disponibile da prelevare** nella pagina  **Foglio di lavoro di prelievo**, dove il campo viene calcolato dinamicamente. Il valore viene calcolato anche quando un utente crea prelievi di magazzino direttamente da documenti in uscita quali ordini di vendita, consumi di produzione o trasferimenti in uscita.
 
@@ -301,9 +301,9 @@ Quando lo stoccaggio in magazzino viene registrato in passaggio 7, ciò consente
 
 La seguente illustrazione è tratta da  Microsoft Dynamics NAV 2009 R2.
 
-## Illustrazioni che utilizzano ordini di trasferimento e pianificazione
+## <a name="illustrations-using-transfer-orders-and-planning"></a>Illustrazioni che utilizzano ordini di trasferimento e pianificazione
 
-### Ordini di trasferimento
+### <a name="transfer-orders"></a>Ordini di trasferimento
 
 Quando si utilizzano ordini di trasferimento e l'articolo viene spedito ma non completamente ricevuto, nella tabella  *Inserimento prenotazione* si ottiene uno stato di prenotazione Surplus. Il codice posizione sarà la posizione di trasferimento.
 
@@ -313,7 +313,7 @@ Quando il monitoraggio degli ordini è attivato e non c'è domanda (ordine di ve
 
 Ciò è dimostrato nel primo esempio.
 
-#### Esempio 1
+#### <a name="example-1"></a>Esempio 1
 
 1. Aprire gli elementi 80003 e 80004 e impostare il campo **Criterio di tracciamento** su *Solo tracciamento*. Lasciare gli altri campi come predefiniti.
 2. Aprire un giornale di registrazione articoli e aumentare l'inventario di questi articoli alla quantità 10 ciascuno per la posizione ROSSA e registrare le righe del giornale.
@@ -342,7 +342,7 @@ Di seguito è riportata la spiegazione dei campi seguenti per la voce di prenota
 |**Tipo Origine**|Tabella 32 delle registrazioni contabili degli articoli.|  
 |**Riferimento sorgente n.**|Numero di registrazione contabile aperta 322.|
 
-#### Esempio 2
+#### <a name="example-2"></a>Esempio 2
 
 L'esempio seguente illustra cosa accade quando un componente viene trasferito tra sedi diverse, ma allo stesso tempo viene monitorato tra una domanda necessaria e una fornitura disponibile. I componenti verranno trasferiti dalla posizione ROSSA a quella BLU, per essere consumati in base a un ordine di produzione rilasciato. Il componente utilizza il monitoraggio degli ordini, la pianificazione degli ordini e il monitoraggio degli articoli.
 
@@ -378,7 +378,7 @@ L'articolo prodotto otterrà l'output nella posizione BLU.
 
 Le informazioni sullo stato nella tabella 337 sono mostrate nella seguente illustrazione.
 
-##### Voci di prenotazione con numeri 55 e 56
+##### <a name="reservation-entries-with-numbers-55-and-56"></a>Voci di prenotazione con numeri 55 e 56
 
 Per il componente necessario per il lotto A e il lotto B, rispettivamente, vengono creati collegamenti di tracciamento dell'ordine dalla domanda nella tabella 5407, Componente ordine di produzione, alla fornitura nella tabella 32, Registrazione contabile articolo. IL **Stato della prenotazione**  il campo contiene il monitoraggio per tutte e quattro le voci per indicare che questi collegamenti di monitoraggio dinamico degli ordini sono tra domanda e offerta.
 
@@ -387,7 +387,7 @@ La domanda nella tabella 5407, Componente ordine di produzione, è collegata all
 > [!NOTE]  
 > Il campo **Nr. lotto** è vuoto nelle righe della domanda, in quanto i numeri di lotto non sono specificati nelle righe componenti dell'ordine di produzione rilasciato.
 
-##### Registrazione della prenotazione con numero 57
+##### <a name="reservation-entry-with-number-57"></a>Registrazione della prenotazione con numero 57
 
 Dalla domanda di vendita nella tabella 37, Riga di vendita, viene creato un tracciamento dell'ordine collegare per la fornitura nella tabella 5406, Riga ordine di produzione. Il campo  **Stato prenotazione** contiene Prenotazione e il campo  **Legatura** contiene Da ordine a ordine. Ciò avviene perché l'ordine di produzione rilasciato è stato generato specificatamente per l'ordine di vendita e deve rimanere collegato, a differenza dei collegamenti di tracciamento degli ordini con stato di prenotazione di Tracciamento, che vengono creati e modificati dinamicamente.
 
@@ -405,11 +405,11 @@ Inserire la quantità totale in sospeso SOLO come Spedito.
 
 Le informazioni sullo stato nella tabella 337 sono mostrate nella seguente illustrazione.
 
-##### Voci di prenotazione con numero 55 e 56
+##### <a name="reservation-entries-with-number-55-and-56"></a>Voci di prenotazione con numero 55 e 56
 
 Le voci di tracciamento degli ordini per i due lotti del componente che riflettono la domanda nella tabella 5407 vengono modificate dallo stato di prenotazione Tracciamento a Surplus. Il motivo è che gli approvvigionamenti a cui erano collegati prima, nella tabella 32, sono stati utilizzati dalla spedizione dell'ordine di trasferimento. Il surplus genuino, come n questo caso, riflette un approvvigionamento o una domanda effettiva eccedente che non viene tracciata. È un'indicazione di squilibrio nella rete degli ordini che, a meno che non venga risolto dinamicamente, genererà un messaggio di azione da parte del sistema di pianificazione.
 
-##### Numeri di prenotazione da 59 a 63
+##### <a name="reservation-entry-numbers-59-to-63"></a>Numeri di prenotazione da 59 a 63
 
 Poiché i due lotti del componente vengono registrati nell'ordine di trasferimento come spediti ma non ricevuti, tutte le voci di tracciamento ordine positive correlate sono di tipo di riserva Surplus, a indicare che non sono assegnate ad alcuna domanda. Per ogni numero di lotto, una voce si riferisce alla tabella 5741, Riga di trasferimento, e una voce si riferisce alla registrazione contabile dell'articolo nella posizione di transito in cui si trovano ora gli articoli.
 
@@ -434,21 +434,21 @@ Chiudi il modulo di tracciamento degli articoli.
 
 Le informazioni sullo stato nella tabella 337 sono mostrate nella seguente illustrazione.
 
-##### Voci di prenotazione con numeri 68 e 69
+##### <a name="reservation-entries-with-numbers-68-and-69"></a>Voci di prenotazione con numeri 68 e 69
 
 Poiché la necessità del componente è stata modificata nella posizione BLU e la fornitura è disponibile come voci del registro articoli nella posizione BLU, tutte le voci di tracciamento degli ordini per i due numeri di lotto sono ora completamente tracciate, come indicato dallo stato di prenotazione di Tracciamento. I numeri di lotto non vengono inseriti nel campo  **N. lotto** rispetto alla domanda nella tabella 5406,  **Riga ordine produzione**, poiché non abbiamo specificato i numeri di lotto per il componente nell'ordine di produzione rilasciato.
 
-##### Voci di prenotazione con numeri 70 e 71
+##### <a name="reservation-entries-with-numbers-70-and-71"></a>Voci di prenotazione con numeri 70 e 71
 
 Le voci con stato di prenotazione Prospect vengono generate nella tabella 337. Il motivo è che entrambi i numeri di lotto sono assegnati al componente nel giornale di consumo, ma il giornale non è stato registrato.
 
 Questa è la sezione in cui viene descritta la modalità in cui le voci di tracciamento degli ordini nella tabella  **Voce di prenotazione** vengono generate, modificate ed eliminate quando si utilizzano più funzionalità in combinazione con gli ordini di trasferimento.
 
-### Pianificazione calcolata
+### <a name="planning-calculated-1"></a>Pianificazione calcolata
 
 Quando si utilizzano le funzionalità di pianificazione, ovvero il  **Foglio di lavoro di richiesta**, il  **Foglio di lavoro di pianificazione** o la  **Pianificazione degli ordini**, le voci di prenotazione nella tabella 337  **Voce di prenotazione**  potrebbero essere modificate o aggiunte a seconda del suggerimento di pianificazione fornito dalla logica in Microsoft Dynamics NAV. L'esempio 3 verrà utilizzato **Politica di riordino**  Ordina con **Politica di produzione**  Realizzazione su ordinazione di un articolo prodotto. Il componente verrà utilizzato **Politica di riordino**  Quantità di riordino fissa.
 
-#### Esempio 3
+#### <a name="example-3"></a>Esempio 3
 
 1. Nel **Impostazione della produzione**  scheda, **Componente in posizione**  è ROSSO dall'esempio precedente.
 2. Crea un nuovo elemento padre 70061. Impostare i seguenti campi:
@@ -497,17 +497,17 @@ Il campo  **Stato della prenotazione**  è Prenotazione e viene creato un vincol
 
 La domanda di 40 unità rispetto al campo **ID origine** è il numero dell'ordine di vendita 1005 e il tipo di origine è *Riga di vendita* tabella 37. L'inserimento della prenotazione è allineato con la proposta di pianificazione, Riferimento sorgente n. 10000, l'ID sorgente è PIANIFICAZIONE e il tipo sorgente è  *Riga di richiesta* tabella 246. Esiste quindi un equilibrio tra la domanda derivante dall'ordine di vendita e l'offerta suggerita dal motore di pianificazione.
 
-##### Numeri di prenotazione 73 e 74
+##### <a name="reservation-entry-numbers-73-and-74"></a>Numeri di prenotazione 73 e 74
 
 Eseguendo il batch job Calcola piano, le quattro voci successive vengono generate con uno stato di prenotazione Tracciamento dovuto all'impostazione della politica di riordino Quantità di riordino fissa per il componente. La fornitura richiesta per il componente Articolo 70062 viene ripristinata in base ai suggerimenti di pianificazione forniti, Riferimento Fonte n. 20000 e 30000, con ID sorgente impostato su PIANIFICAZIONE e Tipo sorgente dalla tabella 246 *Riga di richiesta* . Il componente necessario viene creato per soddisfare la domanda dell'articolo padre 70061 per una quantità totale (base) di 40. Come risultato di questa richiesta, il campo  **Riga ordine produzione origine** è 10000, con Tipo origine nella tabella  *Fabbisogno componenti* 99000829.
 
 Lo stato della prenotazione non è Surplus, poiché esiste un tracciamento dell'ordine tra la domanda dell'articolo padre 70061 e la fornitura dell'articolo componente 70062.
 
-##### Numeri di prenotazione 75 e 76
+##### <a name="reservation-entry-numbers-75-and-76"></a>Numeri di prenotazione 75 e 76
 
 Le ultime due voci hanno uno stato di prenotazione Surplus, in quanto si tratta di Quantità non tracciate generate sul foglio di lavoro di pianificazione relative ai parametri di riordino Riordina puntare e Quantità di riordino.
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Dettagli di progettazione: progettazione della tracciabilità articolo](design-details-item-tracking-design.md)  
 [Dettagli di progettazione: bilanciamento di domanda e offerta](design-details-balancing-demand-and-supply.md)  
 [Dettagli di progettazione: Impegno, tracciabilità dell'ordine e messaggistica di azioni](design-details-reservation-order-tracking-and-action-messaging.md)   

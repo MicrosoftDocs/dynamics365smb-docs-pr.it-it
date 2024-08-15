@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Risoluzione dei problemi e correzione delle dimensioni
+# <a name="troubleshoot-and-correct-dimensions"></a>Risoluzione dei problemi e correzione delle dimensioni
 
 Le visualizzazioni analisi e i report finanziari spesso si basano sui dati delle dimensioni. Nonostante le misure di sicurezza disponibili, a volte accade un errore che può portare a imprecisioni. Questo articolo descrive alcuni degli errori tipici e descrive come correggere le assegnazioni di dimensioni sulle transazioni registrate in modo che i report finanziari siano accurati.
 
@@ -45,14 +45,14 @@ Se scopri una dimensione errata nei movimenti di contabilità generale (C/G) reg
 > [!IMPORTANT]
 > Le funzioni per la correzione delle dimensioni hanno il solo scopo di contribuire a rendere accurato il reporting finanziario. Le correzioni delle dimensioni si applicano solo alle voci C/G. Non modificano le dimensioni assegnate alle voci in altri libri mastri per la stessa transazione. Ci sarà una mancata corrispondenza tra le dimensioni assegnate nella contabilità generale e nei movimenti inventario secondari.
 
-### <a name="setting-up-dimension-corrections"></a>Configurazione delle correzioni delle dimensioni
+### <a name="set-up-dimension-corrections"></a>Configurazione delle correzioni delle dimensioni
 
 Ci sono due cose da considerare quando si impostano le correzioni delle dimensioni:
 
 * Ci sono dimensioni che non vuoi che siano modificate da altri utenti? Nella pagina **Impostazioni correzione quota**, specifica le dimensioni che desideri bloccare per le modifiche.
 * Chi può modificare le dimensioni? Per consentire alle persone di apportare modifiche, assegna l'autorizzazione **CORREZIONE DIM D365** agli utenti. Le autorizzazioni consentono loro di creare correzioni delle dimensioni, eseguirle e annullarle se necessario. Possono anche specificare le dimensioni bloccate. Per ulteriori informazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Correzione di una dimensione
+### <a name="correct-a-dimension"></a>Correzione di una dimensione
 
 È possibile selezionare manualmente uno o più movimenti di contabilità generale oppure utilizzare i filtri per selezionare gruppi di movimenti. Se necessario, puoi anche aggiungere o eliminare dimensioni. 
 
@@ -82,13 +82,13 @@ Ci sono due cose da considerare quando si impostano le correzioni delle dimensio
 5. Per convalidare la correzione, scegli **Convalida le modifiche alle dimensioni**. Per ulteriori informazioni, vedi [Convalida delle correzioni delle dimensioni](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Scegli **Esegui**.
 
-### <a name="validating-dimension-corrections"></a>Convalida delle correzioni delle dimensioni
+### <a name="validate-dimension-corrections"></a>Convalida delle correzioni delle dimensioni
 
 Prima di eseguire una correzione, è una buona idea convalidarla. La convalida controlla le restrizioni sulla registrazione del valore per i conti C/G, le restrizioni per le dimensioni e se i valori delle dimensioni sono bloccati. Durante la convalida, lo stato della correzione è impostato su **Convalida in corso**. Dopo aver convalidato una correzione, il risultato viene visualizzato nel campo **Stato di convalida**. Se sono stati rilevati errori, è possibile utilizzare l'azione **Visualizza errori** per indagare su di loro. Dopo aver corretto un errore, è necessario utilizzare l'azione **Riapri** per eseguire la correzione o una nuova convalida.
 
 Puoi eseguire una correzione immediatamente o programmarne l'esecuzione in un secondo momento. Se stai eseguendo correzioni su un set di dati di grandi dimensioni, ti consigliamo di pianificarne l'esecuzione al di fuori dell'orario di lavoro. Per ulteriori informazioni, vedi [Correzioni delle dimensioni su set di dati di grandi dimensioni](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Annullamento di una correzione
+### <a name="undo-a-correction"></a>Annullamento di una correzione
 
 Dopo aver corretto una dimensione, se non ti piace quello che vedi puoi usare l'azione **Annulla** per ripristinare il valore precedente. Tuttavia, puoi annullare solo la correzione più recente. Prima di annullare una correzione, puoi convalidare le modifiche risultanti dall'azione di annullamento. Ad esempio, la convalida è utile se le restrizioni sulle dimensioni sono cambiate dopo la correzione.
 
@@ -102,11 +102,11 @@ Prestare attenzione quando si correggono set di voci di grandi dimensioni, ad es
 
 Se **Aggiorna in registrazione** è abilitata per una visualizzazione analisi, [!INCLUDE[prod_short](includes/prod_short.md)] può aggiornare la visualizzazione quando vengono registrati documenti e giornali. Puoi inoltre aggiornare le viste con questa impostazione abilitata con i risultati delle correzioni delle dimensioni. A tale scopo, attivare il toggle **Aggiorna visualizzazione analisi**. L'aggiornamento delle visualizzazioni delle analisi può influire sulle prestazioni, soprattutto per set di dati di grandi dimensioni, quindi si consiglia di aggiornare le visualizzazioni di analisi solo per set di dati di piccole dimensioni.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Visualizzazione delle correzioni delle dimensioni storiche
+### <a name="view-historical-dimension-corrections"></a>Visualizzazione delle correzioni delle dimensioni storiche
 
 Se un movimento di contabilità generale è stato corretto, è possibile esaminare la modifica utilizzando l'azione **Cronologia delle correzioni dimensionali**.
 
-### <a name="handling-incomplete-corrections"></a>Gestione di correzioni incomplete
+### <a name="handle-incomplete-corrections"></a>Gestione di correzioni incomplete
 
 Se una correzione non viene completata, viene visualizzato un avviso nella scheda della correzione. In tal caso, puoi utilizzare l'azione **Ripristina** per riportare la correzione allo stato di bozza e annullare le modifiche. È quindi possibile eseguire nuovamente la correzione.
 

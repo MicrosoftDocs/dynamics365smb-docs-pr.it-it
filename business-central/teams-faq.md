@@ -441,7 +441,7 @@ Al momento, Condividi in Teams è disponibile nel client Web desktop, nella fine
 L’**azione Condividi in Teams** si trova nel menu **Condividi** su tutte le pagine, come le pagine delle schede e dei documenti, le pagine delle liste o dei fogli di lavoro, comprese le pagine personalizzate. L'azione non è disponibile nelle finestre di dialogo o nelle pagine mostrate come finestre di dialogo, come le pagine di ricerca o le procedure guidate.
 
 ---
-## <a name="see-also"></a>Vedere anche
+## <a name="related-information"></a>Vedere anche
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
 [Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  

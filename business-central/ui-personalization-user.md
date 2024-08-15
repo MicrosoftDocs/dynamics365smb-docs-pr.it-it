@@ -27,7 +27,7 @@ Puoi eseguire varie modifiche, come spostare o nascondere campi, colonne, azioni
 > Gli amministratori possono eseguire le stesse modifiche al layout degli utenti personalizzando un profilo (ruolo) a cui sono assegnati più utenti. Per saperne di più sulle pagine per i ruoli, vai a [Personalizzare le pagine per i ruoli](ui-personalization-manage.md)<br /><br />
 Gli amministratori possono anche sostituire o disabilitare la personalizzazione degli utenti e definire quali funzionalità sono visualizzabili in tutte o alcune società. Per ulteriori informazioni, vedere [Personalizzazione di Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## <a name="video-and-training"></a>Video
 
 Il video seguente mostra alcuni dei modi per personalizzare il Centro gestione ruoli.
 

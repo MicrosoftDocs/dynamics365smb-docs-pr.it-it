@@ -12,7 +12,7 @@ ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Gestione della contabilità fornitori
+# <a name="managing-payables"></a>Gestione della contabilità fornitori
 
 Una parte importante della gestione della contabilità fornitori consiste nel pagare i fornitori o rimborsare le spese ai dipendenti. È possibile utilizzare funzioni per aggiungere righe di pagamenti per le fatture di acquisto che sono in scadenza nella pagina **Registrazioni pagamenti**. Per inviare transazioni alla banca, è possibile esportare più righe di registrazione pagamenti in un file, che sarà quindi caricato nella banca. È inoltre possibile effettuare i pagamenti con assegno, incluso trasmettere assegni come pagamenti elettronici.
 
@@ -30,7 +30,7 @@ Nella tabella seguente viene descritta una sequenza di attività, all'interno de
 |È possibile assicurarsi della corretta valutazione di magazzino assegnando i costi degli articoli, come le spese di spedizione, gestione fisica, assicurazione e il trasporto sostenute per gli acquisti.|[Utilizzare gli addebiti articolo al conto per i costi aggiuntivi commerciali](payables-how-assign-item-charges.md)|
 |Rimborsare ai dipendenti le spese personali durante le attività aziendali effettuando i pagamenti sul conto corrente bancario.|[Registrare e rimborsare le spese dei dipendenti](finance-how-record-reimburse-employee-expenses.md)|
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Acquisti](purchasing-manage-purchasing.md)    
 [Gestione dei crediti](receivables-manage-receivables.md)    
 [Utilizzare gli addebiti degli articoli per contabilizzare i costi commerciali aggiuntivi](payables-how-assign-item-charges.md)    

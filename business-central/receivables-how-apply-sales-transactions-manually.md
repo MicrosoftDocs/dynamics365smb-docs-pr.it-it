@@ -11,7 +11,7 @@ ms.date: 06/21/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Riconciliare i pagamenti dei clienti con un giornale di incasso o dalle registrazioni contabili dei clienti
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Riconciliare i pagamenti dei clienti con un giornale di incasso o dalle registrazioni contabili dei clienti
 
 Quando ricevi un pagamento in contanti da un cliente o effettui un rimborso in contanti, puoi applicare il pagamento o il rimborso agli addebiti o agli accrediti aperti Chiudi. Puoi specificare l'importo esatto da collegare. Ad esempio, è possibile collegare pagamenti parziali ai movimenti contabili clienti. La chiusura dei movimenti contabili dei clienti mantiene aggiornate le statistiche dei clienti, gli estratti conto, gli oneri finanziari e così via.
 
@@ -31,7 +31,7 @@ Quando ricevi un pagamento in contanti da un cliente o effettui un rimborso in c
 > [!NOTE]  
 > Se il campo **Metodo Collegamento PA** nella scheda cliente è impostato su **Collega al più Vecchio**, i pagamenti vengono automaticamente collegati al movimento di credito meno recente, a meno che non si specifichi manualmente un movimento. Se il metodo di collegamento è impostato su **Manuale**, i movimenti vengono collegati sempre manualmente.
 
-## Per compilare e contabilizzare una registrazione incasso
+## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Per compilare e contabilizzare una registrazione incasso
 
 Una registrazione incasso è un tipo di registrazione COGE. Puoi usarla per registrare transazioni nei conti C/G, conti correnti bancari, conti clienti, conti fornitori e conti cespite. È possibile collegare il pagamento a uno o più movimenti Dare quando si registra il pagamento. Puoi anche collegare dai movimenti registrati in un secondo momento.
 
@@ -54,7 +54,7 @@ Una registrazione incasso è un tipo di registrazione COGE. Puoi usarla per regi
    2. Nel campo  **Numero conto saldo**, Seleziona il conto cassa per i pagamenti in contanti o il conto bancario pertinente per altri pagamenti.
 10. Effettuare la registrazione.
 
-## Per collegare un pagamento a un singolo movimento contabile cliente
+## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Per collegare un pagamento a un singolo movimento contabile cliente
 
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") Icona, immettere **Giornale di incasso** e scegliere il relativo collegare.
 2. Scegliere l'azione **Modifica registrazione**.
@@ -70,7 +70,7 @@ Una registrazione incasso è un tipo di registrazione COGE. Puoi usarla per regi
 10. Scegli il pulsante **OK**. Nella pagina **Registrazioni incassi** viene a questo punto visualizzato il movimento nel campo **Collega-a tipo doc.** e nel campo **Collega-a nr. doc.**.
 11. Effettuare la registrazione dell'incasso.
 
-## Per collegare un pagamento a più movimenti contabili clienti
+## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Per collegare un pagamento a più movimenti contabili clienti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni incassi**, quindi scegli il collegamento correlato.
 2. Scegliere l'azione **Modifica registrazione**.
@@ -87,7 +87,7 @@ Una registrazione incasso è un tipo di registrazione COGE. Puoi usarla per regi
 11. Scegliere il pulsante **OK**.
 12. Effettuare la registrazione dell'incasso.
 
-## Per collegare una nota di credito a un singolo movimento contabile cliente
+## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Per collegare una nota di credito a un singolo movimento contabile cliente
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Aprire la nota di credito di vendita desiderata.
@@ -98,7 +98,7 @@ Una registrazione incasso è un tipo di registrazione COGE. Puoi usarla per regi
 5. Scegli il pulsante **OK**. La pagina  **Nota di accredito sulle vendite** mostra ora la voce selezionata nei campi  **Tipo di documento applicabile** e  **N. di documento applicabile** . e l'importo della nota di credito da registrare, rettificato per eventuali sconti di pagamenti.
 6. Registrare la nota di credito.
 
-## Per collegare una nota di credito a più movimenti contabili clienti
+## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Per collegare una nota di credito a più movimenti contabili clienti
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Note credito vendita**, quindi scegli il collegamento correlato.
 2. Aprire la nota di credito di vendita desiderata.
@@ -110,7 +110,7 @@ Una registrazione incasso è un tipo di registrazione COGE. Puoi usarla per regi
 6. Scegliere il pulsante **OK**. Nella pagina **Nota credito vendita** viene a questo punto visualizzato l'importo della nota di credito da registrare, rettificato di ogni possibile sconto.
 7. Registrare la nota di credito.
 
-## Per collegare i movimenti contabili clienti registrati
+## <a name="to-apply-posted-customer-ledger-entries"></a>Per collegare i movimenti contabili clienti registrati
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
 2. Aprire la scheda cliente relativa al cliente per il quale sono disponibili i movimenti da collegare.
@@ -131,7 +131,7 @@ Nella lista dei movimenti contabili, nella riga che contiene il movimento contab
 > [!NOTE]  
 > Dopo aver selezionato un movimento nella pagina **Collega movimenti clienti** o numerosi movimenti impostando **Collega-a ID**, il campo **Importo collegato** nella riga di registrazione conterrà la somma dei restanti importi per i movimenti registrati selezionati, a meno che il campo non contenga un'impostazione differente. Se si seleziona **Collega al più Vecchio** nel campo **Metodo collegamento** della scheda cliente, il collegamento viene stabilito automaticamente.
 
-## Per collegare movimenti contabili clienti nelle varie valute
+## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Per collegare movimenti contabili clienti nelle varie valute
 
 Se si effettua una vendita a un cliente in una valuta e si riceve il pagamento in un'altra, è possibile ancora collegare la fattura al pagamento.  
 
@@ -149,7 +149,7 @@ Ecco un esempio. Si applica la Voce A in una valuta alla Voce B in un'altra valu
 > [!IMPORTANT]  
 >   Quando si collegano movimenti in valute diverse, i movimenti vengono convertiti nella valuta locale. Sebbene i tassi di cambio per le due valute siano fissi, ad esempio tra USD ed EUR, è possibile che durante la conversione nella valuta locale vengano prodotti importi residui di piccola entità. Gli importi residui vengono registrati come utili e perdite sul conto specificato nel campo **Conto utili realizzati** o **Conto perdite realizzate** della pagina **Valute**. Viene rettificato anche il campo **Importo (USD)** nei movimenti contabili fornitori.  
 
-## Per correggere un collegamento di movimenti clienti
+## <a name="to-correct-an-application-of-customer-entries"></a>Per correggere un collegamento di movimenti clienti
 Quando correggi un'applicazione, i movimenti di correzione vengono creati e registrati per tutti i movimenti. I movimenti di correzione sono uguali agli originali ma hanno un segno opposto nel campo **Importo**. I movimenti di correzione includono tutti i movimenti di contabilità generale derivati dall'applicazione. Ad esempio, lo sconto sul pagamento e utili/perdite valutari. Le voci chiuse dall'applicazione vengono riaperte.  
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Clienti**, quindi scegli il collegamento correlato.
@@ -163,7 +163,7 @@ Quando correggi un'applicazione, i movimenti di correzione vengono creati e regi
 > [!IMPORTANT]  
 >   Se un movimento è stato collegato da più di un movimento di collegamento, è necessario prima scollegare il movimento di collegamento più recente.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 [Gestione della contabilità clienti](receivables-manage-receivables.md)  
 [Vendite](sales-manage-sales.md)  
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

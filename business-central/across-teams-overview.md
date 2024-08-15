@@ -76,7 +76,7 @@ Per ulteriori informazioni, vedi [Aggiungi una scheda Business Central in Teams]
 3. Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams. Vedere [Installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md).
 4. Una volta installata l'app, è possibile iniziare. Vedere [Ricerca di clienti, fornitori e altri contatti da Microsoft Teams](across-search-contacts-teams.md) e [Condividi record in Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Vedere anche
+## <a name="related-information"></a>Vedere anche
 
 [Domande frequenti su Teams](teams-faq.md)  
 [Risoluzione dei problemi relativi a Teams](admin-teams-troubleshooting.md)  

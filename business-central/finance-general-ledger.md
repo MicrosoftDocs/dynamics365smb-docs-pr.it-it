@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Informazioni sulla contabilità generale e sul piano dei conti
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Informazioni sulla contabilità generale e sul piano dei conti
 
 La contabilità generale (C/G) memorizza i dati finanziari e il piano dei conti indica in conti in cui sono registrati tutti i movimenti di contabilità generale. [!INCLUDE[prod_short](includes/prod_short.md)] include un piano dei conti standard pronto per supportare l'azienda.
 

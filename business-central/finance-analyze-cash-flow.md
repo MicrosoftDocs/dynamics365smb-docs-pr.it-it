@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analizzare il flusso di cassa dell'azienda
+# <a name="analyze-cash-flow-in-your-company"></a>Analizzare il flusso di cassa dell'azienda
 I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.  
 
 | Per risposte a domande simili alle seguenti | Utilizzare questo grafico |

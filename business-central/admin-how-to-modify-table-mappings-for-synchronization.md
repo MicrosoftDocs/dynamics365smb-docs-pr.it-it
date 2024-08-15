@@ -28,7 +28,7 @@ Quando si crea la connessione tra le app, [!INCLUDE[prod_short](includes/prod_sh
 >
 > Per evitare un rallentamento delle prestazioni, nella pagina **Mapping tabelle di integrazione**, puoi abilitare o disabilitare la sincronizzazione dei dati basata sugli eventi per qualsiasi tabella. Per impostazione predefinita, la sincronizzazione basata sugli eventi è attivata in modo che le integrazioni esistenti non siano interessate. L'amministratore può attivarla o disattivarla per tabelle specifiche.
 
-### <a name="additional-mappings"></a>Mapping aggiuntivi
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Mapping aggiuntivi
 
 I termini di pagamento, i metodi di spedizione e gli agenti di spedizione possono cambiare e può essere importante poterli adeguare. Se abiliti la funzionalità **Aggiornamento della funzionalità: mapping all'opzione impostata in Dataverse senza codice** nella pagina [Gestione delle funzionalità](https://businesscentral.dynamics.com/?page=2610), è possibile aggiungere manualmente le mappature della tabella di integrazione per i termini di pagamento (TERMINI DI PAGAMENTO), i metodi di spedizione (METODO DI SPEDIZIONE) e gli agenti di spedizione (AGENTE DI SPEDIZIONE). Questa mappatura può aiutare a garantire che le tue politiche siano le stesse per queste configurazioni in [!INCLUDE[prod_short](includes/cds_long_md.md)] e [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

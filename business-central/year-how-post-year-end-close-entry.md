@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Registrazione del movimento di chiusura di fine anno
+# <a name="post-the-year-end-closing-entry"></a>Registrazione del movimento di chiusura di fine anno
 
 Dopo avere utilizzato il processo batch **Chiudi conto economico** per generare il movimento o i movimenti di chiusura di fine anno, è necessario aprire le registrazioni specificate nel processo batch, quindi analizzare e registrare i movimenti.  
 

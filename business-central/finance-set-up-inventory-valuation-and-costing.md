@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Impostazione della valutazione magazzino e i costi
+# <a name="set-up-inventory-valuation-and-costing"></a>Impostazione della valutazione magazzino e i costi
 
 Per assicurarsi che i costi di magazzino vengano registrati correttamente, è necessario impostare vari campi e pagine prima di iniziare a effettuare transazioni di articoli. In genere, le aziende scelgono un metodo di determinazione dei costi specifico e lo applicano agli articoli di magazzino, ad esempio, per aiutarle a tenere traccia del valore degli articoli in magazzino.  
 

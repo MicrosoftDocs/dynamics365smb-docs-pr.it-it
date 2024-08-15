@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Impostazione della contabilità industriale
+# <a name="set-up-cost-accounting"></a>Impostazione della contabilità industriale
 
 Prima di iniziare a utilizzare la contabilità industriale, è necessario effettuare attività di impostazione.
 
@@ -24,7 +24,7 @@ Tale operazione consente di creare la seguente equazione di contabilità:
 
 Quando si stampano i report dei grafici del tipo di costo, dei centri di costo e degli oggetti di costo, è possibile analizzare questa relazione.
 
-## <a name="setting-up-cost-types"></a>Impostazione di tipi di costo
+## <a name="set-up-cost-types"></a>Impostazione di tipi di costo
 
 Il piano dei tipi di costo è simile al piano dei conti nella contabilità generale. È possibile impostare il piano dei tipi di costo nelle modalità seguenti:  
 

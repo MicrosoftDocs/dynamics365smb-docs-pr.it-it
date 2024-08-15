@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse di base
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni di warehouse di base
 
 La modalità di stoccaggio dei componenti di prelievo per le commesse, gli ordini di produzione o di assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
 

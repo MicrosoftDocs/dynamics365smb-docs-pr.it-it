@@ -174,7 +174,7 @@ Questo problema deriva dal fatto che non hai installato l'app BC per Teams. Solo
 Questo problema è dovuto al fatto che hai condiviso una visualizzazione elenco che è una visualizzazione personale. In questo caso, collabora con l'amministratore per creare visualizzazioni elenco specifiche del ruolo che coprano i diversi ruoli nel canale o nella chat oppure crea questa visualizzazione per l'intera organizzazione in modo che tutti possano ottenere una visualizzazione coerente.
 
 
-## <a name="see-also"></a>Vedere anche
+## <a name="related-information"></a>Vedere anche
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
 [Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  
