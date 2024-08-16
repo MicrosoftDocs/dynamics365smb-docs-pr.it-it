@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Chiusura di anni e periodi
+# <a name="closing-years-and-periods"></a>Chiusura di anni e periodi
 
 Alla fine dell'anno fiscale, ci sono molte attività amministrative da svolgere, come ad esempio assicurarsi che tutti i documenti e i registri siano registrati, che i dati valutari siano aggiornati, chiudere i libri contabili e altro ancora. Le attività effettive dipenderanno dalla società.
 
@@ -30,7 +30,7 @@ Nella seguente tabella viene fornita una panoramica delle attività che si esegu
 | Stampare report per facilitare la creazione di rendiconti finanziari. |[Preparazione degli estratti conto di chiusura](year-prepare-close-statement.md) |
 | Chiudere i periodi contabili e l'anno fiscale, trasferire i saldi dal conto economico al conto patrimoniale e registrare il movimento di chiusura di fine anno. |[Chiusura registri](year-close-books.md) |
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Usare periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

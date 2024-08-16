@@ -10,7 +10,7 @@ ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# Mettere da parte l'output di produzione o di assemblaggio
+# <a name="put-away-production-or-assembly-output"></a>Mettere da parte l'output di produzione o di assemblaggio
 
 La modalità di stoccaggio dell'output di produzione dipende dalla modalità di impostazione della warehouse come ubicazione. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).  
 
@@ -22,11 +22,11 @@ In una configurazione di magazzino di base per il flusso in entrata (stoccaggio)
 
 Nelle configurazioni di magazzino avanzate in cui è necessario riporre una posizione, creare un documento di stoccaggio interno o un documento di movimento per riporre l'output.  
 
-## Per eseguire lo stoccaggio dell'output di produzione con uno stoccaggio di magazzino
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Per eseguire lo stoccaggio dell'output di produzione con uno stoccaggio di magazzino
 
 La prima fase del processo di stoccaggio dell'output prevede la creazione della richiesta warehouse in entrata. Questa richiesta comunica alla warehouse che l'output dell'ordine di produzione o assemblaggio è pronto per lo stoccaggio.
 
-### Per creare la richiesta warehouse in entrata  
+### <a name="to-create-the-inbound-warehouse-request"></a>Per creare la richiesta warehouse in entrata
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordine di produzione rilasciato**, quindi scegli il collegamento correlato.  
 2. Scegli l'ordine di produzione pronto per lo stoccaggio e scegli l'azione **Crea richiesta whse. in entrata**.  
@@ -34,7 +34,7 @@ La prima fase del processo di stoccaggio dell'output prevede la creazione della 
 > [!NOTE]  
 > È inoltre possibile creare la richiesta warehouse in entrata scegliendo il campo **Crea richiesta in entrata** quando si aggiorna l'ordine di produzione. Per ulteriori informazioni vedi [Ripianificare o aggiornare gli ordini di produzione](production-how-to-replan-refresh-production-orders.md).  
 
-### Per mettere via l'output con un inventario di stoccaggio  
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Per mettere via l'output con un inventario di stoccaggio
 
 1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Stoccaggio in magazzino**, quindi scegli il collegamento correlato.  
 2. Creare un nuovo stoccaggio di magazzino. Per ulteriori informazioni vedi [Eseguire lo stoccaggio con stoccaggi magazzino](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -50,14 +50,14 @@ Quando si registra un deposito di inventario, si presuppone che tutte le operazi
 
 Se è necessario registrare solo il tempo di installazione o di esecuzione nell'ultima operazione, impostare la quantità di output nell'ultima operazione su 0. Puoi scegliere di non pubblicare affatto l'ultima riga, semplicemente eliminandola.
 
-## Per riporre i prodotti di assemblaggio e produzione in configurazioni di magazzino avanzate
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Per riporre i prodotti di assemblaggio e produzione in configurazioni di magazzino avanzate
 
 Quando si registra l'output di un ordine di produzione o di assemblaggio in un magazzino che utilizza lo stoccaggio e il prelievo guidati, l'output viene inserito nel contenitore definito nell'ordine di produzione o di assemblaggio. Per saperne di più sui diversi modi per spostare gli articoli nel magazzino con configurazioni avanzate, vai a  [Spostare articoli nelle configurazioni avanzate del magazzino](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 
 > [!NOTE]  
 > Non è possibile inserire il numero del documento di origine, ad esempio il numero dell'ordine di produzione, nei documenti di stoccaggio interno, stoccaggio o movimento per processi di assemblaggio o output di produzione.  
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 
 [Panoramica di Warehouse Management](design-details-warehouse-management.md)
 [Inventario](inventory-manage-inventory.md)  

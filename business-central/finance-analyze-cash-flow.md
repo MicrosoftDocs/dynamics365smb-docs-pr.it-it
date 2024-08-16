@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Analizza il flusso di cassa della tua azienda
+# <a name="analyze-cash-flow-in-your-company"></a>Analizza il flusso di cassa della tua azienda
 I grafici di Gestione ruolo utente Contabile forniscono informazioni utili per prendere decisioni informate sulla gestione dei contanti.  
 
 | Per risposte a domande simili alle seguenti | Utilizzare questo grafico |
@@ -37,13 +37,13 @@ Se si desidera esaminare la previsione, oltre ai movimenti previsti, è possibil
 * Sottrae i debiti e aggiunge i crediti.  
 * Salta gli ordini di vendita e di acquisto doppi.  
 
-## Per visualizzare un prospetto flusso di cassa
+## <a name="to-view-a-cash-flow-worksheet"></a>Per visualizzare un prospetto flusso di cassa
 
 1. Cercare **Previsioni flusso di cassa**, quindi selezionare il collegamento correlato.  
 2. Scegliere una previsione flusso di cassa quindi scegliere l'azione **Prospetto flussi di cassa**.  
 3. Nella pagina **Prospetto flusso di cassa** scegliere l'azione **Suggerisci righe prospetto**.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
 [Impostazione della finanza](finance-setup-finance.md)    
 [Lavora con [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
