@@ -1,22 +1,23 @@
 ---
-title: Panoramica dei report preliminari alla chiusura per verificare l'accuratezza dei conti
+title: Panoramica dei report pre-chiusura per verificare l'accuratezza dell'account
 description: Fornisce una panoramica dei report che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo.
 author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.form: '1393, 1394'
-ms.date: 04/01/2021
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="use-pre-closing-reports"></a>Utilizzare i report preliminari alla chiusura
+
+# Utilizzare i report pre-chiusura
 
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
 
-Nella tabella che segue sono descritti alcuni report che possono risultare utili in questo processo.
+Nella tabella seguente vengono descritti alcuni report che potrebbero risultare utili in questo processo.
 
-| Per | Vedere questo report. |
+| A | Vedere questo report. |
 | --- | --- |
 | Stampare un report bilancio di verifica dettagliato per uno o più conti bancari con informazioni aggiuntive su singoli movimenti. |C/C banca - Dett. bil. verif. |
 | Stampare un bilancio di verifica dettagliato per determinati clienti. |Clienti - Bilancio di verifica |
@@ -28,12 +29,12 @@ Nella tabella che segue sono descritti alcuni report che possono risultare utili
 | Stampare un report di bilancio di verifica con saldi periodi e conti per i conti di contabilità generale. |Bilancio di verifica |
 | Stampare un bilancio di verifica per una società consolidata. |Bil. di verifica consolidato |
 
-Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
+Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Chiusura di anni e periodi](year-close-years-periods.md)  
-[Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Anni e periodi di chiusura](year-close-years-periods.md)    
+[Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 

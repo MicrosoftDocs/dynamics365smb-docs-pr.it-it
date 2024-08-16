@@ -1,16 +1,17 @@
 ---
-title: Rimuovere e ricollegare movimenti articolo
+title: Rimuovere e riapplicare le voci degli articoli
 description: È possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '506, 521, 9125'
-ms.date: 04/01/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a>Rimuovere e ricollegare movimenti contabili articolo
+
+# Rimuovere e riapplicare le voci del registro degli articoli
 Nella pagina **Prospetto collegamento** è possibile visualizzare e modificare manualmente alcuni movimenti di collegamento articoli creati automaticamente durante le transazioni di magazzino.  
 
 Quando si registra una transazione in cui gli articoli vengono spostati in magazzino o fuori da esso, viene creato un collegamento articoli tra un aumento di magazzino a una riduzione di magazzino. Questi collegamenti determinano il flusso dei costi dalle merci ricevute in magazzino a quelle in uscita dal magazzino. A causa della modalità di calcolo del costo unitario, un collegamento articoli non corretto potrebbe portare a un costo medio o a un costo unitario non attendibile. Per ulteriori informazioni, vedere Dettagli di progettazione: Collegamento articoli.
@@ -23,7 +24,7 @@ Gli scenari seguenti potrebbero richiedere di annullare un collegamento o di ric
 
 Se possibile, utilizzare un documento per ricollegare un movimento contabile articolo. Se, ad esempio, è necessario effettuare un reso di acquisto di un articolo a cui è già stata collegata una vendita, è possibile creare il nuovo collegamento semplicemente creando e registrando il documento di reso di acquisto utilizzando il collegamento corretto nel campo **Collega-a mov. art.** della riga di reso di acquisto. Per semplificare questa operazione, è possibile utilizzare la funzione **Ottieni righe documento registrato da stornare** o **Copia da documento** nel documento di reso di acquisto. Quando si registra il documento, il movimento contabile articolo viene ricollegato automaticamente. Per ulteriori informazioni vedere [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md).
 
-Se non è possibile utilizzare un documento per ricollegare, ad esempio quando si deve correggere un collegamento fisso, utilizzare la pagina **Prospetto collegamento** per correggere un collegamento.
+Se non è possibile utilizzare un documento per presentare una nuova domanda, ad esempio quando è necessario correggere una domanda corretta, utilizzare la pagina  **Foglio di lavoro per la domanda** per correggere una domanda.
 
 > [!Warning]  
 > Quando si utilizza il Prospetto collegamento, è importante prendere in considerazione quanto indicato di seguito:
@@ -33,7 +34,7 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
     - Nel Prospetto collegamento è possibile rimuovere i collegamenti da più di un movimento per volta. Poiché, tuttavia, il collegamento di movimenti influenza l'insieme dei movimenti disponibili per il collegamento, non è possibile creare un collegamento per più di un movimento per volta.
     - Il Prospetto collegamento non consente di creare un collegamento nel seguente caso: se non è disponibile una quantità in stock sufficiente per il collegamento, il Prospetto collegamento non consente di creare un collegamento quando si tenta di collegare un movimento di riduzione di magazzino senza informazioni sulla tracciabilità articolo a un movimento di aumento di magazzino con informazioni sulla tracciabilità articolo.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Per rimuovere un collegamento articoli tramite il Prospetto collegamento
+## Per rimuovere un collegamento articoli tramite il Prospetto collegamento
 
 1.  Scegli la ![lampadina che apre la funzione Dimmi 1](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). immetti **Prospetto collegamento**, quindi seleziona il collegamento correlato.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
@@ -43,14 +44,14 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
 6.  Scegliere l'azione **Rimuovi collegamento**. In questo modo si rimuove il movimento di collegamento articolo che collega i due movimenti contabili articoli e lo si sposta nella pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
 7.  Chiudere la pagina **Visualizza movimenti collegati - Movimenti collegati** .  
 
- Il valore dei campi **Quantità residua** dei due movimenti contabili articoli viene aumentato della quantità che non è stata collegata. Il movimento contabile articolo rimosso è ora disponibile per il nuovo collegamento nella pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
+ Il campo  **Quantità rimanente** delle due registrazioni contabili degli articoli viene aumentato della quantità che non è stata applicata. Il movimento contabile articolo rimosso è ora disponibile per il nuovo collegamento nella pagina **Visualizza movimenti collegati - Movimenti scollegati** .  
 
 > [!IMPORTANT]  
 >  Non è consigliabile lasciare i movimenti di collegamento scollegati per periodi di tempo più lunghi poiché altri utenti non possono elaborare gli articoli interessati finché non si ricollegano i movimenti di collegamento o si chiude la pagina **Prospetto collegamento**. Il seguente messaggio di errore viene visualizzato se si tenta di eseguire operazioni che includono un movimento di collegamento manualmente scollegato:  
 >   
 >  **Impossibile eseguire questa azione perché i movimenti per l'articolo \<item\> non sono applicati nel prospetto collegamento dall'utente \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Per riapplicare un collegamento articoli tramite il Prospetto collegamento
+## Per riapplicare un collegamento articoli tramite il Prospetto collegamento
 
 1.  Scegli la ![lampadina che apre la funzione Dimmi 2](media/ui-search/search_small.png "Dimmi cosa vuoi fare"). , inserire **Foglio di lavoro dell'applicazione**e poi scegliere il link relativo.  
 2.  La pagina **Prospetto collegamento** si apre visualizzando i movimenti contabili articoli esistenti per tutti gli articoli.  
@@ -67,13 +68,13 @@ Se non è possibile utilizzare un documento per ricollegare, ad esempio quando s
     >  Se si è scelto di creare un collegamento che provocherebbe la generazione di un ciclo infinito nel processo di rettifica del costo, il collegamento proposto non viene effettuato. Ciò può avvenire quando tramite i movimenti originali è stato creato uno stock negativo. Il collegamento non viene eseguito. Di conseguenza, è necessario selezionare un movimento diverso per il collegamento.  
 6.  Se nella finestra **Setup magazzino** il campo **Rettifica costo automatica** è impostato su **Sempre**, il processo batch di rettifica del costo viene eseguito automaticamente dopo la creazione di un nuovo collegamento. In caso contrario, eseguire il processo batch **Rettifica costo - Movimenti articoli** per assicurarsi che tutti i costi siano aggiornati.  
 
-## <a name="see-also"></a>Vedi anche
+## Vedere anche
 
-[Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Elaborare i resi o gli annullamenti acquisti](purchasing-how-process-purchase-returns-cancellations.md)  
+[Chiudi Movimenti contabili degli articoli aperti risultanti dall'applicazione fissa nel giornale di registrazione degli articoli](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
+ [Elaborare resi o annullamenti di acquisti](purchasing-how-process-purchase-returns-cancellations.md)    
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
- [Dettagli del design: Applicazione dell'articolo](design-details-item-application.md)  
- [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Dettagli di progettazione: applicazione dell'articolo](design-details-item-application.md)    
+ [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

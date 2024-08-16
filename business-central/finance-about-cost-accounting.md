@@ -6,11 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: '1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123'
-ms.date: 05/24/2024
+ms.date: 07/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-cost-accounting"></a>Informazioni sulla contabilità industriale
+
+# Informazioni sulla contabilità industriale
 
 La contabilità industriale può essere utilizzata per comprendere i costi operativi di un'attività. Le informazioni sulla contabilità generale sono concepite per analizzare:  
 
@@ -20,7 +21,7 @@ La contabilità industriale può essere utilizzata per comprendere i costi opera
 
 Nella contabilità industriale, i costi effettivi e previsti per consumi, reparti, prodotti e progetti vengono allocati per analizzare la redditività della società.  
 
-## <a name="workflow-in-cost-accounting"></a>Flusso di lavoro nella contabilità industriale
+## Flusso di lavoro nella contabilità industriale
 
 La contabilità industriale presenta i seguenti componenti principali:  
 
@@ -34,7 +35,7 @@ Nel diagramma seguente viene mostrato il flusso di lavoro nella contabilità ind
 
 ![Sintesi della contabilità industriale.](media/costaccountingoverview.png "CostAccountingOverview")  
 
-## <a name="cost-types-cost-centers-and-cost-objects"></a>Tipi di costo, centri di costo e oggetti di costo
+## Tipi di costo, centri di costo e oggetti di costo
 
 Vengono definiti i tipi di costo, i centri di costo e gli oggetti di costo per analizzare quali sono i costi, da dove essi derivano e chi deve sostenerli.  
 
@@ -46,13 +47,13 @@ Gli oggetti di costo sono i prodotti, i gruppi prodotto o i servizi offerti da u
 
 In una società i centri di costo possono essere collegati ai reparti e gli oggetti di costo ai progetti. Tramite la contabilità generale, i centri di costo e gli oggetti di costo possono essere collegati a qualsiasi dimensione ed essere completati con i subtotali e i titoli.  
 
-## <a name="cost-entries-and-cost-journals"></a>Movimenti di costi e registrazioni costi
+## Movimenti di costi e registrazioni costi
 
 I costi operativi possono essere trasferiti dalla contabilità generale. I movimenti di costi possono essere trasferiti automaticamente dalla contabilità generale ai movimenti di costi con ciascuna registrazione. Puoi inoltre utilizzare un processo batch per trasferire i movimenti C/G ai movimenti di costi in base alle registrazioni riepilogative quotidiane e mensili.  
 
 Nelle registrazioni costi è possibile registrare il costo e le attività che non derivano dalla contabilità generale né vengono generati dalle allocazioni. Ad esempio, è possibile registrare i costi operativi, le spese interne, le allocazioni e i movimenti di rettifica effettivi tra i tipi di costo, i centri di costo e gli oggetti di costo singolarmente o in modo ricorrente.  
 
-## <a name="cost-allocations"></a>Allocazioni costi
+## Allocazioni costi
 
 Con le allocazioni è possibile spostare i costi e i ricavi tra i tipi di costo, i centri di costo e gli oggetti di costo. I costi generali vengono innanzitutto registrati nei centri di costo e in seguito addebitati agli oggetti di costo. Ad esempio, questa operazione può essere effettuata in un reparto vendite che vende diversi prodotti contemporaneamente. I costi generali del reparto, quali stipendi, forniture e spese di viaggio, vengono inizialmente attribuiti al centro di costo vendite. I costi vengono poi ripartiti tra i diversi prodotti (oggetti di costo) venduti, insieme ai materiali acquistati (costo diretto).
 
@@ -60,15 +61,15 @@ La base di allocazione e la precisione della definizione di allocazione influisc
 
 Ogni allocazione è costituita da un'origine di allocazione e da una o più destinazioni di allocazione. Puoi allocare valori effettivi o valori a budget utilizzando il metodo di allocazione statica basato su un valore definito. Ad esempio, la metratura o un rapporto di allocazione stabilito di 5:2:4. È inoltre possibile allocare i valori effettivi o previsti utilizzando il metodo di allocazione dinamica con nove basi di allocazione predefinite e 12 intervalli di date dinamici.  
 
-## <a name="cost-budgets"></a>Budget costi
+## Budget costi
 
 Analogamente alla definizione del budget nella contabilità generale, è possibile creare budget per pianificare i costi durante un determinato periodo (un anno fiscale, ad esempio), che possono essere applicati a un centro di costo (reparto aziendale) o a un oggetto di costo (prodotto o servizio). È possibile creare tutti i budget costi necessari. Puoi copiare un budget costi nel budget di contabilità generale e viceversa. E puoi trasferire i costi previsti come costi effettivi.
 
-## <a name="cost-reporting"></a>Reporting dei costi
+## Reporting dei costi
 
 La maggior parte dei report e delle statistiche è basata sui movimenti di costi registrati. È possibile impostare l'ordinamento dei risultati e utilizzare filtri per definire quali dati devono essere visualizzati. È possibile creare report per l'analisi di distribuzione dei costi. Inoltre, è possibile utilizzare i report finanziari standard per definire come vengono visualizzati i report del piano dei tipi di costo.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  
 [Dati finanziari](finance.md)  

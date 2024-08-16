@@ -1,22 +1,23 @@
 ---
-title: Gestire i costi del magazzino e di produzione
-description: 'Scopri come una serie di campi, pagine e report sono destinati agli utenti che gestiscono direttamente o indirettamente il costo di articoli o operazioni.'
+title: Gestire i costi di inventario e di produzione
+description: 'Scopri quanti campi, pagine e report sono destinati agli utenti che gestiscono direttamente o indirettamente i costi degli articoli o delle operazioni.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Gestione dei costi del magazzino e di produzione
 
-Sebbene la maggior parte della funzionalità di contabilizzazione dei costi venga espressa in processi sottostanti senza interazione da parte dell'utente, ad esempio il collegamento dei movimenti contabili e la rettifica automatica dei costi, numerosi campi, pagine e report sono destinati agli utenti affinché possano gestire, direttamente o indirettamente, il costo degli articoli o delle operazioni.  
+# Gestione dell'inventario e dei costi di produzione
+
+Sebbene gran parte delle funzionalità di contabilità dei costi sia espressa in processi sottostanti senza interazione da parte dell'utente, come l'applicazione di immissione e l'adeguamento automatico dei costi, molti campi, pagine e report sono rivolti agli utenti che gestiscono direttamente o indirettamente il costo di articoli o operazioni.  
 
  L'assegnazione degli addebiti articoli ai documenti di acquisto è un esempio di task di contabilizzazione dei costi indiretti. L'aggiornamento del costo unitario di un articolo DB di produzione o di assemblaggio è un task di contabilizzazione dei costi diretti.  
 
- Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.   
+ Nella tabella seguente viene descritta una sequenza di attività, con collegamenti agli articoli che le descrivono.   
 
 |**Per**|**Vedere**|  
 |------------|-------------|  
@@ -29,10 +30,10 @@ Sebbene la maggior parte della funzionalità di contabilizzazione dei costi veng
 |Annullare manualmente il collegamento di un articolo o riapplicare i movimenti contabili articoli creati dall'applicazione.|[Rimuovere e ricollegare movimenti contabili articolo](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilizzare il campo **Collega-da mov.** nelle registrazioni articoli per creare manualmente un collegamento fisso tra una transazione in entrata e la transazione in uscita originale.|[Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
-[Gestire i costi del magazzino](finance-manage-inventory-costs.md)
-[Dettagli di progettazione: Costing di magazzino](design-details-inventory-costing.md)
+[Gestire i costi di inventario](finance-manage-inventory-costs.md)    
+[Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

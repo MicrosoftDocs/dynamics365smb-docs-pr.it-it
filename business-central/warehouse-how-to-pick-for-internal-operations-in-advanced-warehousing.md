@@ -1,23 +1,27 @@
 ---
 title: Prelevare per le operazioni interne in configurazioni warehouse avanzate
-description: 'Se le ubicazioni utilizzano il prelievo e la spedizione, preleva i componenti per le attività di produzione, assemblaggio e commessa nella pagina Prelievo warehouse.'
+description: 'Se le tue sedi utilizzano il prelievo e la spedizione, seleziona i componenti per le attività di produzione, assemblaggio e progetto nella pagina Prelievo in magazzino.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 04/23/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Prelevare per produzione, assemblaggio o commesse in configurazioni warehouse avanzate
+# Scegli per produzione, assemblaggio o progetti in configurazioni di magazzino avanzate
 
-La modalità di stoccaggio dei componenti di prelievo per le commesse, gli ordini di produzione o di assemblaggio dipende dall'impostazione della warehouse come ubicazione. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
+Il modo in cui selezioni i componenti per la produzione, i progetti o gli ordini di assemblaggio dipende da come è configurato il tuo magazzino come sede. Per ulteriori informazioni vedi [Impostazione di Warehouse Management](warehouse-setup-warehouse.md).
 
-In una configurazione warehouse avanzata per il flusso in uscita (prelievo), attiva gli interruttori **Richiesto prelievo** e **Richiesta spedizione** nella pagina **Scheda ubicazione** per l'ubicazione.
+In una configurazione avanzata del magazzino per il flusso in uscita (prelievo), nella pagina  **Posizione scheda** per la posizione, utilizzare le seguenti impostazioni:
 
-Quando l'ubicazione è impostata in modo da richiedere l'elaborazione dei prelievi e delle spedizioni warehouse, utilizza i documenti di prelievo warehouse per creare ed elaborare le informazioni di prelievo prima della registrazione dell'utilizzo o del consumo dei componenti.  
+* Produzione, nel campo  **Prod. Consumo Movimentazione magazzino**, Seleziona **Prelievo magazzino (facoltativo)** o **Prelievo magazzino (obbligatorio)**.
+* Assemblaggio, nel campo  **Asm. Consumo Magazzino Movimentazione**, Seleziona **Prelievo in magazzino (facoltativo)** o **Prelievo in magazzino (obbligatorio)**.
+* Gestione del progetto, nel campo  **Consumo del progetto Gestione magazzino**, Seleziona **Prelievo in magazzino (facoltativo)** o **Prelievo in magazzino (obbligatorio)**.
+
+Quando la posizione è configurata per richiedere l'elaborazione del prelievo in magazzino, utilizzare i documenti di prelievo in magazzino per creare ed elaborare le informazioni sul prelievo prima di registrare l'utilizzo o il consumo dei componenti.  
 
 Puoi creare i documenti di prelievo warehouse da zero. I prelievi fanno parte di un flusso di lavoro in cui una persona che sta elaborando un ordine li crea in modalità push o l'addetto alla warehouse li crea in modalità pull:
 
@@ -30,9 +34,9 @@ Per prelevare o spostare i componenti per i documenti di origine in modalità pu
 |---------------------|--------------------|  
 |Ordine di produzione|Modifica lo stato dell'ordine in Rilasciato o crea subito un ordine di produzione rilasciato.|  
 |Ordine di assemblaggio|Modificare lo stato in Rilasciato.|
-|Commesse | Cambia lo stato in Aperto o crea subito una commessa con stato Aperto.|  
+|Progetti | Cambia lo stato in Aperto o crea subito un progetto con stato Aperto.|  
 
-## <a name="production"></a>Produzione
+## Produzione
 
 Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di produzione nel flusso verso la produzione.
 
@@ -41,32 +45,29 @@ Per un'ubicazione che utilizza le collocazioni per spostare gli articoli nelle c
 * Per un'ubicazione che utilizza lo stoccaggio e il prelievo diretti, segui i passaggi nell'articolo [Spostare articoli nelle configurazioni warehouse avanzate](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Per le altre ubicazioni, segui le indicazioni nell'articolo [Spostare gli articoli internamente nelle configurazioni della warehouse di base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Assemblaggio
+## Assemblaggio  
 
 Utilizza i documenti **Prelievo warehouse** per spostare i componenti dell'assemblaggio nell'area di assemblaggio.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supporta tipi di flusso assemblaggio su ordine e assemblaggio per magazzino. Per ulteriori informazioni sull'assemblaggio su ordine nel flusso di warehouse in uscita, vai a [Gestione di articoli assemblaggio su ordine nelle spedizioni warehouse](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Gestione progetti
+## Gestione di progetti  
 
-Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di commessa nel flusso verso la gestione progetti.
+Utilizzare i documenti  **Prelievo magazzino** per selezionare i componenti del progetto nel flusso verso la gestione del progetto.
 
 > [!NOTE]
-> È stata aggiunta la possibilità di selezionare i componenti per le righe di pianificazione progetto in [!INCLUDE[d365fin](includes/d365fin_md.md)] nel secondo ciclo di rilascio del 2022. Per iniziare a utilizzare la funzionalità, un amministratore deve attivare **Aggiornamento funzionalità: abilitazione del prelievo magazzino e warehouse da commesse** nella pagina **Gestione funzionalità**.
->
-> Le commesse non supportano le configurazioni avanzate in cui l'interruttore **Prelievo e stoccaggio diretti** è attivato.
+> Il progetto non supporta configurazioni avanzate in cui è attivata l'opzione  **Prelievo e stoccaggio guidati** .
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controllare se gli articoli sono disponibili per il prelievo
+## Controllare se gli articoli sono disponibili per il prelievo
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Per creare documenti di prelievo in blocco con i prospetti prelievi
+## Per creare documenti di prelievo in blocco con i prospetti prelievi
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prospetto prelievi**, quindi scegli il collegamento correlato.  
-
 2. Scegliere l'azione **Prendi documenti warehouse**.  
 
-    La lista mostra la produzione rilasciata, le commesse, gli ordini di assemblaggio che sono stati inoltrati alla funzione di prelievo. Gli ordini includono quelli per i quali sono già state create istruzioni di prelievo. I documenti contenenti righe di prelievo per le quali il prelievo è stato eseguito e registrato non vengono visualizzati in questa lista.  
+    L'elenco mostra la produzione rilasciata, i progetti e gli ordini di assemblaggio che sono stati inoltrati alla funzione di prelievo. Gli ordini includono quelli per i quali sono già state create istruzioni di prelievo. I documenti contenenti righe di prelievo per le quali il prelievo è stato eseguito e registrato non vengono visualizzati in questa lista.  
 3. Seleziona gli ordini per cui vuoi preparare un prelievo.
 
     > [!NOTE]  
@@ -93,17 +94,17 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
     |Opzione|Descrizione|
     |-|-|
     |Per documento whse. Documento|Crea documenti di prelievo distinti per le righe del prospetto con lo stesso documento warehouse di origine.|
-    |Per cliente/forn./ubicazione|Crea documenti di prelievo separati per ogni cliente (commesse)|
+    |Per cliente/forn./ubicazione|Crea documenti di prelievo separati per ogni cliente (progetto)|
     |Per articolo|Crea documenti di prelievo separati per ogni articolo nel prospetto prelievi.|
     |Per Da zona|Crea documenti di prelievo separati per ogni zona da cui vengono prelevati articoli.|
     |Per collocazione|Crea documenti di prelievo separati per ogni collocazione da cui vengono prelevati articoli.|
     |Per scadenza|Crea documenti di prelievo separati per i documenti di origine che hanno la stessa data di scadenza.|
 
-    Specifica in che modo vengono creati i documenti di prelievo selezionando una delle opzioni seguenti.  
+    Utilizzare le seguenti opzioni per specificare come creare i documenti di prelievo.  
 
     |Opzione|Descrizione|
     |-|-|
-    |Importo massimo No. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
+    |Importo massimo Nr. di righe prelievo|Crea documenti di prelievo con un numero di righe in ogni documento non superiore a quello specificato.|
     |Importo massimo No. di doc. origine prelievo|Crea documenti di prelievo che si riferiscono al numero di documenti origine specificato.|
     |ID utente assegnato|Crea documenti di prelievo solo per le righe del prospetto assegnate all'impiegato warehouse selezionato.|
     |Metodo di ordinamento per righe di prelievo|Scegli una delle opzioni disponibili per ordinare le righe nel documento di prelievo creato.|
@@ -113,9 +114,9 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 
 8. Scegli il pulsante **OK**.  
 
-## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Per prelevare articoli per un ordine di produzione, un ordine di assemblaggio, una commessa
+## Per selezionare gli articoli per un ordine di produzione, un ordine di assemblaggio o un progetto
 
-1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Prelievi**, quindi scegli il collegamento correlato.  
 
     Se è necessario utilizzare un determinato prelievo, seleziona il prelievo dalla lista oppure filtra la lista per individuare i prelievi assegnati a te. Aprire la scheda prelievo.  
 2. Se il campo **ID utente assegnato** è vuoto, immetti il tuo ID per identificarti, se necessario.  
@@ -123,7 +124,7 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
 
     Se la warehouse prevede l'utilizzo di collocazioni, vengono utilizzate le collocazioni predefinite degli articoli per suggerire la posizione da cui prelevare gli articoli. Le istruzioni contengono almeno due righe distinte, una per ogni azione Prendere e Mettere.  
 
-    Le aree operative come le officine di produzione potrebbero avere una collocazione predefinita per i componenti di cui hanno bisogno. In tal caso, il codice collocazione predefinito viene aggiunto al documento di prelievo warehouse per indicare dove inserire gli articoli. Per ulteriori informazioni, vedi i suggerimenti per i campi **Cod. coll. art. per produzione**, **Cod. coll. art. per assembl.** e **A commessa - Codice collocazione**.
+    Le aree operative come le officine di produzione potrebbero avere una collocazione predefinita per i componenti di cui hanno bisogno. In tal caso, il codice collocazione predefinito viene aggiunto al documento di prelievo warehouse per indicare dove inserire gli articoli. Per ulteriori informazioni, vedere i suggerimenti per i campi  **Codice contenitore di produzione**,  **Codice contenitore di assemblaggio**,  **Codice contenitore di progetto** .
 
     Se la warehouse prevede l'utilizzo di stoccaggi e prelievi guidati, viene utilizzata la valutazione collocazione per calcolare le migliori collocazioni da cui effettuare il prelievo. Tali collocazioni vengono quindi suggerite nelle righe prelievo. Le istruzioni contengono almeno due righe distinte, una per ogni azione Prendere e Mettere.  
 
@@ -141,7 +142,7 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
   > [!NOTE]  
   > Le righe sono ordinate in ordine crescente in base ai criteri selezionati. Se ordini per documento, l'ordinamento viene eseguito prima per tipo di documento in base al campo **Documento origine attività warehouse**. Se ordini per spedizione, l'ordinamento viene eseguito prima per tipo di destinazione in base al campo **Tipo di destinazione warehouse**.
 
-4. Dopo avere prelevato e posizionato gli articoli nell'area di produzione, assemblaggio o commessa o nella collocazione, scegli l'azione **Registra prelievo**.  
+4. Dopo aver prelevato e posizionato gli articoli nell'area o nel contenitore di produzione, assemblaggio o progetto, selezionare l'azione  **Registra prelievo** .  
 
     È ora possibile portare gli articoli nella rispettiva area e registrare l'utilizzo o il consumo dei componenti prelevati contabilizzando le registrazioni consumi, l'ordine di assemblaggio o la registrazione progetti. Per ulteriori informazioni, vedi i seguenti articoli:
 
@@ -149,7 +150,7 @@ Utilizza i documenti **prelievo warehouse** per il prelievo dei componenti di co
     * [Assemblare articoli](assembly-how-to-assemble-items.md)
     * [Registrare il consumo o l'uso per i progetti](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Consuntivazione dei componenti di produzione in una configurazione warehouse avanzata
+## Consuntivazione dei componenti di produzione in una configurazione warehouse avanzata
 
 I metodi di consuntivazione influiscono sul flusso dei componenti in produzione. Per ulteriori informazioni vedi [Eseguire la consuntivazione dei componenti in base all'output dell'operazione](production-how-to-flush-components-according-to-operation-output.md). A seconda del metodo di consuntivazione selezionato, è possibile prelevare i componenti per la produzione nei seguenti modi:
 
@@ -157,7 +158,7 @@ I metodi di consuntivazione influiscono sul flusso dei componenti in produzione.
 * Utilizza un documento **Prelievo warehouse** per registrare il prelievo per gli articoli che utilizzano il metodo di consuntivazione **Prelievo + Avanti**, **Prelievo + Indietro**. Il consumo dei componenti avviene automaticamente quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente.
 * Utilizza un documento **Movimento warehouse** senza riferimento a un documento di origine o altri modi per registrare il movimento di componenti che utilizzano il metodo di consuntivazione **Avanti** o **Indietro**. I componenti vengono automaticamente consumati quando modifichi lo stato dell'ordine di produzione oppure avvii o termini un'operazione. Tutti i componenti obbligatori devono essere disponibili. In caso contrario, la registrazione del consumo della consuntivazione viene interrotta per tale componente. Per ulteriori informazioni vedi [Spostare articoli](warehouse-move-items.md).
 
-### <a name="example"></a>Esempio
+### Esempio
 
 Esiste un ordine di produzione per 15 PZ dell'articolo SP-SCM1004. Alcuni articoli nella lista dei componenti devono essere sottoposti manualmente a consuntivazione nelle registrazioni consumi. Altri articoli possono essere prelevati e sottoposti a consuntivazione automaticamente utilizzando il metodo di consuntivazione **Preleva + Indietro**.  
 
@@ -180,7 +181,7 @@ Nell'illustrazione seguente viene mostrato quando il campo **Cod. collocazione**
 
 :::image type="content" source="media/binflow.png" alt-text="Panoramica del momento e della modalità con cui il campo Codice collocazione viene compilato.":::
 
-## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Componenti di produzione Prod. su ordine in una configurazione warehouse avanzata
+## Componenti di produzione Prod. su ordine in una configurazione warehouse avanzata
 
 Negli scenari in cui un articolo prodotto è costituito da materie prime e articoli semilavorati con il criterio di produzione impostato su **Prod. su ordine**, il prelievo in warehouse per tali componenti semilavorati viene aggiunto allo stesso ordine di produzione con il campo **Cod. livello pianificazione** compilato. Si prevede che gli articoli semilavorati siano immediatamente disponibili per il consumo e non richiedano il prelievo, pertanto non sono inclusi nel documento di prelievo in warehouse. I prelievi in warehouse creati includono solo le materie prime per gli articoli prodotti e per gli articoli semilavorati.
 
@@ -188,7 +189,7 @@ Tuttavia, se gli articoli semilavorati sono disponibili in magazzino, il sistema
 Tale impostazione non è compatibile con i prelievi in warehouse e, a seconda della frequenza, per tali articoli semilavorati devi impostare il criterio di produzione **Prod. per Magazzino** o suddividere manualmente la riga componente dell'ordine di produzione quando devi prelevare gli articoli semilavorati prodotti in precedenza.
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 - [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 - [Impostazione Warehouse Management](warehouse-setup-warehouse.md)  

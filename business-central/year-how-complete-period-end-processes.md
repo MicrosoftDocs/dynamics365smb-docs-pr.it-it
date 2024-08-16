@@ -1,31 +1,32 @@
 ---
-title: Attività facoltative per periodi di chiusura
-description: In questo argomento vengono descritti i processi e le attività facoltativi per la chiusura dei periodi contabili in Business Central.
+title: Attività facoltative per i periodi di chiusura
+description: In questo articolo vengono descritti i processi e le attività facoltativi per la chiusura dei periodi contabili in Business Central.
 author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
-ms.date: 08/29/2022
+ms.date: 08/02/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Panoramica delle attività per la chiusura dei periodi contabili
 
-In [!INCLUDE[prod_short](includes/prod_short.md)] non è obbligatorio chiudere i periodi, tuttavia, vi sono numerose attività di chiusura del periodo (chiusura del mese) che è possibile svolgere. In questo argomento viene fornita una sintesi dei processi e delle attività facoltativi per periodi di chiusura.  
+# Panoramica delle attività per i periodi contabili Chiudi
 
-## <a name="general-ledger"></a>Contabilità generale
+[!INCLUDE[prod_short](includes/prod_short.md)] non ti obbliga a Chiudi mestruazioni, tuttavia ci sono molte attività di fine ciclo (fine mese) che puoi fare. Questo articolo fornisce una panoramica dei processi e delle attività facoltativi per i periodi di chiusura.  
+
+## Contabilità generale
 
 * Specificare periodi di registrazione a livello di sistema e specifici dell'utente.  
 
-    Ciò specifica le date tra le quali è ammessa la registrazione. In base alle esigenze aziendali, è possibile consentire la registrazione all'inizio del periodo o verso la chiusura. Per ulteriori informazioni vedi [Specificare i periodi di registrazione](finance-how-specify-posting-periods.md).  
+    Ciò specifica le date tra le quali è ammessa la registrazione. A seconda della tua attività, potresti voler consentire la pubblicazione all'inizio del periodo o verso la fine. Per ulteriori informazioni vedi [Specificare i periodi di registrazione](finance-how-specify-posting-periods.md).  
 * Apporta tutte le rettifiche di contabilità generale (C/G) necessarie.  
 * Aggiorna e contabilizza le registrazioni periodiche.  
   <!--* Process Consolidations-->
 * Esegui i report finanziari come segue:  
   * Apri la pagina **Report finanziari** e quindi scegli l'azione **Stampa**.  
 
-## <a name="sales-and-receivables"></a>Contabilità clienti
+## Contabilità clienti
 
 * Registrare tutti gli ordini di vendita, le fatture, le note di credito e gli ordini di reso.  
 * Contabilizzare tutte le registrazioni incassi.  
@@ -33,7 +34,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] non è obbligatorio chiudere i
 * Riconciliare i crediti v/clienti nella contabilità generale.  
 * Eseguire il processo batch **Elimina ord. vendita fatturati**.  
 
-## <a name="purchases-and-payables"></a>Contabilità fornitori
+## Contabilità fornitori
 
 * Contabilizzare tutti gli ordini di acquisto, le fatture, le note di credito e gli ordini di reso.  
 * Contabilizzare tutte le registrazioni pagamenti.  
@@ -41,7 +42,7 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] non è obbligatorio chiudere i
 * Eseguire il report **Scadenziario fornitori** e riconciliare i debiti v/fornitori nella contabilità generale.  
 * Eseguire il processo batch **Elimina ordini acquisto fatturati**.  
 
-## <a name="fixed-assets"></a>Cespiti
+## Cespiti
 
 * Registra tutti i costi di manutenzione che sono stati registrati tramite le registrazioni cespiti o le fatture.
 * Registrare le rettifiche.
@@ -49,15 +50,15 @@ In [!INCLUDE[prod_short](includes/prod_short.md)] non è obbligatorio chiudere i
 * Registrare l'ammortamento.
 * Aggiornare e registrare le registrazioni periodiche cespiti.
 
-## <a name="intercompany"></a>Interaziendale
+## Interaziendale
 
 * Elabora le transazioni Intercompany.
 
-## <a name="calculate-and-process-sales-tax"></a>Calcolare ed elaborare l'IVA
+## Calcolare ed elaborare l'IVA
 
 * Completa le dichiarazioni fiscali.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Chiusura registri](year-close-books.md)  

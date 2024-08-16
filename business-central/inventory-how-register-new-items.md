@@ -7,36 +7,13 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 05/24/2024
+ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 # Registrare nuovi articoli
 
 Gli articoli, tra gli altri prodotti, costituiscono la base della tua attività, dei beni o dei servizi che commerci. Ogni articolo deve essere registrato come scheda articolo.
-
-* **Magazzino** specifica che l'articolo è un'unità fisica gestita e monitorata nel magazzino.
-* **Non magazzino** sono unità fisiche che non gestisci o non monitori nel magazzino.
-* Gli articoli **In assistenza** sono un'unità di tempo di manodopera, generalmente utilizzata nella gestione dei servizi.
-
-Per ulteriori informazioni su questi tipi di articoli, vai a [Informazioni sui tipi di articoli](inventory-about-item-types.md).
-
-> [!TIP]
-> Esistono anche articoli di catalogo, che sono simili agli articoli non di magazzino in quanto sono articoli che offri ai clienti ma che non gestisci finché non li vendi. Per ulteriori informazioni, vedi [Usare gli articoli di catalogo](inventory-how-work-nonstock-items.md).  
-
-## Fornitori primari e alternativi
-
-Se acquisti lo stesso articolo da più di un fornitore, puoi collegare questi fornitori all'articolo. Usa l'azione **Fornitori** nella pagina **Scheda articolo** per aprire la pagina **Catalogo art. fornitori**. Nella pagina vengono visualizzati i fornitori da cui acquisti l'articolo, in modo da poter creare o selezionare facilmente un fornitore alternativo quando crei un ordine di acquisto.
-
-## Utilizzare modelli di articolo
-
-Per riutilizzare le impostazioni per diversi tipi di articoli quando crei nuovi articoli, puoi salvare gli articoli come modelli di articolo. I modelli di articolo aiutano ad accelerare il processo di aggiunta di nuovi articoli e ad aumentare la coerenza dei dati degli articoli. Quando registri un nuovo articolo, viene visualizzata una pagina che ti consente di scegliere un modello. Dopo aver scelto un modello, le relative impostazioni verranno compilate automaticamente per l'articolo che stai creando. Se disponi di un solo modello di articolo, i nuovi articoli utilizzano sempre tale modello. Per sapere come impostare un modello di articolo, vai a [Salvare una scheda articolo come modello di articolo](#save-an-item-card-as-an-item-template).
-
-<br/>
-
-## Includere articoli nelle distinte materiali
-
-Puoi strutturare gerarchie composte da un articolo principale con articoli componente sottostanti nelle distinte base di assemblaggio e produzione. Per ulteriori informazioni sulle distinte base, vedi [Utilizzare le distinte base](inventory-how-work-BOMs.md).
 
 ## Per creare una nuova scheda articolo
 
@@ -46,12 +23,9 @@ Il video seguente indica come impostare un articolo nella pagina Scheda articolo
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
-> [!NOTE]
-> Nel campo **Metodo di costing** si imposta la modalità in cui viene calcolato il costo unitario dell'articolo tramite presupposizioni sul flusso degli articoli nell'azienda. Cinque metodi di costing sono disponibili, a seconda del tipo di articolo. Per saperne di più sui costi, vedi [Dettagli di progettazione: metodi di determinazione dei costi](design-details-costing-methods.md) .
->
-> Se selezioni **Media**, il costo unitario di un articolo viene calcolato come costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, puoi scegliere il campo **Costo unitario** nella pagina **Sintesi calc. costo medio** per visualizzare le transazioni utilizzate per calcolare il costo medio.
+## Utilizzare modelli di articolo
 
-Puoi utilizzare prezzi speciali o sconti che tu o il tuo fornitore avete concesso per l'articolo in base a determinati criteri. Ad esempio, i criteri includono il cliente, la quantità minima dell'ordine o la data di fine. Puoi impostare prezzi speciali scegliendo le azioni **Imposta prezzi speciali** o **Imposta sconti speciali**. Ogni riga, ad esempio, nella pagina **Prezzi vendita** rappresenta un prezzo speciale. Ogni colonna rappresenta un criterio che deve essere applicato per garantire a un cliente il prezzo speciale immesso nel campo **Prezzo unitario** della pagina **Prezzi di vendita**. Per ulteriori informazioni sui prezzi, vedi [Registrare prezzi di vendita, sconti e accordi di pagamento](sales-how-record-sales-price-discount-payment-agreements.md) o [Registra i prezzi e gli sconti speciali](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Per riutilizzare le impostazioni per diversi tipi di articoli quando crei nuovi articoli, puoi salvare gli articoli come modelli di articolo. I modelli di articolo aiutano ad accelerare il processo di aggiunta di nuovi articoli e ad aumentare la coerenza dei dati degli articoli. Quando registri un nuovo articolo, viene visualizzata una pagina che ti consente di scegliere un modello. Dopo aver scelto un modello, le relative impostazioni verranno compilate automaticamente per l'articolo che stai creando. Se disponi di un solo modello di articolo, i nuovi articoli utilizzano sempre tale modello. 
 
 ### Salvare una scheda articolo come modello di articolo
 
@@ -63,15 +37,75 @@ Puoi utilizzare prezzi speciali o sconti che tu o il tuo fornitore avete concess
 
 Il modello articolo viene aggiunto all'elenco dei modelli articolo, in modo che sia possibile utilizzarlo per creare nuove schede articolo.
 
+## Tipi di articoli
+
+Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda che influisce sul grado di gestione dell'articolo in magazzino.
+
+* **Magazzino** specifica che l'articolo è un'unità fisica gestita e monitorata nel magazzino.
+* **Non magazzino** sono unità fisiche che non gestisci o non monitori nel magazzino.
+* **Gli articoli di servizio sono un'unità di tempo di lavoro, solitamente utilizzata per registrare le vendite o gli acquisti di servizi.** 
+
+Per ulteriori informazioni su questi tipi di articoli, vai a [Informazioni sui tipi di articoli](inventory-about-item-types.md).
+
+> [!TIP]
+> Esistono anche articoli di catalogo, che sono simili agli articoli non di magazzino in quanto sono articoli che offri ai clienti ma che non gestisci finché non li vendi. Per ulteriori informazioni, vedi [Usare gli articoli di catalogo](inventory-how-work-nonstock-items.md).  
+
+## Costing di magazzino
+
+Nel campo **Metodo di costing** si imposta la modalità in cui viene calcolato il costo unitario dell'articolo tramite presupposizioni sul flusso degli articoli nell'azienda. Cinque metodi di costing sono disponibili, a seconda del tipo di articolo. Per saperne di più sui costi, vedi [Dettagli di progettazione: metodi di determinazione dei costi](design-details-costing-methods.md) .
+
+> [!NOTE]
+> Se selezioni **Media**, il costo unitario di un articolo viene calcolato come costo unitario medio in ogni momento dopo un acquisto. Il magazzino viene valutato presupponendo che tutte le giacenze siano vendute simultaneamente. Con questa impostazione, puoi scegliere il campo **Costo unitario** nella pagina **Sintesi calc. costo medio** per visualizzare le transazioni utilizzate per calcolare il costo medio.
+
+## Categorie, attributi e varianti
+
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
+Ulteriori informazioni sulle varianti in [Gestire le varianti di prodotto](inventory-item-variants.md).  
+
+## Configurare articoli sostitutivi
+
+È possibile impostare articoli in modo che abbiano articoli sostitutivi, ad esempio altri articoli che possono essere utilizzati al posto dell'articolo originale.
+
+### Per sostituire un articolo
+
+1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli** e scegli il collegamento correlato.  
+2. Trova l'elemento pertinente, quindi seleziona il  **numero.** Per aprire l'elemento scheda.  
+3. Scegli l'azione **Correlato**, quindi scegli **Articolo**, **Sostituzioni** per aprire la pagina **Mov. articoli sostitutivi**.  
+4. Scegli il campo **Nr. sostituto** quindi seleziona l'articolo sostitutivo nell'elenco.
+5. Compila o modifica altri campi nella pagina in base alle necessità.
+
+Quando la quantità richiesta supera quella disponibile in magazzino, viene visualizzato un messaggio che informa che sono disponibili articoli sostitutivi.
+
+> [!NOTE]  
+> Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
+
+## Prezzi e sconti
+
+Puoi utilizzare prezzi speciali o sconti che concedi per l'articolo in base a determinati criteri. Ad esempio, i criteri includono il cliente, la quantità minima dell'ordine o la data di fine. Puoi impostare prezzi speciali scegliendo le azioni **Imposta prezzi speciali** o **Imposta sconti speciali**. Ogni riga, ad esempio, nella pagina **Prezzi vendita** rappresenta un prezzo speciale. Ogni colonna rappresenta un criterio che deve essere applicato per garantire a un cliente il prezzo speciale immesso nel campo **Prezzo unitario** della pagina **Prezzi di vendita**. Per saperne di più sui prezzi, vai a [Registra prezzo di vendita, sconti e accordi di pagamento](sales-how-record-sales-price-discount-payment-agreements.md).
+
+## Rifornimento
+
+È possibile specificare come vengono forniti gli articoli:
+
+* **Ordine di acquisto** se vuoi acquistare degli articoli.
+* **Ordine di assemblaggio** o **Ordine di produzione** se produci gli articoli internamente.
+
+Esistono altre impostazioni che completano queste selezioni.
+
+### Includere articoli nelle distinte materiali
+
+Puoi strutturare gerarchie composte da un articolo principale con articoli componente sottostanti nelle distinte base di assemblaggio e produzione. Per ulteriori informazioni sulle distinte base, vedi [Utilizzare le distinte base](inventory-how-work-BOMs.md).
+
 ### Articoli utilizzati negli ordini di produzione
 
-Se vuoi registrare gli articoli che vengono quindi utilizzati negli ordini di produzione, specifica il sistema di rifornimento come *Ordine produzione* nella scheda dettaglio **Rifornimento**. Per ulteriori informazioni, vedere [Informazioni sugli ordini di produzione](production-about-production-orders.md).  
+Per registrare gli articoli utilizzati negli ordini di produzione, specificare il sistema di rifornimento come **Ordine di produzione** nella scheda dettagliata **Rifornimento** . Per ulteriori informazioni, vedere [Informazioni sugli ordini di produzione](production-about-production-orders.md).  
 
-## Per impostare più fornitori per un articolo
+### Fornitori primari e alternativi
 
-Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le informazioni relative a ogni singolo fornitore dell'articolo quali il prezzo, il lead time, lo sconto e così via.  
+Se acquisti lo stesso articolo da più di un fornitore, puoi collegare questi fornitori all'articolo. Usa l'azione **Fornitori** nella pagina **Scheda articolo** per aprire la pagina **Catalogo art. fornitori**. 
 
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli**, quindi scegli il collegamento correlato.  
+1. Scegli l'icona ![lampadina che apre la funzionalità Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli** e scegli il collegamento correlato.  
 2. Selezionare il relativo articolo, quindi scegliere l'azione **Modifica**.  
 3. Scegliere l'azione **Fornitori**.  
 4. Scegli il **numero.** Campo, quindi Seleziona il fornitore che vuoi impostare per l'articolo.  
@@ -80,32 +114,7 @@ Se si acquista lo stesso articolo da più di un fornitore, occorre immettere le 
 
 I fornitori vengono quindi visualizzati nella pagina **Catalogo art. fornitori** che si apre dalla scheda articolo per poter selezionare facilmente un fornitore alternativo.
 
-## Configurare articoli sostitutivi
-
-È possibile impostare articoli in modo che abbiano articoli sostitutivi, ad esempio altri articoli che possono essere utilizzati al posto dell'articolo originale.
-
-### Per sostituire un articolo
-
-1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Articoli** e scegli il collegamento correlato.  
-2. Trova l'elemento pertinente, quindi seleziona il  **numero.** Per aprire l'elemento scheda.  
-3. Scegli l'azione **Correlato**, quindi scegli **Articolo**, **Sostituzioni** per aprire la pagina **Mov. articoli sostitutivi**.  
-4. Scegli il campo **Nr. sostituto** quindi seleziona l'articolo sostitutivo nell'elenco.
-5. Compila o modifica altri campi nella pagina in base alle necessità.
-
-Quando la quantità richiesta supera la quantità disponibile in magazzino, un messaggio viene visualizzato per informare che esistono articoli sostitutivi.
-
-> [!NOTE]  
-> Tieni presente che le sostituzioni non determinano automaticamente la sostituzione di un articolo con un altro articolo, ad esempio durante la creazione di un ordine di vendita o in una distinta base. Invece, sarai avvisato del fatto che un articolo sostitutivo è disponibile.
-
-## Categorie, attributi e varianti
-
-[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
-
-Ulteriori informazioni sulle varianti in [Gestire le varianti di prodotto](inventory-item-variants.md).  
-
-## Eliminare schede articolo
-
-Se registri una transazione per un articolo, non puoi eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
+Se acquisti lo stesso articolo da più venditori, puoi anche impostare prezzi e sconti.  Per ulteriori informazioni, vedere [Prezzi speciali di acquisto e sconti](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 ## Gestione del magazzino in warehouse
 
@@ -118,6 +127,10 @@ Se la tua organizzazione in seguito imposta la gestione del magazzino, ti consig
 Quando la tua azienda utilizza i processi di pianificazione della fornitura in [!INCLUDE [prod_short](includes/prod_short.md)], devi compilare i campi pertinenti nella Scheda dettaglio **Pianificazione**. Per un'introduzione all'area di pianificazione, vedi [Dettagli di progettazione: concetti centrali del sistema di pianificazione](design-details-central-concepts-of-the-planning-system.md).  
 
 Per esempi di come è possibile utilizzare i campi nella Scheda dettaglio **Pianificazione**, vedi [Procedure consigliate per la configurazione: parametri di pianificazione](setup-best-practices-planning-parameters.md).  
+
+## Eliminare schede articolo
+
+Se registri una transazione per un articolo, non puoi eliminare la scheda perché i movimenti contabili potrebbero essere necessari per il controllo o la valutazione del magazzino. Per eliminare le schede articoli con i movimenti contabili, contattare il partner Microsoft per effettuare l'operazione tramite il codice.  
 
 ## Vedere anche
 

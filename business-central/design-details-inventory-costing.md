@@ -1,26 +1,27 @@
 ---
-title: Dettagli di progettazione - Costing di magazzino
+title: Dettagli di progettazione - Costi di inventario
 description: In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 07/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Dettagli di progettazione: Costing di magazzino
+
+# Dettagli di progettazione: determinazione dei costi di magazzino
 
 In questa documentazione sono fornite informazioni tecniche dettagliate sui concetti e sui principi utilizzati nelle funzionalità di magazzino e costing in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Il costing di magazzino, detto anche gestione costing riguarda la registrazione e il reporting dei costi operativi business.  
 
-## <a name="in-this-section"></a>In questa sezione
+## In questa sezione
 
-[Dettagli di progettazione: Metodi di costing](design-details-costing-methods.md)  
-[Dettagli di progettazione: Collegamento articoli](design-details-item-application.md)  
+[Dettagli di progettazione: metodi di determinazione dei costi](design-details-costing-methods.md)  
+[Dettagli di progettazione: collegamento articoli](design-details-item-application.md)  
 [Dettagli di progettazione: Problema noto di collegamento articoli](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Dettagli di progettazione: rettifica costo](design-details-cost-adjustment.md)  
 [Dettagli di progettazione: Data di registrazione del movimento di valorizzazione della rettifica](design-details-inventory-adjustment-value-entry-posting-date.md)  

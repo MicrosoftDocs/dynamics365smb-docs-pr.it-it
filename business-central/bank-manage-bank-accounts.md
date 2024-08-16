@@ -1,17 +1,18 @@
 ---
-title: Gestire i conti correnti bancari
+title: Gestire i conti bancari
 description: È necessario riconciliare regolarmente i movimenti contabili bancari con le transazioni bancarie correlate nei conti bancari.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
-ms.date: 10/04/2023
+ms.date: 07/24/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Gestire e riconciliare i conti bancari
+
+# Gestisci e riconcilia i tuoi conti bancari
 
 Una riconciliazione bancaria deve essere completata a intervalli regolari per tutti i conti bancari al fine di garantire che i registri di cassa dell'azienda siano corretti. È possibile farlo confrontando e abbinando i movimenti nei conti bancari interni con le transazioni bancarie presso la banca, quindi registrando i saldi sui conti bancari interni per rendere i totali disponibili ai gestori finanziari. La riconciliazione bancaria è anche un modo pratico per scoprire e risolvere i pagamenti mancanti e gli errori di contabilità.
 
@@ -20,9 +21,9 @@ Una riconciliazione bancaria deve essere completata a intervalli regolari per tu
 > [!NOTE]  
 > Nelle versioni per il Nord America è possibile eseguire la riconciliazione bancaria nella pagina **Prospetto riconciliazione bancaria**, più adatta per assegni e depositi ma non offre l'importazione di file di rendiconti bancari. Per utilizzare questa finestra al posto della pagina **Riconciliazioni C/C bancari**, deselezionare il campo **Riconciliazione bancaria con collegamento automatico** nella pagina **Setup contabilità generale**. Per ulteriori informazioni, vedere [Riconciliazione dei conti correnti bancari](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) nella funzionalità locale per gli Stati Uniti.
 
-Prima di poter gestire i conti correnti bancari in [!INCLUDE[prod_short](includes/prod_short.md)], è necessario impostare ogni conto bancario come scheda conto corrente bancario. Inoltre, è necessario impostare i servizi elettronici che è possibile utilizzare per l'importazione dell'estratto conto bancario e l'esportazione del file di pagamento. Per ulteriori informazioni, vedere [Impostazione delle attività bancarie](bank-setup-banking.md).
+Prima di poter gestire i tuoi conti bancari all'interno di [!INCLUDE[prod_short](includes/prod_short.md)], devi impostare ogni conto bancario come conto bancario scheda. Inoltre, è necessario impostare i servizi elettronici che è possibile utilizzare per l'importazione dell'estratto conto bancario e l'esportazione del file di pagamento. Per ulteriori informazioni, vedere [Impostazione delle attività bancarie](bank-setup-banking.md).
 
-Nella tabella seguente viene descritta una sequenza di task, con collegamenti agli argomenti che li descrivono.
+Nella tabella seguente viene descritta una sequenza di attività, con collegamenti agli articoli che le descrivono.
 
 | A | Vedere |
 | --- | --- |
@@ -32,7 +33,7 @@ Nella tabella seguente viene descritta una sequenza di task, con collegamenti ag
 > [!TIP]
 > Utilizzare la riconciliazione bancaria per verificare che i libri siano aggiornati e non pubblicare la riconciliazione finché non si è soddisfatti della riconciliazione.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Impostazione delle attività bancarie](bank-setup-banking.md)  
 [Riconciliare i conti correnti bancari](bank-how-reconcile-bank-accounts-separately.md)  
