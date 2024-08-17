@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Contabilizzazione dei costi
+# <a name="accounting-for-costs"></a>Contabilizzazione dei costi
 La contabilità industriale viene utilizzata per comprendere i costi operativi di un'attività. Per iniziare a occuparsi della contabilità dei costi, consultare i seguenti articoli.  
 
 |A|Vedere|  
@@ -25,7 +25,7 @@ La contabilità industriale viene utilizzata per comprendere i costi operativi d
 |Informazioni sui processi per creare budget costi.|[Creazione di budget di costi](finance-create-cost-budgets.md)|
 |Annullare movimenti budget costi dal registro budget costi.|[Eliminazione di movimenti budget costi](finance-how-to-delete-cost-budget-entries.md)|
 
-## Vedere anche  
+## <a name="see-also"></a>Vedere anche
 [Dati finanziari](finance.md)  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)  
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

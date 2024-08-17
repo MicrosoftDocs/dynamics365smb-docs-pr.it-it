@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Terminologia nella contabilità dei costi
+# <a name="terminology-in-cost-accounting"></a>Terminologia nella contabilità dei costi
 
 In questo articolo vengono definiti i termini chiave utilizzati nella contabilità dei costi.  
 
-## Termini chiave
+## <a name="key-terms"></a>Termini chiave
 
  Nella tabella seguente vengono mostrate le definizioni dei termini chiave della contabilità industriale.  
 
@@ -44,7 +44,7 @@ In questo articolo vengono definiti i termini chiave utilizzati nella contabilit
 |Costo variabile|I costi variabili sono spese che cambiano proporzionalmente all'attività di un'azienda. Rappresentano la somma dei costi marginali in tutte le unità prodotte. I costi fissi e quelli variabili costituiscono i due componenti dei costi totali.|  
 |Variante|Viene utilizzata una variante come etichetta personalizzata opzionale relativa alle allocazioni. Lo scopo dell'etichetta è quello di filtrare i gruppi di allocazione.|  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
  [Informazioni sulla contabilità industriale](finance-about-cost-accounting.md)  
  [Contabilizzazione dei costi](finance-manage-cost-accounting.md)  

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Aggiorna i costi standard
+# <a name="update-standard-costs"></a>Aggiorna i costi standard
 Periodicamente è necessario aggiornare i costi standard dei componenti ed eseguire il rollup dei nuovi costi nell'articolo padre. Il processo in genere è costituito dai quattro passaggi seguenti:  
 
 1.  Aggiornare i costi ai livelli di capacità e componente. Per ulteriori informazioni, vedere il processo batch **Suggerisci costo std. articolo**.  
@@ -21,7 +21,7 @@ Periodicamente è necessario aggiornare i costi standard dei componenti ed esegu
 
 Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md).
   
-## Per aggiornare i costi standard
+## <a name="to-update-standard-costs"></a>Per aggiornare i costi standard
 
 1.  Eseguire il processo batch **Rettifica costo - Movimenti articoli**. Per avviare il processo batch, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Rettifica costo - Mov. art.**, quindi scegli il collegamento correlato. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] - Esamina i risultati e apporta le modifiche necessarie.  
 2.  Eseguire il processo batch **Registra costo magazzino in C/G**. Per avviare il processo batch, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registra costo magazzino in C/G**, quindi scegli il collegamento correlato. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] - Esamina i risultati e apporta le modifiche necessarie.  
@@ -36,7 +36,7 @@ Per ulteriori informazioni, vedere [Informazioni sul calcolo del costo standard]
     7.  Eseguire il processo batch **Implementa modifiche costo std.**  
 4.  Rivedere e pubblicare la pagina  **Giornali di rivalutazione degli articoli**, che è stata compilata con le voci dei passaggi precedenti di questo processo.  
 
-## Vedere anche
+## <a name="see-also"></a>Vedere anche
 
  [Informazioni sul calcolo del costo standard](finance-about-calculating-standard-cost.md)   
  [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)   
