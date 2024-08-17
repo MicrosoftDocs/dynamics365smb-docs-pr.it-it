@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="preparing-closing-statements"></a>Preparazione delle dichiarazioni di chiusura
+# Preparazione delle dichiarazioni di chiusura
 
 [!INCLUDE [prod_short](includes/prod_short.md)] offre report standard che possono aiutarti a raccogliere le informazioni necessarie per preparare i rendiconti di chiusura della tua azienda. La tabella seguente descrive i report.  
 
@@ -27,7 +27,7 @@ ms.reviewer: jswymer
 
 Per trovare un report, seleziona la ![Lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Anni e periodi di chiusura](year-close-years-periods.md)    
 [Utilizzare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

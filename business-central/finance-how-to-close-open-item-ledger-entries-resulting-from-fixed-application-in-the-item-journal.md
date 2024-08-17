@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Chiudi registrazioni contabili articoli aperte risultanti dall'applicazione fissa nel giornale articoli
+# Chiudi registrazioni contabili articoli aperte risultanti dall'applicazione fissa nel giornale articoli
 
 Utilizzare il campo **Collega da mov.** nella pagina **Registrazioni magazzino** per creare un collegamento fisso tra una transazione in entrata e la transazione in uscita originale. Ad esempio, per correggere la transazione in uscita o elaborare il suo reso.  
 
@@ -24,7 +24,7 @@ Utilizzare il campo **Collega da mov.** nella pagina **Registrazioni magazzino**
 
 La seguente procedura illustra come chiudere tali movimenti con due registrazioni correttive nelle registrazioni magazzino.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Per chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino
+## Per chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino  
 
 1. Utilizzare il campo **Collega-da mov.** per registrare una rettifica positiva con la quantità corrispondente. In questo modo si chiude il movimento negativo originale con un collegamento fisso.  
 
@@ -33,7 +33,7 @@ La seguente procedura illustra come chiudere tali movimenti con due registrazion
 
     Il campo **Collegare a - Movimento** specifica se la quantità nella riga di registrazione magazzino deve essere collegata a un documento già registrato. In questo caso, immettere il numero del movimento contabile articolo a cui la riga di registrazione magazzino deve essere collegata.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Rimuovere e riapplicare le voci del registro degli articoli](finance-how-to-remove-and-reapply-item-entries.md)    
 [Elaborare resi e annullamenti di vendite](sales-how-process-sales-returns-cancellations.md)    

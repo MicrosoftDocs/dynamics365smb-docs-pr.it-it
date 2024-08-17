@@ -11,7 +11,7 @@ ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-item-types"></a>Informazioni sui tipi di articolo
+# Informazioni sui tipi di articolo
 
 Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'articolo utilizzato nella propria azienda che influisce sul grado di gestione dell'articolo in magazzino. La tabella seguente elenca e descrive i tre tipi di articoli disponibili.
 
@@ -30,7 +30,7 @@ Nel campo **Tipo** nella pagina **Scheda articolo** è possibile selezionare l'a
 |Non magazzino|Sì|Sì|Sì|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
 |Assistenza|Sì|Sì|Sì|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Sì|
 
-## <a name="costing-methods-for-types-of-items"></a>Metodi di costing per tipi di articoli
+## Metodi di costing per tipi di articoli
 
 Quando si registrano le transazioni di magazzino, le modifiche alle quantità e al valore del magazzino vengono registrate rispettivamente nei movimenti contabili articoli e nei movimenti di valorizzazione.
 
@@ -38,17 +38,17 @@ Registri il costo degli articoli di magazzino nel campo **Importo costo (effetti
 
 Per gli articoli non di magazzino e in assistenza, il costo è registrato nel campo **Importo costo (non-fatt.)** della pagina **Movimenti di valorizzazione**. Per gli articoli non di magazzino e in assistenza, specifica il costo nei documenti e nelle registrazioni di vendita, assemblaggio e produzione. Specifica il costo predefinito nel campo **Costo unitario** delle pagine **Scheda articolo** e **Unità di stockkeeping**. I costi per questi tipi di articoli non sono riconciliati nella contabilità generale.
 
-## <a name="catalog-and-service-items"></a>Articoli di catalogo e in assistenza
+## Articoli di catalogo e in assistenza
 
 Puoi impostare gli articoli che offri ai clienti ma che non gestisci fino a quando non li vendi come articoli di catalogo. Sebbene gli articoli di catalogo siano simili agli articoli normali di tipo **Non magazzino** a questo riguardo, non confondere i due perché ci sono delle differenze. Per ulteriori informazioni, vedi [Usare gli articoli di catalogo](inventory-how-work-nonstock-items.md).
 
 Gli articoli dei clienti per i quali si esegue il servizio di assistenza, come una stampante, sono denominati articoli in assistenza. Gli articoli in assistenza non hanno nulla a che fare con articoli normali o di catalogo. Tuttavia, i componenti in assistenza possono essere articoli regolari. Per ulteriori informazioni, vedi [Impostare gli articoli in assistenza e i componenti degli articoli in assistenza](service-how-setup-service-items.md).
 
-## <a name="resources"></a>Risorse
+## Risorse
 
 Oltre al tipo di elemento *Articolo*, i documenti di vendita e di acquisto consentono di utilizzare anche il tipo di elemento *Risorsa*. Come gli articoli, le risorse supportano dimensioni, listini prezzi e unità di misura. <!--With introduction of types *Service* and *Non-Inventory* we do not have any intention to add any extra capabilities for type Resource in purchase and sales processes. We recommend using items of applicable type instead. Resources will continue get new functionality to track the time and effort that is involved with performing and providing services and will stay important part of project and service management. Because many partner solutions use resources, we do not plan to deprecate them in the sales or purchase documents.-->
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Registrare nuovi articoli](inventory-how-register-new-items.md)  
 [Impostazione del magazzino](inventory-setup-inventory.md)  

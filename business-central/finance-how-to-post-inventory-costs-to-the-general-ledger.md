@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Riconciliare i costi di inventario con contabilità generale
+# Riconciliare i costi di inventario con contabilità generale
 
 Quando si registrano transazioni di magazzino, ad esempio spedizioni, fatture di vendite o rettifiche di magazzino, le modifiche ai costi degli articoli vengono registrate automaticamente nei movimenti di valorizzazione. Per riflettere la modifica del valore di magazzino nei registri finanziari, i costi di magazzino vengono registrati automaticamente nei conti giacenza magazzino correlati in contabilità generale. Per ogni transazione di magazzino registrata, verranno registrati i valori appropriati nel conto giacenza magazzino, nel conto di rettifica e nel conto COGS nella contabilità generale.
 
@@ -20,7 +20,7 @@ La registrazione automatica dei costi viene definita dal campo **Reg. automatica
 
 Anche se i costi vengono registrati automaticamente in contabilità generale, è comunque necessario assicurarsi che i costi delle merci vengano trasferiti alle transazioni in uscita correlate, in particolare nel caso in cui si vendano merci prima di fatturare il relativo acquisto. Questa operazione è detta rettifica dei costi. I costi dell'articolo vengono rettificati automaticamente quando si registrano le transazioni articolo, ma è possibile anche rettificarli manualmente. Per ulteriori informazioni, vedere [Rettificare i costi articoli](inventory-how-adjust-item-costs.md).
 
-## <a name="to-post-inventory-costs-manually"></a>Per registrare manualmente i costi di magazzino
+## Per registrare manualmente i costi di magazzino
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registra costo magazzino in C/G**, quindi scegli il collegamento correlato.
 2. Per registrare manualmente i costi di magazzino nella contabilità generale, eseguire il processo batch. Quando si esegue questo processo batch, vengono creati i movimenti C/G sulla base dei movimenti di valorizzazione. È possibile pubblicare le voci in modo che vengano riepilogate per gruppo di pubblicazione.
@@ -32,7 +32,7 @@ Per visualizzare un elenco di errori prima di eseguire il processo batch di regi
 
 Se desideri avere una panoramica dei valori che potrebbero essere registrati in contabilità generale senza effettivamente registrarli, puoi eseguire il batch job  **Registra costo inventario in G/L** senza effettivamente registrare i valori in contabilità generale. A tale scopo, è necessario deselezionare il campo **Registra** dalla pagina di richiesta. In questo modo, quando si esegue il processo batch, viene prodotto un report che mostra i valori pronti per essere pubblicati su contabilità generale, ma che non vengono pubblicati.
 
-## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Per controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale
+## Per controllare la riconciliazione tra il movimento contabile di inventario e la contabilità generale
 La pagina **Magazzino - Riconciliazione C/G** offre le informazioni seguenti:
 
 - Esposizione delle differenze di riconciliazione attraverso un confronto tra i dati registrati nella contabilità generale e i dati registrati nella contabilità di magazzino (movimenti di valorizzazione).
@@ -65,7 +65,7 @@ Nelle colonne successive sono visualizzati i totali per gli stessi tipi di conto
 
 Scegliere l'importo in qualsiasi campo relativo ai totali per visualizzare i movimenti report magazzino utilizzati per calcolare i totali. Per i totali di magazzino, i movimenti report magazzino sono costituiti dalle somme dei movimenti di valorizzazione per gli articoli. Per i totali del conto C/G, i movimenti report magazzino sono costituiti dalle somme calcolate dai movimenti C/G.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Creazione di report dei costi e riconciliazione con la contabilità generale
+## Creazione di report dei costi e riconciliazione con la contabilità generale
 Altri report, funzioni di tracciabilità e uno speciale strumento di riconciliazione sono a disposizione del revisore o del controllore responsabile della comunicazione di un valore di magazzino corretto e bilanciato al reparto finanziario.
 
 Questi sono descritti nella tabella seguente.    
@@ -77,7 +77,7 @@ Questi sono descritti nella tabella seguente.
 |Visualizzare il valore di magazzino degli articoli selezionati, incluso il relativo costo effettivo e previsto alla data specificata.|Report **Valutazione magazzino - Specifica costi**|  
 |Utilizzare un report per analizzare i motivi delle variazioni di costo o per ottenere informazioni relative al dettaglio costi degli articoli venduti (COGS).|Report **Breakdown dettaglio costi**|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 [Gestione dei costi di magazzino](finance-manage-inventory-costs.md)    
 [Acquisti](purchasing-manage-purchasing.md)    
 [Vendite](sales-manage-sales.md)    

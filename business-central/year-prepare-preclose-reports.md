@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="use-pre-closing-reports"></a>Utilizzare i report pre-chiusura
+# Utilizzare i report pre-chiusura
 
 Sono disponibili molti report standard che è possibile utilizzare per verificare l'accuratezza dei conti prima della chiusura dei registri contabili alla fine di un anno o periodo. Ad esempio, è possibile utilizzare il report **Clienti - Bilancio di verifica** per verificare che il saldo di una categoria i registrazione clienti sia uguale al saldo del corrispondente conto di contabilità generale a una data specifica.
 
@@ -31,7 +31,7 @@ Nella tabella seguente vengono descritti alcuni report che potrebbero risultare 
 
 Per vedere un report, scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") digita il nome come appare nella tabella e quindi scegli il collegamento correlato.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Anni e periodi di chiusura](year-close-years-periods.md)    
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

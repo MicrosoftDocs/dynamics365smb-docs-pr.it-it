@@ -11,15 +11,15 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-"></a>Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
+# Gestione dell'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Questo articolo fornisce una panoramica di ciò che è possibile fare come amministratore per controllare l'integrazione di Microsoft Teams con [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a>In Microsoft Teams
+## In Microsoft Teams
 
-### <a name="minimum-requirements"></a>Requisiti minimi
+### Requisiti minimi
 
 Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLUDE [prod_short](includes/prod_short.md)] in Teams.
 
@@ -42,7 +42,7 @@ Questa sezione descrive i requisiti minimi per il funzionamento dell'app [!INCLU
 
     L'impostazione dei criteri **Consenti anteprime URL** deve essere attivata. In caso contrario, non è possibile generare una scheda per i collegamenti di [!INCLUDE [prod_short](includes/prod_short.md)] incollati in una conversazione di Teams. Per ulteriori informazioni su questa impostazione, vedere [Gestire i criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the--app-optional"></a>Gestione dell'app [!INCLUDE [prod_short](includes/prod_short.md)] (facoltativo)
+### Gestione dell'app [!INCLUDE [prod_short](includes/prod_short.md)] (facoltativo)
 
 In qualità di amministratore di Teams, è possibile gestire tutte le app per l'organizzazione, inclusa l'app [!INCLUDE [prod_short](includes/prod_short.md)]. È possibile approvare o installare l'app [!INCLUDE [prod_short](includes/prod_short.md)] per l'organizzazione, impedire all'utente di installare l'app e altro ancora.
 
@@ -51,9 +51,9 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
 - [Gestire le app nell'interfaccia di amministrazione di Microsoft Teams](/MicrosoftTeams/manage-apps)
 - [Gestire i criteri di configurazione dell'app in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-"></a>In [!INCLUDE [prod_short](includes/prod_short.md)]
+## In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements-1"></a>Requisiti minimi
+### Requisiti minimi
 
 - Versione di [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -75,7 +75,7 @@ Per ulteriori informazioni, vedere i seguenti articoli nella documentazione di M
     
     Per informazioni sulle autorizzazioni, vedere [Assegnare autorizzazioni a utenti e gruppi](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installare l'applicazione Business Central utilizzando la distribuzione centralizzata
+## Installare l'applicazione Business Central utilizzando la distribuzione centralizzata
 
 Il centro di amministrazione di Microsoft Teams è dove configuri le politiche di configurazione delle app Teams per l'organizzazione. Nel centro amministrativo di Teams, puoi usare la funzione di distribuzione centralizzata per installare automaticamente l'app Business Central in Teams per tutti gli utenti della tua organizzazione, per gruppi specifici o per singoli utenti.
 
@@ -99,18 +99,18 @@ Il centro di amministrazione di Microsoft Teams è dove configuri le politiche d
 > [!IMPORTANT]
 > Possono essere necessarie fino a 24 ore per applicare la politica di configurazione dell'app e distribuire l'app agli utenti.
 
-## <a name="managing-privacy-and-compliance"></a>Gestione della privacy e della conformità
+## Gestione della privacy e della conformità 
 
 Microsoft Teams fornisce controlli estesi per la conformità e la gestione di dati sensibili o di identificazione personale, compresi i dati aggiunti a chat e canali mediante l'app [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="understanding-where--cards-are-stored"></a>Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)]
+### Informazioni su dove vengono memorizzate le schede di [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Dopo che una scheda è stata inviata a una chat, la scheda e i campi visualizzati nella scheda vengono copiati in Teams. Queste informazioni sono soggette ai criteri di Teams per l'organizzazione, come i criteri di conservazione dei dati. Quando si visualizzano i dettagli della scheda, i dati nella finestra dei dettagli non sono memorizzati in Teams. I dati rimangono memorizzati in [!INCLUDE [prod_short](includes/prod_short.md)] e verranno recuperati da Teams solo quando l'utente sceglie di visualizzare i dettagli. 
 
 - Per ulteriori informazioni sulla posizione in cui Teams memorizza tali dati, vedi [Posizione dei dati in Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Per altre informazioni sui criteri di conservazione in Teams, vedi [Criteri di conservazione in Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a>Limitazione della condivisione delle schede
+### Limitazione della condivisione delle schede 
 
 Per impedire a utenti o gruppi specifici di inviare schede a chat o canali, devi impostare criteri di messaggistica che disattivano l'impostazione **Anteprime URL**. Per ulteriori informazioni su questa impostazione, vedi [Gestire i criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -118,7 +118,7 @@ Per impedire a utenti o gruppi specifici di inviare schede a chat o canali, devi
 
 Le funzionalità di prevenzione della perdita di dati nel Centro sicurezza e conformità di Microsoft 365 non possono essere applicate in modo specifico alle schede. Possono tuttavia essere applicate ai messaggi di chat che contengono le schede. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a>Rispondere alle richieste di dati
+### Rispondere alle richieste di dati
 
 Per consentire ai membri del team e ai proprietari del team di eliminare i messaggi che contengono schede sensibili devi impostare criteri di messaggistica, come: **I proprietari possono eliminare i messaggi inviati** e **Gli utenti possono eliminare i messaggi inviati**. Per ulteriori informazioni, vedi [Gestire criteri di messaggistica in Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -126,7 +126,7 @@ Le funzionalità di conformità eDiscovery e di ricerca di contenuto nel Centro 
 
 Poiché i dati delle schede in Teams sono una copia dei dati in [!INCLUDE [prod_short](includes/prod_short.md)], puoi anche usare le funzionalità di [!INCLUDE [prod_short](includes/prod_short.md)] per esportare i dati di un cliente se richiesto. Per ulteriori informazioni sulla privacy in [!INCLUDE [prod_short](includes/prod_short.md)], vedi [Domande frequenti sulla privacy per i clienti di Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="show-or-hide-record-data-on-cards"></a>Mostrare o nascondere i dati dei record sulle schede
+## Mostrare o nascondere i dati dei record sulle schede
 
 Quando un record viene condiviso con altri in una chat o un canale di Teams, viene visualizzata una scheda con i campi che contengono dati sul record. Tutti i destinatari possono visualizzare questi dati (o il riepilogo dei record) per impostazione predefinita, indipendentemente dalla loro licenza o autorizzazione in Business Central. Se sei un amministratore, puoi utilizzare la Guida alla configurazione assistita **Impostazioni scheda** per nascondere il riepilogo del record in modo che non venga visualizzato nelle schede in Teams. Nascondendo il riepilogo del record vengono rimossi tutti i campi e le immagini, ma continua a mostrare il pulsante **Dettagli** e altre informazioni non relative al record sulla scheda.
 
@@ -145,7 +145,7 @@ Configura l'impostazione per ambiente. Quindi, quando attivi o disattivi il riep
 4. Nella pagina **Visibilità dati** attiva l'opzione **Mostra riepilogo record** per visualizzare i dati sulle schede o disattivala per nascondere i dati.
 5. Seleziona **Avanti** e segui le istruzioni per completare la guida all'installazione.
 
-## <a name="related-information"></a>Vedere anche
+## Vedere anche
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] e Panoramica sull’integrazione di Microsoft Teams](across-teams-overview.md)  
 [Installare l'App [!INCLUDE [prod_short](includes/prod_short.md)] per Microsoft Teams](across-install-app-for-teams.md)  

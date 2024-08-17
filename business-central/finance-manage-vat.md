@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="vat-management-overview"></a>Panoramica della gestione IVA
+# Panoramica della gestione IVA
 L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni e servizi. L'IVA viene riscossa in ogni fase della catena di approvvigionamento in cui il valore viene aggiunto dalla produzione iniziale al punto vendita. Per iniziare a gestire l'IVA, consultare i seguenti articoli.  
 
 |  Articolo  |  Descrizione  |  
@@ -30,7 +30,7 @@ L'imposta sul valore aggiunto (IVA) è un'imposta indiretta sul consumo di beni 
 | [Convalidare i numeri di partita IVA](finance-how-validate-vat-registration-number.md) | Questo articolo descrive come usare la convalida di Business Central per i numeri di partita IVA per contatti, clienti e fornitori in base al servizio di convalida dei numeri di partita IVA (VIES) dell'Unione Europea.|
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 [Finanze](finance.md)    
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

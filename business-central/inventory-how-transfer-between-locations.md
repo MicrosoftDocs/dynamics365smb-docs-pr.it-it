@@ -12,14 +12,14 @@ ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 57
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="transfer-inventory-between-locations"></a>Trasferire l'inventario tra le ubicazioni
+# Trasferire l'inventario tra le ubicazioni
 
 È possibile trasferire articoli di magazzino tra ubicazioni creando ordini di trasferimento. In alternativa, è possibile utilizzare le registrazioni di riclassificazione articoli.
 
 > [!NOTE]
 > Per trasferire gli articoli, devi impostare le ubicazioni e i percorsi di trasferimento. Per saperne di più sulla configurazione delle sedi, vai a [Configura sedi](inventory-how-setup-locations.md). Non puoi utilizzare gli ordini di trasferimento per ubicazioni *vuote*.
 
-## <a name="transfer-orders"></a>Ordini di trasferimento
+## Ordini di trasferimento
 
 Puoi spedire un trasferimento in uscita da un'ubicazione e ricevere un trasferimento in entrata presso un'altra destinazione. È possibile:
 
@@ -28,7 +28,7 @@ Puoi spedire un trasferimento in uscita da un'ubicazione e ricevere un trasferim
 * Utilizza funzionalità di warehouse diverse per le ubicazioni in entrata e in uscita.
 * Usa ordini di trasferimento per trasferimenti diretti con alcune limitazioni.
 
-## <a name="item-reclassification-journals"></a>Registrazioni riclassificazione articoli
+## Registrazioni riclassificazione articoli
 
 Puoi utilizzare la pagina **Registrazioni riclassificazione articoli**:
 
@@ -39,7 +39,7 @@ Puoi utilizzare la pagina **Registrazioni riclassificazione articoli**:
 * Riclassifica gli articoli da un'ubicazione vuota a un'ubicazione effettiva.
 * Crea movimenti di warehouse se non gestisci attività di warehouse.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Per trasferire gli articoli con un ordine di trasferimento
+## Per trasferire gli articoli con un ordine di trasferimento
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Ordini di trasferimento**, quindi scegli il collegamento correlato.
 2. Nella pagina **Ordine di trasferimento** compilare i campi secondo le necessità. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,7 +64,7 @@ Puoi utilizzare la pagina **Registrazioni riclassificazione articoli**:
     Come lavoratore warehouse nell'ubicazione da cui viene effettuato il trasferimento, continuare con la ricezione degli articoli. Le righe degli ordini di trasferimento sono le stesse di quelle spedite e non possono essere modificate.
 5. Scegliere l'azione **Registra**, selezionare l'opzione **Ricevi**, quindi il pulsante **OK**.
 
-### <a name="undo-a-transfer-shipment"></a>Annullare una spedizione trasferimento
+### Annullare una spedizione trasferimento
 
 Se trovi un errore in una quantità su un ordine di trasferimento registrato, finché la spedizione non viene ricevuta puoi facilmente correggere la quantità. Nella pagina  **Spedizione di trasferimento registrata**, l'azione  **Annulla spedizione** crea righe correttive, come segue:
 
@@ -76,7 +76,7 @@ Se la quantità spedita è in una spedizione di magazzino, viene creata una riga
 
 Per completare la correzione, riapri l'ordine di trasferimento, inserisci la quantità corretta, quindi registra l'ordine. Se l'ordine deve essere spedito tramite una spedizione warehouse, crea e registra una nuova spedizione warehouse.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Registrare più ordini di trasferimento in un batch
+### Registrare più ordini di trasferimento in un batch
 
 La seguente procedura descrive come registrare in batch di ordini di trasferimento.
 
@@ -96,7 +96,7 @@ La seguente procedura descrive come registrare in batch di ordini di trasferimen
     > [!NOTE]
     > La registrazione di più documenti potrebbe richiedere del tempo e bloccare altri utenti. Considerare l'abilitazione della registrazione in background. Per ulteriori informazioni, vedere [Utilizzare le code processi per pianificare i task](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Pianificare un movimento coda processi per registrare più documenti in un batch
+### Pianificare un movimento coda processi per registrare più documenti in un batch
 
 In alternativa, puoi utilizzare la coda processi per programmare la registrazione in un momento conveniente per la tua organizzazione. Ad esempio, può avere senso per l'attività eseguire determinate procedure quando si è conclusa la maggior parte dell'immissione dati del giorno.
 
@@ -116,7 +116,7 @@ La seguente procedura illustra come impostare il report **Registra batch ordini 
 8. Nel campo **Ora inizio**, immetti **16**.
 9. Scegliere l'azione **Imposta stato su Pronto**.
 
-### <a name="comparison-of-different-settings-for-transfer-orders"></a>Confronto di diverse impostazioni per gli ordini di trasferimento
+### Confronto di diverse impostazioni per gli ordini di trasferimento
 
 È possibile registrare gli ordini di trasferimento in diverse modalità, con o senza indicazione del luogo di transito. Disattivare l'opzione  **Trasferimento diretto** e Seleziona la posizione temporanea nel campo  **Codice in transito** nella pagina  **Ordine di trasferimento** . Quando registri la spedizione di un ordine di trasferimento che utilizza la posizione in transito, gli articoli sulla riga non sono più disponibili in una delle tue posizioni perché sono in transito. Registrazione diretta garantisce che non venga utilizzata una posizione di transito e che la spedizione e la ricezione vengano elaborate simultaneamente. Il comportamento esatto di registrazione diretta potrebbe variare in base al valore selezionato nel campo  **Registrazione trasferimento diretto** nella pagina  **Impostazione inventario** .
 
@@ -153,7 +153,7 @@ Indipendentemente dal metodo, vengono eseguite le operazioni di spedizione e ric
 
 Per ulteriori informazioni sulla gestione del magazzino, vedere [Panoramica sulla gestione del magazzino](design-details-warehouse-management.md).
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Per trasferire gli articoli con le registrazioni di riclassificazione articolo
+## Per trasferire gli articoli con le registrazioni di riclassificazione articolo
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Informazioni sull'operazione che si desidera eseguire") immetti **Registrazioni riclass. articoli**, quindi scegli il collegamento correlato.
 2. Nella pagina **Batch reg. riclass. articoli** compilare i campi in base alle esigenze. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -167,7 +167,7 @@ Per ulteriori informazioni sulla gestione del magazzino, vedere [Panoramica sull
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestire i costi del magazzino](inventory-manage-inventory.md)  
 [Impostare le ubicazioni](inventory-how-setup-locations.md)  

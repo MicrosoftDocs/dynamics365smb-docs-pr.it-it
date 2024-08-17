@@ -12,12 +12,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="closing-the-books"></a>Chiudere i libri
+# Chiudere i libri
 Dopo avere verificato che tutti i conti sono aggiornati e assegnato costi ed entrate, è possibile chiudere i registri per un anno fiscale o un periodo.
 
 Non è obbligatorio Chiudi per un anno, ma farlo renderà più semplice lavorare nel sistema perché potrai sfruttare le comode opzioni di filtro fornite. Non è inoltre necessario preoccuparsi di perdere i dettagli relativi alle transazioni, in quanto tali dettagli vengono conservati anche dopo la chiusura dell'anno.
 
-## <a name="closing-book-process"></a>Procedura di chiusura del libro
+## Procedura di chiusura del libro
 Il processo di chiusura dei libri include le seguenti attività principali:
 
 1. Chiusura del periodo contabile.
@@ -39,7 +39,7 @@ Il processo di chiusura dei libri include le seguenti attività principali:
 
     Per ulteriori informazioni, vedere [Registrare il movimento di chiusura di fine anno](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Cosa succede quando si effettua la chiusura
+## Cosa succede quando si effettua la chiusura
 
 Quando si effettua la chiusura alla fine dell'anno, gli utili calcolati vengono spostati in un conto profitti/perdite. L'anno fiscale viene inoltre contrassegnato come "chiuso," e tutti i movimenti successivi per l'anno chiuso vengono contrassegnati come "movimenti dell'anno precedente".
 
@@ -47,7 +47,7 @@ Il sistema genera quindi una registrazione di chiusura, ma non la registra autom
 
 È possibile effettuare registrazioni in un anno fiscale precedente, anche dopo la chiusura dei conti economici, se, successivamente, si esegue di nuovo il processo batch Chiudi conto economico.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Lavorare con periodi contabili e anni fiscali](finance-accounting-periods-and-fiscal-years.md)    
 [Usare [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

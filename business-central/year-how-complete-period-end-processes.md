@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Panoramica delle attività per i periodi contabili Chiudi
+# Panoramica delle attività per i periodi contabili Chiudi
 
 [!INCLUDE[prod_short](includes/prod_short.md)] non ti obbliga a Chiudi mestruazioni, tuttavia ci sono molte attività di fine ciclo (fine mese) che puoi fare. Questo articolo fornisce una panoramica dei processi e delle attività facoltativi per i periodi di chiusura.  
 
-## <a name="general-ledger"></a>Contabilità generale
+## Contabilità generale
 
 * Specificare periodi di registrazione a livello di sistema e specifici dell'utente.  
 
@@ -26,7 +26,7 @@ ms.reviewer: jswymer
 * Esegui i report finanziari come segue:  
   * Apri la pagina **Report finanziari** e quindi scegli l'azione **Stampa**.  
 
-## <a name="sales-and-receivables"></a>Contabilità clienti
+## Contabilità clienti
 
 * Registrare tutti gli ordini di vendita, le fatture, le note di credito e gli ordini di reso.  
 * Contabilizzare tutte le registrazioni incassi.  
@@ -34,7 +34,7 @@ ms.reviewer: jswymer
 * Riconciliare i crediti v/clienti nella contabilità generale.  
 * Eseguire il processo batch **Elimina ord. vendita fatturati**.  
 
-## <a name="purchases-and-payables"></a>Contabilità fornitori
+## Contabilità fornitori
 
 * Contabilizzare tutti gli ordini di acquisto, le fatture, le note di credito e gli ordini di reso.  
 * Contabilizzare tutte le registrazioni pagamenti.  
@@ -42,7 +42,7 @@ ms.reviewer: jswymer
 * Eseguire il report **Scadenziario fornitori** e riconciliare i debiti v/fornitori nella contabilità generale.  
 * Eseguire il processo batch **Elimina ordini acquisto fatturati**.  
 
-## <a name="fixed-assets"></a>Cespiti
+## Cespiti
 
 * Registra tutti i costi di manutenzione che sono stati registrati tramite le registrazioni cespiti o le fatture.
 * Registrare le rettifiche.
@@ -50,15 +50,15 @@ ms.reviewer: jswymer
 * Registrare l'ammortamento.
 * Aggiornare e registrare le registrazioni periodiche cespiti.
 
-## <a name="intercompany"></a>Interaziendale
+## Interaziendale
 
 * Elabora le transazioni Intercompany.
 
-## <a name="calculate-and-process-sales-tax"></a>Calcolare ed elaborare l'IVA
+## Calcolare ed elaborare l'IVA
 
 * Completa le dichiarazioni fiscali.  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Chiusura di anni e periodi](year-close-years-periods.md)  
 [Chiusura registri](year-close-books.md)  

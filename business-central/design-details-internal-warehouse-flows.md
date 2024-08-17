@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 08/12/2024
 ms.custom: bap-template
 ---
-# <a name="flows-for-production-assembly-and-projects"></a>Flussi per produzione, assemblaggio e progetti
+# Flussi per produzione, assemblaggio e progetti
 
 I flussi interni, come il prelievo dei componenti e lo stoccaggio degli articoli finali per ordini di assemblaggio, progetto e produzione, sono simili ai flussi in entrata o in uscita. Molti dei processi potrebbero sembrarti familiari. Questo articolo fornisce informazioni su come utilizzare i flussi di warehouse interni con vari livelli di complessità.
 
-## <a name="overview-of-different-configuration-options"></a>Panoramica delle diverse opzioni di configurazione
+## Panoramica delle diverse opzioni di configurazione
 
 È possibile configurare le funzionalità warehouse in vari modi. È importante che le opzioni che scegli migliorino i tuoi processi senza causare sovraccarico. Le seguenti tabelle descrivono le configurazioni tipiche per la gestione dei beni fisici per ordini di produzione, progetto e assemblaggio.
 
-### <a name="inbound-flow-put-away"></a>Flusso in entrata (stoccaggio)
+### Flusso in entrata (stoccaggio)
 
 |Livello di complessità|Descrizione|Impostazioni|Codice collocazione|Flusso in entrata dell'ordine di produzione|Flusso in entrata dell'ordine di assemblaggio|Flusso in entrata di progetti|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -28,7 +28,7 @@ I flussi interni, come il prelievo dei componenti e lo stoccaggio degli articoli
 
 Alcune configurazioni non consentono di utilizzare documenti di magazzino dedicati per registrare gli stoccaggi. Tuttavia, se l'ubicazione utilizza le collocazioni, è possibile utilizzare i documenti di movimento generici per spostare gli articoli prodotti o assemblati nella warehouse. Per ulteriori informazioni vedi [Spostamento degli articoli](warehouse-move-items.md).
 
-### <a name="outbound-flow-pick"></a>Flusso in uscita (prelievo)
+### Flusso in uscita (prelievo)
 
 |Livello di complessità|Descrizione|Impostazioni|Codice collocazione|Flusso in uscita dell'ordine di produzione|Flusso in uscita dell'ordine di assemblaggio|Flusso in uscita di progetti|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -37,7 +37,7 @@ Alcune configurazioni non consentono di utilizzare documenti di magazzino dedica
 |Avanzata|Attività di prelievo consolidate per più documenti di origine.|Produzione, assemblaggio, progetti: prelievo magazzino|Facoltativo. Controllato dall'interruttore Il codice collocazione è obbligatorio|Ordini di produzione -> Prelievi warehouse -> Registrazioni consumi |Ordini di assemblaggio -> Prelievo warehouse| Progetti -> Prelievo warehouse -> Registrazione progetti |
 |Avanzata|Come sopra + Attività di prelievo/stoccaggio diretti|Prelievo e stoccaggio diretti (gli interruttori dipendenti verranno abilitati automaticamente)|Obbligatorio|Come sopra|Come sopra| Il prelievo e lo stoccaggio diretti non sono supportati per i progetti|
 
-## <a name="warehouses-without-dedicated-warehouse-activity"></a>Warehouse senza attività di warehouse dedicata
+## Warehouse senza attività di warehouse dedicata
 
 Anche se non si utilizzano attività di magazzino dedicate, potrebbe essere opportuno monitorare aspetti quali consumi e produzione. I seguenti articoli forniscono informazioni su come elaborare le ricevute per i documenti di origine.
 
@@ -45,9 +45,9 @@ Anche se non si utilizzano attività di magazzino dedicate, potrebbe essere oppo
 * [Assemblare articoli](assembly-how-to-assemble-items.md)
 * [Registrare il consumo o l'uso per i progetti](projects-how-record-job-usage.md)
 
-## <a name="basic-warehouse-configuration"></a>Configurazione warehouse di base
+## Configurazione warehouse di base
 
-### <a name="flows-to-and-from-production-in-a-basic-warehouse-configuration"></a>I flussi da e verso la produzione in una configurazione warehouse di base
+### I flussi da e verso la produzione in una configurazione warehouse di base  
 
 I flussi in entrata e in uscita in una configurazione warehouse di base comportano le seguenti impostazioni nella pagina **Scheda ubicazione** per l'ubicazione:
 
@@ -64,7 +64,7 @@ Per le ubicazioni che utilizzano le collocazioni, i documenti di movimento magaz
 * I campi **Cod. coll. art. per produzione**, **Cod. coll. art. da produzione** e **Codice coll. produzione aperta** nell'ubicazione o nel centro di lavoro/area di produzione definiscono i flussi predefiniti da e verso le aree di produzione.
 * Gestisci il movimento degli articoli prodotti nella pagina **Movimento interno** senza una relazione con un ordine di produzione.
 
-### <a name="flows-to-and-from-assembly-in-a-basic-warehouse-configuration"></a>I flussi da e verso l'assemblaggio in una configurazione warehouse di base
+### I flussi da e verso l'assemblaggio in una configurazione warehouse di base  
 
 Il flusso in uscita in una configurazione di magazzino di base prevede le seguenti impostazioni nella pagina  **Posizione scheda** per la posizione:
 
@@ -83,7 +83,7 @@ Per le ubicazioni che usano le collocazioni:
 
 [!INCLUDE [prod_short](includes/prod_short.md)] supporta i flussi assemblaggio su ordine e assemblaggio per magazzino. Per ulteriori informazioni vedi [Assemblaggio su ordine e assemblaggio per magazzino](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). In relazione alla gestione della warehouse, l'assemblaggio per magazzino fa parte del flusso warehouse interno e l'assemblaggio su ordine è nel flusso warehouse in uscita. Ulteriori informazioni in [Gestione di articoli da assemblare su ordine con prelievi magazzino](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### <a name="flows-for-project-management-in-a-basic-warehouse-configuration"></a>Flussi per la gestione dei progetti in una configurazione warehouse di base
+### Flussi per la gestione dei progetti in una configurazione warehouse di base
 
 Il flusso in uscita in una configurazione di magazzino di base prevede le seguenti impostazioni nella pagina  **Posizione scheda** per la posizione:
 
@@ -93,9 +93,9 @@ Utilizza i documenti **prelievo magazzino** per il prelievo dei componenti di pr
 
 Per un'ubicazione che utilizza le collocazioni, il campo **A progetto - Codice collocazione** nell'ubicazione definisce i flussi predefiniti per la gestione dei progetti.
 
-## <a name="advanced-warehouse-configurations"></a>Configurazioni avanzate della warehouse
+## Configurazioni avanzate della warehouse  
 
-### <a name="flows-to-and-from-production-in-advanced-warehouse-configurations"></a>I flussi da e verso la produzione in una configurazione warehouse avanzata
+### I flussi da e verso la produzione in una configurazione warehouse avanzata
 
 Il flusso in uscita in una configurazione di magazzino avanzata prevede le seguenti impostazioni nella pagina  **Posizione scheda** per la posizione:
 
@@ -112,7 +112,7 @@ Per le ubicazioni che usano le collocazioni:
 * I campi **Cod. coll. art. per produzione**, **Cod. coll. art. da produzione** e **Codice coll. produzione aperta** nell'ubicazione o nel centro di lavoro/area di produzione definiscono i flussi predefiniti da e verso le aree di produzione. 
 * Gestisci il movimento degli articoli prodotti nelle pagine **Prospetto movimenti** o **Stoccaggio interno whse.** senza una relazione con un ordine di produzione.
 
-### <a name="flows-to-and-from-assembly-in-advanced-warehouse-configurations"></a>I flussi da e verso l'assemblaggio in una configurazione warehouse avanzata
+### I flussi da e verso l'assemblaggio in una configurazione warehouse avanzata
 
 Il flusso in uscita in una configurazione di magazzino avanzata prevede le seguenti impostazioni nella pagina  **Posizione scheda** per la posizione:
 
@@ -132,7 +132,7 @@ Per le ubicazioni che usano le collocazioni:
 
 L'assemblaggio per magazzino fa parte del flusso warehouse interno e l'assemblaggio su ordine è nel flusso warehouse in uscita. Per ulteriori informazioni vedi [Gestione di articoli di assemblaggio su ordine in spedizioni warehouse](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-### <a name="flows-to-project-management-in-advanced-warehouse-configurations"></a>Flussi per la gestione dei progetti in una configurazione warehouse avanzata
+### Flussi per la gestione dei progetti in una configurazione warehouse avanzata
 
 Il flusso in uscita in una configurazione di magazzino avanzata prevede le seguenti impostazioni nella pagina  **Posizione scheda** per la posizione:
 
@@ -142,7 +142,7 @@ Utilizza i documenti **Prelievo warehouse** e la pagina **Prospetto prelievi** p
 
 Per le ubicazioni che utilizzano le collocazioni, il campo **A progetto - Codice collocazione** nell'ubicazione definisce i flussi predefiniti per l'area dei progetti.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche  
 
 [Panoramica della gestione warehouse](design-details-warehouse-management.md)
 

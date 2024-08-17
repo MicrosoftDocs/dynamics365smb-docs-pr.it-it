@@ -11,11 +11,11 @@ ms.date: 08/05/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="close-accounting-periods"></a>Chiudere i periodi contabili
+# Chiudere i periodi contabili
 
 Al termine di un anno fiscale, è necessario chiudere i periodi di cui è costituito.
 
-## <a name="to-close-accounting-periods"></a>Per chiudere periodi contabili
+## Per chiudere periodi contabili
 
 1. Scegli l'icona a forma di ![lampadina che consente di aprire la funzionalità delle informazioni.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Periodi contabili**, quindi scegli il collegamento correlato.
 2. Nella pagina **Periodi contabili** scegliere l'azione **Chiudi anno**.
@@ -32,7 +32,7 @@ Anche se l'anno fiscale è stato chiuso, è possibile registrarvi dei movimenti 
 
 Una volta chiuso un anno fiscale, è necessario chiudere i conti economici e trasferire i risultati dell'anno su un conto nello stato patrimoniale. È possibile ripetere queste operazioni ogni volta che si effettua una registrazione sull'anno fiscale chiuso.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Chiudere i libri](year-close-books.md)    
 [Pubblicare la registrazione di chiusura di fine anno](year-how-post-year-end-close-entry.md)    

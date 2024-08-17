@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="transfer-bank-funds"></a>Trasferisci fondi bancari
+# Trasferisci fondi bancari
 
 A volte potrebbe essere necessario trasferire un importo da un conto bancario a un altro. [!INCLUDE[prod_short](includes/prod_short.md)]  Per fare ciò, è necessario registrare la transazione nella pagina  **Giornali generali** . L'attività varia a seconda se i conti correnti bancari utilizzano la stessa valuta o valute diverse.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Per registrare un bonifico tra conti correnti bancari con lo stesso codice valuta
+## Per registrare un bonifico tra conti correnti bancari con lo stesso codice valuta
 
 1. Scegli l'icona ![lampadina che apre la funzione Dimmi.](media/ui-search/search_small.png "Dimmi cosa vuoi fare") immetti **Registrazioni COGE**, quindi scegli il collegamento correlato.
 2. In una riga di registrazioni compilare i campi **Data di registrazione** e **Nr. documento**.
@@ -29,7 +29,7 @@ A volte potrebbe essere necessario trasferire un importo da un conto bancario a 
 7. Nel campo **Nr. contropartita** selezionare il conto bancario a cui si desidera trasferire i fondi.
 8. Effettuare la registrazione.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Per registrare un bonifico tra conti correnti bancari con codici valuta diversi
+## Per registrare un bonifico tra conti correnti bancari con codici valuta diversi
 
 Per trasferire i fondi tra conti correnti bancari che utilizzano valute diverse, è necessario inserire due righe di registrazioni COGE.
 
@@ -66,7 +66,7 @@ Per trasferire i fondi tra conti correnti bancari che utilizzano valute diverse,
     > Un importo senza segno è un debito e un importo con un segno meno è un credito.
 10. Effettuare la registrazione.
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Riconciliazione dei conti correnti bancari](bank-manage-bank-accounts.md)  
 [Impostazione delle attività bancarie](bank-setup-banking.md)  

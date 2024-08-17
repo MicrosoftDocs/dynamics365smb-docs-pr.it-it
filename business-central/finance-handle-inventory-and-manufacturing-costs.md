@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="handling-inventory-and-manufacturing-costs"></a>Gestione dell'inventario e dei costi di produzione
+# Gestione dell'inventario e dei costi di produzione
 
 Sebbene gran parte delle funzionalità di contabilità dei costi sia espressa in processi sottostanti senza interazione da parte dell'utente, come l'applicazione di immissione e l'adeguamento automatico dei costi, molti campi, pagine e report sono rivolti agli utenti che gestiscono direttamente o indirettamente il costo di articoli o operazioni.  
 
@@ -30,7 +30,7 @@ Sebbene gran parte delle funzionalità di contabilità dei costi sia espressa in
 |Annullare manualmente il collegamento di un articolo o riapplicare i movimenti contabili articoli creati dall'applicazione.|[Rimuovere e ricollegare movimenti contabili articolo](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Utilizzare il campo **Collega-da mov.** nelle registrazioni articoli per creare manualmente un collegamento fisso tra una transazione in entrata e la transazione in uscita originale.|[Chiudere i movimenti contabili articoli aperti risultanti da un collegamento fisso nelle registrazioni magazzino](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Vedere anche
+## Vedere anche
 
 [Gestire i costi di inventario](finance-manage-inventory-costs.md)    
 [Dettagli di progettazione: determinazione dei costi di magazzino](design-details-inventory-costing.md)    
